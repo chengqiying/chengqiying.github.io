@@ -9,7 +9,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 body
 {
 	border-top: 20px solid rgb(31,178,170);
-	background: url('../home/images/back.png') left top;
+	background: url('../images/back.png') left top;
 }
 
 
@@ -28,7 +28,7 @@ body
 
 #logo
 {
-	background: url('../home/images/logo.png') no-repeat 0 0;
+	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
 	margin:140px auto 0 auto;
@@ -36,7 +36,7 @@ body
 
 #name
 {
-	background: url('../home/images/name.png') no-repeat 0 0;
+	background: url('../images/name.png') no-repeat 0 0;
 	height: 47px;
 	width: 206px;
 	margin:30px auto;
