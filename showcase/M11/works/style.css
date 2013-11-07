@@ -1,0 +1,170 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+   margin:0;
+   padding:0;
+   border: 0;
+}
+
+body
+{
+	border-top: 20px solid rgb(31,178,170);
+	background: url('../home/images/back.png') left top;
+}
+
+
+
+#all
+{
+	display:block;
+}
+
+#wrapper
+{
+	min-width: 980px;
+	width:100%;
+	margin:auto;
+    text-align: left;		
+}
+
+#logo
+{
+	background: url('../home/images/logo.png') no-repeat 0 0;
+	height: 73px;
+	width: 132px;
+	margin:140px auto 0 auto;
+}
+
+#name
+{
+	background: url('../home/images/name.png') no-repeat 0 0;
+	height: 47px;
+	width: 206px;
+	margin:30px auto;
+}
+
+.menu
+{
+	display: block;
+	height: 30px;
+	width:447px;
+	margin:40px auto;
+}
+
+.menu a
+{
+	color:rgb(31,178,170);
+	text-decoration:none;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+}
+
+a:hover
+{
+	color: #725225;
+}
+
+.menu h1
+{	
+	float:left;
+	margin-right:40px;
+}
+
+.menu h2
+{
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h3
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+	color:#725225;
+
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h4
+{
+	float:left;
+}
+
+#worksmenu
+{
+	display: block;
+	height: 160px;
+	width:549px;
+	margin:150px auto 0px auto;
+	text-align:left;
+}
+
+#project
+{
+	width:85px;
+	height:132px;
+	background:url('../works/images/project.png') no-repeat 0 0;
+	float:left;
+}
+
+#modules
+{
+	width:103px;
+	height:128px;
+	background:url('../works/images/modules1.png') no-repeat 0 0;
+	float:left;
+	margin-left:140px;
+}
+
+#modules:hover
+{
+	background:url('../works/images/modules.png') no-repeat 0 0;
+}
+
+#other
+{
+	width:81px;
+	height:127px;
+	background:url('../works/images/other1.png') no-repeat 0 0;
+	float:left;
+	margin-left:140px;
+}
+
+#other:hover
+{
+	background:url('../works/images/other.png') no-repeat 0 0;
+}
+
+#come
+{
+	width:720px;
+	height:100px;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:30px;
+	color:#404039;
+	margin:30px auto 0px auto;
+	text-align:center;
+
+}
+
+#footerback
+{
+	width:100%;
+	min-width:720px;
+	background-color:#f2f4b0;
+	height:100px;
+	margin-top:0px;	
+	
+}
+
+#footertext
+{
+	width:720px;
+	text-align:center;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#404039;
+	margin:auto;
+	padding-top:40px;
+}

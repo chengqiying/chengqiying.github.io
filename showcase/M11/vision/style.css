@@ -1,0 +1,209 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+   margin:0;
+   padding:0;
+   border: 0;
+}
+
+body
+{
+	border-top: 20px solid rgb(31,178,170);
+	background: url('../home/images/back.png') left top;
+}
+
+
+
+#all
+{
+	display:block;
+}
+
+#wrapper
+{
+	width: 980px;
+	margin:auto;
+    text-align: left;		
+}
+
+#logo
+{
+	background: url('../home/images/logo.png') no-repeat 0 0;
+	height: 73px;
+	width: 132px;
+	margin:140px auto 0 auto;
+}
+
+#name
+{
+	background: url('../home/images/name.png') no-repeat 0 0;
+	height: 47px;
+	width: 206px;
+	margin:30px auto;
+}
+
+.menu
+{
+	display: block;
+	height: 30px;
+	width:447px;
+	margin:40px auto;
+}
+
+.menu a
+{
+	color:rgb(31,178,170);
+	text-decoration:none;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+}
+
+a:hover
+{
+	color: #725225;
+}
+
+.menu h1
+{	
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+	color:#725225;
+	float:left;
+	margin-right:40px;
+}
+
+.menu h2
+{
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h3
+{
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h4
+{
+	float:left;
+}
+
+#section
+{
+	width: 680px;
+	margin:70px auto;
+    text-align: left;
+}	
+
+#section1
+{
+	width: 680px;
+	height:280px;
+	margin:auto;
+    text-align: left;
+}
+
+#visiontitle
+{
+	width: 680px;
+	height:21px;
+	margin:auto;
+    float: left;
+
+}
+
+#line1
+{
+	width:271.5px;
+	height:1px;
+	margin-top:13px;
+	margin-left:0px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+h5
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#13120b;
+	margin:0px auto auto 30px;
+	text-align:left;
+	float:left;
+}
+
+#line2
+{
+	width:271.5px;
+	height:1px;
+	margin-top:13px;
+	margin-left:30px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+.text
+{
+	width: 680px;
+	margin:20px auto;
+    float: left;
+}
+
+p
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#13120b;
+	float:left;
+	text-align:justify;
+}
+
+#line3
+{
+	width:680px;
+	height:1px;
+	margin-top:0px;
+	margin-left:0px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+#section2
+{
+	width: 680px;
+	height:275px;
+	margin:40px auto;
+    text-align: left;
+}
+
+#line1-1
+{
+	width:267px;
+	height:1px;
+	margin-top:13px;
+	margin-left:0px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+
+#line2-1
+{
+	width:267px;
+	height:1px;
+	margin-top:13px;
+	margin-left:30px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}

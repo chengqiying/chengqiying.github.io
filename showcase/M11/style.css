@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+   margin:0;
+   padding:0;
+   border: 0;
+}
+
+body
+{
+	border-top: 20px solid rgb(31,178,170);
+	background: url('images/back.png') left top;
+}
+
+
+
+#all
+{
+	display:block;
+}
+
+#wrapper
+{
+	width: 980px;
+	margin:auto;
+    text-align: left;	
+	
+}
+
+#logo
+{
+	background: url('images/logo.png') no-repeat 0 0;
+	height: 73px;
+	width: 132px;
+	margin:140px auto 0 auto;
+}
+
+#name
+{
+	background: url('images/name.png') no-repeat 0 0;
+	height: 47px;
+	width: 206px;
+	margin:30px auto;
+}
+
+.menu
+{
+	display: block;
+	height: 30px;
+	width:447px;
+	margin:80px auto auto auto;
+}
+
+.menu a
+{
+	color:rgb(31,178,170);
+	text-decoration:none;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+}
+
+a:hover
+{
+	color: #725225;
+}
+
+.menu h1
+{	
+	float:left;
+	margin-right:40px;
+}
+
+.menu h2
+{
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h3
+{
+	margin-right: 40px;
+	float:left;
+}
+
+.menu h4
+{
+	float:left;
+}
+	
+.introtext
+{
+	margin:40px auto;
+	width: 720px;
+
+}
+
+.introtext p
+{
+	
+	color: #4B5C66;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size: 20px;
+	text-align: center;
+}

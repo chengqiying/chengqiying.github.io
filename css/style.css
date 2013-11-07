@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+  margin:0;
+  padding:0;
+  border: 0;
+}
+
+body
+{
+	font-family:'Droid Serif', serif;
+}
+
+#all
+{
+	min-width: 980px;
+	margin-left: 143.1818084716797px;
+    margin-right: 143.1818084716797px;	
+    top:0px;	
+	margin:0 auto;
+}
+
+#guide{
+	height: 300px;
+	width: 940px
+}
+
+#guide h2
+{
+	color: blue;
+}
