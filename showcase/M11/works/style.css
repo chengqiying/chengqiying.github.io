@@ -169,8 +169,8 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	background-color:#f2f4b0;
-	height:100px;
+	background-color:#423826;
+	height:80px;
 	margin-top:0px;	
 	
 }
@@ -180,8 +180,8 @@ a:hover
 	width:720px;
 	text-align:center;
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#404039;
+	font-size:16px;
+	color:#eaeaea;
 	margin:auto;
-	padding-top:40px;
+	padding-top:30px;
 }
