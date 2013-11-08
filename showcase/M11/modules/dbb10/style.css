@@ -50,7 +50,6 @@ body
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
-
 }
 
 #name
@@ -122,20 +121,20 @@ a:hover
 {
 	width:85px;
 	height:132px;
-	background:url('../works/images/project1.png') no-repeat 0 0;
+	background:url('../db514/images/project1.png') no-repeat 0 0;
 	float:left;
 }
 
 #project:hover
 {
-	background:url('../works/images/project.png') no-repeat 0 0;
+	background:url('../db514/images/project.png') no-repeat 0 0;
 }
 
 #modules
 {
 	width:103px;
 	height:128px;
-	background:url('../works/images/modules.png') no-repeat 0 0;
+	background:url('../db514/images/modules.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
 }
@@ -144,14 +143,14 @@ a:hover
 {
 	width:81px;
 	height:127px;
-	background:url('../works/images/other1.png') no-repeat 0 0;
+	background:url('../db514/images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
 }
 
 #other:hover
 {
-	background:url('../works/images/other.png') no-repeat 0 0;
+	background:url('../db514/images/other.png') no-repeat 0 0;
 }
 
 #modulemenu
@@ -169,11 +168,16 @@ a:hover
 	float:left;
 }
 
+#ghost h5:hover
+{
+	color:#404039;
+}
+
 #ghost h5
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:22px;
-	color:#404039;
+	color:#d5d5d5;
 	margin:8px auto 0px auto;
 	text-align:center;
 }
@@ -218,6 +222,11 @@ a:hover
 	text-align:center;
 }
 
+#activate h5:hover
+{
+	color:#404039;
+}
+
 
 #line2
 {
@@ -241,11 +250,6 @@ a:hover
 	overflow:hidden;
 }
 
-#activate h5:hover
-{
-	color:#404039;
-}
-
 #constructive
 {
 	width:261px;
@@ -253,11 +257,13 @@ a:hover
 	margin-left:51.5px;
 	float:left;
 }
+
+
 #constructive h5
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:22px;
-	color:#d5d5d5;
+	color:#404039;
 	margin:8px auto 0px auto;
 	text-align:center;
 }
@@ -285,16 +291,12 @@ a:hover
 }
  
 
-#constructive h5:hover
-{
-	color:#404039;
-}
 
-#ghostback
+#db514back
 {
 	width:100%;
 	min-width:720px;
-	min-height:760px;
+	height:150px;
 	background: #ebb14c;
 	margin:30px auto 0px auto;
 }
@@ -302,7 +304,7 @@ a:hover
 #textpart
 {
 	width:720px;
-    min-height:760px;
+    min-height:150px;
 	margin:0px auto;
 	text-align:left;
 }
@@ -310,8 +312,8 @@ a:hover
 #modulebackground1
 {
 	width:340px;
-    min-height:200px;
-	margin:30px auto 0px 0px;
+    min-height:20px;
+	margin:30px auto;
 	text-align:left;
 	float:left;
 }
@@ -329,7 +331,7 @@ a:hover
 #modulebackground2
 {
 	width:340px;
-    min-height:200px;
+    min-height:20px;
 	margin:100px auto 30px 40px;
 	text-align:left;
 	float:left;
@@ -344,16 +346,6 @@ p{
 	text-align:justify;
 }
 
-#come
-{
-	width:100%;
-	min-width:720px;
-	min-height:200px;
-	background: #e9d38f;
-	margin:0px auto 0px auto;
-	text-align:center;
-	padding-top:50px;
-}
 
 #footerback
 {
@@ -361,17 +353,18 @@ p{
 	min-width:720px;
 	background-color:#423826;
 	height:80px;
-	margin-top:0px;	
+	margin:0px auto 0px auto;	
 	
 }
 
 #footertext
 {
 	width:720px;
+	height:20px;
 	text-align:center;
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:16px;
 	color:#eaeaea;
-	margin:auto;
+	margin:0px auto 0px auto;
 	padding-top:30px;
 }

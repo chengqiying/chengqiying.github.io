@@ -21,8 +21,7 @@ body
 
 #wrapper
 {
-	min-width: 980px;
-	width:100%;
+	width: 980px;
 	margin:auto;
     text-align: left;		
 }
@@ -51,6 +50,8 @@ body
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
 }
+
+
 
 #name
 {
@@ -83,6 +84,9 @@ a:hover
 
 .menu h1
 {	
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:36px;
+	color:#725225;
 	float:left;
 	margin-right:40px;
 }
@@ -95,82 +99,82 @@ a:hover
 
 .menu h3
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
-	color:#725225;
-
 	margin-right: 40px;
 	float:left;
 }
 
 .menu h4
 {
-	float:left;
-}
-
-#worksmenu
-{
-	display: block;
-	height: 160px;
-	width:549px;
-	margin:150px auto 0px auto;
-	text-align:left;
-}
-
-#project
-{
-	width:85px;
-	height:132px;
-	background:url('../works/images/project.png') no-repeat 0 0;
-	float:left;
-}
-
-#modules
-{
-	width:103px;
-	height:128px;
-	background:url('../works/images/modules1.png') no-repeat 0 0;
-	float:left;
-	margin-left:140px;
-}
-
-#modules:hover
-{
-	background:url('../works/images/modules.png') no-repeat 0 0;
-}
-
-#other
-{
-	width:81px;
-	height:127px;
-	background:url('../works/images/other1.png') no-repeat 0 0;
-	float:left;
-	margin-left:140px;
-}
-
-#other:hover
-{
-	background:url('../works/images/other.png') no-repeat 0 0;
-}
-
-#come
-{
-	width:720px;
-	height:100px;
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:30px;
-	color:#404039;
-	margin:30px auto 0px auto;
-	text-align:center;
+	font-size:36px;
+	color:#725225;
+	float:left;
+}
 
+#section
+{
+	width: 720px;
+	margin:70px auto 0px auto;
+    text-align: left;
+}	
+
+#section1
+{
+	width: 720px;
+	height:150px;
+	margin:auto;
+    text-align: left;
+}
+
+#visiontitle
+{
+	width: 720px;
+	height:21px;
+	margin:auto;
+    float: left;
+
+}
+
+#line1
+{
+	width:266px;
+	height:1px;
+	margin-top:13px;
+	margin-left:0px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+h5
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#13120b;
+	margin:0px auto auto 30px;
+	text-align:left;
+	float:left;
+}
+
+#line2
+{
+	width:266px;
+	height:1px;
+	margin-top:13px;
+	margin-left:30px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
 }
 
 #footerback
 {
 	width:100%;
 	min-width:720px;
-	background-color:#f2f4b0;
-	height:100px;
+	background-color:#423826;
+	height:80px;
 	margin-top:0px;	
 	
 }
@@ -180,8 +184,8 @@ a:hover
 	width:720px;
 	text-align:center;
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#404039;
+	font-size:16px;
+	color:#eaeaea;
 	margin:auto;
-	padding-top:40px;
+	padding-top:30px;
 }

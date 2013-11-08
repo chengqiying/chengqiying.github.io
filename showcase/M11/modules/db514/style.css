@@ -50,7 +50,6 @@ body
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
-
 }
 
 #name
@@ -122,20 +121,20 @@ a:hover
 {
 	width:85px;
 	height:132px;
-	background:url('../works/images/project1.png') no-repeat 0 0;
+	background:url('../db514/images/project1.png') no-repeat 0 0;
 	float:left;
 }
 
 #project:hover
 {
-	background:url('../works/images/project.png') no-repeat 0 0;
+	background:url('../db514/images/project.png') no-repeat 0 0;
 }
 
 #modules
 {
 	width:103px;
 	height:128px;
-	background:url('../works/images/modules.png') no-repeat 0 0;
+	background:url('../db514/images/modules.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
 }
@@ -144,14 +143,14 @@ a:hover
 {
 	width:81px;
 	height:127px;
-	background:url('../works/images/other1.png') no-repeat 0 0;
+	background:url('../db514/images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
 }
 
 #other:hover
 {
-	background:url('../works/images/other.png') no-repeat 0 0;
+	background:url('../db514/images/other.png') no-repeat 0 0;
 }
 
 #modulemenu
@@ -169,11 +168,17 @@ a:hover
 	float:left;
 }
 
+#ghost h5:hover
+{
+	color:#404039;
+}
+
+
 #ghost h5
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:22px;
-	color:#404039;
+	color:#d5d5d5;
 	margin:8px auto 0px auto;
 	text-align:center;
 }
@@ -213,7 +218,7 @@ a:hover
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:22px;
-	color:#d5d5d5;
+	color:#404039;
 	margin:8px auto 0px auto;
 	text-align:center;
 }
@@ -239,11 +244,6 @@ a:hover
 	padding:0px;
 	background-color:#d7d65d;
 	overflow:hidden;
-}
-
-#activate h5:hover
-{
-	color:#404039;
 }
 
 #constructive
@@ -290,11 +290,11 @@ a:hover
 	color:#404039;
 }
 
-#ghostback
+#db514back
 {
 	width:100%;
 	min-width:720px;
-	min-height:760px;
+	height:150px;
 	background: #ebb14c;
 	margin:30px auto 0px auto;
 }
@@ -302,7 +302,7 @@ a:hover
 #textpart
 {
 	width:720px;
-    min-height:760px;
+    min-height:150px;
 	margin:0px auto;
 	text-align:left;
 }
@@ -310,8 +310,8 @@ a:hover
 #modulebackground1
 {
 	width:340px;
-    min-height:200px;
-	margin:30px auto 0px 0px;
+    min-height:20px;
+	margin:30px auto;
 	text-align:left;
 	float:left;
 }
@@ -329,7 +329,7 @@ a:hover
 #modulebackground2
 {
 	width:340px;
-    min-height:200px;
+    min-height:20px;
 	margin:100px auto 30px 40px;
 	text-align:left;
 	float:left;
@@ -348,7 +348,7 @@ p{
 {
 	width:100%;
 	min-width:720px;
-	min-height:200px;
+	min-height:20px;
 	background: #e9d38f;
 	margin:0px auto 0px auto;
 	text-align:center;

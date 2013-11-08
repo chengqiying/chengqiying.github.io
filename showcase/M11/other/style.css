@@ -50,6 +50,8 @@ body
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	transform: scale(0.8);
+
+
 }
 
 #name
@@ -121,9 +123,15 @@ a:hover
 {
 	width:85px;
 	height:132px;
-	background:url('../works/images/project.png') no-repeat 0 0;
+	background:url('../works/images/project1.png') no-repeat 0 0;
 	float:left;
 }
+
+#modules:hover
+{
+	background:url('../works/images/project.png') no-repeat 0 0;
+}
+
 
 #modules
 {
@@ -143,14 +151,9 @@ a:hover
 {
 	width:81px;
 	height:127px;
-	background:url('../works/images/other1.png') no-repeat 0 0;
+	background:url('../works/images/other.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
-}
-
-#other:hover
-{
-	background:url('../works/images/other.png') no-repeat 0 0;
 }
 
 #come
@@ -169,7 +172,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	background-color:#f2f4b0;
+	background-color:#423826;
 	height:100px;
 	margin-top:0px;	
 	
@@ -180,8 +183,8 @@ a:hover
 	width:720px;
 	text-align:center;
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#404039;
+	font-size:16px;
+	color:#eaeaea;
 	margin:auto;
 	padding-top:40px;
 }

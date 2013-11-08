@@ -33,7 +33,26 @@ body
 	height: 73px;
 	width: 132px;
 	margin:140px auto 0 auto;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform:scale(1);
+	transform: scale(1);
+	
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
 }
+
+#logo:hover
+{
+	-webkit-transform:scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+
 
 #name
 {
@@ -154,6 +173,20 @@ h5
 	width: 720px;
 	margin:20px auto;
     float: left;
+}
+
+.text a
+{
+
+	font-size:26px;
+	color:#1da099;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.text a:hover
+{
+	color:#13120b;
 }
 
 p
@@ -367,7 +400,7 @@ h2
 
 #bottom2
 {
-	border-top: 5px solid #eef53b;
+	border-top: 8px solid #eef53b;
 	margin-top:-40px;
 }
 
@@ -375,7 +408,7 @@ h2
 {
 	width:100%;
 	min-width:720px;
-	background-color:#f2f4b0;
+	background-color:#423826;
 	height:100px;
 	margin-top:0px;	
 	
@@ -386,8 +419,8 @@ h2
 	width:720px;
 	text-align:center;
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#404039;
+	font-size:16px;
+	color:#eaeaea;
 	margin:auto;
 	padding-top:40px;
 }

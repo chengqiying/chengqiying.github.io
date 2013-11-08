@@ -32,7 +32,24 @@ body
 	height: 73px;
 	width: 132px;
 	margin:140px auto 0 auto;
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform:scale(1);
+	transform: scale(1);
+	
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
 }
+
+#logo:hover {
+	-webkit-transform:scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
 
 #name
 {
@@ -206,4 +223,25 @@ p
 	background-color:#e4dc9a;
 	overflow:hidden;
 	float:left;
+}
+
+#footerback
+{
+	width:100%;
+	min-width:720px;
+	background-color:#423826;
+	height:80px;
+	margin-top:0px;	
+	
+}
+
+#footertext
+{
+	width:720px;
+	text-align:center;
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:16px;
+	color:#eaeaea;
+	margin:auto;
+	padding-top:30px;
 }
