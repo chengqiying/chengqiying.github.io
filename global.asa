@@ -1,0 +1,3 @@
+<%
+response.write"<link rel="Shortcut Icon""href=""/images/favicon.ico"">"
+%>
