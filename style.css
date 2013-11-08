@@ -151,9 +151,16 @@ body
 
 #title3
 {
-	width: 189px;
+	width: 155px;
     height: 18px;
 	background:url('images/productdesign.png') no-repeat 0 0;	
+}
+
+#title4
+{
+	width: 154px;
+    height: 18px;
+	background:url('images/designprocess.png') no-repeat 0 0;	
 }
 
 
