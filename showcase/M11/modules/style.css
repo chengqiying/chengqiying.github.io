@@ -323,7 +323,6 @@ a:hover
 	color:#404039;
 	margin:40px auto 0px auto;
 	text-align:left;
-
 }
 
 #modulebackground2
@@ -333,7 +332,6 @@ a:hover
 	margin:100px auto 30px 40px;
 	text-align:left;
 	float:left;
-
 }
 
 p{
@@ -344,7 +342,7 @@ p{
 	text-align:justify;
 }
 
-#come
+#process
 {
 	width:100%;
 	min-width:720px;
@@ -353,6 +351,83 @@ p{
 	margin:0px auto 0px auto;
 	text-align:center;
 	padding-top:50px;
+}
+
+#process-content
+{
+	width:720px;
+    min-height:760px;
+	margin:0px auto;
+	text-align:left;
+}
+
+#concept
+{
+	width:720px;
+    min-height:200px;
+	margin:0px auto;
+	text-align:left;
+}
+
+#concept-title
+{
+	width:100px;
+    height:30px;
+	margin:20px auto 0px 0px;
+	text-align:left;
+}
+
+#concept-title h5
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:30px;
+	color:#404039;
+	margin:0px auto 0px auto;
+	text-align:left;
+}
+
+#concept-text
+{
+	width:350px;
+	height:126px;
+	margin:10px auto 0px -88px;
+	text-align:left;
+	float:left;
+}
+
+#concept-text p
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#404039;
+	text-align:justify;
+	margin:0px auto 0px 0px;
+}
+
+#conceptpic
+{
+	width:266px;
+	height:126px;
+	margin:10px 0px 0px 94px;
+	float:left;
+}
+
+#concept-sketch
+{
+	width:169px;
+	height:126px;
+	background:url('../modules/images/concept-sketch.png') no-repeat 0 0;
+	margin-left:0px;
+	float:left;
+}
+
+#knock
+{
+	width:94px;
+	height:126px;
+	background:url('../modules/images/knock.png') no-repeat 0 0;
+	margin-left:3px;
+	float:left;
 }
 
 #footerback
