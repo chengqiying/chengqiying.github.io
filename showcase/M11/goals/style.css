@@ -19,10 +19,9 @@ body
 	display:block;
 }
 
-#wrapper
+.wrapper
 {
-	min-width: 980px;
-	width:100%;
+	width:720px;
 	margin:auto;
     text-align: left;		
 }
@@ -32,7 +31,7 @@ body
 	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform:scale(1);
@@ -52,22 +51,39 @@ body
 	transform: scale(0.8);
 }
 
-
-
 #name
 {
-	background: url('../images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
-	margin:30px auto;
+	height: 60px;
+	width: 300px;
+	margin:12px auto 0px auto;
 }
+
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	font-weight:  lighter ;
+	color:#7e7e7e;
+	margin-top:2px;
+	margin-left:64px;	
+}
+
 
 .menu
 {
 	display: block;
 	height: 30px;
 	width:447px;
-	margin:40px auto;
+	margin:110px auto;
 }
 
 .menu a
@@ -109,38 +125,28 @@ a:hover
 	float:left;
 }
 
-#section
-{
-	
-	min-width:720px;
-	width: 100%;
-	margin:70px auto 0px auto ;
-    text-align: left;
+#back1
+{   
+	background: url('../goals/images/back1.jpg') no-repeat 0 0;
+	background-size:cover;
+	height:760px;
+	margin-top:50px;
 }	
 
 #section1
 {
 	width: 720px;
 	height:295px;
-	margin:auto;
+	margin:-720px auto 0px auto;
     text-align: left;
-}
-
-#visiontitle
-{
-	width: 720px;
-	height:21px;
-	margin:auto;
-    float: left;
-
 }
 
 #line1
 {
-	width:255.5px;
+	width:168px;
 	height:1px;
-	margin-top:13px;
-	margin-left:0px;
+	margin-top:23px;
+	margin-left:60px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
@@ -150,17 +156,17 @@ a:hover
 h5
 {
 	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#13120b;
+	font-size:30px;
+	color:#ffffff;
 	margin:0px auto auto 30px;
 	float:left;
 }
 
 #line2
 {
-	width:255.5px;
+	width:168px;
 	height:1px;
-	margin-top:13px;
+	margin-top:23px;
 	margin-left:30px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -168,42 +174,28 @@ h5
 	float:left;
 }
 
-.text
+#text-1
 {
-	width: 720px;
-	margin:20px auto;
+	width: 600px;
+	margin:20px auto auto 60px;
     float: left;
-}
-
-.text a
-{
-
-	font-size:26px;
-	color:#1da099;
-	text-decoration:none;
-	font-weight:bold;
-}
-
-.text a:hover
-{
-	color:#13120b;
 }
 
 p
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:20px;
-	color:#13120b;
+	color:#ffffff;
 	float:left;
 	text-align:justify;
 }
 
 #line3
 {
-	width:720px;
+	width:600px;
 	height:1px;
-	margin-top:0px;
-	margin-left:0px;
+	margin-top:30px;
+	margin-left:60px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
@@ -212,16 +204,16 @@ p
 
 #section2
 {
-	width: 720px;
-	margin:40px auto;
+	width: 600px;
+	margin:100px auto 0px auto;
     text-align: left;
 }
 
 #line1-1
 {
-	width:168.5px;
+	width:55px;
 	height:1px;
-	margin-top:13px;
+	margin-top:18px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -231,9 +223,9 @@ p
 
 #line2-1
 {
-	width:168.5px;
+	width:55px;
 	height:1px;
-	margin-top:13px;
+	margin-top:18px;
 	margin-left:30px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -241,11 +233,55 @@ p
 	float:left
 }
 
+#line3-1
+{
+	width:600px;
+	height:1px;
+	margin-top:30px;
+	margin-left:0px;
+	padding:0px;
+	background-color:#e4dc9a;
+	overflow:hidden;
+	float:left;
+}
+
+#text-2
+{
+	width: 600px;
+	margin:25px auto auto 0px;
+    float: left;
+}
+
+#text-2 a
+{
+
+	font-size:26px;
+	color:#e8e12f;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#text-2 a:hover
+{
+	color:#13120b;
+}
+
+
 #part1
 {
 	width:100%;
 	min-width:720px;
-	margin-top:40px;
+	margin-top:45px;
+}
+
+#part1 p
+
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#13120b;
+	float:left;
+	text-align:justify;
 }
 
 
@@ -272,7 +308,6 @@ p
 	min-width:720px;
 	min-height:430px;
 	margin:20px auto;
-	background:#f8f8f6;
 	text-align:left;	
 }
 
@@ -319,16 +354,25 @@ h2
 #bottom1
 {
 	border-top: 5px solid #7fc882;
-	margin-top:-20px;
+	margin-top:20px;
 }
 
 #part2
 {
 	width:100%;
 	min-width:720px;
-	margin-top:70px;
+	margin-top:65px;
 }
 
+#part2 p
+
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:20px;
+	color:#13120b;
+	float:left;
+	text-align:justify;
+}
 
 #logo2
 {
@@ -351,10 +395,9 @@ h2
 {
 	
 	width:100%;
-	min-width:720px;
-	min-height:700px;
-	margin:20px auto;
-	background:#f8f8f6;
+	min-width:135px;
+	min-height:660px;
+	margin:20px auto 0px auto;
 	text-align:left;	
 }
 
@@ -401,7 +444,7 @@ h2
 #bottom2
 {
 	border-top: 8px solid #eef53b;
-	margin-top:-40px;
+	margin-top:20px;
 }
 
 #footerback
