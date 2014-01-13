@@ -6,6 +6,31 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #bbdfd4;
+	color:#ffffff;
+}
+
 body
 {
 	border-top: 20px solid rgb(77,197,173);
