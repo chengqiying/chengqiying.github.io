@@ -6,25 +6,28 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
-#backtotop {
-	position: fixed;
-	right:40px;
-	bottom:15px;
-	display:none;/*hid the button first*/
-}
-#backtotop a {
-	text-decoration:none;
-	border:0 none;
-	display:block;
-	width:30px;
-	height:30px;
-}
-#backtotop a:hover {
-	opacity:.8; /*mouse over fade effect*/
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #d5d5d5;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
 }
 
-.clrb {
-	clear:both;
+.back-to-top:hover {    
+    background-color: #bbdfd4;
 }
 
 body
