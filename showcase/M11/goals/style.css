@@ -6,13 +6,39 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+#backtotop {
+	position: fixed;
+	right:0px;
+	bottom:15px;
+	display:none;/*hid the button first*/
+}
+#backtotop a {
+	text-decoration:none;
+	border:0 none;
+	display:block;
+	width:31px;
+	height:155px;
+}
+#backtotop a:hover {
+	opacity:.8; /*mouse over fade effect*/
+}
+
+.clrb {
+	clear:both;
+}
+
+#maindiv {
+	width:700px;
+	border:1px solid #999;
+	margin:auto;
+	padding:20px;
+}
+
 body
 {
 	border-top: 20px solid rgb(31,178,170);
 	background: url('../images/back.png') left top;
 }
-
-
 
 #all
 {
