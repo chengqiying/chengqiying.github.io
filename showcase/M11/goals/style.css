@@ -8,7 +8,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #backtotop {
 	position: fixed;
-	right:0px;
+	right:40px;
 	bottom:15px;
 	display:none;/*hid the button first*/
 }
