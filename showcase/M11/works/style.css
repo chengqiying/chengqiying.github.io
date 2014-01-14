@@ -6,6 +6,31 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #bbdfd4;
+    color:#ffffff;
+}
+
 body
 {
 	border-top: 20px solid rgb(31,178,170);
@@ -18,11 +43,9 @@ body
 {
 	display:block;
 }
-
-#wrapper
+.wrapper
 {
-	min-width: 980px;
-	width:100%;
+	width: 720px;
 	margin:auto;
     text-align: left;		
 }
@@ -54,10 +77,28 @@ body
 
 #name
 {
-	background: url('../images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
+	height: 60px;
+	width: 300px;
 	margin:30px auto;
+}
+
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	font-weight:  lighter ;
+	color:#7e7e7e;
+	margin-top:2px;
+	margin-left:64px;	
 }
 
 .menu
@@ -65,7 +106,7 @@ body
 	display: block;
 	height: 30px;
 	width:447px;
-	margin:40px auto;
+	margin:110px auto 0px auto;
 }
 
 .menu a
@@ -111,16 +152,16 @@ a:hover
 #worksmenu
 {
 	display: block;
-	height: 160px;
+	height: 140px;
 	width:549px;
-	margin:150px auto 0px auto;
+	margin:80px auto 0px auto;
 	text-align:left;
 }
 
 #project
 {
 	width:85px;
-	height:132px;
+	height:133px;
 	background:url('../works/images/project.png') no-repeat 0 0;
 	float:left;
 }
@@ -141,8 +182,8 @@ a:hover
 
 #other
 {
-	width:81px;
-	height:127px;
+	width:80px;
+	height:128px;
 	background:url('../works/images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
@@ -153,16 +194,67 @@ a:hover
 	background:url('../works/images/other.png') no-repeat 0 0;
 }
 
-#come
+#back1
+{
+	background: url('../works/images/back1.png') no-repeat 0 0;
+	background-size:cover;
+	height:465px;
+	margin:10px auto 0px auto;
+}
+
+#video1
 {
 	width:720px;
-	height:100px;
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:30px;
-	color:#404039;
-	margin:30px auto 0px auto;
-	text-align:center;
+	height:425px;
+	margin:-425px auto 0px auto;
+}
 
+#back2
+{
+	background-size:cover;
+	background-color:#fffffa;
+	height:1000px;
+	margin:0px auto 0px auto;
+}
+
+#introduction
+{
+	width:720px;
+	height:500px;
+	margin:0px auto 0px auto;
+}
+
+#introduction h1
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:32px;
+	padding-top:35px;
+	float:inherit;
+}
+
+#introduction p
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:21px;
+	color:#000000;
+	margin:10px auto 0px 0px;
+	float:inherit;
+}
+
+#introduction h2
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:32px;
+	padding-top:25px;
+	float:inherit;
+}
+
+#introduction h3
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:25px;
+	padding-top:10px;
+	float:inherit
 }
 
 #footerback

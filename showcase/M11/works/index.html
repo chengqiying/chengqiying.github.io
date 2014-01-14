@@ -10,6 +10,28 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng/showcae/M11</title>
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- efforless script below -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
 </head>
 
 <body>
@@ -17,6 +39,8 @@
        	<div id="wrapper">
     		<a href="../"><div id="logo"></div></a>
     		<div id="name">
+    		<h1>Qiying Cheng</h1>
+    		<h2>showcase/M11/s134577</h2>
     		</div>
     		<div class="menu" >
     			<h1><a href="../vision">Vision</a></h1>
@@ -29,10 +53,27 @@
     			<a href="../modules"><div id="modules"></div></a>
 				<a href="http://chengqiying.com/showcase/M11/other"><div id="other"></div></a>   				
     		</div>
-    		<div id="come">
-    		coming soon ......
+    	</div>	
+    	<div id="back1"></div>
+    	
+    	<div class="wrapper">	
+			<div id="video1">
+				<iframe src="http://player.vimeo.com/video/82233369"width="720" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+		<div id="back2">
+		<div class="wrapper" >
+			<div id="introduction">
+				<h1>Introduction</h1>
+				<p>The client of this project is ING (International Netherland Group). ING’s mission is to set the standard in helping our customers manage their financial future. ING aims to deliver its financial products and services in the way its customers want them delivered: with exemplary service, convenience and at competitive prices.</p>
+				<p>Aligned with the needs of customers and the client (ING), this project designs a social media feedback system for ING. The goal of this project is to make customers feel that their feedback is valued and appreciated by the bank, and meanwhile help the bank make efficient use of the feedback from customers. This projects works on a social media platform, and one of the most popular social media, Facebook is a trial in the project for this semester.</p> 	
+				<h2>Activities</h2>
+				<h3>Iterative process</h3>
+				<p></p>
 			</div>
     	</div>
+    	</div>
+    	
     </div>
 <footer>
 	<div id="footerback">
@@ -41,6 +82,6 @@
 		</div>
 	</div>
 </footer>
-
+<a href="#" class="back-to-top">Top</a>
 </body>
 </html>
