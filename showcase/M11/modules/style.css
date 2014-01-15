@@ -6,6 +6,31 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #bbdfd4;
+    color:#ffffff;
+}
+
 body
 {
 	border-top: 20px solid rgb(31,178,170);
@@ -32,7 +57,7 @@ body
 	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform:scale(1);
@@ -55,10 +80,28 @@ body
 
 #name
 {
-	background: url('../images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
-	margin:30px auto;
+	height: 60px;
+	width: 300px;
+	margin:12px auto;
+}
+
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	font-weight:  lighter ;
+	color:#7e7e7e;
+	margin-top:2px;
+	margin-left:64px;	
 }
 
 .menu
@@ -66,7 +109,7 @@ body
 	display: block;
 	height: 30px;
 	width:447px;
-	margin:40px auto;
+	margin:110px auto 0px auto;
 }
 
 .menu a
@@ -112,16 +155,16 @@ a:hover
 #worksmenu
 {
 	display: block;
-	height: 160px;
+	height: 140px;
 	width:549px;
-	margin:150px auto 0px auto;
+	margin:80px auto 0px auto;
 	text-align:left;
 }
 
 #project
 {
 	width:85px;
-	height:132px;
+	height:133px;
 	background:url('../works/images/project1.png') no-repeat 0 0;
 	float:left;
 }
@@ -142,8 +185,8 @@ a:hover
 
 #other
 {
-	width:81px;
-	height:127px;
+	width:80px;
+	height:128px;
 	background:url('../works/images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
@@ -164,23 +207,23 @@ a:hover
 
 #ghost
 {
-	width:66px;
+	width:64px;
 	height:70px;
 	float:left;
 }
 
 #ghost h5
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:22px;
+	font-family:Ebrima;
+	font-size:18px;
 	color:#404039;
-	margin:8px auto 0px auto;
+	margin:8px auto 0px 3px;
 	text-align:center;
 }
 
 #line1
 {
-	width:66px;
+	width:64px;
 	height:2px;
 	margin-top:0px;
 	margin-left:0px;
@@ -191,7 +234,7 @@ a:hover
 
 #line1-1
 {
-	width:66px;
+	width:64px;
 	height:2px;
 	margin-top:8px;
 	margin-left:0px;
@@ -203,25 +246,25 @@ a:hover
 
 #activate
 {
-	width:290px;
+	width:268px;
 	height:70px;
-	margin-left:51.5px;
+	margin-left:74.5px;
 	float:left;
 }
 
 #activate h5
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:22px;
-	color:#d5d5d5;
-	margin:8px auto 0px auto;
+	font-family:Ebrima;
+	font-size:18px;
+	color:#aaaaaa;
+	margin:8px auto 0px 3px;
 	text-align:center;
 }
 
 
 #line2
 {
-	width:290px;
+	width:268px;
 	height:2px;
 	margin-top:0px;
 	margin-left:0px;
@@ -232,7 +275,7 @@ a:hover
 
 #line2-1
 {
-	width:290px;
+	width:268px;
 	height:2px;
 	margin-top:8px;
 	margin-left:0px;
@@ -248,23 +291,24 @@ a:hover
 
 #constructive
 {
-	width:261px;
+	width:239px;
 	height:70px;
-	margin-left:51.5px;
+	margin-left:74.5px;
 	float:left;
 }
+
 #constructive h5
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:22px;
-	color:#d5d5d5;
-	margin:8px auto 0px auto;
+	font-family:Ebrima;
+	font-size:18px;
+	color:#aaaaaa;
+	margin:8px auto 0px 3px;
 	text-align:center;
 }
 
 #line3
 {
-	width:261px;
+	width:239px;
 	height:2px;
 	margin-top:0px;
 	margin-left:0px;
@@ -275,7 +319,7 @@ a:hover
 
 #line3-1
 {
-	width:261px;
+	width:239px;
 	height:2px;
 	margin-top:8px;
 	margin-left:0px;
@@ -294,7 +338,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	min-height:760px;
+	height:670px;
 	background: #ebb14c;
 	margin:30px auto 0px auto;
 }
@@ -318,10 +362,11 @@ a:hover
 
 #modulebackground1 h5
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:30px;
+	font-family:Ebrima;
+	font-size:24px;
+	font-weight:lighter;
 	color:#404039;
-	margin:40px auto 0px auto;
+	margin:0px auto 0px auto;
 	text-align:left;
 }
 
@@ -329,86 +374,78 @@ a:hover
 {
 	width:340px;
     min-height:200px;
-	margin:100px auto 30px 40px;
+	margin:60px auto 0px 40px;
 	text-align:left;
 	float:left;
 }
 
 p{
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
+	font-family:Ebrima;
+	font-size:16px;
 	color:#404039;
-	margin:20px auto;
+	margin:10px auto;
 	text-align:justify;
+}
+
+#video
+{
+	width:720px;
+	height:380px;
+	margin:10px auto 0px auto
 }
 
 #process
 {
 	width:100%;
 	min-width:720px;
-	min-height:200px;
+	height:700px;
 	background: #e9d38f;
 	margin:0px auto 0px auto;
 	text-align:center;
-	padding-top:50px;
-}
-
-#process-content
-{
-	width:720px;
-    min-height:760px;
-	margin:0px auto;
-	text-align:left;
 }
 
 #concept
 {
 	width:720px;
-    min-height:200px;
+    height:200px;
 	margin:0px auto;
 	text-align:left;
 }
 
-#concept-title
-{
-	width:100px;
-    height:30px;
-	margin:20px auto 0px 0px;
-	text-align:left;
-}
-
-#concept-title h5
-{
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:30px;
-	color:#404039;
-	margin:0px auto 0px auto;
-	text-align:left;
-}
 
 #concept-text
 {
 	width:350px;
-	height:126px;
-	margin:10px auto 0px -88px;
+	height:500px;
+	margin:30px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
+#concept-text h5
+{
+	font-family:Ebrima;
+	font-size:26px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
 #concept-text p
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
+	font-family:Ebrima;
+	font-size:16px;
 	color:#404039;
 	text-align:justify;
-	margin:0px auto 0px 0px;
+	padding:10px auto 0px auto;
 }
 
 #conceptpic
 {
 	width:266px;
 	height:126px;
-	margin:10px 0px 0px 94px;
+	margin:80px 0px 0px 94px;
 	float:left;
 }
 
