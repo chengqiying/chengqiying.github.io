@@ -205,7 +205,7 @@ a:hover
 #video1
 {
 	width:720px;
-	height:425px;
+	height:405px;
 	margin:-425px auto 0px auto;
 }
 
@@ -213,8 +213,8 @@ a:hover
 {
 	background-size:cover;
 	background-color:#fffffa;
-	height:1000px;
-	margin:0px auto 0px auto;
+	height:1200px;
+	margin:20px auto 0px auto;
 }
 
 #introduction
@@ -237,24 +237,75 @@ a:hover
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:21px;
 	color:#000000;
-	margin:10px auto 0px 0px;
+	margin:5px auto 0px 0px;
 	float:inherit;
 }
 
-#introduction h2
+#activities
+{
+	width:720px;
+	height:520px;
+	margin:35px auto 0px 0px;
+}
+
+#activities h2
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:32px;
-	padding-top:25px;
 	float:inherit;
 }
 
-#introduction h3
+#ac1
+{
+	width:340px;
+	margin:10px auto 0px 0px;
+	float:left;
+	
+}
+
+#ac1 h3
 {
 	font-family:'Microsoft Yi Baiti', serif;
 	font-size:25px;
-	padding-top:10px;
 	float:inherit
+}
+
+#ac2
+{
+	width:340px;
+	margin:10px auto 0px 40px;
+	float:left;
+}
+
+#ac2 h3
+{
+	font-family:'Microsoft Yi Baiti', serif;
+	font-size:25px;
+	float:inherit
+}
+
+#acpics
+{
+	width:720px;
+	height:240px;
+	margin: 20px auto 0px auto;
+}
+
+#midvideo
+{
+	width:360px;
+	height:240px;
+	margin:0px auto 0px 0px;
+	float:left;
+}
+
+#pic
+{
+	background:url('../works/images/pic.png') no-repeat 0 0;
+	width:340px;
+	height:240px;
+	margin:0px auto 0px 20px;
+	float:left;
 }
 
 #footerback
