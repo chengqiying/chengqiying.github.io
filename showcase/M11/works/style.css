@@ -33,7 +33,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(31,178,170);
+	border-top: 20px solid rgb(77,197,173);
 	background: url('../images/back.png') left top;
 }
 
@@ -213,7 +213,7 @@ a:hover
 {
 	background-size:cover;
 	background-color:#fffffa;
-	height:1200px;
+	height:1080px;
 	margin:20px auto 0px auto;
 }
 
@@ -226,16 +226,17 @@ a:hover
 
 #introduction h1
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:32px;
-	padding-top:35px;
+	font-family:Ebrima;
+	font-weight: lighter;
+	font-size:26px;
+	padding-top:45px;
 	float:inherit;
 }
 
 #introduction p
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:21px;
+	font-family:Ebrima;
+	font-size:16px;
 	color:#000000;
 	margin:5px auto 0px 0px;
 	float:inherit;
@@ -244,14 +245,15 @@ a:hover
 #activities
 {
 	width:720px;
-	height:520px;
+	height:465px;
 	margin:35px auto 0px 0px;
 }
 
 #activities h2
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:32px;
+	font-family:Ebrima;
+	font-size:26px;
+	font-weight: lighter;
 	float:inherit;
 }
 
@@ -265,9 +267,10 @@ a:hover
 
 #ac1 h3
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:25px;
-	float:inherit
+	font-family:Ebrima;
+	font-size:19px;
+	font-weight:lighter;
+	float:inherit;
 }
 
 #ac2
@@ -279,8 +282,9 @@ a:hover
 
 #ac2 h3
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:25px;
+	font-family:Ebrima;
+	font-size:19px;
+	font-weight: lighter;
 	float:inherit
 }
 
@@ -293,8 +297,8 @@ a:hover
 
 #midvideo
 {
-	width:360px;
-	height:240px;
+	width:420px;
+	height:235px;
 	margin:0px auto 0px 0px;
 	float:left;
 }
@@ -302,11 +306,66 @@ a:hover
 #pic
 {
 	background:url('../works/images/pic.png') no-repeat 0 0;
-	width:340px;
-	height:240px;
+	width:280px;
+	height:235px;
 	margin:0px auto 0px 20px;
 	float:left;
 }
+
+#back3
+{
+	background-size:cover;
+	background-color:#9fcbbd;
+	opacity:0.8;
+	height:310px;
+	margin:0px auto 0px auto;
+}
+
+#reflection
+{
+	width:720px;
+	height:300px;
+	margin:0px auto 0px auto;
+}
+
+#reflection h1
+{
+	font-family:Ebrima;
+	font-weight: lighter;
+	font-size:26px;
+	padding-top:45px;
+	float:inherit;
+}
+
+#reflection p
+{	
+	font-family: Ebrima ;
+
+	font-size:16px;
+	color:#000000;
+	margin:5px auto 0px 0px;
+	float:inherit;
+}
+
+#back4
+{
+	background-size:cover;
+	background-color:#d1ebe9;
+	opacity:0.8;
+	height:2px;
+	margin:0px auto 0px auto;
+}
+
+#back5
+{
+	background-size:cover;
+	background-color:#9fcbbd;
+	opacity:0.8;
+	height:120px;
+	margin:0px auto 0px auto;
+}
+
+
 
 #footerback
 {
