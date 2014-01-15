@@ -21,7 +21,7 @@ body
 
 #wrapper
 {
-	min-width: 980px;
+	width: 680px;
 	margin:auto;
     text-align: left;	
 	
@@ -32,15 +32,34 @@ body
 	background: url('images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 }
 
 #name
 {
-	background: url('images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
-	margin:30px auto;
+	height: 60px;
+	width: 300px;
+	margin:20px auto;
+	text-align: center;
+	margin-top:12px;
+}
+
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	font-weight:  lighter ;
+	color:#7e7e7e;
+	margin-top:2px;
 }
 
 .menu
@@ -48,7 +67,7 @@ body
 	display: block;
 	height: 30px;
 	width:447px;
-	margin:80px auto auto auto;
+	margin:60px auto auto auto;
 }
 
 .menu a
@@ -89,7 +108,7 @@ a:hover
 	
 .introtext
 {
-	margin:40px auto;
+	margin:50px auto;
 	width: 720px;
 
 }
@@ -98,7 +117,7 @@ a:hover
 {
 	
 	color: #4B5C66;
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size: 20px;
+	font-family:Ebrima;
+	font-size: 16px;
 	text-align: center;
 }

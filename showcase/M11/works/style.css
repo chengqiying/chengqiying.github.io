@@ -55,7 +55,7 @@ body
 	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform:scale(1);
@@ -79,7 +79,7 @@ body
 {
 	height: 60px;
 	width: 300px;
-	margin:30px auto;
+	margin:12px auto;
 }
 
 #name h1
