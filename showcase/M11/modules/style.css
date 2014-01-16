@@ -363,23 +363,33 @@ a:hover
 #modulebackground1 h5
 {
 	font-family:Ebrima;
-	font-size:24px;
+	font-size:26px;
 	font-weight:lighter;
 	color:#404039;
 	margin:0px auto 0px auto;
 	text-align:left;
 }
 
+#modulebackground1 p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	margin:10px auto;
+	text-align:justify;
+}
+
 #modulebackground2
 {
 	width:340px;
     min-height:200px;
-	margin:60px auto 0px 40px;
+	margin:65px auto 0px 40px;
 	text-align:left;
 	float:left;
 }
 
-p{
+#modulebackground2 p
+{
 	font-family:Ebrima;
 	font-size:16px;
 	color:#404039;
@@ -398,26 +408,43 @@ p{
 {
 	width:100%;
 	min-width:720px;
-	height:700px;
+	height:870px;
 	background: #e9d38f;
 	margin:0px auto 0px auto;
 	text-align:center;
+}
+
+#activities
+{
+	width:720px;
+	height:80px;
+	margin:0px auto;
+}
+
+#activities h4
+{
+	font-family:Ebrima;
+	font-size:26px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	padding-top:40px;
 }
 
 #concept
 {
 	width:720px;
     height:200px;
-	margin:0px auto;
+	margin:10px auto;
 	text-align:left;
 }
 
 
 #concept-text
 {
-	width:350px;
+	width:335px;
 	height:500px;
-	margin:30px auto 0px 0px;
+	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
@@ -425,7 +452,7 @@ p{
 #concept-text h5
 {
 	font-family:Ebrima;
-	font-size:26px;
+	font-size:20px;
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
@@ -438,21 +465,21 @@ p{
 	font-size:16px;
 	color:#404039;
 	text-align:justify;
-	padding:10px auto 0px auto;
+	margin:5px auto 0px auto;
 }
 
 #conceptpic
 {
-	width:266px;
-	height:126px;
-	margin:80px 0px 0px 94px;
+	width:335px;
+	height:165px;
+	margin:40px 0px 0px 50px;
 	float:left;
 }
 
 #concept-sketch
 {
-	width:169px;
-	height:126px;
+	width:196px;
+	height:165px;
 	background:url('../modules/images/concept-sketch.png') no-repeat 0 0;
 	margin-left:0px;
 	float:left;
@@ -460,11 +487,141 @@ p{
 
 #knock
 {
-	width:94px;
-	height:126px;
+	width:108px;
+	height:165px;
 	background:url('../modules/images/knock.png') no-repeat 0 0;
-	margin-left:3px;
+	margin-left:10px;
 	float:left;
+}
+
+#implementation
+{
+	width:335px;
+    height:600px;
+	margin:10px auto 0px -335px;
+	text-align:left;
+	float:left;
+}
+
+
+#imp-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#imp-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#imp-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#imppic
+{
+	background:url('../modules/images/imp.png') no-repeat 0 0;
+	width:335px;
+	height:251px;
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+
+#behavior
+{
+	width:335px;
+    height:600px;
+	margin:10px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#beh-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#beh-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#beh-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#behpic
+{
+	background:url('../modules/images/beh.png') no-repeat 0 0;
+	width:335px;
+	height:251px;
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+
+#reflectionback
+{
+	width:100%;
+	min-width:720px;
+	height:300px;
+	background: #c4af4e;
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+
+#reflection
+{
+	width:720px;
+	height:200px;
+	margin:0px auto 0px auto;
+}
+
+#reflection h5
+{
+	font-family:Ebrima;
+	font-size:26px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+#reflection p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:0px auto 0px auto;
+	padding:5px auto 0px 0px;
 }
 
 #footerback
