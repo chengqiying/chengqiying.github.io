@@ -6,6 +6,31 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #bbdfd4;
+    color:#ffffff;
+}
+
 body
 {
 	border-top: 20px solid rgb(31,178,170);
@@ -32,7 +57,7 @@ body
 	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform:scale(1);
@@ -54,10 +79,27 @@ body
 
 #name
 {
-	background: url('../images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
-	margin:30px auto;
+	height: 60px;
+	width: 300px;
+	margin:12px auto;
+}
+
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	color:#7e7e7e;
+	margin-top:2px;
+	text-align:center;
 }
 
 .menu
@@ -65,7 +107,7 @@ body
 	display: block;
 	height: 30px;
 	width:447px;
-	margin:40px auto;
+	margin:110px auto;
 }
 
 .menu a

@@ -152,9 +152,9 @@ a:hover
 #worksmenu
 {
 	display: block;
-	height: 140px;
+	height: 170px;
 	width:549px;
-	margin:80px auto 0px auto;
+	margin:50px auto 0px auto;
 	text-align:left;
 }
 
@@ -164,6 +164,8 @@ a:hover
 	height:133px;
 	background:url('../works/images/project.png') no-repeat 0 0;
 	float:left;
+	margin-top:30px;
+
 }
 
 #modules
@@ -173,6 +175,8 @@ a:hover
 	background:url('../works/images/modules1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
+	margin-top:30px;
+
 }
 
 #modules:hover
@@ -187,6 +191,8 @@ a:hover
 	background:url('../works/images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
+	margin-top:30px;
+
 }
 
 #other:hover
