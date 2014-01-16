@@ -97,7 +97,7 @@ body
 	font-weight:  lighter ;
 	color:#7e7e7e;
 	margin-top:2px;
-	margin-left:64px;	
+	text-align:center;	
 }
 
 
@@ -342,7 +342,7 @@ p
 	text-align:left;
 }
 
-h2
+#text1 h2
 {
 	font-family:Ebrima;
 	font-size:18px;
@@ -432,11 +432,10 @@ h2
 	text-align:left;
 }
 
-h2
+#text2 h2
 {
 	font-family:Ebrima;
 	font-size:18px;
-	font-weight:lighter;
 	color:#000000;
 	margin-left:0px;
 	margin-bottom:7px;
