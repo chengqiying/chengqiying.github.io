@@ -225,7 +225,7 @@ a:hover
 {
 	width:64px;
 	height:2px;
-	margin-top:0px;
+	margin-top:15px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#eb9d14;
@@ -266,7 +266,7 @@ a:hover
 {
 	width:268px;
 	height:2px;
-	margin-top:0px;
+	margin-top:15px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#d7d65d;
@@ -310,7 +310,7 @@ a:hover
 {
 	width:239px;
 	height:2px;
-	margin-top:0px;
+	margin-top:15px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#89c148;
@@ -497,7 +497,7 @@ a:hover
 #implementation
 {
 	width:335px;
-    height:600px;
+    height:525px;
 	margin:10px auto 0px -335px;
 	text-align:left;
 	float:left;
@@ -544,7 +544,7 @@ a:hover
 #behavior
 {
 	width:335px;
-    height:600px;
+    height:525px;
 	margin:10px auto 0px 50px;
 	text-align:left;
 	float:left;
@@ -588,50 +588,166 @@ a:hover
 	float:left;
 }
 
-#reflectionback
+#reflectiongback
 {
 	width:100%;
 	min-width:720px;
-	height:300px;
-	background: #c4af4e;
+	height:700px;
+	background: #efe4c3;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
 
-#reflection
+#reflectiong
 {
 	width:720px;
-	height:200px;
+	height:700px;
 	margin:0px auto 0px auto;
 }
 
-#reflection h5
+#re
+{
+	width:720px;
+	height:60px;
+	padding:50px auto 0px auto;
+}
+
+#reflectiong h5
 {
 	font-family:Ebrima;
 	font-size:26px;
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
+	margin:30px auto 0px auto;
 }
 
-#reflection p
+#ds
+{
+	width:720px;
+	height:120px;
+	margin:20px auto 0px auto;
+}
+
+#ds h4
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	margin:10px auto 0px auto;
+}
+
+
+#ds p
 {
 	font-family:Ebrima;
 	font-size:16px;
 	color:#404039;
 	text-align:justify;
-	margin:0px auto 0px auto;
-	padding:5px auto 0px 0px;
+	margin:5px auto 0px auto;
 }
 
-#footerback
+#fi
+{
+	width:720px;
+	height:140px;
+	margin:20px auto 0px auto;
+}
+
+#fi h4
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	margin:10px auto 0px auto;
+}
+
+
+#fi p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#dp
+{
+	width:720px;
+	height:140px;
+	margin:20px auto 0px auto;
+}
+
+#dp h4
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	margin:10px auto 0px auto;
+}
+
+
+#dp p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#t
+{
+	width:720px;
+	height:140px;
+	margin:20px auto 0px auto;
+}
+
+#t h4
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	margin:10px auto 0px auto;
+}
+
+
+#t p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#linkbackl
 {
 	width:100%;
 	min-width:720px;
-	background-color:#423826;
-	height:80px;
-	margin-top:0px;	
-	
+	height:2px;
+	background: #f4af42;
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+
+#linkback
+{
+	width:100%;
+	min-width:720px;
+	height:100px;
+	background: #efe4c3;
+	margin:0px auto 0px auto;
+	text-align:center;
 }
 
 #footertext
