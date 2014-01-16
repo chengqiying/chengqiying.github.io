@@ -94,7 +94,6 @@ body
 {
 	font-family:'Ebrima', serif;
 	font-size:16px;
-	font-weight:  lighter ;
 	color:#7e7e7e;
 	margin-top:2px;
 	text-align:center;	
@@ -342,10 +341,11 @@ p
 	text-align:left;
 }
 
-#text1 h2
+#text1 h6
 {
 	font-family:Ebrima;
 	font-size:18px;
+	font-weight:lighter;
 	color:#000000;
 	margin-left:0px;
 	margin-bottom:7px;
@@ -432,10 +432,11 @@ p
 	text-align:left;
 }
 
-#text2 h2
+#text2 h6
 {
 	font-family:Ebrima;
 	font-size:18px;
+	font-weight:lighter;
 	color:#000000;
 	margin-left:0px;
 	margin-bottom:7px;
