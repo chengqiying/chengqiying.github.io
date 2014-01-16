@@ -11,6 +11,29 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng/showcae/M11</title>
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- efforless script below -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+
 </head>
 
 <body>
@@ -18,6 +41,8 @@
        	<div id="wrapper">
     		<a href="http://chengqiying.com/showcase/M11"><div id="logo"></div></a>
     		<div id="name">
+    			<h1>Qiying Cheng</h1>
+    			<h2>showcase/M11/s134577</h2>
     		</div>
     		<div class="menu" >
     			<h1><a href="../vision">Vision</a></h1>
@@ -40,7 +65,7 @@
     					</div>
     				</div>
     			</a>
-    			<a href="http://chengqiying.com/showcase/M11/modules/db514">
+    			
     				<div id="activate">
     					<div id="line2">
     					</div>
@@ -48,8 +73,8 @@
     					<div id="line2-1">
     					</div>
     				</div>
-    			</a>
     			
+    			<a href="http://chengqiying.com/showcase/M11/modules/dbb10">
 					<div id="constructive">
     					<div id="line3">
     					</div>
@@ -57,21 +82,78 @@
     					<div id="line3-1">
     					</div>
     				</div>
-    			
+    			</a>
 			</div>
-			<div id="db514back">
+			<div id="consback">
 				<div id="textpart">
 					<div id="modulebackground1">
-						<h5>Coming soon...</h5>
-						<p></p>
+						<h5>Module Introduction</h5>
+						<p>It is a two-week module focusing on Form and Senses, Integrating Technology and User Focus and Perspective. I would take this module as an adaptive process of my study in TU/e, which is an opportunity for me to get familiar with the academic environment, and to learn about how the students in TU/e do design.</p>
 					</div>
 					<div id="modulebackground2">
-						<p></p>
+						<p>Through making physical prototype, it will be much easier for me to present ideas, communicate with others and revise the concepts in time. Besides, it can enlarge my knowledge in form and senses related with user behaviors. I think in some extent, this module can widen my design perspective for being a service designer.</p>
 					</div>
-					
+					<div id="video">
+						<iframe src="http://player.vimeo.com/video/80139843" width="720" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
+			<div id="process">
+				<div id="activities">
+					<h4>Activities</h4>
+				</div>	
+				<div id="concept">
+					<div id="concept-text">
+						<h5>Concept</h5>
+						<p>We got six concepts after the first brainstorm. We picked the “Knocking box” after comparation and made a simple prototype to test. But the sound changing was so subtle that we gave up this concept. Therefore we chose the rolling belt in the end as it was simple and suited the theme of changing behavior.</p>
+					</div>
+					<div id="conceptpic">
+						<div id="concept-sketch">
+						</div>
+						<div id="knock">
+						</div>
+					</div>	
+				</div>
+				<div id="implementation">
+					<div id="imp-text">
+						<h5>Implementation process</h5>
+						<p>At first, we made a physical sketch to find out the appropriate construction of the box. Then, we used paper and cloth of various thicknesses to find out the smoothest one. After that, we made the first prototype to test the basic movement. In order to enhance the smoothness of movement, we change the construction of wheels. In the final prototype, we added another up board for the appearance of box and improve the tidiness of inside.</p>
+					</div>
+					<div id="imppic">
+					</div>	
+				</div>
+				<div id="behavior">
+					<div id="beh-text">
+						<h5>Behavior exploration</h5>
+						<p>We can accelerate the belt with touching. It goes fast in the same direction with touching when touching fast and slowly when touching slowly. It goes longer when touching with more pressure. It also can be stopped when touching again. And, there is a bonus sound effect when the belt stops in a high speed.</p>
+					</div>
+					<div id="behpic">
+					</div>	
+				</div>		
+			</div>
 			
+			<div id="reflectionaback">
+				<div id="reflectiona">
+					<div id="re">
+						<h5>Reflection</h5>
+						<p>In this module, I was in the group of field research. I chose this direction because I want to learn more about focusing on users in a real context. After this one week, I indeed have learned a lot about how to do a field research. Also, in the final presentation and discussion, I learned from the other two groups: lab and showroom, and had a fair understanding of the ways of research in these two directions.</p>
+					</div>
+					<div id="fr">
+						<h4>Field research</h4>
+						<p>As for me, I didn’t have much experience about field research before. And now, I think I know that the core of field research is capturing participants’ natural behavior and interaction with the design in the context. In order to gather qualitative data, video recording, observations and following interviews can be taken. Also the analysis of these behaviors is an important part of the research after data gathering. For the analysis of our field research, we used qualitative data analysis methods (open and closed coding methods) to synthesize a coherent picture from disparate data. Through this method the analysis would go beyond summarizing and onto interpretations, to ensure that conclusions drawn are more reliable and useful.In the process of our field research, I learned that for a research goal, the prototype is not the most crucial part of the research. More focus should be put on the sections of data gathering and analysis.</p>	
+					</div>
+					<div id="sl">
+						<h4>Showroom and lab research</h4>
+						<p>In the discussion, I got a basic understanding of how to conduct a research in lab, and how to gather and analysis quantitative data from the lab group. In some extent, Lab research is the extension of field research, which can get more quantitative evidence for the factors founded in field research.From the showroom group, I learned that trigger participants to think and discuss about these design in the further.</p>	
+					</div>
+				</div>
+			</div>
+			<div id="linkbackl">
+			</div>
+			<div id="linkback">
+			</div>
+
+
     	</div>
     </div>
 <footer>
