@@ -343,10 +343,9 @@ a:hover
 
 #actiback
 {
-	width:100%;
-	min-width:720px;
-	height:670px;
-	background: #e1e064;
+	height:710px;
+	background:url('../db514/images/back1.png') no-repeat 0 0;
+	background-size:cover;
 	margin:30px auto 0px auto;
 }
 
@@ -407,18 +406,26 @@ a:hover
 #video
 {
 	width:720px;
-	height:380px;
-	margin:10px auto 0px auto
+	height:405px;
+	margin:15px auto 0px auto;
+	float:left;
 }
 
 #process
 {
 	width:100%;
 	min-width:720px;
-	height:870px;
+	height:1010px;
 	background: #fffff8;
 	margin:0px auto 0px auto;
 	text-align:center;
+}
+
+#wrapper1
+{
+	width:720px;
+	margin:auto;
+    text-align: left;		
 }
 
 #activities
@@ -440,17 +447,18 @@ a:hover
 
 #concept
 {
-	width:720px;
-    height:200px;
-	margin:10px auto;
+	width:335px;
+    height:250px;
+	margin:10px auto 0px auto;
 	text-align:left;
+	float:left;
 }
 
 
 #concept-text
 {
 	width:335px;
-	height:500px;
+	height:300px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -475,99 +483,26 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#conceptpic
+#client
 {
 	width:335px;
-	height:165px;
-	margin:40px 0px 0px 50px;
-	float:left;
-}
-
-#concept-sketch
-{
-	width:196px;
-	height:165px;
-	background:url('../modules/images/concept-sketch.png') no-repeat 0 0;
-	margin-left:0px;
-	float:left;
-}
-
-#knock
-{
-	width:108px;
-	height:165px;
-	background:url('../modules/images/knock.png') no-repeat 0 0;
-	margin-left:10px;
-	float:left;
-}
-
-#implementation
-{
-	width:335px;
-    height:525px;
-	margin:10px auto 0px -335px;
-	text-align:left;
-	float:left;
-}
-
-
-#imp-text
-{
-	width:335px;
-	height:260px;
-	margin:0px auto 0px 0px;
-	text-align:left;
-	float:left;
-}
-
-#imp-text h5
-{
-	font-family:Ebrima;
-	font-size:20px;
-	font-weight:lighter ;
-	color:#404039;
-	text-align:left;
-}
-
-
-#imp-text p
-{
-	font-family:Ebrima;
-	font-size:16px;
-	color:#404039;
-	text-align:justify;
-	margin:5px auto 0px auto;
-}
-
-#imppic
-{
-	background:url('../modules/images/imp.png') no-repeat 0 0;
-	width:335px;
-	height:251px;
-	margin:10px 0px 0px 0px;
-	float:left;
-}
-
-#behavior
-{
-	width:335px;
-    height:525px;
+    height:250px;
 	margin:10px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
 
 
-#beh-text
+#client-text
 {
 	width:335px;
-	height:260px;
+	height:300px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
-#beh-text h5
+#client-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
@@ -577,7 +512,7 @@ a:hover
 }
 
 
-#beh-text p
+#client-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -586,21 +521,96 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#behpic
+#vi
 {
-	background:url('../modules/images/beh.png') no-repeat 0 0;
 	width:335px;
-	height:251px;
-	margin:10px 0px 0px 0px;
+    height:320px;
+	margin:10px auto 0px 0px;
+	text-align:left;
 	float:left;
 }
 
+
+#vi-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#vi-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#vi-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#tur
+{
+	width:335px;
+    height:300px;
+	margin:10px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#tur-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#tur h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#tur-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#processpic
+{
+	width:720px;
+	height:305px;
+	background:url('../db514/images/processpic.png') no-repeat 0 0;
+	margin:10px auto 0px auto;
+	float:left;
+}
 #reflectionaback
 {
 	width:100%;
 	min-width:720px;
 	height:700px;
-	background: #f0f1ac;
+	background: #e5eb8d;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
@@ -715,7 +725,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:2px;
-	background: #dde923;
+	background: #f2ff1a;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
@@ -725,7 +735,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:100px;
-	background: #f0f1ac;
+	background: #e5eb8d;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
