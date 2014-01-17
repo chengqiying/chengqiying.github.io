@@ -343,10 +343,9 @@ a:hover
 
 #ghostback
 {
-	width:100%;
-	min-width:720px;
-	height:670px;
-	background: #ebb14c;
+	height:700px;
+	background: url('../modules/images/back1.png') no-repeat 0 0;
+	background-size:cover;
 	margin:30px auto 0px auto;
 }
 
@@ -407,7 +406,7 @@ a:hover
 #video
 {
 	width:720px;
-	height:380px;
+	height:405px;
 	margin:10px auto 0px auto
 }
 
@@ -416,7 +415,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:870px;
-	background: #e9d38f;
+	background: #fffbe6;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
@@ -600,7 +599,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:700px;
-	background: #efe4c3;
+	background: #fad268;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
@@ -742,7 +741,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:2px;
-	background: #f4af42;
+	background: #f4edc9;
 	margin:0px auto 0px auto;
 	text-align:center;
 }
@@ -752,7 +751,7 @@ a:hover
 	width:100%;
 	min-width:720px;
 	height:100px;
-	background: #efe4c3;
+	background: #fad268;
 	margin:0px auto 0px auto;
 	text-align:center;
 }

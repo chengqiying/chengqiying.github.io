@@ -33,7 +33,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(31,178,170);
+	border-top: 20px solid rgb(77,197,173);;
 	background: url('../images/back.png') left top;
 }
 
@@ -342,12 +342,12 @@ a:hover
 
 #consback
 {
-	width:100%;
-	min-width:720px;
-	height:670px;
-	background: #91b864;
-	margin:30px auto 0px auto;
+	height:720px;
+	background:url('../dbb10/images/back2.png') no-repeat 0 0;
+	background-size:cover;
+	margin:30px auto 0px auto;	
 }
+
 
 #textpart
 {
@@ -406,8 +406,9 @@ a:hover
 #video
 {
 	width:720px;
-	height:380px;
-	margin:10px auto 0px auto
+	height:405px;
+	margin:15px auto 0px auto;
+	float:left;
 }
 
 #process
@@ -418,6 +419,14 @@ a:hover
 	background: #fffff8;
 	margin:0px auto 0px auto;
 	text-align:center;
+}
+
+#wrapper1
+{
+	width:720px;
+	height:870px;
+	margin:auto;
+    text-align: left;		
 }
 
 #activities
@@ -437,19 +446,21 @@ a:hover
 	padding-top:40px;
 }
 
+
 #concept
 {
-	width:720px;
-    height:200px;
+	width:335px;
+    height:310px;
 	margin:10px auto;
 	text-align:left;
+	float:left;
 }
 
 
 #concept-text
 {
 	width:335px;
-	height:500px;
+	height:310px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -474,52 +485,26 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#conceptpic
+#rex
 {
 	width:335px;
-	height:165px;
-	margin:40px 0px 0px 50px;
-	float:left;
-}
-
-#concept-sketch
-{
-	width:196px;
-	height:165px;
-	background:url('../modules/images/concept-sketch.png') no-repeat 0 0;
-	margin-left:0px;
-	float:left;
-}
-
-#knock
-{
-	width:108px;
-	height:165px;
-	background:url('../modules/images/knock.png') no-repeat 0 0;
-	margin-left:10px;
-	float:left;
-}
-
-#implementation
-{
-	width:335px;
-    height:525px;
-	margin:10px auto 0px -335px;
+    height:310px;
+	margin:10px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
 
 
-#imp-text
+#rex-text
 {
 	width:335px;
-	height:260px;
+	height:310px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
-#imp-text h5
+#rex-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
@@ -529,7 +514,7 @@ a:hover
 }
 
 
-#imp-text p
+#rex-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -538,29 +523,60 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#imppic
+#am
 {
-	background:url('../modules/images/imp.png') no-repeat 0 0;
 	width:335px;
-	height:251px;
-	margin:10px 0px 0px 0px;
+    height:435px;
+	margin:10px auto 0px 0px;
+	text-align:left;
 	float:left;
+}
+
+
+#am-text
+{
+	width:335px;
+	height:435px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#am-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#am-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
 }
 
 #behavior
 {
 	width:335px;
-    height:525px;
-	margin:10px auto 0px 50px;
+    height:380px;
+	margin:50px auto 0px 50px;
 	text-align:left;
 	float:left;
+	background:url('../dbb10/images/processpic.png') no-repeat 0 0;
+
 }
 
 
 #beh-text
 {
 	width:335px;
-	height:260px;
+	height:380px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -583,15 +599,6 @@ a:hover
 	color:#404039;
 	text-align:justify;
 	margin:5px auto 0px auto;
-}
-
-#behpic
-{
-	background:url('../modules/images/beh.png') no-repeat 0 0;
-	width:335px;
-	height:251px;
-	margin:10px 0px 0px 0px;
-	float:left;
 }
 
 #reflectionaback

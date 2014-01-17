@@ -10,13 +10,37 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng/showcae/M11</title>
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- efforless script below -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
 </head>
 
 <body>
 	<div id="all">
        	<div id="wrapper">
-    		<a href="http://chengqiying.com/showcase/M11"><div id="logo"></div></a>
+    		<a href="../"><div id="logo"></div></a>
     		<div id="name">
+    		<h1>Qiying Cheng</h1>
+    		<h2>showcase/M11/s134577</h2>
     		</div>
     		<div class="menu" >
     			<h1><a href="../vision">Vision</a></h1>
@@ -25,16 +49,111 @@
 				<h4><a href="../growth">Growth</a></h4>   				
     		</div>
     		<div id="worksmenu" >
-    			<a href="../works"><div id="project"></div></a>
-    			<a href="../modules"><div id="modules"></div></a>
-				<div id="other"></div>   				
+    			<a href="../modules/#worksmenu"><div id="project"></div></a>
+    			<a href="../modules/#worksmenu"><div id="modules"></div></a>
+				<div id="other"></div>  				
     		</div>
-    		<div id="come">
-    		coming soon ......
+    	</div>	
+    	   	
+		<div id="process">
+			<div id="wrapper1">
+				<div id="activities">
+					<h4>Activities</h4>
+				</div>	
+				<div id="concept">
+					<div id="concept-text">
+						<h5>Concept</h5>
+						<p>We strarted with a few quick brainstorms and 
+						presented the 
+						general idea in the midterm of this week. With the 
+						feedback and advice gotten from Vogel&#39;s and expertise, 
+						we rethink about the concept and changed it&nbsp; to a 
+						mechanical systems that improve the ergonomics of the 
+						kitchen, and enhance the accessibility of cooking 
+						utensils and appliances in new kitchens, which can 
+						quickly but smoothly lifts the entire content of the 
+						drawer into John’s reach.</p>
+					</div>
+				</div>
+				<div id="client">
+					<div id="client-text">
+						<h5>Communication with client</h5>
+						<p>Cooperated with the client, Vogel&#39;s, I took this as a 
+						chance to learn to communicate with real client as I 
+						have little exeperience before. In the process, I find 
+						that a convincing way to express the innovaiton 
+						opportunity to a client is to bring out enough evidence 
+						and the practical design which aligned with their needs 
+						and profit.</p>
+					</div>
+				</div>
+
+				<div id="vi">
+					<div id="vi-text">
+						<h5>Video expression</h5>
+						<p>In process of this module, we presented the&nbsp; 
+						finding and ideas all by videos. The first one tended to 
+						show the insights we obtained from field research. The 
+						rest two were designed to domenstrate the general and 
+						final concepts for Vogel&#39;s. I realized that video is&nbsp; 
+						a good choice to show the idea to the client as a vivid 
+						way, which could not only give a deep impression, but 
+						also provideds the visual material to communicate with 
+						both client and expertise.&nbsp;From the persective of 
+						designers, it really improved the skill of&nbsp; 
+						integrating the elements together to express the 
+						complete design. </p>
+					</div>
+					<div id="vipic">
+					</div>	
+				</div>
+				<div id="tur">
+					<div id="tur-text">
+						<h5>Target user research</h5>
+						<p>This time the group we decided to design for was active older adults who will increasingly need support as they get older. 
+						I learnt to experience the elderly&#39;s feelings by drawing 
+						the&nbsp; one day in life map, imagining that what the 
+						life would be like when I was 65 years old. It is a new 
+						way to slip into the user&#39;s shoes to dig out the needs, 
+						which is different from the previous which only analyzes 
+						the current elderly people&#39;s life. Treat the elderly 
+						people as a group who also want to look sexy and 
+						fashionable.</p>
+					</div>
+					<div id="turic">
+					</div>	
+				</div>
+				<div id="processpic">
+				</div>	
 			</div>
+			</div>
+			<div id="reflectionaback">
+				<div id="reflectiona">
+					<div id="re">
+						<h5>Reflection</h5>
+					</div>
+					<div id="dbs">
+						<h4>Design business process</h4>
+						<p>I really appreciated that I could have an experience with a real client in the design process, which is lacked in my previous study. In the process, the assignments of this module and feedback from client made me seriously consider the business process of a designed product or service. I learned that for a real company, the only innovation is far from enough. How to incorporate with different stakeholders is crucial for the success of the product or service. Also, the financial issues needed to be taken into account in the design process, because that is a key aspect for a company to decide whether the new design is valuable to invest. This would be important for me to apply into continued study.</p>	
+					</div>
+					<div id="uf">
+						<h4>User focus and perspective</h4>
+						<p>Sensing from different perspectives is very important, especially the user’s. When considering the user, I learned to use the tool “a day in life” to analyze users’ experience and find out the design point. When considering the market, I learned to take the business model canvas to think about the ways these stakeholders were incorporated. In this module, our target group was the elderly people. It seemed that the normal way to understand the elderly was to interview them. However, I found that another good way was to imagine that when I was a 70 years old woman, what my life would be like. This kind of way to experience the user could bring the user insights which were easily to be neglected.</p>	
+					</div>
+					<div id="tm">
+						<h4>Teamwork and communication</h4>
+						<p>It was my first time to be engaged in a group of six students here in TU/e, five of which are Dutch.  And at the beginning, it was indeed a challenge for me to integrate into them. After thinking about the different backgrounds of us, I realized that I may should first try to adapt to this kind of teamwork and then put forward the suggestion of task plan. So, I felt more integrated afterwaards.</p>	
+					</div>
+				</div>
+			</div>
+			<div id="linkbackl">
+			</div>
+			<div id="linkback">
+			</div>
+
+
     	</div>
-    </div>
-<footer>
+ <footer>
 	<div id="footerback">
 		<div id="footertext">
 			Qiying Cheng@2013
