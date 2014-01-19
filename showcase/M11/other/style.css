@@ -202,11 +202,10 @@ a:hover
 
 #process
 {
-	width:100%;
-	min-width:720px;
-	height:1010px;
-	background: #fffff8;
-	margin:0px auto 0px auto;
+	height:1230px;
+	background: url('../other/images/back1.png') no-repeat 0 0;
+	background-size:cover;
+	margin:40px auto 0px auto;
 	text-align:center;
 }
 
@@ -234,17 +233,17 @@ a:hover
 	padding-top:40px;
 }
 
-#concept
+#web1
 {
 	width:335px;
-    height:250px;
+    height:290px;
 	margin:10px auto 0px auto;
 	text-align:left;
 	float:left;
 }
 
 
-#concept-text
+#web1-text
 {
 	width:335px;
 	height:300px;
@@ -253,7 +252,7 @@ a:hover
 	float:left;
 }
 
-#concept-text h5
+#web1-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
@@ -263,7 +262,7 @@ a:hover
 }
 
 
-#concept-text p
+#web1-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -272,7 +271,7 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#client
+#web2
 {
 	width:335px;
     height:250px;
@@ -282,7 +281,7 @@ a:hover
 }
 
 
-#client-text
+#web2-text
 {
 	width:335px;
 	height:300px;
@@ -291,45 +290,74 @@ a:hover
 	float:left;
 }
 
-#client-text h5
-{
-	font-family:Ebrima;
-	font-size:20px;
-	font-weight:lighter ;
-	color:#404039;
-	text-align:left;
-}
-
-
-#client-text p
+#web2-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
 	color:#404039;
 	text-align:justify;
-	margin:5px auto 0px auto;
+	margin:35px auto 0px auto;
 }
 
-#vi
+#webpic
+{
+	background:url('../other/images/website.png') no-repeat 0 0;
+	width:720px;
+	height:222px;
+	margin:20px auto 0px auto;
+	float:left;
+}
+
+#webpictext
+{
+	width:720px;
+	height:12px;
+	margin:212px auto 0px auto;
+	float:left;
+}
+
+#webpictext h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	float:left;
+	padding:0px 142px 0px 140px;
+}
+
+#webpictext h6
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;	
+	float:left;
+	margin:0px 139.5px auto 137.5px;
+}
+
+#adapt1
 {
 	width:335px;
-    height:320px;
-	margin:10px auto 0px 0px;
+    height:480px;
+	margin:80px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
 
-#vi-text
+#adapt1-text
 {
 	width:335px;
-	height:260px;
+	height:480px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
-#vi-text h5
+#adapt1-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
@@ -339,7 +367,7 @@ a:hover
 }
 
 
-#vi-text p
+#adapt1-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -348,36 +376,26 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#tur
+#adapt2
 {
 	width:335px;
-    height:300px;
-	margin:10px auto 0px 50px;
+    height:480px;
+	margin:105px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
 
 
-#tur-text
+#adapt2-text
 {
 	width:335px;
-	height:260px;
+	height:410px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
 
-#tur h5
-{
-	font-family:Ebrima;
-	font-size:20px;
-	font-weight:lighter ;
-	color:#404039;
-	text-align:left;
-}
-
-
-#tur-text p
+#adapt2-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -386,67 +404,53 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#processpic
+#process2
+{
+	width:100%;
+	min-width:720px;
+	height:1370px;
+	background: #fffee6;
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+
+#wrapper2
 {
 	width:720px;
-	height:305px;
-	background:url('../db514/images/processpic.png') no-repeat 0 0;
-	margin:10px auto 0px auto;
+	margin:auto;
+    text-align: left;		
+}
+
+#dutch
+{
+	width:335px;
+    height:250px;
+	margin:50px auto 0px auto;
+	text-align:left;
 	float:left;
 }
-#reflectionaback
-{
-	width:100%;
-	min-width:720px;
-	height:700px;
-	background: #e5eb8d;
-	margin:0px auto 0px auto;
-	text-align:center;
-}
 
-#reflectiona
-{
-	width:720px;
-	height:700px;
-	margin:0px auto 0px auto;
-}
 
-#re
+#dutch-text
 {
-	width:720px;
-	height:77px;
-	margin: 0px auto 0px auto;
-}
-
-#reflectiona h5
-{
-	font-family:Ebrima;
-	font-size:26px;
-	font-weight:lighter ;
-	color:#404039;
+	width:335px;
+	height:250px;
+	margin:0px auto 0px 0px;
 	text-align:left;
-	padding-top:40px;
+	float:left;
 }
 
-#dbs
-{
-	width:720px;
-	height:185px;
-	margin:20px auto 0px auto;
-}
-
-#dbs h4
+#dutch-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:10px auto 0px auto;
 }
 
 
-#dbs p
+#dutch-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -455,25 +459,114 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#uf
+#week
 {
-	width:720px;
-	height:185px;
-	margin:20px auto 0px auto;
+	width:335px;
+    height:250px;
+	margin:50px auto 0px 50px;
+	text-align:left;
+	float:left;
 }
 
-#uf h4
+
+#week-text
+{
+	width:335px;
+	height:250px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#week-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:35px auto 0px auto;
+}
+
+#ddpic
+{
+	background:url('../other/images/dutchd.png') no-repeat 0 0;
+	width:720px;
+	height:126px;
+	margin:15px auto 0px auto;
+	float:left;
+}
+
+#ddpictext
+{
+	width:720px;
+	height:12px;
+	margin:130px auto 0px auto;
+	float:left;
+}
+
+#ddpictext h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	float:left;
+	padding:0px 142px 0px 140px;
+}
+
+#ddpictext h6
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;	
+	float:left;
+	margin:0px 67.5px auto 72.5px;
+}
+
+#ddpictext h4
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;	
+	float:left;
+	margin:0px auto auto 90px;
+}
+
+#trip1
+{
+	width:335px;
+    height:200px;
+	margin:80px auto 0px auto;
+	text-align:left;
+	float:left;
+}
+
+
+#trip1-text
+{
+	width:335px;
+	height:200px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#trip1-text h5
 {
 	font-family:Ebrima;
 	font-size:20px;
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:20px auto 0px auto;
 }
 
 
-#uf p
+#trip1-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -482,25 +575,26 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#tm
+#trip2
 {
-	width:720px;
-	height:100px;
-	margin:20px auto 0px auto;
-}
-
-#tm h4
-{
-	font-family:Ebrima;
-	font-size:20px;
-	font-weight:lighter ;
-	color:#404039;
+	width:335px;
+    height:200px;
+	margin:105px auto 0px 50px;
 	text-align:left;
-	margin:10px auto 0px auto;
+	float:left;
 }
 
 
-#tm p
+#trip2-text
+{
+	width:335px;
+	height:200px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#trip2-text p
 {
 	font-family:Ebrima;
 	font-size:16px;
@@ -509,25 +603,114 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#linkbackl
+#trippic
 {
-	width:100%;
-	min-width:720px;
-	height:2px;
-	background: #f2ff1a;
-	margin:0px auto 0px auto;
-	text-align:center;
+	background:url('../other/images/trip.png') no-repeat 0 0;
+	width:720px;
+	height:157px;
+	margin:20px auto 0px auto;
+	float:left;
 }
 
-#linkback
+#trippictext
 {
-	width:100%;
-	min-width:720px;
-	height:100px;
-	background: #e5eb8d;
-	margin:0px auto 0px auto;
-	text-align:center;
+	width:720px;
+	height:12px;
+	margin:163px auto 0px auto;
+	float:left;
 }
+
+#trippictext h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	float:left;
+	padding:0px 142px 0px 320px;
+}
+
+#trippictext h4
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;	
+	float:left;
+	margin:0px auto auto 120px;
+}
+
+#book1
+{
+	width:335px;
+    height:250px;
+	margin:80px auto 0px auto;
+	text-align:left;
+	float:left;
+}
+
+
+#book1-text
+{
+	width:335px;
+	height:250px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#book1-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#book1-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#bookpic
+{
+	width:335px;
+    height:250px;
+    background:url('../other/images/book.png') no-repeat 0 0;
+	margin:120px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+
+#bookpictext
+{
+	width:720px;
+	height:12px;
+	margin:180px auto 0px auto;
+	float:left;
+}
+
+#bookpictext h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	float:left;
+	padding:0px 142px 0px 100px;
+}
+
 
 #footerback
 {
