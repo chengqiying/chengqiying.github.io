@@ -77,8 +77,8 @@ body
 {
 	display: block;
 	height: 30px;
-	width:416px;
-	margin:60px 132px auto 132px;
+	width:680px;
+	margin:60px 0px auto 0px;
 	float:left;
 }
 
@@ -100,6 +100,7 @@ a:hover
 {	
 	float:left;
 	margin-right:35px;
+	margin-left:132px;
 }
 
 #menu h2
@@ -117,6 +118,7 @@ a:hover
 #menu h4
 {
 	float:left;
+	margin-right: 132px;
 }
 	
 .introtext
