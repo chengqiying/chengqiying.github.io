@@ -95,31 +95,37 @@ a:hover
 {
 	color: #725225;
 }
-
-#menu h1
-{	
-	float:left;
-	margin-left:134.5px;
-}
-
-#menu h2
+#v
 {
-	margin-left: 35px;
+	width:75px;
+	height:30px;
+	margin-left:132px;
+	float:left
+}
+
+#go
+{
+	width:68px;
+	height:30px;
+	margin-left:35px;
 	float:left;
 }
 
-#menu h3
+#w
 {
-	margin-left: 35px;
+	width:68px;
+	height:30px;
+	margin-left:35px;
 	float:left;
 }
 
-#menu h4
+#gr
 {
+	width:68px;
+	height:30px;
+	margin-left:35px;
 	float:left;
-	margin-left: 30px;
-	margin-right: 134.5px;
-}
+}	
 	
 .introtext
 {
