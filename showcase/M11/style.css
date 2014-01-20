@@ -100,7 +100,6 @@ a:hover
 {	
 	float:left;
 	margin-left:132px;
-	float:left;
 }
 
 #menu h2
@@ -118,7 +117,7 @@ a:hover
 #menu h4
 {
 	float:left;
-	margin-left: 35px;
+	margin-left: 32.5px;
 	margin-right: 132px;
 }
 	
