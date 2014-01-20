@@ -183,7 +183,7 @@ a:hover
 
 #section1
 {
-	width: 720px;
+	width: 600px;
 	height:295px;
 	margin:-720px auto 0px auto;
     text-align: left;
@@ -194,7 +194,7 @@ a:hover
 	width:191.5px;
 	height:1px;
 	margin-top:18px;
-	margin-left:60px;
+	margin-left:0px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
