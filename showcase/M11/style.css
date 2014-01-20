@@ -99,18 +99,18 @@ a:hover
 #menu h1
 {	
 	float:left;
-	margin-left:139.5px;
+	margin-left:134.5px;
 }
 
 #menu h2
 {
-	margin-left: 30px;
+	margin-left: 35px;
 	float:left;
 }
 
 #menu h3
 {
-	margin-left: 30px;
+	margin-left: 35px;
 	float:left;
 }
 
@@ -118,7 +118,7 @@ a:hover
 {
 	float:left;
 	margin-left: 30px;
-	margin-right: 139.5px;
+	margin-right: 134.5px;
 }
 	
 .introtext
