@@ -211,7 +211,7 @@ a:hover
 
 #where
 {
-	width:157px;
+	width:167px;
 	height:28px;
 	margin:0px auto auto 30px;
 	float:left;
@@ -223,6 +223,7 @@ a:hover
 	font-size:20px;
 	font-weight: lighter ;
 	color:#ffffff;
+	text-align: center;
 }
 
 #line2
@@ -230,7 +231,7 @@ a:hover
 	width:191.5px;
 	height:1px;
 	margin-top:18px;
-	margin-left:30px;
+	margin-left:20px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
@@ -294,7 +295,7 @@ p
 
 #what
 {
-	width:338px;
+	width:348px;
 	height:28px;
 	margin:0px auto auto 30px;
 	float:left;
@@ -306,6 +307,7 @@ p
 	font-size:20px;
 	font-weight: lighter ;
 	color:#ffffff;
+	text-align: center;
 }
 
 #line2-1
@@ -313,7 +315,7 @@ p
 	width:101px;
 	height:1px;
 	margin-top:18px;
-	margin-left:30px;
+	margin-left:20px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
