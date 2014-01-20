@@ -76,7 +76,7 @@ body
 #menu
 {
 	display: block;
-	height: 30px;
+	height: 39px;
 	width:680px;
 	margin:60px 0px auto 0px;
 	float:left;
@@ -95,37 +95,31 @@ a:hover
 {
 	color: #725225;
 }
-#v
-{
-	width:75px;
-	height:30px;
-	margin-left:132px;
-	float:left
+
+#menu h1
+{	
+	float:left;
+	
 }
 
-#go
+#menu h2
 {
-	width:68px;
-	height:30px;
-	margin-left:35px;
+	margin-left: 35px;
 	float:left;
 }
 
-#w
+#menu h3
 {
-	width:68px;
-	height:30px;
-	margin-left:35px;
+	margin-left: 35px;
 	float:left;
 }
 
-#gr
+#menu h4
 {
-	width:68px;
-	height:30px;
-	margin-left:35px;
 	float:left;
-}	
+	margin-left: 30px;
+	margin-right: 134.5px;
+}
 	
 .introtext
 {
