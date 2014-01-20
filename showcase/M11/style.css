@@ -77,8 +77,8 @@ body
 {
 	display: block;
 	height: 30px;
-	width:431px;
-	margin:60px 159.5px auto 159.5px;
+	width:416px;
+	margin:60px 132px auto 132px;
 	float:left;
 }
 
@@ -99,18 +99,18 @@ a:hover
 #menu h1
 {	
 	float:left;
-	margin-right:30px;
+	margin-right:35px;
 }
 
 #menu h2
 {
-	margin-right: 30px;
+	margin-right: 35px;
 	float:left;
 }
 
 #menu h3
 {
-	margin-right: 30px;
+	margin-right: 35px;
 	float:left;
 }
 
@@ -121,8 +121,8 @@ a:hover
 	
 .introtext
 {
-	margin:50px auto;
-	width: 720px;
+	margin:50px 0px 0px 0px;
+	width: 680px;
 
 }
 
@@ -133,4 +133,5 @@ a:hover
 	font-family:Ebrima;
 	font-size: 16px;
 	text-align: center;
+	margin-left:0px;
 }
