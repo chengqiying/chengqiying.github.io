@@ -112,7 +112,7 @@ body
 	text-align:center;
 }
 
-.menu
+#menu
 {
 	display: block;
 	height: 30px;
@@ -120,7 +120,7 @@ body
 	margin:110px auto 0px auto;
 }
 
-.menu a
+#menu a
 {
 	color:rgb(31,178,170);
 	text-decoration:none;
@@ -134,19 +134,19 @@ a:hover
 	color: #725225;
 }
 
-.menu h1
+#menu h1
 {	
 	float:left;
 	margin-right:40px;
 }
 
-.menu h2
+#menu h2
 {
 	margin-right: 40px;
 	float:left;
 }
 
-.menu h3
+#menu h3
 {
 	font-family:'Ebrima', serif;
 	font-size:28px;
@@ -156,7 +156,7 @@ a:hover
 	float:left;
 }
 
-.menu h4
+#menu h4
 {
 	float:left;
 }
