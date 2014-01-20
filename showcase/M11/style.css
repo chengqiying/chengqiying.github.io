@@ -99,25 +99,25 @@ a:hover
 #menu h1
 {	
 	float:left;
-	margin-right:35px;
 	margin-left:132px;
 }
 
 #menu h2
 {
-	margin-right: 35px;
+	margin-left: 35px;
 	float:left;
 }
 
 #menu h3
 {
-	margin-right: 35px;
+	margin-left: 35px;
 	float:left;
 }
 
 #menu h4
 {
 	float:left;
+	margin-left: 35px;
 	margin-right: 132px;
 }
 	
