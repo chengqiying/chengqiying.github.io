@@ -189,6 +189,14 @@ a:hover
     text-align: left;
 }
 
+#tit1
+{
+	width:600px;
+	height:28px;
+	margin:0px auto;
+	float:left;
+}
+
 #line1
 {
 	width:191.5px;
@@ -232,7 +240,7 @@ a:hover
 #text-1
 {
 	width: 600px;
-	margin:20px auto auto 60px;
+	margin:20px auto auto 0px;
     float: left;
 }
 
@@ -250,7 +258,7 @@ p
 	width:600px;
 	height:1px;
 	margin-top:30px;
-	margin-left:60px;
+	margin-left:0px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
@@ -262,6 +270,14 @@ p
 	width: 600px;
 	margin:100px auto 0px auto;
     text-align: left;
+}
+
+#tit2
+{
+	width:600px;
+	height:28px;
+	margin:0px auto;
+	float:left;
 }
 
 #line1-1
