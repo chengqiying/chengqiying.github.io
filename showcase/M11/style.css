@@ -8,11 +8,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 @font-face {
     font-family: 'Ebrima';
-    src: url('../font/Ebrima.eot');
-    src: url('../font/Ebrima.eot?#iefix') format('embedded-opentype'),
-	 url('../font/Ebrima.woff') format('woff'),
-	 url('../font/Ebrima.ttf') format('truetype'),
-	 url('../font/Ebrima.svg#Ebrima') format('svg');
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot');
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot?#iefix') format('embedded-opentype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.woff') format('woff'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.ttf') format('truetype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.svg#Ebrima') format('svg');
     font-weight: normal;
     font-style: normal;
 }
