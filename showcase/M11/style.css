@@ -78,7 +78,8 @@ body
 	display: block;
 	height: 30px;
 	width:431px;
-	margin:60px auto auto auto;
+	margin:60px 144.5px auto 144.5px;
+	float:left;
 }
 
 #menu a
