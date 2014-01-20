@@ -77,7 +77,7 @@ body
 {
 	display: block;
 	height: 30px;
-	width:447px;
+	width:431px;
 	margin:60px auto auto auto;
 }
 
@@ -85,8 +85,9 @@ body
 {
 	color:rgb(31,178,170);
 	text-decoration:none;
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:lighter;
 }
 
 a:hover

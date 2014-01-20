@@ -6,6 +6,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+@font-face {
+    font-family: 'Ebrima';
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot');
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot?#iefix') format('embedded-opentype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.woff') format('woff'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.ttf') format('truetype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.svg#Ebrima') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 2em;
@@ -115,8 +126,9 @@ body
 {
 	color:rgb(31,178,170);
 	text-decoration:none;
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight: lighter ;
 }
 
 a:hover
@@ -138,8 +150,9 @@ a:hover
 
 .menu h3
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight: lighter ;
 	color:#725225;
 
 	margin-right: 40px;
