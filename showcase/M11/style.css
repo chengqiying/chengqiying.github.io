@@ -96,30 +96,38 @@ a:hover
 	color: #725225;
 }
 
-#menu h1
-{	
-	float:left;
+#v
+{
+	width:75px;
+	height:39px;
 	margin-left:132px;
-}
-
-#menu h2
-{
-	margin-left: 35px;
 	float:left;
 }
 
-#menu h3
+#go
 {
-	margin-left: 35px;
+	width:68px;
+	height:39px;
+	margin-left:35px;
 	float:left;
 }
 
-#menu h4
+#w
 {
+	width:78px;
+	height:39px;
+	margin-left:35px;
 	float:left;
-	margin-left: 35px;
-	margin-right: 132px;
 }
+
+#gr
+{
+	width:90px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
 	
 .introtext
 {
