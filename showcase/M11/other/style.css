@@ -44,7 +44,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(77,197,173);
+	border-top: 20px solid rgb(31,178,170);
 	background: url('../images/back.png') left top;
 }
 
@@ -54,9 +54,10 @@ body
 {
 	display:block;
 }
-.wrapper
+
+#wrapper
 {
-	width: 720px;
+	width:680px;
 	margin:auto;
     text-align: left;		
 }
@@ -116,7 +117,7 @@ body
 {
 	display: block;
 	height: 30px;
-	width:431px;
+	width:680px;
 	margin:110px auto 0px auto;
 }
 
@@ -126,7 +127,7 @@ body
 	text-decoration:none;
 	font-family:'Ebrima', serif;
 	font-size:28px;
-	font-weight:  lighter ;
+	font-weight: lighter ;
 }
 
 a:hover
@@ -134,50 +135,77 @@ a:hover
 	color: #725225;
 }
 
-#menu h1
+#v
+{
+	width:75px;
+	height:39px;
+	margin-left:132px;
+	float:left;
+}
+
+#go
+{
+	width:68px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#w
+{
+	width:78px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#w h3
 {	
-	float:left;
-	margin-right:40px;
-}
-
-#menu h2
-{
-	margin-right: 40px;
-	float:left;
-}
-
-#menu h3
-{
 	font-family:'Ebrima', serif;
 	font-size:28px;
-	font-weight:  lighter ;
+	font-weight: lighter ;
 	color:#725225;
-	margin-right: 40px;
+}
+
+#gr
+{
+	width:90px;
+	height:39px;
+	margin-left:35px;
 	float:left;
 }
 
-#menu h4
+#wrapper
 {
-	float:left;
+	width: 680px;
+	margin:auto;
+    text-align: left;
+}
+
+#wmback
+{
+	height:200px;
+	background:#f6f7ed;
+	background-size:cover;
+	margin:120px auto 0px auto;
 }
 
 #worksmenu
 {
 	display: block;
-	height: 170px;
-	width:549px;
-	margin:50px auto 0px auto;
+	height: 200px;
+	width:544px;
+	margin:20px auto 0px auto;
 	text-align:left;
 }
 
 #project
 {
-	width:85px;
-	height:133px;
+	width:82px;
+	height:136px;
 	background:url('../works/images/project1.png') no-repeat 0 0;
 	float:left;
 	margin-top:30px;
-
 }
 
 #project:hover
@@ -187,8 +215,8 @@ a:hover
 
 #modules
 {
-	width:103px;
-	height:128px;
+	width:101px;
+	height:136px;
 	background:url('../works/images/modules1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
@@ -203,8 +231,8 @@ a:hover
 
 #other
 {
-	width:80px;
-	height:128px;
+	width:81px;
+	height:136px;
 	background:url('../works/images/other.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
@@ -214,10 +242,10 @@ a:hover
 
 #process
 {
-	height:1230px;
+	height:1250px;
 	background: url('../other/images/back1.png') no-repeat 0 0;
 	background-size:cover;
-	margin:40px auto 0px auto;
+	margin:0px auto 0px auto;
 	text-align:center;
 }
 
@@ -248,7 +276,7 @@ a:hover
 #web1
 {
 	width:335px;
-    height:290px;
+    height:300px;
 	margin:10px auto 0px auto;
 	text-align:left;
 	float:left;
@@ -323,31 +351,43 @@ a:hover
 #webpictext
 {
 	width:720px;
-	height:12px;
-	margin:212px auto 0px auto;
+	height:14px;
+	margin:0px auto 0px auto;
 	float:left;
 }
 
-#webpictext h5
+#webpt1
+{
+	width:360px;
+	height:14px;
+	margin:0x 0px 0px 0px;
+	float:left;
+}
+
+#webpt1 h5
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;
-	float:left;
-	padding:0px 142px 0px 140px;
+	text-align:center;
 }
 
-#webpictext h6
+#webpt2
+{
+	width:360px;
+	height:14px;
+	margin:0x 0px 0px 0px;
+	float:left;
+}
+
+#webpt2 h6
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;	
-	float:left;
-	margin:0px 139.5px auto 137.5px;
+	text-align:center;	
 }
 
 #adapt1
@@ -420,7 +460,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:1370px;
+	height:1390px;
 	background: #fffee6;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -436,7 +476,7 @@ a:hover
 #dutch
 {
 	width:335px;
-    height:250px;
+    height:260px;
 	margin:50px auto 0px auto;
 	text-align:left;
 	float:left;
@@ -446,7 +486,7 @@ a:hover
 #dutch-text
 {
 	width:335px;
-	height:250px;
+	height:260px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -474,7 +514,7 @@ a:hover
 #week
 {
 	width:335px;
-    height:250px;
+    height:260px;
 	margin:50px auto 0px 50px;
 	text-align:left;
 	float:left;
@@ -484,7 +524,7 @@ a:hover
 #week-text
 {
 	width:335px;
-	height:250px;
+	height:260px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -504,7 +544,7 @@ a:hover
 	background:url('../other/images/dutchd.png') no-repeat 0 0;
 	width:720px;
 	height:126px;
-	margin:15px auto 0px auto;
+	margin:20px auto 0px auto;
 	float:left;
 }
 
@@ -516,43 +556,61 @@ a:hover
 	float:left;
 }
 
-#ddpictext h5
+#ddpt1
 {
-	font-family:Ebrima;
-	font-size:10px;
-	font-weight:lighter ;
-	color:#404039;
-	text-align:left;
+	width:360px;
+	height:14px;
+	margin:0px 0px 0px 0px;
 	float:left;
-	padding:0px 142px 0px 140px;
 }
 
-#ddpictext h6
+#ddpt1 h5
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;	
-	float:left;
-	margin:0px 67.5px auto 72.5px;
+	text-align:center;
 }
 
-#ddpictext h4
+#ddpt2
+{
+	width:180px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#ddpt2 h6
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;	
+	text-align:center;	
+}
+
+#ddpt3
+{
+	width:180px;
+	height:14px;
+	margin:0px 0px 0px 0px;
 	float:left;
-	margin:0px auto auto 90px;
+}
+
+#ddpt3 h4
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;	
 }
 
 #trip1
 {
 	width:335px;
-    height:200px;
+    height:235px;
 	margin:80px auto 0px auto;
 	text-align:left;
 	float:left;
@@ -562,7 +620,7 @@ a:hover
 #trip1-text
 {
 	width:335px;
-	height:200px;
+	height:235px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -590,7 +648,7 @@ a:hover
 #trip2
 {
 	width:335px;
-    height:200px;
+    height:210px;
 	margin:105px auto 0px 50px;
 	text-align:left;
 	float:left;
@@ -600,7 +658,7 @@ a:hover
 #trip2-text
 {
 	width:335px;
-	height:200px;
+	height:210px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -632,26 +690,38 @@ a:hover
 	float:left;
 }
 
-#trippictext h5
+#tpt1
+{
+	width:46px;
+	height:14px;
+	margin:0px 0px 0px 320px;
+	float:left;
+}
+
+#tpt1 h5
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;
-	float:left;
-	padding:0px 142px 0px 320px;
+	text-align:center;
 }
 
-#trippictext h4
+#tpt2
+{
+	width:69px;
+	height:14px;
+	margin:0px 0px 0px 262px;
+	float:left;
+}
+
+#tpt2 h4
 {
 	font-family:Ebrima;
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;	
-	float:left;
-	margin:0px auto auto 120px;
 }
 
 #book1
@@ -706,9 +776,17 @@ a:hover
 
 #bookpictext
 {
-	width:720px;
+	width:335px;
 	height:12px;
 	margin:180px auto 0px auto;
+	float:left;
+}
+
+#bookpt
+{
+	width:142px;
+	height:14px;
+	margin:0px 96.5px 0px 96.5px;
 	float:left;
 }
 
@@ -719,8 +797,6 @@ a:hover
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	float:left;
-	padding:0px 142px 0px 100px;
 }
 
 

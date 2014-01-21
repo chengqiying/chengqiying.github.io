@@ -118,7 +118,7 @@ body
 {
 	display: block;
 	height: 30px;
-	width:431px;
+	width:680px;
 	margin:110px auto 0px auto;
 }
 
@@ -136,71 +136,100 @@ a:hover
 	color: #725225;
 }
 
-#menu h1
+#v
+{
+	width:75px;
+	height:39px;
+	margin-left:132px;
+	float:left;
+}
+
+#go
+{
+	width:68px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#w
+{
+	width:78px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#w h3
 {	
-	float:left;
-	margin-right:40px;
-}
-
-#menu h2
-{
-	margin-right: 40px;
-	float:left;
-}
-
-#menu h3
-{
 	font-family:'Ebrima', serif;
 	font-size:28px;
-	font-weight:  lighter ;
+	font-weight: lighter ;
 	color:#725225;
-	margin-right: 40px;
+}
+
+#gr
+{
+	width:90px;
+	height:39px;
+	margin-left:35px;
 	float:left;
 }
 
-#menu h4
+#wrapper
 {
-	float:left;
+	width: 680px;
+	margin:auto;
+    text-align: left;
+}
+
+#wmback
+{
+	height:350px;
+	background:#f6f7ed;
+	background-size:cover;
+	margin:120px auto 0px auto;
 }
 
 #worksmenu
 {
 	display: block;
-	height: 170px;
-	width:549px;
-	margin:50px auto 0px auto;
+	height: 200px;
+	width:544px;
+	margin:20px auto 0px auto;
 	text-align:left;
 }
 
 #project
 {
-	width:85px;
-	height:133px;
-	background:url('../images/project1.png') no-repeat 0 0;
+	width:82px;
+	height:136px;
+	background:url('../images/project.png') no-repeat 0 0;
 	float:left;
 	margin-top:30px;
-}
 
-#project:hover
-{
-	background:url('../images/project.png') no-repeat 0 0;
 }
 
 #modules
 {
-	width:103px;
-	height:128px;
-	background:url('../images/modules.png') no-repeat 0 0;
+	width:101px;
+	height:136px;
+	background:url('../images/modules1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
 	margin-top:30px;
 
 }
 
+#modules:hover
+{
+	background:url('../images/modules.png') no-repeat 0 0;
+}
+
 #other
 {
-	width:80px;
-	height:128px;
+	width:81px;
+	height:136px;
 	background:url('../images/other1.png') no-repeat 0 0;
 	float:left;
 	margin-left:140px;
@@ -242,7 +271,7 @@ a:hover
 {
 	width:64px;
 	height:2px;
-	margin-top:15px;
+	margin-top:0px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#eb9d14;
@@ -279,7 +308,7 @@ a:hover
 	font-size:18px;
 	font-weight: lighter ;
 	color:#404039;
-	margin:8px auto 0px 3px;
+	margin:8px auto 0px auto;
 	text-align:center;
 }
 
@@ -288,7 +317,7 @@ a:hover
 {
 	width:268px;
 	height:2px;
-	margin-top:15px;
+	margin-top:0px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#d7d65d;
@@ -320,7 +349,7 @@ a:hover
 	font-size:18px;
 	font-weight: lighter ;
 	color:#aaaaaa;
-	margin:8px auto 0px 3px;
+	margin:8px auto 0px auto;
 	text-align:center;
 }
 
@@ -328,7 +357,7 @@ a:hover
 {
 	width:239px;
 	height:2px;
-	margin-top:15px;
+	margin-top:0px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#89c148;
@@ -355,16 +384,16 @@ a:hover
 
 #actiback
 {
-	height:710px;
+	height:720px;
 	background:url('../db514/images/back1.png') no-repeat 0 0;
 	background-size:cover;
-	margin:30px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 
 #textpart
 {
 	width:720px;
-    min-height:760px;
+    min-height:770px;
 	margin:0px auto;
 	text-align:left;
 }
@@ -373,7 +402,7 @@ a:hover
 {
 	width:340px;
     min-height:200px;
-	margin:30px auto 0px 0px;
+	margin:40px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
@@ -401,7 +430,7 @@ a:hover
 {
 	width:340px;
     min-height:200px;
-	margin:65px auto 0px 40px;
+	margin:75px auto 0px 40px;
 	text-align:left;
 	float:left;
 }
@@ -427,7 +456,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:1010px;
+	height:1050px;
 	background: #fffff8;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -537,7 +566,7 @@ a:hover
 {
 	width:335px;
     height:320px;
-	margin:10px auto 0px 0px;
+	margin:30px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
@@ -546,7 +575,7 @@ a:hover
 #vi-text
 {
 	width:335px;
-	height:260px;
+	height:320px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -575,7 +604,7 @@ a:hover
 {
 	width:335px;
     height:300px;
-	margin:10px auto 0px 50px;
+	margin:30px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
@@ -584,7 +613,7 @@ a:hover
 #tur-text
 {
 	width:335px;
-	height:260px;
+	height:300px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -614,7 +643,7 @@ a:hover
 	width:720px;
 	height:305px;
 	background:url('../db514/images/processpic.png') no-repeat 0 0;
-	margin:10px auto 0px auto;
+	margin:20px auto 0px auto;
 	float:left;
 }
 #reflectionaback
