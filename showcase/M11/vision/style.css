@@ -185,32 +185,19 @@ a:hover
 	height:140px;
 	margin-top:150px;
 }
-	
-#wrapper1
-{
-	width:600px;
-	margin:auto;	
-}
-
-#section1
-{
-	width: 600px;
-	height:280px;
-	margin-top:-90px;
-}
 
 #titv
 {
 	width:600px;
-	height:30px;
-	margin:0px auto;
+	height:85px;
+	margin:0px auto 0px auto;
 }
 
 #line1
 {
 	width:220px;
 	height:1px;
-	margin-top:18px;
+	margin-top:73px;
 	background-color:#e4dc9a;
 	overflow:hidden;
 	float:left;
@@ -221,6 +208,7 @@ a:hover
 	width:100px;
 	height:30px;
 	margin-left:30px;
+	margin-top: 55px;
 	float:left;	
 }
 
@@ -232,12 +220,11 @@ a:hover
 	color:#ffffff;
 	text-align:center;
 }
-
 #line2
 {
 	width:220px;
 	height:1px;
-	margin-top:18px;
+	margin-top:73px;
 	margin-left:30px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -245,10 +232,25 @@ a:hover
 	float:left;
 }
 
-.text
+#visionback
+{
+	height:350px;
+	background:#fafbf0;
+	background-size:cover;
+	margin-top:0px;
+}
+
+	
+#wrapper1
+{
+	width:600px;
+	margin:auto;	
+}
+
+#vtext
 {
 	width: 600px;
-	margin:105px auto auto 0px;
+	margin:40px auto auto 0px;
     float: left;
 }
 
@@ -267,7 +269,15 @@ p
 	background: url('../vision/images/bar2.jpg') no-repeat 0 0;
 	background-size:cover;
 	height:140px;
-	margin-top:170px;
+	margin-top:0px;
+}
+
+#identityback
+{
+	height:340px;
+	background:#fafbf0;
+	background-size:cover;
+	margin-top:0px;
 }
 
 #wrapper2
@@ -276,18 +286,17 @@ p
 	margin:auto;	
 }
 
-#section2
+#itext
 {
 	width: 600px;
-	height:330px;
-	margin:-90px auto;
-    text-align: left;
+	margin:40px auto auto 0px;
+    float: left;
 }
 
 #titi
 {
 	width:600px;
-	height:30px;
+	height:85px;
 	margin:0px auto;
 }
 
@@ -295,7 +304,7 @@ p
 {
 	width:215px;
 	height:1px;
-	margin-top:23px;
+	margin-top:78px;
 	margin-left:0px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -307,7 +316,8 @@ p
 {
 	width:120px;
 	height:30px;
-	margin-left:30px;	
+	margin-left:30px;
+	margin-top:55px;	
 	float:left;
 }
 
@@ -324,7 +334,7 @@ p
 {
 	width:215px;
 	height:1px;
-	margin-top:23px;
+	margin-top:78px;
 	margin-left:20px;
 	padding:0px;
 	background-color:#e4dc9a;
@@ -337,7 +347,7 @@ p
 	min-width:720px;
 	background-color:#423826;
 	height:80px;
-	margin-top:200px;
+	margin-top:0px;
 }
 
 #footertext
