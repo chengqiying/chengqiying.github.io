@@ -305,7 +305,7 @@ p
 
 #identity
 {
-	width:110px;
+	width:120px;
 	height:30px;
 	margin-left:30px;	
 	float:left;
@@ -325,7 +325,7 @@ p
 	width:215px;
 	height:1px;
 	margin-top:23px;
-	margin-left:30px;
+	margin-left:20px;
 	padding:0px;
 	background-color:#e4dc9a;
 	overflow:hidden;
