@@ -6,6 +6,42 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
    border: 0;
 }
 
+@font-face {
+    font-family: 'Ebrima';
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot');
+    src: url('http://chengqiying.com/showcase/M11/font/Ebrima.eot?#iefix') format('embedded-opentype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.woff') format('woff'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.ttf') format('truetype'),
+	 url('http://chengqiying.com/showcase/M11/font/Ebrima.svg#Ebrima') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: Ebrima;
+    width:60px;
+    height:47px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+	/*padding: 1em;*/
+	text-align: center;
+	padding-top: 13px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: #bbdfd4;
+    color:#ffffff;
+}
+
 body
 {
 	border-top: 20px solid rgb(31,178,170);
@@ -21,7 +57,7 @@ body
 
 #wrapper
 {
-	width: 980px;
+	width:680px;
 	margin:auto;
     text-align: left;		
 }
@@ -31,7 +67,7 @@ body
 	background: url('../images/logo.png') no-repeat 0 0;
 	height: 73px;
 	width: 132px;
-	margin:140px auto 0 auto;
+	margin:170px auto 0 auto;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform:scale(1);
@@ -51,30 +87,47 @@ body
 	transform: scale(0.8);
 }
 
-
-
 #name
 {
-	background: url('../images/name.png') no-repeat 0 0;
-	height: 47px;
-	width: 206px;
-	margin:30px auto;
+	height: 60px;
+	width: 300px;
+	margin:12px auto;
 }
 
-.menu
+#name h1
+{
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight:  lighter ;
+	color:#000000;
+	text-align:center;
+}
+
+#name h2
+{
+	font-family:'Ebrima', serif;
+	font-size:16px;
+	font-weight:  lighter ;
+	color:#7e7e7e;
+	margin-top:2px;
+	text-align:center;
+}
+
+#menu
 {
 	display: block;
 	height: 30px;
-	width:447px;
-	margin:40px auto;
+	width:680px;
+	margin:110px auto 0px auto;
 }
 
-.menu a
+#menu a
 {
 	color:rgb(31,178,170);
 	text-decoration:none;
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight: lighter ;
 }
 
 a:hover
@@ -82,92 +135,605 @@ a:hover
 	color: #725225;
 }
 
-.menu h1
+#v
+{
+	width:75px;
+	height:39px;
+	margin-left:132px;
+	float:left;
+}
+
+#go
+{
+	width:68px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#w
+{
+	width:78px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#gr
+{
+	width:90px;
+	height:39px;
+	margin-left:35px;
+	float:left;
+}
+
+#gr h4
 {	
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
+	font-family:'Ebrima', serif;
+	font-size:28px;
+	font-weight: lighter ;
 	color:#725225;
-	float:left;
-	margin-right:40px;
 }
 
-.menu h2
+#process
 {
-	margin-right: 40px;
-	float:left;
+	height:1250px;
+	background: url('../other/images/back1.png') no-repeat 0 0;
+	background-size:cover;
+	margin:140px auto 0px auto;
+	text-align:center;
 }
 
-.menu h3
+#wrapper1
 {
-	margin-right: 40px;
-	float:left;
-}
-
-.menu h4
-{
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:36px;
-	color:#725225;
-	float:left;
-}
-
-#section
-{
-	width: 720px;
-	margin:70px auto 0px auto;
-    text-align: left;
-}	
-
-#section1
-{
-	width: 720px;
-	height:150px;
+	width:720px;
 	margin:auto;
-    text-align: left;
+    text-align: left;		
 }
 
-#visiontitle
+#activities
 {
-	width: 720px;
-	height:21px;
-	margin:auto;
-    float: left;
-
+	width:720px;
+	height:80px;
+	margin:0px auto;
 }
 
-#line1
+#activities h4
 {
-	width:266px;
-	height:1px;
-	margin-top:13px;
-	margin-left:0px;
-	padding:0px;
-	background-color:#e4dc9a;
-	overflow:hidden;
-	float:left;
+	font-family:Ebrima;
+	font-size:26px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+	padding-top:40px;
 }
 
-h5
+#web1
 {
-	font-family:'Microsoft Yi Baiti', serif;
-	font-size:20px;
-	color:#13120b;
-	margin:0px auto auto 30px;
+	width:335px;
+    height:300px;
+	margin:10px auto 0px auto;
 	text-align:left;
 	float:left;
 }
 
-#line2
+
+#web1-text
 {
-	width:266px;
-	height:1px;
-	margin-top:13px;
-	margin-left:30px;
-	padding:0px;
-	background-color:#e4dc9a;
-	overflow:hidden;
+	width:335px;
+	height:300px;
+	margin:0px auto 0px 0px;
+	text-align:left;
 	float:left;
 }
+
+#web1-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#web1-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#web2
+{
+	width:335px;
+    height:250px;
+	margin:10px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#web2-text
+{
+	width:335px;
+	height:300px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#web2-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:35px auto 0px auto;
+}
+
+#webpic
+{
+	background:url('../other/images/website.png') no-repeat 0 0;
+	width:720px;
+	height:222px;
+	margin:20px auto 0px auto;
+	float:left;
+}
+
+#webpictext
+{
+	width:720px;
+	height:14px;
+	margin:0px auto 0px auto;
+	float:left;
+}
+
+#webpt1
+{
+	width:360px;
+	height:14px;
+	margin:0x 0px 0px 0px;
+	float:left;
+}
+
+#webpt1 h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;
+}
+
+#webpt2
+{
+	width:360px;
+	height:14px;
+	margin:0x 0px 0px 0px;
+	float:left;
+}
+
+#webpt2 h6
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;	
+}
+
+#adapt1
+{
+	width:335px;
+    height:480px;
+	margin:80px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+
+#adapt1-text
+{
+	width:335px;
+	height:480px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#adapt1-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#adapt1-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#adapt2
+{
+	width:335px;
+    height:480px;
+	margin:105px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#adapt2-text
+{
+	width:335px;
+	height:410px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#adapt2-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#process2
+{
+	width:100%;
+	min-width:720px;
+	height:1390px;
+	background: #fffee6;
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+
+#wrapper2
+{
+	width:720px;
+	margin:auto;
+    text-align: left;		
+}
+
+#dutch
+{
+	width:335px;
+    height:260px;
+	margin:50px auto 0px auto;
+	text-align:left;
+	float:left;
+}
+
+
+#dutch-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#dutch-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#dutch-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#week
+{
+	width:335px;
+    height:260px;
+	margin:50px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#week-text
+{
+	width:335px;
+	height:260px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#week-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:35px auto 0px auto;
+}
+
+#ddpic
+{
+	background:url('../other/images/dutchd.png') no-repeat 0 0;
+	width:720px;
+	height:126px;
+	margin:20px auto 0px auto;
+	float:left;
+}
+
+#ddpictext
+{
+	width:720px;
+	height:12px;
+	margin:130px auto 0px auto;
+	float:left;
+}
+
+#ddpt1
+{
+	width:360px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#ddpt1 h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;
+}
+
+#ddpt2
+{
+	width:180px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#ddpt2 h6
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;	
+}
+
+#ddpt3
+{
+	width:180px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#ddpt3 h4
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;	
+}
+
+#trip1
+{
+	width:335px;
+    height:235px;
+	margin:80px auto 0px auto;
+	text-align:left;
+	float:left;
+}
+
+
+#trip1-text
+{
+	width:335px;
+	height:235px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#trip1-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#trip1-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#trip2
+{
+	width:335px;
+    height:210px;
+	margin:105px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+#trip2-text
+{
+	width:335px;
+	height:210px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#trip2-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#trippic
+{
+	background:url('../other/images/trip.png') no-repeat 0 0;
+	width:720px;
+	height:157px;
+	margin:20px auto 0px auto;
+	float:left;
+}
+
+#trippictext
+{
+	width:720px;
+	height:12px;
+	margin:163px auto 0px auto;
+	float:left;
+}
+
+#tpt1
+{
+	width:610px;
+	height:14px;
+	margin:0px auto 0px 0px;
+	float:left;
+}
+
+#tpt1 h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;
+}
+
+#tpt2
+{
+	width:110px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#tpt2 h4
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;	
+}
+
+#book1
+{
+	width:335px;
+    height:250px;
+	margin:80px auto 0px auto;
+	text-align:left;
+	float:left;
+}
+
+
+#book1-text
+{
+	width:335px;
+	height:250px;
+	margin:0px auto 0px 0px;
+	text-align:left;
+	float:left;
+}
+
+#book1-text h5
+{
+	font-family:Ebrima;
+	font-size:20px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:left;
+}
+
+
+#book1-text p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#404039;
+	text-align:justify;
+	margin:5px auto 0px auto;
+}
+
+#bookpic
+{
+	width:335px;
+    height:250px;
+    background:url('../other/images/book.png') no-repeat 0 0;
+	margin:120px auto 0px 50px;
+	text-align:left;
+	float:left;
+}
+
+
+
+#bookpictext
+{
+	width:335px;
+	height:12px;
+	margin:180px auto 0px auto;
+	float:left;
+}
+
+#bookpt
+{
+	width:335px;
+	height:14px;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#bookpictext h5
+{
+	font-family:Ebrima;
+	font-size:10px;
+	font-weight:lighter ;
+	color:#404039;
+	text-align:center;
+}
+
 
 #footerback
 {

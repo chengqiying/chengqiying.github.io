@@ -692,9 +692,9 @@ a:hover
 
 #tpt1
 {
-	width:46px;
+	width:610px;
 	height:14px;
-	margin:0px 0px 0px 320px;
+	margin:0px auto 0px 0px;
 	float:left;
 }
 
@@ -709,9 +709,9 @@ a:hover
 
 #tpt2
 {
-	width:69px;
+	width:110px;
 	height:14px;
-	margin:0px 0px 0px 262px;
+	margin:0px 0px 0px 0px;
 	float:left;
 }
 
@@ -721,7 +721,7 @@ a:hover
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;	
+	text-align:center;	
 }
 
 #book1
@@ -784,9 +784,9 @@ a:hover
 
 #bookpt
 {
-	width:142px;
+	width:335px;
 	height:14px;
-	margin:0px 96.5px 0px 96.5px;
+	margin:0px 0px 0px 0px;
 	float:left;
 }
 
@@ -796,7 +796,7 @@ a:hover
 	font-size:10px;
 	font-weight:lighter ;
 	color:#404039;
-	text-align:left;
+	text-align:center;
 }
 
 
