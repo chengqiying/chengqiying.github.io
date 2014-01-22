@@ -386,7 +386,7 @@ a:hover
 
 #consback
 {
-	height:740px;
+	height:745px;
 	background:url('../dbb10/images/back2.png') no-repeat 0 0;
 	background-size:cover;
 	margin:0px auto 0px auto;	
@@ -459,7 +459,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:910px;
+	height:960px;
 	background: #fffff8;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -494,8 +494,8 @@ a:hover
 #concept
 {
 	width:335px;
-    height:310px;
-	margin:10px auto;
+    height:320px;
+	margin:30px auto;
 	text-align:left;
 	float:left;
 }
@@ -504,7 +504,7 @@ a:hover
 #concept-text
 {
 	width:335px;
-	height:310px;
+	height:320px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -532,8 +532,8 @@ a:hover
 #rex
 {
 	width:335px;
-    height:310px;
-	margin:10px auto 0px 50px;
+    height:320px;
+	margin:30px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
@@ -542,7 +542,7 @@ a:hover
 #rex-text
 {
 	width:335px;
-	height:310px;
+	height:320px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -570,7 +570,7 @@ a:hover
 #am
 {
 	width:335px;
-    height:435px;
+    height:455px;
 	margin:30px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -580,7 +580,7 @@ a:hover
 #am-text
 {
 	width:335px;
-	height:435px;
+	height:455px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;

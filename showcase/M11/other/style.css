@@ -44,7 +44,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(31,178,170);
+	border-top: 20px solid rgb(77,197,173);
 	background: url('../images/back.png') left top;
 }
 
@@ -344,7 +344,7 @@ a:hover
 	background:url('../other/images/website.png') no-repeat 0 0;
 	width:720px;
 	height:222px;
-	margin:20px auto 0px auto;
+	margin:25px auto 0px auto;
 	float:left;
 }
 
@@ -394,7 +394,7 @@ a:hover
 {
 	width:335px;
     height:480px;
-	margin:80px auto 0px 0px;
+	margin:60px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
@@ -432,7 +432,7 @@ a:hover
 {
 	width:335px;
     height:480px;
-	margin:105px auto 0px 50px;
+	margin:85px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
@@ -460,7 +460,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:1390px;
+	height:1540px;
 	background: #fffee6;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -544,7 +544,7 @@ a:hover
 	background:url('../other/images/dutchd.png') no-repeat 0 0;
 	width:720px;
 	height:126px;
-	margin:20px auto 0px auto;
+	margin:25px auto 0px auto;
 	float:left;
 }
 
@@ -678,7 +678,7 @@ a:hover
 	background:url('../other/images/trip.png') no-repeat 0 0;
 	width:720px;
 	height:157px;
-	margin:20px auto 0px auto;
+	margin:25px auto 0px auto;
 	float:left;
 }
 
@@ -727,7 +727,7 @@ a:hover
 #book1
 {
 	width:335px;
-    height:250px;
+    height:383px;
 	margin:80px auto 0px auto;
 	text-align:left;
 	float:left;
@@ -737,7 +737,7 @@ a:hover
 #book1-text
 {
 	width:335px;
-	height:250px;
+	height:383px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -765,7 +765,7 @@ a:hover
 #bookpic
 {
 	width:335px;
-    height:250px;
+    height:383px;
     background:url('../other/images/book.png') no-repeat 0 0;
 	margin:120px auto 0px 50px;
 	text-align:left;
@@ -778,7 +778,7 @@ a:hover
 {
 	width:335px;
 	height:12px;
-	margin:180px auto 0px auto;
+	margin:390px auto 0px auto;
 	float:left;
 }
 

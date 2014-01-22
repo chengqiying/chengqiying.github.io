@@ -44,7 +44,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(31,178,170);
+	border-top: 20px solid rgb(77,197,173);
 	background: url('../images/back.png') left top;
 }
 
@@ -384,7 +384,7 @@ a:hover
 
 #actiback
 {
-	height:720px;
+	height:725px;
 	background:url('../db514/images/back1.png') no-repeat 0 0;
 	background-size:cover;
 	margin:0px auto 0px auto;
@@ -456,7 +456,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:1050px;
+	height:1100px;
 	background: #fffff8;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -490,7 +490,7 @@ a:hover
 {
 	width:335px;
     height:250px;
-	margin:10px auto 0px auto;
+	margin:30px auto 0px auto;
 	text-align:left;
 	float:left;
 }
@@ -528,7 +528,7 @@ a:hover
 {
 	width:335px;
     height:250px;
-	margin:10px auto 0px 50px;
+	margin:30px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
@@ -643,7 +643,7 @@ a:hover
 	width:720px;
 	height:305px;
 	background:url('../db514/images/processpic.png') no-repeat 0 0;
-	margin:20px auto 0px auto;
+	margin:30px auto 0px auto;
 	float:left;
 }
 #reflectionaback

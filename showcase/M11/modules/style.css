@@ -44,7 +44,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 body
 {
-	border-top: 20px solid rgb(31,178,170);
+	border-top: 20px solid rgb(77,197,173);
 	background: url('../images/back.png') left top;
 }
 
@@ -458,7 +458,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:870px;
+	height:1040px;
 	background: #fffbe6;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -485,7 +485,7 @@ a:hover
 {
 	width:720px;
     height:200px;
-	margin:10px auto;
+	margin:30px auto;
 	text-align:left;
 }
 
@@ -548,7 +548,7 @@ a:hover
 {
 	width:335px;
     height:525px;
-	margin:10px auto 0px -335px;
+	margin:30px auto 0px -335px;
 	text-align:left;
 	float:left;
 }
@@ -557,7 +557,7 @@ a:hover
 #imp-text
 {
 	width:335px;
-	height:260px;
+	height:360px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -594,8 +594,8 @@ a:hover
 #behavior
 {
 	width:335px;
-    height:525px;
-	margin:10px auto 0px 50px;
+    height:625px;
+	margin:30px auto 0px 50px;
 	text-align:left;
 	float:left;
 }
@@ -604,7 +604,7 @@ a:hover
 #beh-text
 {
 	width:335px;
-	height:260px;
+	height:360px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -642,10 +642,9 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:700px;
+	height:760px;
 	background: #fad268;
 	margin:0px auto 0px auto;
-	text-align:center;
 }
 
 #reflectiong
@@ -658,8 +657,9 @@ a:hover
 #re
 {
 	width:720px;
-	height:60px;
-	margin:0px auto 0px auto;
+	height:70px;
+	margin:20px auto 0px auto;
+	float:left;
 }
 
 #reflectiong h5
@@ -675,8 +675,9 @@ a:hover
 #ds
 {
 	width:720px;
-	height:120px;
-	margin:20px auto 0px auto;
+	height:100px;
+	margin:30px auto 0px auto;
+	float:left;
 }
 
 #ds h4
@@ -686,7 +687,7 @@ a:hover
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:10px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 
 
@@ -702,8 +703,9 @@ a:hover
 #fi
 {
 	width:720px;
-	height:140px;
+	height:145px;
 	margin:20px auto 0px auto;
+	float:left;
 }
 
 #fi h4
@@ -713,7 +715,7 @@ a:hover
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:10px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 
 
@@ -729,8 +731,9 @@ a:hover
 #dp
 {
 	width:720px;
-	height:140px;
+	height:145px;
 	margin:20px auto 0px auto;
+	float:left;
 }
 
 #dp h4
@@ -740,7 +743,7 @@ a:hover
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:10px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 
 
@@ -758,6 +761,7 @@ a:hover
 	width:720px;
 	height:140px;
 	margin:20px auto 0px auto;
+	float:left;
 }
 
 #t h4
@@ -767,7 +771,7 @@ a:hover
 	font-weight:lighter ;
 	color:#404039;
 	text-align:left;
-	margin:10px auto 0px auto;
+	margin:0px auto 0px auto;
 }
 
 

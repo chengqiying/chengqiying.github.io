@@ -261,14 +261,14 @@ a:hover
 {
 	background-size:cover;
 	background-color:#fffffa;
-	height:1080px;
+	height:1530px;
 	margin:20px auto 0px auto;
 }
 
 #introduction
 {
 	width:720px;
-	height:1090px;
+
 	margin:0px auto 0px auto;
 }
 
@@ -342,14 +342,14 @@ a:hover
 #acpics
 {
 	width:720px;
-	height:240px;
+	height:251px;
 	margin: 20px auto 0px auto;
 	text-align:justify;
 }
 
 #midvideo
 {
-	width:420px;
+	width:340px;
 	height:235px;
 	margin:10px auto 0px 0px;
 	float:left;
@@ -358,24 +358,66 @@ a:hover
 #pic
 {
 	background:url('../works/images/pic.png') no-repeat 0 0;
-	width:280px;
-	height:235px;
-	margin:10px auto 0px 20px;
+	width:340px;
+	height:251px;
+	margin:10px auto 0px 40px;
 	float:left;
 }
 
+#literature
+{
+	width:720px;
+	height:150px;
+	margin:40px auto 0px 0px;
+	float:left;
+}
+
+#litert
+{
+	width:340px;
+	margin:10px auto 0px 0px;
+	float:left;
+	text-align:justify;
+}
+
+#litert h3
+{
+	font-family:Ebrima;
+	font-size:19px;
+	font-weight: lighter;
+	float:inherit
+}
+
+#litert p
+{
+	font-family:Ebrima;
+	font-size:16px;
+	color:#000000;
+	margin:5px auto 0px 0px;
+	float:inherit;
+	text-align:justify;
+}
+
+#picb
+{
+	background:url('../works/images/book1.png') no-repeat 0 0;
+	width:340px;
+	height:304px;
+	margin:50px auto 0px 40px;
+	float:left;
+}
 #back3
 {
 	background-size:cover;
 	background-color:#9fcbbd;
-	height:310px;
+	height:430px;
 	margin:0px auto 0px auto;
 }
 
 #reflection
 {
 	width:720px;
-	height:300px;
+	height:400px;
 	margin:0px auto 0px auto;
 }
 

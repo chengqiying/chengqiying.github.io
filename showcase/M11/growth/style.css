@@ -178,7 +178,7 @@ a:hover
 #process
 {
 	height:600px;
-	background: url('../other/images/back1.png') no-repeat 0 0;
+	background: url('../growth/images/back1.png') no-repeat 0 0;
 	background-size:cover;
 	margin:140px auto 0px auto;
 	text-align:center;
@@ -195,7 +195,7 @@ a:hover
 #past
 {
 	width:620px;
-	margin:40px auto 0px auto;
+	margin:70px auto 0px auto;
 	text-align:left;
 	float:left;
 }
@@ -204,7 +204,7 @@ a:hover
 #past-text
 {
 	width:620px;
-	height:200px;
+	height:240px;
 	margin:0px auto 0px 0px;
 	text-align:left;
 	float:left;
@@ -271,7 +271,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:900px;
+	height:1430px;
 	background: #fffee6;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -309,20 +309,10 @@ a:hover
 	text-align:left;
 }
 
-#compepic
-{
-	background:url('../growth/images/compe1.png') no-repeat 0 0;
-	width:720px;
-	height:318px;
-	margin:30px auto 0px 0px;
-	float:left;
-}
-
-
 #compe-text
 {
 	width:620px;
-	margin:30px auto 0px 0px;
+	margin:10px auto 0px 0px;
 	text-align:left;
 	float:left;
 }
@@ -333,14 +323,33 @@ a:hover
 	font-size:16px;
 	color:#404039;
 	text-align:justify;
-	margin:5px auto 0px auto;
 }
+
+#compepic
+{
+	background:url('../growth/images/compe1.png') no-repeat 0 0;
+	width:620px;
+	height:318px;
+	margin:50px auto 0px 0px;
+	float:left;
+}
+
+#compepic2
+{
+	background:url('../growth/images/comd.png') no-repeat 0 0;
+	width:620px;
+	height:241px;
+	margin:60px auto 0px 66px;
+	float:left;
+}
+
+
 
 
 #future
 {
 	width:620px;
-	margin:40px auto 0px auto;
+	margin:90px auto 0px auto;
 	text-align:left;
 	float:left;
 }
