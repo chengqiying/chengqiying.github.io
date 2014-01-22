@@ -742,24 +742,136 @@ a:hover
 	margin:5px auto 0px auto;
 }
 
-#linkbackl
+#back4
 {
-	width:100%;
-	min-width:720px;
-	height:2px;
-	background: #94dd3e;
+	background-size:cover;
+	background-color:#fdfef5;
+	height:230px;
 	margin:0px auto 0px auto;
-	text-align:center;
 }
 
-#linkback
+#compw
 {
-	width:100%;
-	min-width:720px;
-	height:100px;
-	background: #cce0b4;
+
+	width:720px;
+	height:195px;
 	margin:0px auto 0px auto;
-	text-align:center;
+}
+
+#comp
+{
+	background:url('../dbb10/images/comc.png') no-repeat 0 0;
+	width:720px;
+	height:135px;
+	margin:60px 102.5px 0px 102.5px;
+	float:left;
+}
+
+
+#bottom2
+{
+	border-top: 3px solid #94dd3e;
+	margin-top:0px;
+}
+
+#referenceback
+{
+	background-color:#fdfef5;
+	background-size:cover;
+	height:150px;
+	margin:0px auto 0px auto;
+}
+
+#reference
+{
+	width:720px;
+	height:150px;
+	margin:0px auto;
+}
+
+#feedbacka
+{
+	width:720px;
+	height:22px;
+	float:left;
+	margin:25px auto 0px 0px;
+
+}
+
+#feedbacka h5
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+}
+
+#feedbacka a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#feedbacka a:hover
+{
+	color:#4dc5ad;
+}
+
+#report
+{
+	width:630px;
+	height:22px;
+	float:left;
+	margin:5px auto 0px 90px;
+
+}
+
+#report h5
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+}
+
+#report a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#report a:hover
+{
+	color:#4dc5ad;
+}
+
+#reflectiongh
+{
+	width:630px;
+	height:22px;
+	margin:5px auto 0px 90px;
+	float:left;	
+}
+
+#reflectiongh a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+	
+}
+
+#reflectiongh a:hover
+{
+	color:#4dc5ad;
 }
 
 #footerback

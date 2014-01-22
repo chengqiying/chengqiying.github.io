@@ -800,6 +800,32 @@ a:hover
 }
 
 
+#back4
+{
+	background-size:cover;
+	background-color:#fdfef5;
+	height:230px;
+	margin:0px auto 0px auto;
+}
+
+#compw
+{
+
+	width:720px;
+	height:195px;
+	margin:0px auto 0px auto;
+}
+
+#comp
+{
+	background:url('../other/images/comps.png') no-repeat 0 0;
+	width:720px;
+	height:135px;
+	margin:60px 95.5px 0px 95.5px;
+	float:left;
+}
+
+
 #footerback
 {
 	width:100%;

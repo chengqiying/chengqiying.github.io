@@ -62,6 +62,15 @@ body
     text-align: left;		
 }
 
+.wrapper
+{
+	
+	width: 720px;
+	margin:auto;
+    text-align: left;		
+}
+
+}
 #logo
 {
 	background: url('../images/logo.png') no-repeat 0 0;
@@ -259,7 +268,7 @@ a:hover
 #introduction
 {
 	width:720px;
-	height:500px;
+	height:1090px;
 	margin:0px auto 0px auto;
 }
 
@@ -279,6 +288,7 @@ a:hover
 	color:#000000;
 	margin:5px auto 0px 0px;
 	float:inherit;
+	text-align:justify;
 }
 
 #activities
@@ -301,6 +311,7 @@ a:hover
 	width:340px;
 	margin:10px auto 0px 0px;
 	float:left;
+	text-align:justify;
 	
 }
 
@@ -317,6 +328,7 @@ a:hover
 	width:340px;
 	margin:10px auto 0px 40px;
 	float:left;
+	text-align:justify;
 }
 
 #ac2 h3
@@ -332,13 +344,14 @@ a:hover
 	width:720px;
 	height:240px;
 	margin: 20px auto 0px auto;
+	text-align:justify;
 }
 
 #midvideo
 {
 	width:420px;
 	height:235px;
-	margin:0px auto 0px 0px;
+	margin:10px auto 0px 0px;
 	float:left;
 }
 
@@ -347,7 +360,7 @@ a:hover
 	background:url('../works/images/pic.png') no-repeat 0 0;
 	width:280px;
 	height:235px;
-	margin:0px auto 0px 20px;
+	margin:10px auto 0px 20px;
 	float:left;
 }
 
@@ -378,7 +391,7 @@ a:hover
 #reflection p
 {	
 	font-family: Ebrima ;
-
+	text-align:justify;
 	font-size:16px;
 	color:#000000;
 	margin:5px auto 0px 0px;
@@ -387,20 +400,191 @@ a:hover
 #back4
 {
 	background-size:cover;
-	background-color:#d1ebe9;
-	opacity:0.8;
-	height:2px;
+	background-color:#fdfef5;
+	height:230px;
 	margin:0px auto 0px auto;
 }
 
-#back5
+#compw
 {
-	background-size:cover;
-	background-color:#9fcbbd;
-	height:120px;
+
+	width:720px;
+	height:195px;
 	margin:0px auto 0px auto;
 }
 
+#comp
+{
+	background:url('../works/images/comp.png') no-repeat 0 0;
+	width:720px;
+	height:135px;
+	margin:60px 95.5px 0px 95.5px;
+	float:left;
+}
+
+
+#bottom2
+{
+	border-top: 3px solid #9fcbbd;
+	margin-top:0px;
+}
+
+#referenceback
+{
+	background-color:#fdfef5;
+	background-size:cover;
+	height:220px;
+	margin:0px auto 0px auto;
+}
+
+#reference
+{
+	width:720px;
+	height:220px;
+	margin:0px auto;
+}
+
+#refereport
+{
+	width:720px;
+	height:22px;
+	float:left;
+	margin:25px auto 0px auto;
+
+}
+
+#refereport h5
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+}
+
+#refereport a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#refereport a:hover
+{
+	color:#4dc5ad;
+}
+
+#refeinterface
+{
+	width:630px;
+	height:22px;
+	margin:5px auto 0px 90px;
+	float:left;	
+}
+
+#refeinterface a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+	
+}
+
+#refeinterface a:hover
+{
+	color:#4dc5ad;
+}
+
+#refestory
+{
+	width:630px;
+	height:22px;
+	float:left;	
+	margin:5px auto 0px 90px;
+}
+
+#refestory a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#refestory a:hover
+{
+	color:#4dc5ad;
+}
+
+#refep
+{
+	width:630px;
+	height:22px;
+	float:left;	
+	margin:5px auto 0px 90px;
+}
+
+#refep a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#refep a:hover
+{
+	color:#4dc5ad;
+}
+
+#refesr
+{
+	width:630px;
+	height:22px;
+	float:left;	
+	margin:5px auto 0px 90px;
+}
+
+#refesr a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#refesr a:hover
+{
+	color:#4dc5ad;
+}
+
+#feedbackp
+{
+	width:630px;
+	height:22px;
+	float:left;	
+	margin:5px auto 0px 90px;
+}
+
+#feedbackp a
+{
+	font-family:Ebrima;
+	font-size:16px;
+	font-weight:lighter;
+	color:#000000;
+	text-decoration:none;
+}
+
+#feedbackp a:hover
+{
+	color:#4dc5ad;
+}
 
 
 #footerback
