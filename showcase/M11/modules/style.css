@@ -458,7 +458,7 @@ a:hover
 {
 	width:100%;
 	min-width:720px;
-	height:1040px;
+	height:1060px;
 	background: #fffbe6;
 	margin:0px auto 0px auto;
 	text-align:center;
@@ -547,7 +547,7 @@ a:hover
 #implementation
 {
 	width:335px;
-    height:525px;
+    height:640px;
 	margin:30px auto 0px -335px;
 	text-align:left;
 	float:left;
@@ -587,14 +587,14 @@ a:hover
 	background:url('../modules/images/imp.png') no-repeat 0 0;
 	width:335px;
 	height:251px;
-	margin:10px 0px 0px 0px;
+	margin:25px 0px 0px 0px;
 	float:left;
 }
 
 #behavior
 {
 	width:335px;
-    height:625px;
+    height:640px;
 	margin:30px auto 0px 50px;
 	text-align:left;
 	float:left;
@@ -634,7 +634,7 @@ a:hover
 	background:url('../modules/images/beh.png') no-repeat 0 0;
 	width:335px;
 	height:251px;
-	margin:10px 0px 0px 0px;
+	margin:25px 0px 0px 0px;
 	float:left;
 }
 
