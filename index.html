@@ -4,167 +4,265 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-<title>Qiying Cheng</title>
 
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 
 </head>
 
 
 <body>
+
 <div id="all">
     <div id="wrapper">
         <div id="guide">
             <div id="logo">
-            <a href="http://www.chengqiying.com"></a>
-            </div>
-            <div id="name">
-            </div>
-		    <div class="intromenu">
-		        <a id="contact-text" href="#contact" ></a> 
-		        <a id="about-text" href="#about"></a>
-		        <a id="works-text" href="#portfolio"></a>
-		    </div>
-		</div>
-           
-         
-        <div id="portfolio">
-             <div id="works-title">
-             </div>
-             <div id="works">
-                 <div class="list" style="left: 0px; top: 0px" >
-                     <div id="title1">
-                     </div>
-                     <div class="item">
-                         <a id="buer" href="projects/buer/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Buer Film Studio</h6>
-                             <div>Service Design</div>
-                         </div>
-                     </div>
-                     <div class="item">
-                         <a id="cloud" href="projects/cloud/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Cloud Service System</h6>
-                             <div>Service Design</div>
-                         </div>
-                     </div>
-                 </div>
-             
-                 <div class="list">
-                     <div id="title2">
-                     </div>
-                     <div class="item" style="left: 0px; top: 0px">
-                         <a id="iwall" href="projects/iwall/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Information Wall</h6>
-                             <div>Interaction Design</div>
-                         </div>
-                     </div>
-                     <div class="item">
-                         <a id="mlamp" href="projects/mlamp/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Dance to Music</h6>
-                             <div>Interaction Design</div>
-                         </div>
-                     </div>
-                     <div class="item">
-                         <a id="material" href="projects/material/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Sound of Material</h6>
-                             <div>Interaction Design</div>
-                         </div>
-                     </div>
-                     <div class="item">
-                         <a id="bee" href="projects/bee/" target="_blank"></a>
-                         <div id="item-text">
-                             <h6>Color Picking Bee</h6>
-                             <div>Interaction Design</div>
-                         </div>
-                     </div>
-                 </div>
-             
-	             <div class="list">
-	                 <div id="title3">
-	                 </div>
-	                 <div class="item">
-	                     <a id="sbracelet" href="projects/buer/" target="_blank"></a>
-	                     <div id="item-text">
-	                         <h6>Self-Guided Bracelet</h6>
-	                         <div>Product Design</div>
-	                     </div>
-                     </div>
-	                 <div class="item">
-	                     <a id="pcard" href="projects/pcard/" target="_blank"></a>
-	                     <div id="item-text">
-	                         <h6>Sprouting Postcard</h6>
-	                         <div>Product Design</div>
-	                     </div>
-	                 </div>
-	                 <div class="item">
-	                     <a id="stool" href="projects/stool/" target="_blank"></a>
-	                     <div id="item-text">
-	                         <h6>Foldable Stool </h6>
-	                         <div>Product Design</div>
-	                     </div>
-	                 </div>
-	                 <div class="item">
-	                     <a id="dustpan" href="projects/dustpan/" target="_blank"></a>
-	                     <div id="item-text">
-	                         <h6>Cap Dustpan</h6>
-	                         <div>Product Design</div>
-	                     </div>
-	                 </div>
-             	</div>
-             
-                <div class="list">
-                    <div id="title4">
-                    </div>
-                    <div class="item">
-                        <a id="ghost" href="projects/ghost/" target="_blank"></a>
-                        <div id="item-text">
-                            <h6>Ghost</h6>
-                            <div>Interaction Behavior</div>
-                        </div>
-                    </div>
-
-                    <div class="item" style="left: 0px; top: 0px">
-                        <a id="iders" href="projects/iders/" target="_blank"></a>
-                        <div id="item-text">
-                            <h6>Iders</h6>
-                            <div>3D Composition</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a id="light" href="projects/light/" target="_blank"></a>
-                        <div id="item-text">
-                            <h6>Colorful Bulb</h6>
-                            <div>Color Composition</div>
-                        </div>
-                    </div>
+            	<div id="logopic">
+            		<a href="http://www.chengqiying.com"></a>
+                </div>
+              <div id="name">
+                	<h1>QIYING CHENG</h1>
                 </div>
             </div>
-        </div>
-        
-        <div id="about">
-            <div id="about-title">
+            
+	      	<div id="intromenu">
+		        <div id="worksmenu">
+                	<div id="line1">
+                    </div>
+                	<div id="worksmenu-text">
+                        <h2><a href="#portfolio">WORKS</a></h2>
+                    </div>
+		        </div>
+                <div id="aboutmenu">
+                	<div id="line2">
+                    </div>
+                	<div id="aboutmenu-text">
+                        <h2><a href="#about">ABOUT</a></h2>
+                    </div>
+	          	</div>
+                <div id="contactmenu">
+                	<div id="line3">
+                    </div>
+                	<div id="contactmenu-text">
+                        <h2><a href="#contact">CONTACT</a></h2>
+                    </div>
+	          	</div>
             </div>
+		</div>
         
-        </div>
+        <div id="sperateline">
+        	<div id="sperateline1"></div>
+        	<div id="sperateline2"></div>
+      </div>
+         
+      <div id="portfolio">
+             <div id="works-title">
+             	<div id="works-title-pic"></div>
+                <div id="works-title-text">
+                  <h3>WORKS</h3></div>
+             </div>
+               <div id="works">
+                    <div class="item">
+                    	<a class="feedback-back" href="projects/feedback/" target="_blank">
+                            <h3>SOCIAL MEDIA FEEDBACK SYSTEM</h3>
+                        </a>
+                     	<a class="feedback-front" href="projects/feedback/" target="_blank"></a>
+                      	<div id="item-text">
+                        	<h6>SOCIAL MEDIA FEEDBACK SYSTEM FOR ING</h6>
+                        	<div>Service Design</div>
+                      	</div>
+                    </div>
+                    
+                    <div class="item">
+                    	<a class="levo-back" href="projects/levo/" target="_blank">
+                            <h3>LEVO<br>FOR VOGEL'S</h3>
+                        </a>
+                     	<a class="levo-front" href="projects/levo/" target="_blank"></a>
+                        <div id="item-text">
+                           <h6>Levo</h6>
+                           <div>Business and product</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<a class="ghost-back" href="projects/ghost/" target="_blank">
+                            <h3>GHOST</h3>
+                        </a>
+                     	<a class="ghost-front" href="projects/ghost/" target="_blank"></a>
+                        <div id="item-text">
+                           <h6>Ghost</h6>
+                           <div>Interaction Behavior</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<a class="iwall-back" href="projects/iwall/" target="_blank">
+                            <h3>INFORMATION WALL</h3>
+                        </a>
+                     	<a class="iwall-front" href="projects/iwall/" target="_blank"></a>
+                      	<div id="item-text">
+                        	<h6>Information Wall</h6>
+                        	<div>Interaction Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                    	<a class="buer-back" href="projects/buer/" target="_blank">
+                            <h3>BUER FILM STUDIO</h3>
+                        </a>
+                     	<a class="buer-front" href="projects/buer/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Buer Film Studio</h6>
+                        	<div>Service Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                    	<a class="cloud-back" href="projects/cloud/" target="_blank">
+                            <h3>FARM PRODUCE CLOUD</h3>
+                        </a>
+                     	<a class="cloud-front" href="projects/cloud/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Farm Produce Cloud</h6>
+                        	<div>Service Design</div>
+                      	</div>
+                    </div>
+                    
+                    <div class="item">
+                    	<a class="mlamp-back" href="projects/mlamp/" target="_blank">
+                            <h3>DANCE TO MUSIC</h3>
+                        </a>
+                     	<a class="mlamp-front" href="projects/mlamp/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Dance to Music</h6>
+                        	<div>Interaction Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="material-back" href="projects/material/" target="_blank">
+                            <h3>SOUND OF MATERIAL</h3>
+                        </a>
+                     	<a class="material-front" href="projects/material/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Sound of Material</h6>
+                        	<div>Interaction Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="bee-back" href="projects/bee/" target="_blank">
+                            <h3>COLOR PICKING BEE</h3>
+                        </a>
+                     	<a class="bee-front" href="projects/bee/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Color Picking Bee</h6>
+                        	<div>Interaction Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="sbracelet-back" href="projects/sbracelet/" target="_blank">
+                            <h3>SELF-FUIDED BRACELET</h3>
+                        </a>
+                     	<a class="sbracelet-front" href="projects/sbracelet/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Self-Guided Bracelet</h6>
+                        	<div>Product Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="pcard-back" href="projects/pcard/" target="_blank">
+                            <h3>SPROUTING POSTCARD</h3>
+                        </a>
+                     	<a class="pcard-front" href="projects/pcard/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Sprouting Postcard</h6>
+                        	<div>Product Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="stool-back" href="projects/stool/" target="_blank">
+                            <h3>FOLDABLE STOOL</h3>
+                        </a>
+                     	<a class="stool-front" href="projects/stool/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Foldable Stool </h6>
+                        	<div>Product Design</div>
+                      	</div>
+                    </div>
+                    <div class="item">
+                      	<a class="dustpan-back" href="projects/dustpan/" target="_blank">
+                            <h3>CAP DUSTPAN</h3>
+                        </a>
+                     	<a class="dustpan-front" href="projects/dustpan/" target="_blank"></a>
+                        <div id="item-text">
+                        	<h6>Cap Dustpan</h6>
+                        	<div>Product Design</div>
+                      	</div>
+                    </div>
+               </div>
+             </div>
+             
+             <!--<div id="about">
+             	<div id="about-title">
+             		<div id="about-title-pic"></div>
+                	<div id="about-title-text"><h3>ABOUT</h3></div>
+             	</div>
+        	 </div>-->
         
-        <div id="contact">
-            <div id="contact-title">
-            </div>
-        
-        </div>
-
-    
-        
-    
-
-    </div>
+        	 <div id="contact">
+             	<!--<div id="contact-title">
+             		<div id="contact-title-pic"></div>
+                	<div id="contact-title-text"><h3>CONTACT</h3></div>
+             	</div>-->
+                <div id="contact-text"><p>Reach me via</p></div>
+                <div id="contack-link">
+                	
+                	<a href="mailto: chengqiying@gmail.com"><div id="email"></div></a>                    
+                	<a href="https://www.facebook.com/cheng.qiying"><div id="facebook"></div></a>
+                	<a href=""><div id="linkedin"></div></a>
+                	<a href="https://vimeo.com/user21059504"><div id="vimeo"></div></a>             	
+                </div>
+   	  </div>
+      </div>     
+ 
 </div>
-    
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
 </body>
 
 </html>
