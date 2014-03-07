@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="levo-content">
+            <div id="levo-title">
+        		<h1>Levo-Mechanical Systems in the Kitchen</h1>
+                <p>In collaboration with Vogel’s</p>
+        	</div>
+        	<div id="levobrief">
+            	<div id="levobriefpic">
+                	<div id="levobriefimg">
+                    	<iframe src="http://player.vimeo.com/video/84355775" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+        		<div id="levobrieftext">
+                	<p>Business and Product Design</p>
+                	<p>Team: Sander van Berlo, Marloes Brinkema, Rob Kouwenhoven, Banaz Palani, Thomas van de Werff</p>
+                    <p>Duration: 1 week</p>
+                	<p>11.2013</p>
+                    <div id="levobriefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>Introduction</h2>
+                <div id="introductiontext">
+                	<p>Levo is designed as the mechanical systems that improve the ergonomics of the kitchen, and enhance the accessibility of cooking utensils and appliances. These products can be build into existing kitchens, and later integrated into new kitchens. This project aims at supporting elderly people to live carefree, independently and autonomously, so that they are confident to function in everyday life. In our opinion, independence is fundamental for a meaningful and high quality of life.</p>
+				</div>
+            </div>
+            <div id="fieldresearch">
+            	<h2>Field and Trend Research</h2>
+            	<div id="fieldresearchpic">
+               	  <div id="pic-1"></div>
+                    <div id="pic-2"></div>
+                    <div id="pic-3"></div>
+                </div>
+                <div id="research-analysis">
+                	<div id="analysis-trend">
+                    	<div id="ana-trend-title">
+                        	<h4>Trend</h4>
+                        </div>
+                        <p>Trend research shows that older adults want to live in their own home as long as possible. Besides, the growth of our current health care system does not suffice the needed care for this growing population. Therefore smart solutions in houses need to enable this autonomy and provide care instead.</p>
+                    </div>
+                  	<div id="analysis-kitchen">
+                    	<div id="ana-kitchen-title">
+                        	<h4>Needs in Kitchen</h4>
+                        </div>
+                        <p>In homes the kitchen is becoming more important. People increasingly value the quality of food, cooking and dining. Therefore the kitchen changes from a closed space to a part of the house where you invite others for this important social activity.</p>
+                    </div>
+                    <div id="analysis-group">
+                   	  <div id="ana-group-title">
+                        	<h4>Target Group</h4>
+                        </div>
+                        <p>Society is rapidly changing. Due to increased welfare and health care the average life expectancy is rising. The number of older adults is increasing, this provides a new market in which innovation is necessary. Vogel’s can play a important and lucrative role in this market.</p>
+                    </div>
+                </div>
+                <div id="opportunity">
+                   	  <div id="opportunity-title">
+                        	<h4>Opportunity</h4>
+                        </div>
+                        <div id="opportunitytext">
+                        	<p>Combining our design values, Vogel’s competencies, societal changes and trends within the target group, we believe that Vogel’s can expand the kitchen experience.</p>
+                        </div>    
+                    </div>
+                    <div id="opportunity-pic"></div>
+            </div>
+            
+            <div id="ideation">
+            	<h2>Ideation</h2>
+                <div id="ideationtext">
+                	<p>&quot;A day in Life&quot; was used to analyze the the elderly's rountine on one day of his o her life. By drawing this map, we got inspirations from the different timelines. It could obviously be seen that for elderly people, a lot of the time was spent in the kitchen. Therefor, we got the desin point for Vogel's in the kitchen facilities.</p>
+				</div>
+                <div id="ideation-pic">
+                	<div id="ideation-pic-1"></div>
+                    <div id="ideation-pic-2"></div>
+                </div>
+            </div>
+            
+            <div id="product">
+            	<h2>The Product —LEVO</h2>
+                <div id="producttext">
+     				<p>Levo installed in topshelves and the bottom drawer.</p>
+				</div>
+                <div id="product-pic"></div>
+            </div>
+            
+            <div id="business">
+            	<h2>Business Model</h2>
+                <div id="business-pic"></div>
+                <div id="businesstext">
+                    <div id="business-vogel">
+                    	<div id="business-vogel-title">
+                        	<h4>Vogel's</h4>
+                        </div>
+                        <p>First of all, Vogel’s already has engineering expertise and knowledge within their company which is needed to develop the product. Secondly, production of the product can be outsourced to their existing partner. Vogel’s new product will be sold through retail partners.</p>
+                   </div>
+                    <div id="business-ikea">
+                    	<div id="business-ikea-title">
+                        	<h4>IKEA</h4>
+                        </div>
+                        <p>IKEA is a good example, they can introduce this new product line to an existing market. A deal will be made so IKEA has exclusive rights for the first years, so Vogel’s builds brand confidence in this new market.</p>
+                   </div>
+                   <div id="business-future">
+                    	<div id="business-future-title">
+                        	<h4>Future Plan</h4>
+                        </div>
+                        <p>In the future Vogel’s can start collaborating with for example Bruynzeel and create “Vogel’s kitchens”. These kitchens have the mechanisms integrated. At this stage, more revenue streams can be created through other retail stores.</p>
+                   </div> 
+				</div>
+                
+            </div>
+            
+            <div id="story">
+            	<h2>Customer Journey</h2>
+                <div id="story-pic"></div>
+                <div id="storytext">	
+					<div id="story-user">
+                    	<div id="story-user-title">
+                        	<div id="user-title-pic"></div>
+                            <h4>Customer</h4>
+                        </div>
+                        <p>Our target group searches for a new kitchen solution because the current one is becomming inaccessible due to physical restraints. They do not have much awareness of the different offers on the market.</p>
+                   </div>
+                    <div id="story-brand">
+                    	<div id="story-brand-title">
+                        	<div id="brand-title-pic"></div>
+                            <h4>Brand</h4>
+                        </div>
+                        <p>Finally we believe that buyers of the LEVO system will become embassadors of the Vogel’s brand. When friends and familie visit the homes and kitchen of our customers, they should be impressed with the comfort and ease that the LEVO system brings to the owner.</p>
+                   </div>
+                   <div id="story-shop">
+                    	<div id="story-shop-title">
+                        	<div id="shop-title-pic"></div>
+                            <h4>Retail Shopping</h4>
+                        </div>
+                        <p>After browsing for solutions, many older adults will go to a retail shop either for face-to-face advice (as shown in the user insights) or to purchase the kitchen solution. It is very important for Vogel’s to train the retailers and introduce them to the high-margnin products that they can sell. This can be done in a similar way as with Mediamarket and TV mounting solutions.</p>
+                   </div>
+                   <div id="story-market">
+                    	<div id="story-market-title">
+                        	<div id="market-title-pic"></div>
+                            <h4>Vogel's Market</h4>
+                        </div>
+                        <p>Vogel’s can market their product at the moment a customer starts browsing for a whole new kitchen or for a new solution for his current kitchen. By using a Kitchenfitter system online and in store (similar to the TV fitter) a customer can easily choose the perfect sollution, tailered to his kitchen,or he can order modular parts for a whole new kitchen.</p>
+                   </div>
+                </div>
+                
+            </div>
+
+        	<div id="contact">
+       
+   	 		</div>
+         </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
