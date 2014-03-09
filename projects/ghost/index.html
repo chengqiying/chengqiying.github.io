@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Ghost</h1>
+                
+       	  </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg">
+                    	<iframe src="https://player.vimeo.com/video/75006954" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+        		<div id="brieftext">
+                	<p>Interaction Design</p>
+               	  <p>Changing Behavior</p>
+                	<p>Team: Qiying Cheng, </p>
+                	<p>	Veer Doing</p>
+                    <p>Duration: 2 weeks</p>
+                	<p>09.2013</p>
+                    <div id="ghostbriefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>Introduction</h2>
+                <div id="introductiontext">
+                	<p>GHOSTs (generic, highly-organic shape-changing interfaces) are display surfaces made of malleable materials that can change into and retain arbitrary shapes so as to display output from the system or afford new actions. At the same time, GHOSTs allow users to deform, touch, or otherwise manipulate the shape of their display surface to provide input to the system.</p>
+</div>
+            </div>
+            <div id="implement">
+            	<h2>Implementation</h2>
+                <div id="implement-text">	<p>At first, we made a physical sketch to find out the appropriate construction of the box. Then, we used paper and cloth of various thicknesses to find out the smoothest one. After that, we made the first prototype to test the basic movement. In order to enhance the smoothness of movement, we change the construction of wheels. In the final prototype, we added another up board for the appearance of box and improve the tidiness of inside.</p>
+            	</div
+                ><div id="implement-structure">
+                    	<div id="implement-structure-title">
+                        	<h4>Structure Sketch</h4>
+                        </div>
+                        <div id="implement-structure-pic">
+               	  			<div id="s-pic-1"></div>
+                    		<div id="s-pic-2"></div>
+                    		<div id="s-pic-3"></div>
+                		</div>
+                </div> 
+                <div id="implement-material">
+                    	<div id="implement-material-title">
+                        	<h4>Belt Material</h4>
+                        </div>
+                        <div id="implement-material-pic">
+               	  			<div id="m-pic-1"></div>
+                    		<div id="m-pic-2"></div>
+                    		<div id="m-pic-3"></div>
+                		</div>
+                </div>	
+                <div id="implement-first">
+                    	<div id="implement-first-title">
+                        	<h4>First Prototype</h4>
+                        </div>
+                        <div id="implement-first-pic">
+               	  			<div id="f-pic-1"></div>
+                    		<div id="f-pic-2"></div>
+                    		<div id="f-pic-3"></div>
+                            <div id="f-pic-4"></div>
+                		</div>
+                </div>
+            </div>            
+    
+            <div id="product">
+            	<h2>The Concept   				</h2>
+            	<div id="product-text">
+            	  <p>The concept we chose was an rolling belt which  was simple and suited the theme of changing behavior. The belt can be accelerated with touching. It goes fast in  the same direction with touching when touching fast and slowly when touching  slowly. It goes longer when touching with more pressure. It also can be stopped  when touching again. And, there is a bonus sound effect when the belt stops in  a high speed.</p>
+				</div>
+                <div id="product-pic">
+                	<div id="product-pic-1"></div>
+                    <div id="product-pic-2"></div>
+                </div>
+            </div>
+            
+            <div id="theory">
+            	<h2>Supporting Theory</h2>
+           <!--<div id="theory-pic"></div>
+           		<div id="theory-text">
+               		<div id="business-vogel">
+                    	<div id="business-vogel-title">
+                        	<h4>Vogel's</h4>
+                        </div>
+                        <p>First of all, Vogel’s already has engineering expertise and knowledge within their company which is needed to develop the product. Secondly, production of the product can be outsourced to their existing partner. Vogel’s new product will be sold through retail partners.</p>
+                   </div>
+                    <div id="business-ikea">
+                    	<div id="business-ikea-title">
+                        	<h4>IKEA</h4>
+                        </div>
+                        <p>IKEA is a good example, they can introduce this new product line to an existing market. A deal will be made so IKEA has exclusive rights for the first years, so Vogel’s builds brand confidence in this new market.</p>
+                   </div>
+                   <div id="business-future">
+                    	<div id="business-future-title">
+                        	<h4>Future Plan</h4>
+                        </div>
+                        <p>In the future Vogel’s can start collaborating with for example Bruynzeel and create “Vogel’s kitchens”. These kitchens have the mechanisms integrated. At this stage, more revenue streams can be created through other retail stores.</p>
+                   </div>
+				</div>-->
+                
+            </div>
+         </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
