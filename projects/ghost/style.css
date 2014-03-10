@@ -483,14 +483,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #theory-pic
 {
-	height:282px;
-	width:720px;
+	height:420px;
+	width:530px;
 	margin-top:20px;
-	background:url('../levo/images/model.png') no-repeat 0 0;
+	background:url('../ghost/images/theory.png') no-repeat 0 0;
 	float:left;	
 }
 
-/*#theory-text
+#theory-text
 {
 	display:block;
 	width: 720px;
@@ -498,103 +498,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;;
 }
 
-#business-vogel
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	float:left;
-}
-
-#business-vogel-title
-{
-	display:block;
-	width:75px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#business-vogel-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#business-vogel p
+#theory-text p
 {
 	font-family:Calibri;
 	font-size:16px;
 	font-weight:lighter;
-	margin-top:10px;
-	float:left;
 }
 
-#business-ikea
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	margin-left:50px;
-	float:left;
-}
-
-#business-ikea-title
-{
-	display:block;
-	width:57px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#business-ikea-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#business-ikea p
-{
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
-}
-
-#business-future
-{
-	display: block;
-	width: 335px;
-	margin-top: 30px;
-	float: left;
-	clear: left;
-}
-
-#business-future-title
-{
-	display:block;
-	width:117px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#business-future-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#business-future p
-{
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
-}*/
 
 
 .footer, .push

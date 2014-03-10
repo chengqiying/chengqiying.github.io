@@ -746,39 +746,6 @@ body
 	margin-top:35px;
 }
 
-.item a.dustpan-front
-{
-	background: url('images/projects/dustpan/1.png') no-repeat 0 0;
-	margin-top:10px;
-	position:absolute;
-}
-
-.item a.dustpan-front:hover
-{
-	opacity:0;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	-ms-transition: opacity 500ms;
-}
-
-.item a.dustpan-back 
-{
-	background-color:#DD4040;
-	margin-top:10px;
-	position:absolute;
-	text-decoration:none;
-}
-
-.item a.dustpan-back h3
-{
-	font-family:Calibri;
-	font-size:16px;
-	color:#FFFFFF;
-	text-align:center;
-	margin-top:35px;
-}
-
 /*.item a#iders
 {
 	background: url('images/projects/iders/1.png') no-repeat 0 0;
