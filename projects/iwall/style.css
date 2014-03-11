@@ -190,6 +190,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
+	font-weight:lighter;
 
 }
 
@@ -208,7 +209,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	font-weight:lighter;	
 }
 
-#fieldresearch
+#interface
 {
 	display:block;
 	width: 980px;
@@ -216,14 +217,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#fieldresearch h2
+#interface h2
 {
 	font-family:Calibri;
 	font-size:24px;
-
+	font-weight:lighter;
 }
 
-#fieldresearchtext
+#interfacetext
 {
 	display:block;
 	width:650px;
@@ -231,47 +232,184 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	line-height:120%;	
 }
 
-#fieldresearchtext p
+#interfacetext p
 {
 	font-family:Calibri;
 	font-size:16px;
 	font-weight:lighter;
 }
 
-#fieldresearchpic
+#interfacepic
 {
 	width:720px;
-	height:163px;
+	dispaly:block;
 	margin-top:20px;
 	float:left;
 }
 
 #pic-1
 {
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research1.png') no-repeat 0 0;
+	width:360px;
+	height:202px;
+	background:url('images/weather.png') no-repeat 0 0;
 	float:left;
+}
+
+#pic-1-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	margin-top:0px;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-1-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
 }
 
 #pic-2
 {
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research2.png') no-repeat 0 0;
+	width:360px;
+	height:202px;
+	background:url('../iwall/images/wallet.png') no-repeat 0 0;
 	float:left;
 }
 
+#pic-2-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-2-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+}
 
 #pic-3
 {
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research3.png') no-repeat 0 0;
+	width:360px;
+	height:202px;
+	background:url('../iwall/images/calendar.png') no-repeat 0 0;
 	float:left;
+	margin-top:15px;
 }
 
-#research-analysis
+#pic-3-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-3-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+}
+
+#pic-4
+{
+	width:360px;
+	height:202px;
+	background:url('../iwall/images/key.png') no-repeat 0 0;
+	float:left;
+	margin-top:15px;
+}
+
+#pic-4-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-4-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+}
+
+#pic-5
+{
+	width:360px;
+	height:202px;
+	background:url('../iwall/images/tape.png') no-repeat 0 0;
+	float:left;
+	margin-top:15px;
+}
+
+#pic-5-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-5-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+}
+
+#pic-6
+{
+	width:360px;
+	height:202px;
+	background:url('../iwall/images/book.png') no-repeat 0 0;
+	float:left;
+	margin-top:15px;
+}
+
+#pic-6-title
+{
+	width:358px;
+	dispaly:block;
+	float:left;
+	border-color:#4F4F4F;
+	border-width:1px;
+	border-style:solid;
+}
+
+#pic-6-title p
+{
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:lighter;
+	text-align:center;
+}
+
+
+#interface-analysis
 {
 	display:block;
 	width:720px;
@@ -279,7 +417,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#analysis-trend
+#analysis-object
 {
 	display:block;
 	width:335px;
@@ -287,22 +425,22 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#ana-trend-title
+#ana-object-title
 {
 	display:block;
-	width:70px;
+	width:135px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
-#ana-trend-title h4
+#ana-object-title h4
 {
 	font-family:Calibri;
 	font-size:20px;
 	font-weight:lighter;
 }
 
-#analysis-trend p
+#analysis-object p
 {
 	font-family:Calibri;
 	font-size:16px;
@@ -311,7 +449,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#analysis-kitchen
+#analysis-info
 {
 	display:block;
 	width:335px;
@@ -320,55 +458,21 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#ana-kitchen-title
+#ana-info-title
 {
 	display:block;
-	width:160px;
+	width:120px;
 	border-bottom:1px dashed #2A2A2A;
 }
 
-#ana-kitchen-title h4
+#ana-info-title h4
 {
 	font-family:Calibri;
 	font-size:20px;
 	font-weight:lighter;
 }
 
-#analysis-kitchen p
-{
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
-}
-
-#analysis-group
-{
-	display: block;
-	width: 335px;
-	margin-top: 20px;
-	float: left;
-	clear: left;
-}
-
-#ana-group-title
-{
-	display:block;
-	width:133px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-
-}
-
-#ana-group-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#analysis-group p
+#analysis-info p
 {
 	font-family:Calibri;
 	font-size:16px;
