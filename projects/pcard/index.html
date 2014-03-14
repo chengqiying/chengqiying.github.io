@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Sprouting Postcard</h1>
+          </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg">
+
+                    </div>
+                </div>
+        		<div id="brieftext">
+                	<p> Concept Product Design</p>
+                	<p>Team: Qiying Cheng,</p>
+                	<p>Shaoting Gu</p>
+                    <p>Duration: 1 week</p>
+                	<p>11.2011</p>
+                    <div id="briefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>A Postcard with Growth of Plant Life </h2>
+                <div id="introductiontext">
+               	  <p>The stamp of the postcard is transformed into a piece of soil contented with seeds sprout on the way to the destination. When receiving the postcard, receivers also get an extra piece of green grass, which can be taken out of the card and replanted into the flowerpot.</p>
+			  </div>
+          </div>
+            <div id="detail">
+            	<h2>The Scent from Distant Friends</h2>
+            	<div id="detailpic">
+           	  	  <div id="pic-1"></div>
+                    <div id="pic-2"></div>
+
+                </div>
+                <div id="detail-analysis">
+                	<div id="detail-miss">
+                    	<div id="detail-miss-title">
+                        	<h4>Miss Delivery</h4>
+                        </div>
+                        <p>Our friends can smell the soil where the postcard sent from by the piece of the grown grass.  The design tends to add more fun in sending and receivving postcards. </p>
+                    </div>
+                </div> 
+              <div id="operation-pic">
+                	<div id="operation-pic-title">
+                      <h4>Operation</h4>
+                    </div>
+                	<div id="pic-3"></div>
+                    <div id="pic-4"></div>
+                    <div id="pic-5"></div>
+                </div>
+            </div> 
+      </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
