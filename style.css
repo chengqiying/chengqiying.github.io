@@ -715,7 +715,7 @@ body
 
 .item a.stool-front
 {
-	background: url('images/projects/stool/1.png') no-repeat 0 0;
+	background: url('images/projects/stool/2.png') no-repeat 0 0;
 	margin-top:10px;
 	position:absolute;
 }
@@ -875,7 +875,7 @@ body
 
 #contact-text
 {
-	width:110px;
+	width:105px;
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
@@ -888,6 +888,7 @@ body
 	font-size:16px;
 	padding: 27px 0px 0px 43px;
 	float:left;
+	text-align:center;
 }
 
 #contack-link
