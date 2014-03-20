@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Dance to Music</h1>
+          </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg"></div>
+                </div>
+        		<div id="brieftext">
+                	<p> Concept Product Design</p>
+                	<p>Team: Qiying Cheng,</p>
+                	<p>Rong Yu, </p>
+                    <p>Duration: 2 weeks</p>
+                	<p>05.2012</p>
+                    <div id="briefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>Visualize the Rhythm of Music</h2>
+                <div id="introductiontext">
+               	  <p>The elf of music, rhythm, usually can not be visually perceived. This project tried to transform it into <span id="blng_part_tran_1_7" data-aligning="#blng_part_src_1_0,#blng_part_tran_1_7">flickering</span> light with diverse colors that can be captured by people' eyes. The three lights correspond respectively to three primary colors: red, green and blue. When the lights twinkle with music, color appearing in each lamp is related to timbre and the frequency is decided by rhythm.</p>
+			  </div>
+          </div>
+            <div id="detail">
+            	<h2>Translucent Lampshade</h2>
+            	<div id="detailtext">
+                <p>Quadrangled mat and triangle glass are the basic components. Pieces of this two kinds of glass are jointed togehter to form the fianl lampshade.</p>
+                </div>
+                <div id="detailpic">
+           	  	  	<div id="pic-1"></div>
+                    <div id="pic-2"></div>
+                  	<div id="pic-3"></div>
+                </div> 
+          </div>
+            
+            <div id="rationale">
+            	<h2>Schematic</h2>
+                <div id="rationale-text">
+               	 	<div id="rationale-text-1"><p>1. Music in the computer starts to play.</p></div>
+                     <div id="rationale-text-4"><p>4. Arduino deals with the signals and gives instructions to the lights.</p></div> 
+                    <div id="rationale-text-2"><p>2. Processing analyse rhythm and timbre.</p></div>
+                    <div id="rationale-text-5"><p>5. The lights start to twinkle.</p></div>
+                    <div id="rationale-text-3"><p>3. Processing gives instructions to arduino.</p></div>
+		  	  	</div>
+              	<div id="rationale-pic"></div>
+       	  </div> 
+      </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
