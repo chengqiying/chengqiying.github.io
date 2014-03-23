@@ -194,10 +194,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introductiontext
 {
-	display: block;
-	width: 650px;
-	margin-top: 15px;
-	line-height: 120%;
+	display:block;
+	width:650px;
+	margin-top:15px;
+	line-height:120%;	
 }
 
 #introductiontext p
