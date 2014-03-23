@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Farm Produce Cloud</h1>
+          </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg">
+
+                    </div>
+                </div>
+        		<div id="brieftext">
+                	<p> Service Design</p>
+                	<p>Team: Qiying Cheng,</p>
+                	<p>Shaoting Gu</p>
+                    <p>Duration: 1 week</p>
+                	<p>08.2012</p>
+                    <div id="briefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>All Sections processed in the Cloud</h2>
+                <div id="introductiontext">
+               	  <p>The complete service design procedure is contained in the cloud. Farmers just need to upload the information about the produce to the resource pool. Based on these, the design ecosystem will create the sound products for consumer.</p>
+			  </div>
+          </div>
+            <div id="detail">
+            	<h2>Procedure</h2>
+				<div id="detailpic"></div> 
+            </div>
+            
+            <div id="diagram">
+            	<h2>The Service</h2>
+                <div id="dia-1">
+               	  <div id="dia-1-text">
+                    	<div id="dia-1-text-title">
+                        	<h4>1. Uploading and Evaluation</h4>
+                        </div>
+                        <p>Farmers upload the basic informaiton of the produce into the resource pool in the cloud and the selected will get evaluations from assessors afterwards.</p>
+                    </div>
+                	<div id="dia-1-pic"></div>
+                </div> 
+                <div id="dia-2">
+               	  <div id="dia-2-text">
+                    	<div id="dia-2-text-title">
+                        	<h4>2. Investment</h4>
+                        </div>
+                        <p>Investors have the access to the evaluations and investing money in the most potential produce.</p>
+                    </div>
+                	<div id="dia-2-pic"></div>
+                </div>
+                <div id="dia-3">
+                	<div id="dia-3-text">
+                    	<div id="dia-3-text-title">
+                        	<h4>3. Planning and Marketing</h4>
+                        </div>
+                        <p>Food designers will work on those produce that get the investment. Marketers cooperate with designers to bring this products into the market.</p>
+                    </div>
+                	<div id="dia-3-pic"></div>
+                </div>
+                <div id="dia-4">
+               	  <div id="dia-4-text">
+                    	<div id="dia-4-text-title">
+                        	<h4>4. Logistics and Consume</h4>
+                        </div>
+                        <p>Finally, the complete products are transported to the retail for consuming</p>
+                  </div>
+                	<div id="dia-4-pic"></div>
+                </div>
+            </div> 
+      </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
