@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Buer Film Studio</h1>
+          </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg">
+
+                    </div>
+                </div>
+        		<div id="brieftext">
+                	<p> Service Design</p>
+                	<p>Team: Qiying Cheng,</p>
+                	<p>Shaoting Gu, Yingxiao Cao, Shihan Zhang, Yilin Chen</p>
+                    <p>Duration: 4 weeks</p>
+                	<p>04.2012 - 05.2012</p>
+                    <div id="briefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>New Platform of Filmmaking for Ordinary People</h2>
+                <div id="introductiontext">
+               	  <p>My partners and I tried to creat a new platform of filmmaking. Ordinary people who love films will have a chance to participate in the process of filmmaking .They can come up with an interseting topic, describe a scene, send a simple video ect.</p>
+			  </div>
+          </div>
+            <div id="detail">
+            	<h2>Ideation</h2>
+            	<!--<div id="detail-analysis">
+                	<div id="detail-fold">
+                    	<div id="detail-fold-title">
+                        	<h4>Unfolding</h4>
+                        </div>
+                        <p>Unfold the hidden legs, the board turns into a seat. When unneeded, it can be folded into a plat board and stacked up.</p>
+                    </div>
+                    <div id="detail-bend">
+                    	<div id="detail-bend-title">
+                        	<h4>Bending Structure</h4>
+                        </div>
+                        <p>The legs are jointed with the body of the stool by a flexiable bending structure.</p>
+                    </div>
+                </div>-->
+                <div id="detailpic"></div> 
+            </div>
+            <div id="model">
+            	<h2>Model</h2>
+                <div id="model-text"></div> 
+                <div id="modelpic"></div> 
+            </div>
+            <div id="infoarchi">
+            	<h2>Information Architeture</h2>
+                <div id="infoarchi-text"></div>
+                <div id="infoarchipic"></div> 
+            </div>
+      </div>
+      </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>
