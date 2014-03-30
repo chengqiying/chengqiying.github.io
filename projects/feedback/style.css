@@ -189,7 +189,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
-
+	font-weight: lighter;
 }
 
 #introductiontext
@@ -219,7 +219,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
-
+	font-weight: lighter;
 }
 
 #fieldresearchtext
@@ -396,6 +396,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
+	font-weight: lighter;
 }
 
 #ideation-pic
@@ -441,6 +442,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
+	font-weight: lighter;
 }
 
 #service-pic
@@ -561,6 +563,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
+	font-weight: lighter;
 }
 
 #test-pic
