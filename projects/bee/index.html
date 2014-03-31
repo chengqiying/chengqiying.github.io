@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<title>Qiying Cheng</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 1500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="border"></div>
+<div id="all">
+	
+    <div id="wrapper">
+        <div id="guide">
+        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+        </div>
+        <div id="content">
+            <div id="title">
+        		<h1>Color Picking Bee</h1>
+          </div>
+        	<div id="brief">
+            	<div id="briefpic">
+                	<div id="briefimg">
+                    	<iframe src="https://player.vimeo.com/video/90573610" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                    </div>
+                </div>
+        		<div id="brieftext">
+                	<p>Interaction Design</p>
+                	<p>Team: Qiying Cheng,</p>
+                	<p>Shaoting Gu</p>
+                    <p>Duration: 2 weeks</p>
+                	<p>04.2012</p>
+                    <div id="briefline"></div>   
+                </div>
+			</div>
+            <div id="introduction">
+            	<h2>Pick the Color and Keep it</h2>
+                <div id="introductiontext">
+               	  <p>The word of color is amazing and beautiful, however all the varieties of colors will inevitably fade away with time going by. The color picking bee  intends to gather colors from objects and keep them in a honeycomb like light installation.</p>
+			  </div>
+       	  </div>
+            <div id="interaction">
+            	<h2>Interaction</h2>
+            	<div id="interaction-text">
+                	<p>The bee picks up the color by color sensor and the light in it shows the same color. When the bee is close enough to the honeycomb, the photoresistor in the honeycomb will get the light and color signals will be tranfered between wireless transmission modules. Then light in the honeycomb can show the same color and the light in the bee fades away.</p>
+                    
+                </div>
+                <div id="interaction-pic">
+                	<div id="interaction-pic-1"></div>
+                    <div id="interaction-pic-2"></div>
+                    <div id="interaction-pic-3"></div>
+                </div> 
+            </div>
+            <div id="schematic">
+            	<h2>Schematic</h2>
+                <div id="schematic-text"></div> 
+                <div id="schematicpic"></div> 
+            </div>
+            <div id="circuit">
+            	<h2>Electronic Circuit</h2>
+                <div id="circuit-text"></div> 
+                <div id="circuit-pic"></div> 
+            </div>
+      </div>
+   </div>     
+ 
+</div>
+<div class="footer">
+	<div id="footertext">
+		© Qiying Cheng 2014
+	</div>
+</div>
+ <a href="#" class="back-to-top">Top</a>  
+</body>
+
+</html>

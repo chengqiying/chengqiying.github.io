@@ -7,8 +7,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	border: 0;
 	font-family: Calibri;
 	font-size: 18px;
-	font-weight: lighter;
-	text-align: left;
 }
 
 .back-to-top {
@@ -72,7 +70,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width:75px;
 	height:75px;
 	margin-left:905px;
-	background: url('../feedback/images/homeguide.png') no-repeat 0 0;
+	background: url('../buer/images/homeguide.png') no-repeat 0 0;
 }
 
 #homeguide:hover
@@ -119,7 +117,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 }
 
-#itle p
+#title p
 {
 	font-family: Calibri;
 	font-size: 16px;
@@ -150,8 +148,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #briefimg
 {
-    height: 350px;
-	width: 720px;
+    height: 394px;
+	width: 700px;
 	margin:10px 10px auto;
 }
 
@@ -174,7 +172,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #briefline
 {
 	border-top : 1px dashed #4F4F4F;
-	width:195px;
+	width:180px;
 	height:2px;
 	margin-top:12px;
 	float:left
@@ -192,7 +190,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:24px;
-	font-weight: lighter;
+	font-weight:lighter;
+
 }
 
 #introductiontext
@@ -207,10 +206,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	font-family:Calibri;
 	font-size:16px;
-	font-weight:lighter;
+	font-weight:lighter;	
 }
 
-#implement
+#interaction
 {
 	display:block;
 	width: 980px;
@@ -218,205 +217,62 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#implement h2
+#interaction h2
 {
 	font-family:Calibri;
 	font-size:24px;
-	font-weight: lighter;
+	font-weight:lighter;
 }
 
-#implement-text
+#interaction-text
 {
 	display:block;
 	width:650px;
 	margin-top:15px;
-	float:left;
 	line-height:120%;	
 }
 
-#implement-text p
+#interaction-text p
 {
 	font-family:Calibri;
 	font-size:16px;
 	font-weight:lighter;
 }
 
-#implement-structure
-{
-	display:block;
-	width:720px;
-	margin-top:20px;
-	float:left;
-}
-
-#implement-structure-title
-{
-	display:block;
-	width:156px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#implement-structure-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#implement-structure-pic
+#interaction-pic
 {
 	width:720px;
-	height:185px;
-	margin-top:20px;
-	float:left;
-}
-
-#s-pic-1
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/physical1.png') no-repeat 0 0;
-	float:left;
-}
-
-#s-pic-2
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/physical2.png') no-repeat 0 0;
-	float:left;
-}
-
-
-#s-pic-3
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/physical3.png') no-repeat 0 0;
-	float:left;
-}
-
-#implement-material
-{
-	display:block;
-	width:720px;
+	display: block;
 	margin-top:30px;
 	float:left;
 }
 
-#implement-material-title
-{
-	display:block;
-	width:130px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#implement-material-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#implement-material-pic
+#interaction-pic-1
 {
 	width:720px;
-	height:185px;
-	margin-top:20px;
+	height:472px;
 	float:left;
+	background:url('../bee/images/use.png') no-repeat 0 0;
 }
 
-#m-pic-1
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/material.png') no-repeat 0 0;
-	float:left;
-}
-
-#m-pic-2
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/material2.png') no-repeat 0 0;
-	float:left;
-}
-
-
-#m-pic-3
-{
-	width:240px;
-	height:185px;
-	background:url('../ghost/images/material3.png') no-repeat 0 0;
-	float:left;
-}
-
-#implement-first
-{
-	display:block;
-	width:720px;
-	margin-top:30px;
-	float:left;
-}
-
-#implement-first-title
-{
-	display:block;
-	width:145px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#implement-first-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#implement-first-pic
+#interaction-pic-2
 {
 	width:720px;
-	height:166px;
-	margin-top:20px;
+	height:133px;
 	float:left;
+	background:url('../bee/images/usep.png') no-repeat 0 0;
 }
 
-#f-pic-1
+#interaction-pic-3
 {
-	width:180px;
-	height:166px;
-	background:url('../ghost/images/first1.png') no-repeat 0 0;
+	width:720px;
+	height:150px;
 	float:left;
+	margin-top: 20px;
+	background:url('../bee/images/useline.png') no-repeat 0 0;
 }
 
-#f-pic-2
-{
-	width:180px;
-	height:166px;
-	background:url('../ghost/images/first2.png') no-repeat 0 0;
-	float:left;
-}
-
-
-#f-pic-3
-{
-	width:180px;
-	height:166px;
-	background:url('../ghost/images/first3.png') no-repeat 0 0;
-	float:left;
-}
-
-#f-pic-4
-{
-	width:180px;
-	height:166px;
-	background:url('../ghost/images/first4.png') no-repeat 0 0;
-	float:left;
-}
-
-#product
+#schematic
 {
 	display:block;
 	width: 980px;
@@ -424,52 +280,38 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#product-text
+#schematic h2
+{
+	font-family:Calibri;
+	font-size:24px;
+	font-weight:lighter;
+}
+
+/*#model-text
 {
 	display:block;
-	width:630px;
+	width:650px;
 	margin-top:15px;
-	line-height:120%;
+	line-height:120%;	
 }
 
-#product-text p
+#model-text p
 {
 	font-family:Calibri;
 	font-size:16px;
 	font-weight:lighter;
-}
+}*/
 
-#product h2
+#schematicpic
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight: lighter;
-}
-
-#product-pic
-{
-	height:437px;
 	width:720px;
+	height:381px;
 	margin-top:20px;
-}
-
-#product-pic-1
-{
-	width:401px;
-	height:437px;
-	background:url('../ghost/images/final1.png') no-repeat 0 0;
 	float:left;
+	background:url('../bee/images/schematic.png') no-repeat 0 0;
 }
 
-#product-pic-2
-{
-	width:319px;
-	height:437px;
-	background:url('../ghost/images/final2.png') no-repeat 0 0;
-	float:left;
-}
-
-#theory
+#circuit
 {
 	display:block;
 	width: 980px;
@@ -477,38 +319,36 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-#theory h2
+#circuit h2
 {
 	font-family:Calibri;
 	font-size:24px;
-	font-weight: lighter;
+	font-weight:lighter;
 }
 
-#theory-pic
-{
-	height:420px;
-	width:530px;
-	margin-top:20px;
-	background:url('../ghost/images/theory.png') no-repeat 0 0;
-	float:left;	
-}
-
-#theory-text
+/*#storyboard-text
 {
 	display:block;
-	width: 720px;
-	margin-top:20px;
-	float:left;;
+	width:650px;
+	margin-top:15px;
+	line-height:120%;	
 }
 
-#theory-text p
+#storyboard-text p
 {
 	font-family:Calibri;
 	font-size:16px;
 	font-weight:lighter;
+}*/
+
+#circuit-pic
+{
+	width:720px;
+	height:318px;
+	margin-top:15px;
+	float:left;
+	background:url('../bee/images/circuit.png') no-repeat 0 0;
 }
-
-
 
 .footer, .push
 {
@@ -516,7 +356,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	min-width:720px;
 	background-color:#F4F4F4;
 	height:80px;
-	margin-top:30px;
+	margin-top:120px;
 	float:left;
 }
 
