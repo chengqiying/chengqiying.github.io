@@ -52,13 +52,16 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #wrapper
 {
 	display:block;
-	max-width: 980px;
-	margin:auto;
-    text-align:center;		
+	width: 980px;
+	margin: auto;
+    text-align: center;		
 }
 
 #guide{
+	width: 958px;
 	height: 230px;
+	margin-left: 11px;
+	margin-right: 11px;
 	position: relative;
 }
 
@@ -254,16 +257,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #sperateline
 {
 	height:4px;
-	width: 980px;
+	width: 958px;
     margin-top:10px;
+	margin-left: 11px;
+	margin-right: 11px;
     position: relative;  
 }
 
 #sperateline1
 {
 	height:2px;
-	width: 980px;
+	width: 958px;
 	background-color:#707070;
+	
     margin-top:0px;
     position: relative;
     float:left;   
@@ -272,7 +278,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #sperateline2
 {
 	height:2px;
-	width: 980px;
+	width: 958px;
 	background-color:#8B8B8B;
     margin-top:0px;
     position: relative;
@@ -292,6 +298,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
     height: 20px;
 	width: 120px;
+	margin-left: 11px;
+	margin-right: 11px;
 	margin-top:30px;
 }
 
@@ -325,7 +333,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #works
 {
 	display:block;
-	width: 1009px;
+	width: 980px;
     margin-top:30px;
     position: relative;
     float:left;   
@@ -337,7 +345,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     width: 223px;
     height: 176px;
     margin-top:0px;
-	margin-right:29px;
+	margin-right:11px;
+	margin-left:11px;
     padding: 0;
     float: left;
     overflow: hidden;
@@ -969,7 +978,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .footer, .push {
     width:100%;
-	min-width:720px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:30px;
