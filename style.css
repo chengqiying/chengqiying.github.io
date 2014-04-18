@@ -109,9 +109,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #intromenu
 {
 	display: block;
-	width: 260px;
+	width: 180px;
 	height: 30px;
-	margin-top: 165px;
+	margin-top: 200px;
 	margin-right: 0px;
 	padding: 0;
 	float: right;
@@ -128,13 +128,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #worksmenu
 {
 	height:30px;
-	width:115px;
+	width:75px;
 	float:left;	
 }
 
 #line1
 {
-	width:115px;
+	width:75px;
 	height:2px;
 	background-color:#808080;
 	float:left;
@@ -143,7 +143,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #worksmenu-text 
 {
 	height:20px;
-	width:115px;
+	width:75px;
 	float:left;
 	margin-top:8px;
 }
@@ -176,23 +176,24 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #contactmenu
 {
 	height:30px;
-	width:115px;
+	width:75px;
 	margin-left:25px;
 	float:left;	
 }
 
 #line3
 {
-	width:115px;
+	width:75px;
 	height:2px;
 	background-color:#808080;
 	float:left;
+	opacity:1;
 }
 
 #contactmenu-text 
 {
 	height:20px;
-	width:115px;
+	width:75px;
 	float:left;
 	margin-top:8px;
 }
@@ -223,19 +224,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #sperateline
 {
 	height:4px;
-	width: 958px;
-    margin-top:10px;
+	width: 125px;
+    margin-top:0px;
 	margin-left: 11px;
-	margin-right: 11px;
     position: relative;  
 }
 
 #sperateline1
 {
-	height:2px;
-	width: 958px;
+	height:1px;
+	width: 125px;
 	background-color:#707070;
-	
     margin-top:0px;
     position: relative;
     float:left;   
@@ -243,8 +242,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #sperateline2
 {
-	height:2px;
-	width: 958px;
+	height:1px;
+	width: 125px;
 	background-color:#8B8B8B;
     margin-top:0px;
     position: relative;
