@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .back-to-top {
@@ -96,7 +95,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #name h1
 {
 	font-size: 26px;
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight:lighter;
 }
 	
@@ -146,7 +145,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #worksmenu-text h2
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -154,7 +153,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #worksmenu-text h2 a
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -191,7 +190,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #aboutmenu-text h2
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -199,7 +198,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #aboutmenu-text h2 a
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -236,7 +235,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #contactmenu-text h2
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -244,7 +243,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #contactmenu-text h2 a
 {
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: right;
 }
@@ -325,7 +324,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #works-title-text h3
 {
     font-size: 20px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: left;
 }
@@ -388,7 +387,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.feedback-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -421,7 +420,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.levo-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -455,7 +454,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.ghost-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -488,7 +487,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.iwall-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -521,7 +520,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.buer-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -554,7 +553,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.cloud-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -587,7 +586,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.mlamp-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -620,7 +619,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.material-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -653,7 +652,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.bee-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -686,7 +685,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.sbracelet-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -719,7 +718,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.pcard-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -752,7 +751,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.stool-back h3
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	color:#FFFFFF;
 	text-align:center;
@@ -784,7 +783,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -888,7 +887,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #contact-text
 {
-	width:105px;
+	width:95px;
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
@@ -897,7 +896,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #contack-text p
 {
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	padding: 27px 0px 0px 43px;
 	float:left;
@@ -971,7 +970,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #contact-title-text h3
 {
     font-size: 20px;
-	font-family: Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
 	text-align: left;
 }
@@ -988,7 +987,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:12px;
 	color:#575757;
 	margin:auto;
