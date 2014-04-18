@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: sans-serif;
 }
 
 .back-to-top {
@@ -100,27 +99,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #title h1
 {
-	font-family:Calibri;
-	font-size:26px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:22px;
+	font-weight:300;
 	margin-top:0px;
 	position:absolute;
 }
 
-#title h2
-{
-	font-family:Calibri;
-	font-size:18px;
-	font-weight:lighter;
-	margin-top:0px;
-	margin-left:5px;
-
-}
-
 #title p
 {
-	font-family: Calibri;
-	font-size: 16px;
+	font-family: sans-serif;
+	font-size: 15px;
 	font-weight: lighter;
 	margin-top: 32px;
 	position:absolute;
@@ -165,9 +154,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #brieftext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;	
 }
 
 #briefline
@@ -189,9 +179,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 
 }
 
@@ -205,9 +195,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introductiontext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;	
 }
 
 #detail
@@ -220,24 +210,24 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #detail h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #detailtext
 {
 	display:block;
 	width:650px;
-	margin-top:15px;
-	line-height:120%;	
+	margin-top:15px;	
 }
 
 #detailtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;
 }
 
 #detailpic
@@ -274,18 +264,18 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #detail-fold-title h4
 {
-	font-family:Calibri;
+	font-family:  sans-serif;
 	font-size:20px;
-	font-weight:lighter;
+	font-weight:300;
 }
 
 #detail-fold p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
+	margin-top:1
+	line-height:1.5;
 }
 
 #detail-bend
@@ -305,18 +295,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #detail-bend-title h4
 {
-	font-family:Calibri;
+	font-family:  sans-serif;
 	font-size:20px;
-	font-weight:lighter;
+	font-weight:300;
 }
 
 #detail-bend p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #model
@@ -329,9 +320,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #model h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 /*#model-text
@@ -344,9 +335,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #model-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
 }*/
 
 #modelpic
@@ -368,9 +359,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #storyboard h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 /*#storyboard-text
@@ -383,9 +374,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #storyboard-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
 }*/
 
 #storyboard-pic
@@ -407,9 +398,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #infoarchi h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #infoarchi-text
@@ -422,9 +413,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #infoarchi-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;
 }
 
 #infoarchipic
@@ -446,9 +438,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #framework h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 /*#framework-text
@@ -461,9 +453,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #framework-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:15px;
+	font-weight:300;
 }*/
 
 #framework-pic
@@ -500,9 +492,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #web h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family:  sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 br 
@@ -639,7 +631,7 @@ br
 .footer, .push
 {
     width:100%;
-	min-width:720px;
+	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
@@ -650,7 +642,7 @@ br
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family:  sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;

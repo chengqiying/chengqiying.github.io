@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: sans-serif;
 }
 
 .back-to-top {
@@ -49,6 +48,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     background-color: rgb(0, 0, 0);
 	margin:0px 0px auot 0px;
 	position: fixed;
+}
+
+#wrappera
+{
+	width: 1100px;
+	margin:auto;	
 }
 
 #wrapper
@@ -100,27 +105,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #title h1
 {
-	font-family:Calibri;
-	font-size:26px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:24px;
+	font-weight:300;
 	margin-top:0px;
 	position:absolute;
-}
-
-#title h2
-{
-	font-family:Calibri;
-	font-size:18px;
-	font-weight:lighter;
-	margin-top:0px;
-	margin-left:5px;
-
 }
 
 #title p
 {
 	font-family: Calibri;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: lighter;
 	margin-top: 32px;
 	position:absolute;
@@ -165,9 +160,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #brieftext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;	
 }
 
 #briefline
@@ -189,9 +185,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family:Calibri;
+	font-family: sans-serif;
 	font-size:24px;
-	font-weight:lighter;
+	font-weight:300;
 
 }
 
@@ -205,9 +201,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introductiontext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;	
 }
 
 #detail
@@ -220,24 +216,24 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #detail h2
 {
-	font-family:Calibri;
+	font-family: sans-serif;
 	font-size:24px;
-	font-weight:lighter;
+	font-weight:300;
 }
 
 #detailtext
 {
 	display:block;
 	width:650px;
-	margin-top:15px;
-	line-height:120%;	
+	margin-top:15px;	
 }
 
 #detailtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;
 }
 
 #detailpic
@@ -249,78 +245,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
-
-#detail-analysis
-{
-	dispaly:block;
-	width:720px;
-	margin-top:30px;
-	float:left;
-}
-
-#detail-fold
-{
-	display:block;
-	width:310px;
-	float:left;
-}
-
-#detail-fold-title
-{
-	display:block;
-	width:105px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#detail-fold-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#detail-fold p
-{
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
-}
-
-#detail-bend
-{
-	display:block;
-	width:290px;
-	margin-left:50px;
-	float:left;
-}
-
-#detail-bend-title
-{
-	display:block;
-	width:170px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#detail-bend-title h4
-{
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
-}
-
-#detail-bend p
-{
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
-	margin-top:10px;
-	float:left;
-}
-
-
 #diagram
 {
 	display:block;
@@ -331,9 +255,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #diagram h2
 {
-	font-family:Calibri;
+	font-family: sans-serif;
 	font-size:24px;
-	font-weight:lighter;
+	font-weight:300;
 }
 
 #diagram-text
@@ -346,9 +270,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #diagram-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;
 }
 
 #dia-1
@@ -369,25 +294,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #dia-1-text-title
 {
 	display:block;
-	width:255px;
+	width:223px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #dia-1-text-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #dia-1-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #dia-1-pic
@@ -417,25 +343,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #dia-2-text-title
 {
 	display:block;
-	width:133px;
+	width:117px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #dia-2-text-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #dia-2-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #dia-2-pic
@@ -465,25 +392,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #dia-3-text-title
 {
 	display:block;
-	width:240px;
+	width:212px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #dia-3-text-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #dia-3-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #dia-3-pic
@@ -513,23 +441,23 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #dia-4-text-title
 {
 	display:block;
-	width:230px;
+	width:212px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #dia-4-text-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #dia-4-text p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
 }
@@ -546,7 +474,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 .footer, .push
 {
     width:100%;
-	min-width:720px;
+	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
@@ -557,7 +485,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family: sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;

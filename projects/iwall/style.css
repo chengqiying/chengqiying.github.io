@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: sans-serif;
 }
 
 .back-to-top {
@@ -49,6 +48,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     background-color: rgb(0, 0, 0);
 	margin:0px 0px auot 0px;
 	position: fixed;
+}
+
+#wrappera
+{
+	width: 1100px;
+	margin:auto;	
 }
 
 #wrapper
@@ -100,27 +105,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #title h1
 {
-	font-family:Calibri;
-	font-size:26px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:24px;
+	font-weight:300;
 	margin-top:0px;
 	position:absolute;
-}
-
-#title h2
-{
-	font-family:Calibri;
-	font-size:18px;
-	font-weight:lighter;
-	margin-top:0px;
-	margin-left:5px;
-
 }
 
 #title p
 {
 	font-family: Calibri;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: lighter;
 	margin-top: 32px;
 	position:absolute;
@@ -164,9 +159,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #brieftext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;	
 }
 
 #briefline
@@ -188,25 +184,24 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
-
+	font-family: sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #introductiontext
 {
 	display:block;
 	width:650px;
-	margin-top:15px;
-	line-height:120%;	
+	margin-top:15px;	
 }
 
 #introductiontext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;	
 }
 
 #interface
@@ -219,9 +214,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #interface h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #interfacetext
@@ -234,9 +229,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #interfacetext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;
 }
 
 #interfacepic
@@ -268,9 +264,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-1-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
 }
 
@@ -294,10 +290,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-2-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
+	line-height:1.5;
 }
 
 #pic-3
@@ -321,10 +318,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-3-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
+	line-height:1.5;
 }
 
 #pic-4
@@ -348,10 +346,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-4-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
+	line-height:1.5;
 }
 
 #pic-5
@@ -375,10 +374,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-5-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
+	line-height:1.5;
 }
 
 #pic-6
@@ -402,10 +402,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-6-title p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	text-align:center;
+	line-height:1.5;
 }
 
 
@@ -428,25 +429,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-object-title
 {
 	display:block;
-	width:135px;
+	width:125px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-object-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-object p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #analysis-info
@@ -461,22 +463,22 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-info-title
 {
 	display:block;
-	width:120px;
+	width:103px;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-info-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-info p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
 }
@@ -491,9 +493,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #environment h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight:lighter;
+	font-family: sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #environment-pic
@@ -523,21 +525,21 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:block;
 	width:720px;
-	margin-top:15px;
-	line-height:120%;	
+	margin-top:15px;	
 }
 
 #environmenttext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: sans-serif;
+	font-size:15px;
+	font-weight:300;	
+	line-height:1.5;	
 }
 
 .footer, .push
 {
     width:100%;
-	min-width:720px;
+	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
@@ -548,7 +550,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family: sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;
