@@ -855,7 +855,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #contact-text
 {
-	width:95px;
+	width:100px;
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
@@ -945,6 +945,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .footer, .push {
     width:100%;
+	min-width: 1200px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:30px;
