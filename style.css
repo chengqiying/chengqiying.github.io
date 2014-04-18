@@ -5,7 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .back-to-top {
@@ -94,16 +94,16 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #name h1
 {
-	font-size: 26px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:lighter;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
 }
 	
 
 #intromenu
 {
 	display: block;
-	width: 400px;
+	width: 260px;
 	height: 30px;
 	margin-top: 165px;
 	margin-right: 0px;
@@ -144,18 +144,20 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #worksmenu-text h2
 {
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: right;
+	font-weight:300;
 }
 
 #worksmenu-text h2 a
 {
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: right;
+	font-weight:300;
 }
 
 #worksmenu-text h2 a:hover
@@ -163,50 +165,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	color:#929292;
 }
 
-#aboutmenu
-{
-	height:30px;
-	width:115px;
-	margin-left:25px;
-	float:left;	
-}
 
-#line2
-{
-	width:115px;
-	height:2px;
-	background-color:#808080;
-	float:left;
-}
-
-#aboutmenu-text 
-{
-	height:20px;
-	width:115px;
-	float:left;
-	margin-top:8px;
-}
-
-#aboutmenu-text h2
-{
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #000;
-	text-align: right;
-}
-
-#aboutmenu-text h2 a
-{
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #000;
-	text-align: right;
-}
-
-#aboutmenu-text h2 a:hover
-{ 
-	color:#929292;
-}
 
 #contactmenu
 {
@@ -234,18 +193,20 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #contactmenu-text h2
 {
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: right;
+	font-weight:300;
 }
 
 #contactmenu-text h2 a
 {
-	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: right;
+	font-weight:300;
 }
 
 #contactmenu-text h2 a:hover
@@ -306,7 +267,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
     height: 15px;
 	width: 25px;
-	margin-top:6px;
+	margin-top:4px;
 	margin-left:2px;
 	float:left;
 	background:url('images/smalleye.png') no-repeat 0 0;
@@ -323,10 +284,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #works-title-text h3
 {
-    font-size: 20px;
-	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: left;
+	font-weight:300;
 }
 
 #works
@@ -387,8 +349,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.feedback-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:29px;
@@ -420,8 +382,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.levo-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:29px;
@@ -454,8 +416,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.ghost-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -487,8 +449,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.iwall-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -520,8 +482,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.buer-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -553,8 +515,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.cloud-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -586,8 +548,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.mlamp-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -619,8 +581,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.material-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -652,8 +614,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.bee-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -685,8 +647,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.sbracelet-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -718,8 +680,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.pcard-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -751,8 +713,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .item a.stool-back h3
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top:35px;
@@ -783,7 +745,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     text-decoration: none;
     display: block;
     text-align: left;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -891,12 +853,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
-	margin-left:435px;
+	margin-left:442px;
 }
 
 #contack-text p
 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
 	padding: 27px 0px 0px 43px;
 	float:left;
@@ -970,7 +932,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #contact-title-text h3
 {
     font-size: 20px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #000;
 	text-align: left;
 }
@@ -987,8 +949,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width:720px;
 	text-align:center;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:12px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
 	color:#575757;
 	margin:auto;
 	padding-top:30px;

@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .back-to-top {
@@ -99,27 +98,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #feedback-title h1
 {
-	font-family:Calibri;
-	font-size:26px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-weight:300;
 	margin-top:0px;
 	position:absolute;
 }
 
-#feedback-title h2
-{
-	font-family:Calibri;
-	font-size:18px;
-	font-weight:lighter;
-	margin-top:0px;
-	margin-left:5px;
-
-}
-
 #feedback-title p
 {
-	font-family: Calibri;
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
 	font-weight: lighter;
 	margin-top: 32px;
 	position:absolute;
@@ -163,9 +152,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #feedbackbrieftext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:150%;	
 }
 
 #feedbackbriefline
@@ -187,9 +177,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight: 300;
 }
 
 #introductiontext
@@ -197,14 +187,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:650px;
 	margin-top:15px;
-	line-height:120%;	
+	line-height:150%;	
 }
 
 #introductiontext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;	
 }
 
 #fieldresearch
@@ -217,9 +207,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #fieldresearch h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight: 300;
 }
 
 #fieldresearchtext
@@ -227,14 +217,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:650px;
 	margin-top:15px;
-	line-height:120%;	
+	line-height:150%;	
 }
 
 #fieldresearchtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 }
 
 #fieldresearchpic
@@ -297,25 +287,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-ing-title
 {
 	display:block;
-	width:112px;
+	width:100px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-ing-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-ing p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #analysis-user
@@ -330,25 +321,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-user-title
 {
 	display:block;
-	width:165px;
+	width:148px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-user-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-user p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #analysis-vision
@@ -362,7 +354,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-vision-title
 {
 	display:block;
-	width:140px;
+	width:120px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 
@@ -370,18 +362,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ana-vision-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-vision p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #ideation
@@ -394,9 +387,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ideation h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
+
 }
 
 #ideation-pic
@@ -412,14 +406,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:720px;
 	margin-top:15px;
-	line-height:120%;	
+	line-height:150%;	
 }
 
 #ideationtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;	
 }
 
 #service
@@ -435,13 +429,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:720px;
 	margin-top:25px;
-	line-height:120%;
+	line-height:150%;
 }
 
 #service h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
 	font-weight: lighter;
 }
 
@@ -464,25 +458,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #email-title
 {
 	display:block;
-	width:180px;
+	width:150px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #email-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #email p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #platform
@@ -497,25 +492,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #platform-title
 {
 	display:block;
-	width:205px;
+	width:175px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #platform-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #platform p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #biomimicry
@@ -530,25 +526,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #biomimicry-title
 {
 	display:block;
-	width:245px;
+	width:217px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #biomimicry-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #biomimicry p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #test
@@ -561,9 +558,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #test h2
 {
-	font-family:Calibri;
-	font-size:24px;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight: 300;
 }
 
 #test-pic
@@ -594,18 +591,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:block;
 	width:650px;
-	line-height:120%;
+	line-height:150%;
 	float:left;
 	
 }
 
 #testtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	float:left;	
 	margin-top:20px;
+	line-height:150%;
 }
 
 #test-user
@@ -620,25 +618,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #test-user-title
 {
 	display:block;
-	width:235px;
+	width:205px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #test-user-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #test-user p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #test-ing
@@ -652,25 +651,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #test-ing-title
 {
 	display:block;
-	width:187px;
+	width:160px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #test-ing-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #test-ing p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #story
@@ -683,25 +683,27 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #storytext
 {
 	display:block;
 	width:650px;
-	line-height:120%;
+	line-height:150%;
 	float:left;	
 }
 
 #storytext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #story-pic
@@ -724,8 +726,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #interface h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 br 
@@ -873,7 +876,7 @@ br
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;
