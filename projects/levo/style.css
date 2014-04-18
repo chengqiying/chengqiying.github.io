@@ -5,8 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Calibri;
-	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .back-to-top {
@@ -53,7 +52,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #wrappera
 {
-	width: 1050px;
+	width: 1100px;
 	margin:auto;	
 }
 
@@ -105,29 +104,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #levo-title h1
 {
-	font-family:Calibri;
-	font-size:26px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-weight:300;
 	margin-top:0px;
 	position:absolute;
 }
 
-#levo-title h2
-{
-	font-family:Calibri;
-	font-size:18px;
-	font-weight:lighter;
-	margin-top:0px;
-	margin-left:5px;
-
-}
-
 #levo-title p
 {
-	font-family: Calibri;
-	font-size: 16px;
-	font-weight: lighter;
-	margin-top: 32px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 35px;
 	position:absolute;
 	
 }
@@ -169,9 +158,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #levobrieftext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.5;	
 }
 
 #levobriefline
@@ -193,8 +183,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 
 }
 
@@ -203,14 +194,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:650px;
 	margin-top:15px;
-	line-height:120%;	
+	line-height:150%;	
 }
 
 #introductiontext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;	
 }
 
 #fieldresearch
@@ -223,24 +214,24 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #fieldresearch h2
 {
-	font-family:Calibri;
-	font-size:24px;
-
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #fieldresearchtext
 {
 	display:block;
 	width:650px;
-	margin-top:15px;
-	line-height:120%;	
+	margin-top:15px;	
 }
 
 #fieldresearchtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:150%;
 }
 
 #fieldresearchpic
@@ -302,18 +293,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ana-trend-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-trend p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #analysis-kitchen
@@ -334,18 +326,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ana-kitchen-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-kitchen p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #analysis-group
@@ -368,18 +361,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ana-group-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #analysis-group p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #opportunity
@@ -401,9 +395,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #opportunity-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #ideationtext
@@ -416,11 +410,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #opportunitytext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #opportunity-pic
@@ -442,8 +437,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ideation h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #ideation-pic
@@ -459,6 +455,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width:360px;
 	background:url('../levo/images/ideation2.png') no-repeat 0 0;
 	float:left;	
+
 }
 
 #ideation-pic-2
@@ -479,9 +476,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #ideationtext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;	
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:150%;	
 }
 
 #product
@@ -492,18 +490,26 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	float:left;
 }
 
+#product h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
+}
+
 #producttext
 {
 	display:block;
 	width:720px;
-	margin-top:25px;
-	line-height:120%;
+	margin-top:15px;
 }
 
-#product h2
+#producttext p
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:150%;	
 }
 
 #product-pic
@@ -524,8 +530,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #business h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
+
 }
 
 #business-pic
@@ -563,18 +571,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #business-vogel-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #business-vogel p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #business-ikea
@@ -596,18 +605,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #business-ikea-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #business-ikea p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #business-future
@@ -629,18 +639,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #business-future-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #business-future p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #story
@@ -653,8 +664,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 #story-pic
@@ -676,11 +688,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #storytext p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #story-user
@@ -701,9 +714,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story-user-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #user-title-pic
@@ -717,11 +730,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story-user p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:1.5;
 }
 
 #story-market
@@ -743,18 +757,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story-market-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #story-market p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #market-title-pic
@@ -794,18 +809,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story-shop-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #story-shop p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #story-brand
@@ -837,18 +853,19 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #story-brand-title h4
 {
-	font-family:Calibri;
-	font-size:20px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	font-weight:300;
 }
 
 #story-brand p
 {
-	font-family:Calibri;
-	font-size:16px;
-	font-weight:lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight:300;
 	margin-top:10px;
 	float:left;
+	line-height:150%;
 }
 
 #interface
@@ -861,8 +878,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #interface h2
 {
-	font-family:Calibri;
-	font-size:24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	font-weight:300;
 }
 
 br 
@@ -1010,7 +1028,7 @@ br
 {
 	width:720px;
 	text-align:center;
-	font-family:Calibri;
+	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;
