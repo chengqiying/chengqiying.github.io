@@ -1,0 +1,38 @@
+<manifest alg="2" build="5" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="70242198"/>
+    <file name="goals.css" crc="523347694" ref="goals"/>
+    <file name="iefonts_goals.css" crc="496712591" ref="goals"/>
+    <file name="growth.css" crc="4287013038" ref="growth"/>
+    <file name="index.css" crc="4009927382" ref="index"/>
+    <file name="vision.css" crc="56019377" ref="vision"/>
+    <file name="iefonts_vision.css" crc="57430876" ref="vision"/>
+    <file name="works.css" crc="4125625589" ref="works"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works"/>
+    <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:growth:works"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works"/>
+  </folder>
+  <folder name="images">
+    <file name="logo1.png" crc="4009706829" ref="index"/>
+    <file name="circle.png" crc="4228619593" ref="index"/>
+    <file name="back1.jpg" crc="4068748230" ref="vision"/>
+    <file name="identity1.png" crc="103787105" ref="vision"/>
+    <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works"/>
+    <file name="vision.png" crc="3979459722" ref="vision"/>
+    <file name="learn.png" crc="3879846693" ref="goals"/>
+    <file name="service.png" crc="139878134" ref="goals"/>
+    <file name="pdp.png" crc="399200761" ref="goals"/>
+    <file name="back2.jpg" crc="4050218431" ref="goals"/>
+    <file name="back4.jpg" crc="104755408" ref="growth"/>
+    <file name="back3.jpg" crc="4225773909" ref="works"/>
+  </folder>
+  <file name="index.html" crc="3831979833" mt="1399323071557" redirect="true"/>
+  <file name="vision.html" crc="3884399075" mt="1399324151969" redirect="true"/>
+  <file name="goals.html" crc="382080829" mt="1399324096127" redirect="true"/>
+  <file name="growth.html" crc="4090573172" mt="1399325768323" redirect="true"/>
+  <file name="works.html" crc="3850044081" mt="1399325785684" redirect="true"/>
+</manifest>
