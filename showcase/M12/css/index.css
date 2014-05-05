@@ -7,7 +7,7 @@
 {
 	z-index: 1;
 	width: 980px;
-	min-height: 500px;
+	min-height: 551px;
 	background-image: none;
 	border-width: 1px;
 	border-style: solid;
@@ -17,31 +17,42 @@
 	margin-right: auto;
 }
 
-#page_position_content
+#pu93
 {
-	margin-top: -98px;
-	margin-bottom: -38px;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -37px;
+	left: -100px;
 }
 
-#u182
+#u93
 {
-	z-index: 37;
+	z-index: 2;
 	width: 1180px;
-	height: 7px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #67C075;
+	background-color: #FFFFFF;
 	position: relative;
-	left: -100px;
-	margin-top: 61px;
+	margin-right: -10000px;
+}
+
+#u93_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 982px;
+	position: relative;
+	left: -99px;
+	padding-top: 165px;
+	padding-bottom: 48px;
 }
 
 #u170
 {
 	z-index: 31;
 	width: 155px;
-	margin-left: 412px;
-	margin-top: 158px;
+	left: 512px;
 	position: relative;
 }
 
@@ -57,7 +68,9 @@
 	min-height: 21px;
 	text-align: center;
 	color: #A2A2A2;
-	margin-left: 403px;
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 300;
+	left: 503px;
 	margin-top: 12px;
 	position: relative;
 }
@@ -68,11 +81,11 @@
 	width: 588px;
 	min-height: 80px;
 	text-align: center;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
-	margin-left: 196px;
+	left: 296px;
 	margin-top: 58px;
 	position: relative;
 }
@@ -80,7 +93,7 @@
 #pu72-4
 {
 	width: 0.01px;
-	margin-left: 278px;
+	left: 378px;
 	margin-top: 28px;
 	position: relative;
 }
@@ -211,7 +224,7 @@
 #pu119
 {
 	width: 0.01px;
-	margin-left: 307px;
+	left: 407px;
 	margin-top: 18px;
 	position: relative;
 }
@@ -251,18 +264,31 @@
 	left: 344px;
 }
 
-#u93
+#u182
 {
-	z-index: 2;
+	z-index: 37;
 	width: 1180px;
-	height: 673px;
+	height: 7px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #67C075;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u541
+{
+	z-index: 38;
+	width: 1180px;
+	height: 99px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
 	position: relative;
+	margin-bottom: -37px;
+	margin-right: -10000px;
+	margin-top: 523px;
 	left: -100px;
-	top: -573px;
-	margin-bottom: -573px;
 }
 
 body
@@ -274,5 +300,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
+	margin-bottom: -523px;
 }
 
