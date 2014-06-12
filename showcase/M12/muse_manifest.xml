@@ -1,27 +1,31 @@
-<manifest alg="2" build="5" opt="false" iceEnabled="true">
+<manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
-    <file name="site_global.css" crc="4101650494"/>
-    <file name="goals.css" crc="4249626838" ref="goals"/>
+    <file name="site_global.css" crc="70242198"/>
+    <file name="goals.css" crc="3943945983" ref="goals"/>
     <file name="iefonts_goals.css" crc="496712591" ref="goals"/>
-    <file name="growth.css" crc="134406911" ref="growth"/>
-    <file name="index.css" crc="4143411597" ref="index"/>
-    <file name="vision.css" crc="4264308423" ref="vision"/>
+    <file name="growth.css" crc="125869610" ref="growth"/>
+    <file name="index.css" crc="127009631" ref="index"/>
+    <file name="vision.css" crc="341752151" ref="vision"/>
     <file name="iefonts_vision.css" crc="57430876" ref="vision"/>
-    <file name="works.css" crc="4125625589" ref="works"/>
+    <file name="works.css" crc="3852226442" ref="works"/>
+    <file name="project-copy.css" crc="326931206" ref="project-copy"/>
+    <file name="iefonts_project-copy.css" crc="124364621" ref="project-copy"/>
+    <file name="project.css" crc="324662060" ref="project"/>
+    <file name="iefonts_project.css" crc="246823698" ref="project"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works"/>
-    <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works"/>
-    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index:growth:works"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:project-copy"/>
+    <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works:project:project-copy"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works:project:project-copy"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:growth:works:project:project-copy"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works:project:project-copy"/>
   </folder>
   <folder name="images">
     <file name="logo1.png" crc="4009706829" ref="index"/>
     <file name="circle.png" crc="4228619593" ref="index"/>
     <file name="back1.jpg" crc="4068748230" ref="vision"/>
     <file name="identity1.png" crc="103787105" ref="vision"/>
-    <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works"/>
+    <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works:project:project-copy"/>
     <file name="vision.png" crc="3979459722" ref="vision"/>
     <file name="learn.png" crc="3879846693" ref="goals"/>
     <file name="service.png" crc="139878134" ref="goals"/>
@@ -29,10 +33,27 @@
     <file name="back2.jpg" crc="4050218431" ref="goals"/>
     <file name="back4.jpg" crc="104755408" ref="growth"/>
     <file name="back3.jpg" crc="4225773909" ref="works"/>
+    <file name="module1.png" crc="3812459165" ref="works:project:project-copy"/>
+    <file name="module5.png" crc="4055387252" ref="works:project:project-copy"/>
+    <file name="module4.png" crc="4147706475" ref="works:project:project-copy"/>
+    <file name="module3.png" crc="71281110" ref="works:project:project-copy"/>
+    <file name="module6.png" crc="383357665" ref="works:project:project-copy"/>
+    <file name="2.jpg" crc="24261305" ref="project"/>
+    <file name="_mg_0991_副本_副本-u993-fr.jpg" crc="4218219388" ref="project"/>
+    <file name="1-u881-fr.jpg" crc="4105723995" ref="project"/>
+    <file name="mtxx_20140531_195223-u871-fr.jpg" crc="3932830715" ref="project"/>
+    <file name="mtxx_20140531_200911-u918-fr.jpg" crc="4053565003" ref="project"/>
+    <file name="mtxx_20140528_172105-u924-fr.jpg" crc="4139838229" ref="project"/>
+    <file name="eboo in room_副本-u1125-fr.jpg" crc="185444523" ref="project-copy"/>
+    <file name="3_副本-u1075-fr.jpg" crc="147274110" ref="project-copy"/>
+    <file name="revenue-u1119-fr.png" crc="330193342" ref="project-copy"/>
+    <file name="img_3229_副本-u1105-fr.jpg" crc="287517259" ref="project-copy"/>
   </folder>
-  <file name="index.html" crc="4289802285" mt="1399326881066" redirect="true"/>
-  <file name="vision.html" crc="234703732" mt="1399326745905" redirect="true"/>
-  <file name="goals.html" crc="382080829" mt="1399326784821" redirect="true"/>
-  <file name="growth.html" crc="4090573172" mt="1399326410657" redirect="true"/>
-  <file name="works.html" crc="3850044081" mt="1399325785684" redirect="true"/>
+  <file name="index.html" crc="359918603" mt="1402588049748" redirect="true"/>
+  <file name="vision.html" crc="90077812" mt="1402588049763" redirect="true"/>
+  <file name="goals.html" crc="372355362" mt="1402588049779" redirect="true"/>
+  <file name="growth.html" crc="302515634" mt="1402588049779" redirect="true"/>
+  <file name="works.html" crc="4134606694" mt="1402588049795" redirect="true"/>
+  <file name="project.html" crc="195243751" mt="1402610721510" redirect="true"/>
+  <file name="project-copy.html" crc="3936889485" mt="1402610771163" redirect="true"/>
 </manifest>
