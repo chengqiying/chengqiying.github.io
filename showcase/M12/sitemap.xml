@@ -103,12 +103,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chengqiying.com/showcase/M12/images/_mg_0991_%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-u993-fr.jpg</loc>
-    <lastmod>2014-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chengqiying.com/showcase/M12/images/1-u881-fr.jpg</loc>
     <lastmod>2014-06-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,6 +146,12 @@
   </url>
   <url>
     <loc>http://chengqiying.com/showcase/M12/images/img_3229_%E5%89%AF%E6%9C%AC-u1105-fr.jpg</loc>
+    <lastmod>2014-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/images/_mg_0991-u993-fr.jpg</loc>
     <lastmod>2014-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

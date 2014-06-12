@@ -8,7 +8,7 @@
     <file name="vision.css" crc="341752151" ref="vision"/>
     <file name="iefonts_vision.css" crc="57430876" ref="vision"/>
     <file name="works.css" crc="3956695824" ref="works"/>
-    <file name="project.css" crc="4247202909" ref="project"/>
+    <file name="project.css" crc="80162294" ref="project"/>
     <file name="iefonts_project.css" crc="246823698" ref="project"/>
     <file name="ictb.css" crc="250894710" ref="ictb"/>
     <file name="iefonts_ictb.css" crc="124364621" ref="ictb"/>
@@ -38,7 +38,6 @@
     <file name="module4.png" crc="4147706475" ref="works:project:ictb"/>
     <file name="module3.png" crc="71281110" ref="works:project:ictb"/>
     <file name="module6.png" crc="383357665" ref="works:project:ictb"/>
-    <file name="_mg_0991_副本_副本-u993-fr.jpg" crc="4218219388" ref="project"/>
     <file name="1-u881-fr.jpg" crc="4105723995" ref="project"/>
     <file name="mtxx_20140531_195223-u871-fr.jpg" crc="3932830715" ref="project"/>
     <file name="mtxx_20140531_200911-u918-fr.jpg" crc="4053565003" ref="project"/>
@@ -47,12 +46,13 @@
     <file name="3_副本-u1075-fr.jpg" crc="147274110" ref="ictb"/>
     <file name="revenue-u1119-fr.png" crc="330193342" ref="ictb"/>
     <file name="img_3229_副本-u1105-fr.jpg" crc="287517259" ref="ictb"/>
+    <file name="_mg_0991-u993-fr.jpg" crc="4218219388" ref="project"/>
   </folder>
   <file name="index.html" crc="359918603" mt="1402588049748" redirect="true"/>
   <file name="vision.html" crc="90077812" mt="1402588049763" redirect="true"/>
   <file name="goals.html" crc="372355362" mt="1402588049779" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1402588049779" redirect="true"/>
   <file name="works.html" crc="4160767586" mt="1402611731672" redirect="true"/>
-  <file name="project.html" crc="48775053" mt="1402612279508" redirect="true"/>
+  <file name="project.html" crc="48775053" mt="1402612521116" redirect="true"/>
   <file name="ictb.html" crc="351887718" mt="1402611436751" redirect="true"/>
 </manifest>
