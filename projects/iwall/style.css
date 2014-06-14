@@ -5,7 +5,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .back-to-top {
@@ -105,7 +105,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #title h1
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	font-weight:300;
 	margin-top:0px;
@@ -159,7 +159,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #brieftext p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	line-height:1.5;	
@@ -184,7 +184,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introduction h2
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	font-weight:300;
 }
@@ -198,7 +198,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #introductiontext p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	line-height:1.5;	
@@ -214,7 +214,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #interface h2
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	font-weight:300;
 }
@@ -224,12 +224,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width:650px;
 	margin-top:15px;
-	line-height:120%;	
+	line-height:150%;	
 }
 
 #interfacetext p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	line-height:1.5;
@@ -264,7 +264,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-1-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -290,7 +290,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-2-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -318,7 +318,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-3-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -346,7 +346,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-4-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -374,7 +374,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-5-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -402,7 +402,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #pic-6-title p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	text-align:center;
@@ -429,21 +429,21 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-object-title
 {
 	display:block;
-	width:125px;
+	width:130px;
 	float:left;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-object-title h4
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:17px;
 	font-weight:300;
 }
 
 #analysis-object p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	margin-top:10px;
@@ -463,20 +463,20 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #ana-info-title
 {
 	display:block;
-	width:103px;
+	width:110px;
 	border-bottom:1px dashed #2A2A2A;
 }
 
 #ana-info-title h4
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:17px;
 	font-weight:300;
 }
 
 #analysis-info p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;
 	margin-top:10px;
@@ -493,7 +493,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #environment h2
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	font-weight:300;
 }
@@ -530,7 +530,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #environmenttext p
 {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
 	font-weight:300;	
 	line-height:1.5;	
@@ -550,7 +550,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width:720px;
 	text-align:center;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	color:#575757;
 	margin:auto;
