@@ -5,11 +5,10 @@
     <file name="iefonts_goals.css" crc="496712591" ref="goals"/>
     <file name="growth.css" crc="4152463455" ref="growth"/>
     <file name="index.css" crc="24007791" ref="index"/>
-    <file name="vision.css" crc="51171280" ref="vision"/>
-    <file name="iefonts_vision.css" crc="57430876" ref="vision"/>
+    <file name="vision.css" crc="4161896952" ref="vision"/>
     <file name="works.css" crc="4063286325" ref="works"/>
-    <file name="project.css" crc="4100045779" ref="project"/>
-    <file name="iefonts_project.css" crc="246823698" ref="project"/>
+    <file name="project.css" crc="4180172288" ref="project"/>
+    <file name="iefonts_project.css" crc="3929436755" ref="project"/>
     <file name="ictb.css" crc="492168149" ref="ictb"/>
     <file name="iefonts_ictb.css" crc="124364621" ref="ictb"/>
   </folder>
@@ -23,7 +22,6 @@
   <folder name="images">
     <file name="logo1.png" crc="4009706829" ref="index"/>
     <file name="circle.png" crc="4228619593" ref="index"/>
-    <file name="back1.jpg" crc="4068748230" ref="vision"/>
     <file name="identity1.png" crc="103787105" ref="vision"/>
     <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works:project:ictb"/>
     <file name="vision.png" crc="3979459722" ref="vision"/>
@@ -48,12 +46,13 @@
     <file name="img_3229_副本-u1105-fr.jpg" crc="287517259" ref="ictb"/>
     <file name="1.jpg" crc="4218219388" ref="project"/>
     <file name="company-u1244-fr.png" crc="4152064376" ref="ictb"/>
+    <file name="back1-u463-fr.jpg" crc="4026999224" ref="vision"/>
   </folder>
   <file name="index.html" crc="359918603" mt="1402657162021" redirect="true"/>
-  <file name="vision.html" crc="90077812" mt="1402657162021" redirect="true"/>
+  <file name="vision.html" crc="129958922" mt="1403130938620" redirect="true"/>
   <file name="goals.html" crc="372355362" mt="1402657162037" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1402657162053" redirect="true"/>
   <file name="works.html" crc="4160767586" mt="1402657162053" redirect="true"/>
-  <file name="project.html" crc="48775053" mt="1402659542465" redirect="true"/>
+  <file name="project.html" crc="4283781922" mt="1403127858591" redirect="true"/>
   <file name="ictb.html" crc="4096261170" mt="1402669556230" redirect="true"/>
 </manifest>
