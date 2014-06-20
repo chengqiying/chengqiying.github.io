@@ -113,12 +113,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
-a,.text-goals a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .text-goals a:link
 {
 	color: #8CD9DC;
