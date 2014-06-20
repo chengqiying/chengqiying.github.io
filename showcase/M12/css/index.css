@@ -7,13 +7,12 @@
 {
 	z-index: 1;
 	width: 980px;
-	min-height: 199.74999999999852px;
+	min-height: 200px;
 	background-image: none;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #000000;
 	background-color: #FFFFFF;
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -24,24 +23,40 @@
 	margin-bottom: -37px;
 }
 
-#u182
+#pu93
 {
-	z-index: 37;
+	width: 0.01px;
+	left: -100px;
+	position: relative;
+}
+
+#u93
+{
+	z-index: 2;
 	width: 1180px;
-	height: 7px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #67C075;
+	background-color: #FFFFFF;
 	position: relative;
-	left: -100px;
+	margin-right: -10000px;
+}
+
+#u93_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 982px;
+	position: relative;
+	left: -99px;
+	padding-top: 165px;
+	padding-bottom: 295px;
 }
 
 #u170
 {
 	z-index: 31;
 	width: 155px;
-	margin-left: 412px;
-	margin-top: 158px;
+	left: 512px;
 	position: relative;
 }
 
@@ -59,8 +74,8 @@
 	color: #A2A2A2;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
-	margin-left: 403px;
-	margin-top: 13px;
+	left: 503px;
+	margin-top: 12px;
 	position: relative;
 }
 
@@ -74,16 +89,16 @@
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
-	margin-left: 196px;
-	margin-top: 57px;
+	left: 296px;
+	margin-top: 58px;
 	position: relative;
 }
 
 #pu72-4
 {
 	width: 0.01px;
-	margin-left: 278px;
-	margin-top: 29px;
+	left: 378px;
+	margin-top: 28px;
 	position: relative;
 }
 
@@ -213,8 +228,8 @@
 #pu119
 {
 	width: 0.01px;
-	margin-left: 307px;
-	margin-top: 17px;
+	left: 407px;
+	margin-top: 18px;
 	position: relative;
 }
 
@@ -253,27 +268,32 @@
 	left: 344px;
 }
 
+#u182
+{
+	z-index: 37;
+	width: 1180px;
+	height: 7px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #67C075;
+	position: relative;
+	margin-right: -10000px;
+}
+
 #u1269
 {
-	z-index: 2;
+	z-index: 38;
 	width: 1180px;
-	height: 611px;
+	height: 99px;
 	border-color: #000000;
 	background-color: #FFFFFF;
 	position: relative;
 	left: -100px;
-	top: -512px;
-	margin-bottom: -512px;
 }
 
 body
 {
 	padding-top: 35px;
 	padding-bottom: 36px;
-}
-
-#page .verticalspacer
-{
-	clear: both;
 }
 
