@@ -4,7 +4,7 @@
     <file name="goals.css" crc="364685657" ref="goals"/>
     <file name="iefonts_goals.css" crc="496712591" ref="goals"/>
     <file name="growth.css" crc="4152463455" ref="growth"/>
-    <file name="index.css" crc="3932937949" ref="index"/>
+    <file name="index.css" crc="4196988537" ref="index"/>
     <file name="vision.css" crc="4107355498" ref="vision"/>
     <file name="works.css" crc="4063286325" ref="works"/>
     <file name="project.css" crc="4180172288" ref="project"/>
@@ -16,7 +16,7 @@
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:ictb"/>
     <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works:project:ictb"/>
     <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works:project:ictb"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="growth:works:project:ictb:vision:index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="growth:works:project:ictb:vision"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works:project:ictb"/>
   </folder>
   <folder name="images">
@@ -48,7 +48,7 @@
     <file name="company-u1244-fr.png" crc="4152064376" ref="ictb"/>
     <file name="back1-u463-fr.jpg" crc="4026999224" ref="vision"/>
   </folder>
-  <file name="index.html" crc="4177449034" mt="1403275376771" redirect="true"/>
+  <file name="index.html" crc="4073554339" mt="1403275734368" redirect="true"/>
   <file name="vision.html" crc="3759667150" mt="1403274565118" redirect="true"/>
   <file name="goals.html" crc="372355362" mt="1402657162037" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1402657162053" redirect="true"/>
