@@ -6,7 +6,7 @@
     <file name="growth.css" crc="4036364419" ref="growth"/>
     <file name="index.css" crc="332153746" ref="index"/>
     <file name="vision.css" crc="4075476242" ref="vision"/>
-    <file name="works.css" crc="4112618240" ref="works"/>
+    <file name="works.css" crc="433345096" ref="works"/>
     <file name="project.css" crc="222114030" ref="project"/>
     <file name="iefonts_project.css" crc="3929436755" ref="project"/>
     <file name="ictb.css" crc="3787373801" ref="ictb"/>
@@ -52,7 +52,7 @@
   <file name="vision.html" crc="3759667150" mt="1403434472769" redirect="true"/>
   <file name="goals.html" crc="372355362" mt="1403434533400" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1403434357437" redirect="true"/>
-  <file name="works.html" crc="4160767586" mt="1403434002987" redirect="true"/>
+  <file name="works.html" crc="4160767586" mt="1403435165071" redirect="true"/>
   <file name="project.html" crc="4283781922" mt="1403434417933" redirect="true"/>
   <file name="ictb.html" crc="4096261170" mt="1403434309753" redirect="true"/>
 </manifest>

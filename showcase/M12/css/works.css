@@ -33,7 +33,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-bottom: 1092px;
+	padding-bottom: 615px;
 	position: relative;
 	margin-right: -10000px;
 }
@@ -53,8 +53,8 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 42px;
-	left: 318px;
+	margin-top: 41px;
+	left: 316px;
 }
 
 #u314-4:hover
@@ -65,7 +65,7 @@
 	padding-bottom: 0px;
 	min-height: 27px;
 	width: 58px;
-	margin: 42px -10000px -1px 0px;
+	margin: 41px -10000px -1px 0px;
 	border-width: 0px 0px 1px;
 }
 
@@ -85,8 +85,8 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 42px;
-	left: 428px;
+	margin-top: 41px;
+	left: 426px;
 }
 
 #u315-4:hover
@@ -97,7 +97,7 @@
 	padding-bottom: 0px;
 	min-height: 27px;
 	width: 57px;
-	margin: 42px -10000px -1px 0px;
+	margin: 41px -10000px -1px 0px;
 	border-width: 0px 0px 1px;
 }
 
@@ -136,8 +136,8 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 42px;
-	left: 695px;
+	margin-top: 41px;
+	left: 694px;
 }
 
 #u316-4:hover
@@ -145,7 +145,7 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 28px;
-	margin: 42px -10000px 0px 0px;
+	margin: 41px -10000px 0px 0px;
 }
 
 #u317-4
@@ -164,8 +164,8 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 42px;
-	left: 808px;
+	margin-top: 41px;
+	left: 806px;
 }
 
 #u317-4:hover
@@ -176,7 +176,7 @@
 	padding-bottom: 0px;
 	min-height: 27px;
 	width: 75px;
-	margin: 42px -10000px -1px 0px;
+	margin: 41px -10000px -1px 0px;
 	border-width: 0px 0px 1px;
 }
 
@@ -434,7 +434,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 1125px;
+	margin-top: 648px;
 	left: -100px;
 }
 
@@ -469,6 +469,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -1124px;
+	margin-bottom: -647px;
 }
 
