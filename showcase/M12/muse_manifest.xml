@@ -1,8 +1,8 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="70242198"/>
-    <file name="goals.css" crc="315449573" ref="goals"/>
-    <file name="iefonts_goals.css" crc="436928231" ref="goals"/>
+    <file name="goals.css" crc="3843593977" ref="goals"/>
+    <file name="iefonts_goals.css" crc="4158200104" ref="goals"/>
     <file name="growth.css" crc="4036364419" ref="growth"/>
     <file name="index.css" crc="4094076064" ref="index"/>
     <file name="vision.css" crc="452883929" ref="vision"/>
@@ -51,7 +51,7 @@
   </folder>
   <file name="index.html" crc="3819438423" mt="1403435782920" redirect="true"/>
   <file name="vision.html" crc="162225157" mt="1403477435680" redirect="true"/>
-  <file name="goals.html" crc="519621528" mt="1403477051302" redirect="true"/>
+  <file name="goals.html" crc="4291970308" mt="1403478066271" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1403434357437" redirect="true"/>
   <file name="works.html" crc="4160767586" mt="1403435165071" redirect="true"/>
   <file name="project.html" crc="4283781922" mt="1403434417933" redirect="true"/>

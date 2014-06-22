@@ -250,35 +250,12 @@
 	left: 58px;
 }
 
-#pu344-6
+#ppu1296-6
 {
 	width: 0.01px;
 	left: 180px;
 	margin-top: 25px;
 	position: relative;
-}
-
-#u344-6
-{
-	z-index: 84;
-	width: 335px;
-	min-height: 103px;
-	line-height: 24px;
-	font-size: 16px;
-	position: relative;
-	margin-right: -10000px;
-}
-
-#u342-6
-{
-	z-index: 72;
-	width: 335px;
-	min-height: 316px;
-	line-height: 24px;
-	font-size: 16px;
-	position: relative;
-	margin-right: -10000px;
-	left: 485px;
 }
 
 #u1296-6
@@ -288,15 +265,36 @@
 	min-height: 168px;
 	line-height: 24px;
 	font-size: 16px;
-	left: 665px;
-	margin-top: 1px;
 	position: relative;
+}
+
+#u342-6
+{
+	z-index: 72;
+	width: 335px;
+	min-height: 316px;
+	line-height: 24px;
+	font-size: 16px;
+	margin-top: 47px;
+	position: relative;
+}
+
+#u344-6
+{
+	z-index: 84;
+	width: 335px;
+	min-height: 364px;
+	line-height: 24px;
+	font-size: 16px;
+	position: relative;
+	margin-right: -10000px;
+	left: 485px;
 }
 
 #competencyoflearning
 {
 	left: 180px;
-	margin-top: 67px;
+	margin-top: 65px;
 	position: relative;
 }
 
@@ -339,7 +337,7 @@
 	position: relative;
 }
 
-#pu337-6
+#pu1296-6,#pu337-6
 {
 	width: 0.01px;
 	position: relative;
@@ -379,13 +377,13 @@
 	left: 485px;
 }
 
-#u344-2,#u342-2,#u1296-2,#u337-2,#u336-2,#u338-2
+#u1296-2,#u342-2,#u344-2,#u337-2,#u336-2,#u338-2
 {
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 400;
 }
 
-#u344-4,#u342-4,#u1296-4,#u337-4,#u336-4,#u338-4,#u338-5,#u338-7
+#u1296-4,#u342-4,#u344-4,#u337-4,#u336-4,#u338-4,#u338-5,#u338-7
 {
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
