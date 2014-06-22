@@ -1,11 +1,11 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="70242198"/>
-    <file name="goals.css" crc="3906186625" ref="goals"/>
-    <file name="iefonts_goals.css" crc="496712591" ref="goals"/>
+    <file name="goals.css" crc="315449573" ref="goals"/>
+    <file name="iefonts_goals.css" crc="436928231" ref="goals"/>
     <file name="growth.css" crc="4036364419" ref="growth"/>
     <file name="index.css" crc="4094076064" ref="index"/>
-    <file name="vision.css" crc="3995541447" ref="vision"/>
+    <file name="vision.css" crc="452883929" ref="vision"/>
     <file name="works.css" crc="433345096" ref="works"/>
     <file name="project.css" crc="222114030" ref="project"/>
     <file name="iefonts_project.css" crc="3929436755" ref="project"/>
@@ -47,10 +47,11 @@
     <file name="1.jpg" crc="4218219388" ref="project"/>
     <file name="company-u1244-fr.png" crc="4152064376" ref="ictb"/>
     <file name="back1-u463-fr.jpg" crc="4026999224" ref="vision"/>
+    <file name="previous.png" crc="3811472284" ref="vision"/>
   </folder>
   <file name="index.html" crc="3819438423" mt="1403435782920" redirect="true"/>
-  <file name="vision.html" crc="3897323398" mt="1403436136005" redirect="true"/>
-  <file name="goals.html" crc="372355362" mt="1403435782953" redirect="true"/>
+  <file name="vision.html" crc="162225157" mt="1403477435680" redirect="true"/>
+  <file name="goals.html" crc="519621528" mt="1403477051302" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1403434357437" redirect="true"/>
   <file name="works.html" crc="4160767586" mt="1403435165071" redirect="true"/>
   <file name="project.html" crc="4283781922" mt="1403434417933" redirect="true"/>
