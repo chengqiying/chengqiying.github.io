@@ -33,7 +33,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-bottom: 1091px;
+	padding-bottom: 1092px;
 	position: relative;
 	margin-right: -10000px;
 }
@@ -45,9 +45,9 @@
 	min-height: 28px;
 	border-color: #5DCE77;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -77,9 +77,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -128,9 +128,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #052252;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -156,9 +156,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -319,8 +319,8 @@
 	z-index: 37;
 	width: 83px;
 	min-height: 64px;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -335,8 +335,8 @@
 	z-index: 41;
 	width: 70px;
 	min-height: 64px;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -351,8 +351,8 @@
 	z-index: 47;
 	width: 82px;
 	min-height: 48px;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -368,8 +368,8 @@
 	width: 76px;
 	min-height: 32px;
 	background-color: transparent;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -412,8 +412,8 @@
 	z-index: 59;
 	width: 52px;
 	min-height: 23px;
-	font-size: 16px;
 	line-height: 24px;
+	font-size: 16px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;

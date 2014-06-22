@@ -24,7 +24,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-top: 60px;
+	padding-top: 59px;
 	padding-bottom: 949px;
 	position: relative;
 	margin-right: -10000px;
@@ -35,7 +35,7 @@
 #pu325-4
 {
 	width: 0.01px;
-	margin-left: 331px;
+	margin-left: 329px;
 	position: relative;
 }
 
@@ -46,9 +46,9 @@
 	min-height: 28px;
 	border-color: #5DCE77;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -77,9 +77,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -108,7 +108,7 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	left: 239px;
+	left: 241px;
 }
 
 #u330:hover
@@ -127,9 +127,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #5DCE77;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -159,9 +159,9 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	line-height: 24px;
 	font-size: 20px;
 	color: #525252;
-	line-height: 24px;
 	text-align: center;
 	font-family: source-sans-pro, sans-serif;
 	font-weight: 300;
@@ -190,7 +190,7 @@
 	height: 355px;
 	border-style: none;
 	border-color: transparent;
-	margin-top: 27px;
+	margin-top: 28px;
 	position: relative;
 	background: transparent url("../images/back4.jpg") no-repeat left top;
 	background-size: cover !important;
