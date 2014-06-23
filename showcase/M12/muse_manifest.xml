@@ -1,29 +1,35 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="70242198"/>
-    <file name="goals.css" crc="3962012540" ref="goals"/>
+    <file name="goals.css" crc="200528955" ref="goals"/>
     <file name="iefonts_goals.css" crc="4158200104" ref="goals"/>
-    <file name="growth.css" crc="4036364419" ref="growth"/>
-    <file name="index.css" crc="4094076064" ref="index"/>
-    <file name="vision.css" crc="452883929" ref="vision"/>
-    <file name="works.css" crc="433345096" ref="works"/>
-    <file name="project.css" crc="222114030" ref="project"/>
+    <file name="growth.css" crc="4243535631" ref="growth"/>
+    <file name="index.css" crc="426699977" ref="index"/>
+    <file name="vision.css" crc="297075902" ref="vision"/>
+    <file name="works.css" crc="234388942" ref="works"/>
+    <file name="project.css" crc="478310204" ref="project"/>
     <file name="iefonts_project.css" crc="3929436755" ref="project"/>
-    <file name="ictb.css" crc="4059104985" ref="ictb"/>
+    <file name="ictb.css" crc="396034217" ref="ictb"/>
     <file name="iefonts_ictb.css" crc="344682409" ref="ictb"/>
+    <file name="pt.css" crc="4165678153" ref="pt"/>
+    <file name="iefonts_pt.css" crc="363501763" ref="pt"/>
+    <file name="sdl.css" crc="530288375" ref="sdl"/>
+    <file name="iefonts_sdl.css" crc="321859338" ref="sdl"/>
+    <file name="v.css" crc="73254064" ref="v"/>
+    <file name="iefonts_v.css" crc="4019986566" ref="v"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:ictb"/>
-    <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works:project:ictb"/>
-    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works:project:ictb"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="growth:works:project:ictb:vision"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works:project:ictb"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:ictb:pt:v:sdl"/>
+    <file name="museutils.js" crc="4291592202" ref="index:vision:goals:growth:works:project:ictb:pt:v:sdl"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works:project:ictb:pt:v:sdl"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="growth:works:project:ictb:vision:pt:v:sdl"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works:project:ictb:pt:v:sdl"/>
   </folder>
   <folder name="images">
     <file name="logo1.png" crc="4009706829" ref="index"/>
     <file name="circle.png" crc="4228619593" ref="index"/>
     <file name="identity1.png" crc="103787105" ref="vision"/>
-    <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works:project:ictb"/>
+    <file name="logo2.png" crc="375520450" ref="vision:goals:growth:works:project:ictb:pt:v:sdl"/>
     <file name="vision.png" crc="3979459722" ref="vision"/>
     <file name="learn.png" crc="3879846693" ref="goals"/>
     <file name="service.png" crc="139878134" ref="goals"/>
@@ -31,11 +37,11 @@
     <file name="back2.jpg" crc="4050218431" ref="goals"/>
     <file name="back4.jpg" crc="104755408" ref="growth"/>
     <file name="back3.jpg" crc="4225773909" ref="works"/>
-    <file name="module1.png" crc="3812459165" ref="works:project:ictb"/>
-    <file name="module5.png" crc="4055387252" ref="works:project:ictb"/>
-    <file name="module4.png" crc="4147706475" ref="works:project:ictb"/>
-    <file name="module3.png" crc="71281110" ref="works:project:ictb"/>
-    <file name="module6.png" crc="383357665" ref="works:project:ictb"/>
+    <file name="module1.png" crc="3812459165" ref="works:project:ictb:pt:v:sdl"/>
+    <file name="module5.png" crc="4055387252" ref="works:project:ictb:pt:v:sdl"/>
+    <file name="module4.png" crc="4147706475" ref="works:project:ictb:pt:v:sdl"/>
+    <file name="module3.png" crc="71281110" ref="works:project:ictb:pt:v:sdl"/>
+    <file name="module6.png" crc="383357665" ref="works:project:ictb:pt:v:sdl"/>
     <file name="1-u881-fr.jpg" crc="4105723995" ref="project"/>
     <file name="mtxx_20140531_195223-u871-fr.jpg" crc="3932830715" ref="project"/>
     <file name="mtxx_20140531_200911-u918-fr.jpg" crc="4053565003" ref="project"/>
@@ -48,12 +54,23 @@
     <file name="company-u1244-fr.png" crc="4152064376" ref="ictb"/>
     <file name="back1-u463-fr.jpg" crc="4026999224" ref="vision"/>
     <file name="previous.png" crc="3811472284" ref="vision"/>
+    <file name="qq截图20140309141243-u1354-fr.jpg" crc="78510598" ref="pt"/>
+    <file name="2-u1311-fr.png" crc="3920009149" ref="pt"/>
+    <file name="1-u1336-fr.jpg" crc="225285744" ref="pt"/>
+    <file name="4-u1470-fr.jpg" crc="345519668" ref="v:sdl"/>
+    <file name="5-u1496-fr.jpg" crc="380131022" ref="v:sdl"/>
+    <file name="2-u1476-fr.jpg" crc="521776424" ref="v:sdl"/>
+    <file name="6-u1544-fr.jpg" crc="4086772796" ref="v:sdl"/>
+    <file name="8-u1553-fr.jpg" crc="389815099" ref="v:sdl"/>
   </folder>
-  <file name="index.html" crc="3819438423" mt="1403435782920" redirect="true"/>
-  <file name="vision.html" crc="162225157" mt="1403478494058" redirect="true"/>
-  <file name="goals.html" crc="4291970308" mt="1403478316232" redirect="true"/>
-  <file name="growth.html" crc="302515634" mt="1403434357437" redirect="true"/>
-  <file name="works.html" crc="4160767586" mt="1403435165071" redirect="true"/>
-  <file name="project.html" crc="4283781922" mt="1403434417933" redirect="true"/>
-  <file name="ictb.html" crc="4167365177" mt="1403435811209" redirect="true"/>
+  <file name="index.html" crc="3819438423" mt="1403525982253" redirect="true"/>
+  <file name="vision.html" crc="162225157" mt="1403525982269" redirect="true"/>
+  <file name="goals.html" crc="4291970308" mt="1403525982288" redirect="true"/>
+  <file name="growth.html" crc="302515634" mt="1403525982300" redirect="true"/>
+  <file name="works.html" crc="197085748" mt="1403554774839" redirect="true"/>
+  <file name="project.html" crc="3823178682" mt="1403554798271" redirect="true"/>
+  <file name="ictb.html" crc="3816064195" mt="1403554825624" redirect="true"/>
+  <file name="pt.html" crc="373819616" mt="1403555008019" redirect="true"/>
+  <file name="v.html" crc="3877232850" mt="1403554943950" redirect="true"/>
+  <file name="sdl.html" crc="405081966" mt="1403555073897" redirect="true"/>
 </manifest>
