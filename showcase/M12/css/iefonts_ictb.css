@@ -43,12 +43,17 @@
 	font-family: source-sans-pro-n3, sans-serif;
 }
 
-#u1073-4,#u1117-4,#u1082-4,#u1089-4,#u1100-4,#u1091-4,#u1112-4,#u1103-6:hover p,#u1103-6
+#u1073-4,#u1117-4,#u1082-4,#u1089-4,#u1100-4,#u1091-4,#u1112-4,#u1103-6:hover p
 {
 	font-family: source-sans-pro-n4, sans-serif;
 }
 
-#u1113-4,#u1111-6,#u1079-6,#u1104-4,#u1130-4
+#u1113-4,#u1111-6,#u1079-6,#u1103-6
+{
+	font-family: source-sans-pro-n3, sans-serif;
+}
+
+#u1104-4,#u1130-4
 {
 	font-family: source-sans-pro-n3, sans-serif;
 }

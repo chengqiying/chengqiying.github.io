@@ -1,22 +1,22 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="70242198"/>
-    <file name="goals.css" crc="200528955" ref="goals"/>
-    <file name="iefonts_goals.css" crc="4158200104" ref="goals"/>
+    <file name="goals.css" crc="268436694" ref="goals"/>
+    <file name="iefonts_goals.css" crc="4215348703" ref="goals"/>
     <file name="growth.css" crc="4243535631" ref="growth"/>
     <file name="index.css" crc="426699977" ref="index"/>
-    <file name="vision.css" crc="297075902" ref="vision"/>
+    <file name="vision.css" crc="355040075" ref="vision"/>
     <file name="works.css" crc="234388942" ref="works"/>
     <file name="project.css" crc="478310204" ref="project"/>
     <file name="iefonts_project.css" crc="3929436755" ref="project"/>
-    <file name="ictb.css" crc="396034217" ref="ictb"/>
-    <file name="iefonts_ictb.css" crc="344682409" ref="ictb"/>
-    <file name="pt.css" crc="4165678153" ref="pt"/>
-    <file name="iefonts_pt.css" crc="363501763" ref="pt"/>
-    <file name="sdl.css" crc="530288375" ref="sdl"/>
-    <file name="iefonts_sdl.css" crc="321859338" ref="sdl"/>
-    <file name="v.css" crc="73254064" ref="v"/>
-    <file name="iefonts_v.css" crc="4019986566" ref="v"/>
+    <file name="ictb.css" crc="466553553" ref="ictb"/>
+    <file name="iefonts_ictb.css" crc="3768581815" ref="ictb"/>
+    <file name="pt.css" crc="77140181" ref="pt"/>
+    <file name="iefonts_pt.css" crc="536117788" ref="pt"/>
+    <file name="sdl.css" crc="4013298429" ref="sdl"/>
+    <file name="iefonts_sdl.css" crc="154991638" ref="sdl"/>
+    <file name="v.css" crc="529041583" ref="v"/>
+    <file name="iefonts_v.css" crc="210729808" ref="v"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:ictb:pt:v:sdl"/>
@@ -52,25 +52,33 @@
     <file name="img_3229_副本-u1105-fr.jpg" crc="287517259" ref="ictb"/>
     <file name="1.jpg" crc="4218219388" ref="project"/>
     <file name="company-u1244-fr.png" crc="4152064376" ref="ictb"/>
-    <file name="back1-u463-fr.jpg" crc="4026999224" ref="vision"/>
     <file name="previous.png" crc="3811472284" ref="vision"/>
     <file name="qq截图20140309141243-u1354-fr.jpg" crc="78510598" ref="pt"/>
     <file name="2-u1311-fr.png" crc="3920009149" ref="pt"/>
     <file name="1-u1336-fr.jpg" crc="225285744" ref="pt"/>
-    <file name="4-u1470-fr.jpg" crc="345519668" ref="v:sdl"/>
-    <file name="5-u1496-fr.jpg" crc="380131022" ref="v:sdl"/>
-    <file name="2-u1476-fr.jpg" crc="521776424" ref="v:sdl"/>
-    <file name="6-u1544-fr.jpg" crc="4086772796" ref="v:sdl"/>
-    <file name="8-u1553-fr.jpg" crc="389815099" ref="v:sdl"/>
+    <file name="4-u1470-fr.jpg" crc="345519668" ref="v"/>
+    <file name="5-u1496-fr.jpg" crc="380131022" ref="v"/>
+    <file name="2-u1476-fr.jpg" crc="521776424" ref="v"/>
+    <file name="6-u1544-fr.jpg" crc="4086772796" ref="v"/>
+    <file name="8-u1553-fr.jpg" crc="389815099" ref="v"/>
+    <file name="back1.jpg" crc="4068748230" ref="vision"/>
+    <file name="sportfolio-u1594-fr.jpg" crc="3890632766" ref="sdl"/>
+    <file name="1403635106262screencapture-u1674-fr.jpg" crc="300328618" ref="sdl"/>
+    <file name="1-u1691-fr.jpg" crc="59085709" ref="sdl"/>
+    <file name="1403636069826screencapture-u1681-fr.jpg" crc="153038427" ref="sdl"/>
+    <file name="4-u1692-fr.jpg" crc="4190505322" ref="sdl"/>
+    <file name="5-u1714-fr.jpg" crc="4110822397" ref="sdl"/>
+    <file name="2-u1705-fr.jpg" crc="89254937" ref="sdl"/>
+    <file name="7-u1715-fr.jpg" crc="29124680" ref="sdl"/>
   </folder>
   <file name="index.html" crc="3819438423" mt="1403525982253" redirect="true"/>
-  <file name="vision.html" crc="162225157" mt="1403525982269" redirect="true"/>
-  <file name="goals.html" crc="4291970308" mt="1403525982288" redirect="true"/>
+  <file name="vision.html" crc="3910569470" mt="1403647800128" redirect="true"/>
+  <file name="goals.html" crc="319015191" mt="1403646612656" redirect="true"/>
   <file name="growth.html" crc="302515634" mt="1403525982300" redirect="true"/>
   <file name="works.html" crc="197085748" mt="1403554774839" redirect="true"/>
   <file name="project.html" crc="3823178682" mt="1403554798271" redirect="true"/>
-  <file name="ictb.html" crc="3816064195" mt="1403554825624" redirect="true"/>
-  <file name="pt.html" crc="373819616" mt="1403555008019" redirect="true"/>
-  <file name="v.html" crc="3877232850" mt="1403554943950" redirect="true"/>
-  <file name="sdl.html" crc="405081966" mt="1403555073897" redirect="true"/>
+  <file name="ictb.html" crc="3816064195" mt="1403616675451" redirect="true"/>
+  <file name="pt.html" crc="4265978995" mt="1403648511131" redirect="true"/>
+  <file name="v.html" crc="3792492150" mt="1403648317111" redirect="true"/>
+  <file name="sdl.html" crc="179125267" mt="1403648930631" redirect="true"/>
 </manifest>
