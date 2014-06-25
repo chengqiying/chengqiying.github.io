@@ -55,12 +55,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chengqiying.com/showcase/M12/images/back4.jpg</loc>
-    <lastmod>2014-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chengqiying.com/showcase/M12/images/back3.jpg</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,18 +187,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chengqiying.com/showcase/M12/images/2-u1476-fr.jpg</loc>
-    <lastmod>2014-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/images/6-u1544-fr.jpg</loc>
-    <lastmod>2014-06-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://chengqiying.com/showcase/M12/images/8-u1553-fr.jpg</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,8 +247,32 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://chengqiying.com/showcase/M12/images/2-u1744-fr.jpg</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/images/6-u1745-fr.jpg</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/images/sportfolio-u1759-fr.jpg</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/images/back4-u534-fr.jpg</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://chengqiying.com/showcase/M12/index.html</loc>
-    <lastmod>2014-06-23</lastmod>
+    <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -278,48 +284,48 @@
   </url>
   <url>
     <loc>http://chengqiying.com/showcase/M12/goals.html</loc>
-    <lastmod>2014-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/growth.html</loc>
-    <lastmod>2014-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/works.html</loc>
-    <lastmod>2014-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/project.html</loc>
-    <lastmod>2014-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/ictb.html</loc>
-    <lastmod>2014-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://chengqiying.com/showcase/M12/pt.html</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://chengqiying.com/showcase/M12/v.html</loc>
+    <loc>http://chengqiying.com/showcase/M12/growth.html</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/works.html</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/project.html</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://chengqiying.com/showcase/M12/sdl.html</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/moduleictb.html</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/modlept.html</loc>
+    <lastmod>2014-06-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://chengqiying.com/showcase/M12/modulev.html</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
