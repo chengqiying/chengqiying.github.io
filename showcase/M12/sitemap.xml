@@ -325,6 +325,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://chengqiying.com/showcase/M12/images/1.png</loc>
+    <lastmod>2014-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://chengqiying.com/showcase/M12/index.html</loc>
     <lastmod>2014-06-25</lastmod>
     <changefreq>weekly</changefreq>

@@ -44,7 +44,7 @@
 	position: relative;
 	left: -99px;
 	padding-top: 34px;
-	padding-bottom: 142px;
+	padding-bottom: 184px;
 }
 
 #pu325-4
@@ -282,7 +282,7 @@
 	width: 15px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 6px;
+	margin-top: 4px;
 }
 
 #u1778
@@ -366,18 +366,18 @@
 #u1890
 {
 	z-index: 123;
-	width: 820px;
-	left: 180px;
-	margin-top: 105px;
+	width: 611px;
+	left: 284px;
+	margin-top: 106px;
 	position: relative;
 }
 
 #u1895
 {
 	z-index: 125;
-	width: 699px;
-	left: 273px;
-	margin-top: 88px;
+	width: 591px;
+	left: 284px;
+	margin-top: 101px;
 	position: relative;
 }
 
@@ -386,7 +386,7 @@
 	z-index: 89;
 	width: 121px;
 	left: 530px;
-	margin-top: 170px;
+	margin-top: 166px;
 	position: relative;
 }
 
@@ -585,7 +585,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 4357px;
+	margin-top: 4199px;
 	left: -100px;
 }
 
@@ -620,6 +620,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -4357px;
+	margin-bottom: -4199px;
 }
 

@@ -46,7 +46,7 @@
 	position: relative;
 	left: -99px;
 	padding-top: 34px;
-	padding-bottom: 88px;
+	padding-bottom: 188px;
 }
 
 #pu649-4
@@ -689,25 +689,20 @@
 	text-align: justify;
 }
 
-#u1900
+#u1945
 {
 	z-index: 174;
-	width: 409px;
-	left: 387px;
-	margin-top: 97px;
+	width: 366px;
+	left: 407px;
+	margin-top: 94px;
 	position: relative;
-}
-
-#u1900_img
-{
-	padding-right: 1px;
 }
 
 #pu1032
 {
 	width: 0.01px;
 	left: 180px;
-	margin-top: 162px;
+	margin-top: 173px;
 	position: relative;
 }
 
@@ -1125,7 +1120,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 4471px;
+	margin-top: 4571px;
 	left: -100px;
 }
 
@@ -1160,6 +1155,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -4470px;
+	margin-bottom: -4570px;
 }
 

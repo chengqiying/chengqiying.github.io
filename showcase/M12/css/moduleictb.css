@@ -46,7 +46,7 @@
 	position: relative;
 	left: -99px;
 	padding-top: 33px;
-	padding-bottom: 101px;
+	padding-bottom: 201px;
 }
 
 #pu1270-4
@@ -605,12 +605,12 @@
 	position: relative;
 }
 
-#u1925
+#u1940
 {
 	z-index: 169;
-	width: 516px;
-	left: 332px;
-	margin-top: 119px;
+	width: 517px;
+	left: 331px;
+	margin-top: 129px;
 	position: relative;
 }
 
@@ -618,7 +618,7 @@
 {
 	width: 0.01px;
 	left: 180px;
-	margin-top: 159px;
+	margin-top: 148px;
 	position: relative;
 }
 
@@ -1197,7 +1197,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 4134px;
+	margin-top: 4234px;
 	left: -100px;
 }
 
@@ -1232,6 +1232,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -4133px;
+	margin-bottom: -4233px;
 }
 
