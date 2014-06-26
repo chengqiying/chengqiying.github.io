@@ -22,7 +22,7 @@
 	width: 0.01px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: -37px;
+	margin-top: -36px;
 	left: -100px;
 }
 
@@ -45,8 +45,8 @@
 	width: 982px;
 	position: relative;
 	left: -99px;
-	padding-top: 34px;
-	padding-bottom: 253px;
+	padding-top: 33px;
+	padding-bottom: 101px;
 }
 
 #pu1270-4
@@ -605,11 +605,20 @@
 	position: relative;
 }
 
+#u1905
+{
+	z-index: 169;
+	width: 518px;
+	left: 331px;
+	margin-top: 119px;
+	position: relative;
+}
+
 #pu1116
 {
 	width: 0.01px;
 	left: 180px;
-	margin-top: 180px;
+	margin-top: 158px;
 	position: relative;
 }
 
@@ -658,7 +667,7 @@
 #pu1076-4
 {
 	width: 0.01px;
-	left: 330px;
+	left: 329px;
 	margin-top: 36px;
 	position: relative;
 }
@@ -953,7 +962,7 @@
 	border-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 1052px;
+	margin-top: 1051px;
 	left: 590px;
 	background: #F2F2F2 url("../images/company-u1244-fr.png") no-repeat center top;
 	background-size: cover !important;
@@ -969,13 +978,13 @@
 	background-color: #4C6259;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 99px;
+	margin-top: 98px;
 }
 
 #u1118:hover
 {
 	background-color: #4C6259;
-	margin: 99px -10000px 0px 0px;
+	margin: 98px -10000px 0px 0px;
 }
 
 #u1121
@@ -991,7 +1000,7 @@
 	transform: matrix(0,1,-1,0,74,-2);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 126px;
+	margin-top: 125px;
 	left: 331px;
 }
 
@@ -1008,7 +1017,7 @@
 	transform: matrix(0,1,-1,0,73,-3);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 127px;
+	margin-top: 126px;
 	left: 661px;
 }
 
@@ -1017,7 +1026,7 @@
 	opacity: 0.45;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45)";
 	filter: alpha(opacity=45);
-	margin: 127px -10000px 0px 0px;
+	margin: 126px -10000px 0px 0px;
 }
 
 #u1083
@@ -1033,7 +1042,7 @@
 	transform: matrix(0,1,-1,0,73,-2);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 126px;
+	margin-top: 125px;
 	left: 552px;
 }
 
@@ -1050,7 +1059,7 @@
 	transform: matrix(0,1,-1,0,73,-2);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 126px;
+	margin-top: 125px;
 	left: 442px;
 }
 
@@ -1067,7 +1076,7 @@
 	transform: matrix(0,1,-1,0,74,-1);
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 126px;
+	margin-top: 125px;
 	left: 773px;
 }
 
@@ -1076,7 +1085,7 @@
 	opacity: 0.45;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45)";
 	filter: alpha(opacity=45);
-	margin: 126px -10000px 0px 0px;
+	margin: 125px -10000px 0px 0px;
 }
 
 #u1113-4
@@ -1091,7 +1100,7 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 141px;
+	margin-top: 140px;
 	left: 344px;
 }
 
@@ -1107,7 +1116,7 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 141px;
+	margin-top: 140px;
 	left: 459px;
 }
 
@@ -1124,7 +1133,7 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 141px;
+	margin-top: 140px;
 	left: 570px;
 }
 
@@ -1142,7 +1151,7 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 141px;
+	margin-top: 140px;
 	left: 670px;
 }
 
@@ -1151,7 +1160,7 @@
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 26px;
-	margin: 141px -10000px 0px 0px;
+	margin: 140px -10000px 0px 0px;
 }
 
 #u1103-6:hover p
@@ -1173,7 +1182,7 @@
 	font-weight: 300;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 141px;
+	margin-top: 140px;
 	left: 795px;
 }
 
@@ -1188,7 +1197,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 4117px;
+	margin-top: 4134px;
 	left: -100px;
 }
 
@@ -1223,6 +1232,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -4116px;
+	margin-bottom: -4133px;
 }
 

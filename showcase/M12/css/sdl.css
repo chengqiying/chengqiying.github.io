@@ -32,6 +32,7 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
+	padding-bottom: 0px;
 	position: relative;
 	margin-right: -10000px;
 }
@@ -44,7 +45,7 @@
 	position: relative;
 	left: -100px;
 	padding-top: 61px;
-	padding-bottom: 605px;
+	padding-bottom: 105px;
 }
 
 #pu1608-4
@@ -437,6 +438,15 @@
 	background-size: cover !important;
 }
 
+#u1920
+{
+	z-index: 121;
+	width: 276px;
+	left: 452px;
+	margin-top: 517px;
+	position: relative;
+}
+
 #u1681
 {
 	z-index: 11;
@@ -783,7 +793,7 @@
 	position: relative;
 	margin-bottom: -37px;
 	margin-right: -10000px;
-	margin-top: 3817px;
+	margin-top: 3906px;
 	left: -100px;
 }
 
@@ -818,6 +828,6 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -3816px;
+	margin-bottom: -3905px;
 }
 

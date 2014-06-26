@@ -1,23 +1,23 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
-    <file name="site_global.css" crc="4101650494"/>
+    <file name="site_global.css" crc="70242198"/>
     <file name="goals.css" crc="339802920" ref="goals"/>
     <file name="iefonts_goals.css" crc="4215348703" ref="goals"/>
-    <file name="growth.css" crc="316344236" ref="growth"/>
+    <file name="growth.css" crc="4284701437" ref="growth"/>
     <file name="index.css" crc="4046098899" ref="index"/>
     <file name="vision.css" crc="474196997" ref="vision"/>
     <file name="works.css" crc="178307419" ref="works"/>
-    <file name="project.css" crc="3895470434" ref="project"/>
+    <file name="project.css" crc="322346850" ref="project"/>
     <file name="iefonts_project.css" crc="3929436755" ref="project"/>
-    <file name="sdl.css" crc="3867812640" ref="sdl"/>
+    <file name="sdl.css" crc="290219848" ref="sdl"/>
     <file name="iefonts_sdl.css" crc="154991638" ref="sdl"/>
-    <file name="modulev.css" crc="174671920" ref="modulev"/>
+    <file name="modulev.css" crc="4119959500" ref="modulev"/>
     <file name="iefonts_modulev.css" crc="210729808" ref="modulev"/>
-    <file name="moduleictb.css" crc="174688576" ref="moduleictb"/>
+    <file name="moduleictb.css" crc="4024609537" ref="moduleictb"/>
     <file name="iefonts_moduleictb.css" crc="3768581815" ref="moduleictb"/>
-    <file name="modlept.css" crc="3776516275" ref="modlept"/>
+    <file name="modlept.css" crc="281343430" ref="modlept"/>
     <file name="iefonts_modlept.css" crc="536117788" ref="modlept"/>
-    <file name="iefonts_growth.css" crc="4023279007" ref="growth"/>
+    <file name="iefonts_growth.css" crc="227968124" ref="growth"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:vision:goals:growth:works:project:sdl:moduleictb:modlept:modulev"/>
@@ -25,6 +25,7 @@
     <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="index:vision:goals:growth:works:project:sdl:moduleictb:modlept:modulev"/>
     <file name="jquery.watch.js" crc="4068933136" ref="growth:works:project:vision:sdl:moduleictb:modlept:modulev"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="vision:goals:growth:works:project:sdl:moduleictb:modlept:modulev"/>
+    <file name="pie.js" crc="3827607177" ref="growth"/>
   </folder>
   <folder name="images">
     <file name="logo1.png" crc="4009706829" ref="index"/>
@@ -70,17 +71,26 @@
     <file name="7-u1715-fr.jpg" crc="29124680" ref="sdl"/>
     <file name="2-u1744-fr.jpg" crc="4228596746" ref="modulev"/>
     <file name="6-u1745-fr.jpg" crc="4086772796" ref="modulev"/>
-    <file name="sportfolio-u1759-fr.jpg" crc="3890632766" ref="growth"/>
-    <file name="back4-u534-fr.jpg" crc="337135017" ref="growth"/>
+    <file name="back8.jpg" crc="232467106" ref="growth"/>
+    <file name="2.png" crc="21805690" ref="growth"/>
+    <file name="4.png" crc="415942612" ref="growth"/>
+    <file name="5.png" crc="450233593" ref="growth"/>
+    <file name="3.png" crc="116474438" ref="growth"/>
+    <file name="back5.jpg" crc="339451609" ref="growth"/>
+    <file name="12.png" crc="239326903" ref="growth"/>
+    <file name="competence.png" crc="87844977" ref="project:moduleictb"/>
+    <file name="competence2.png" crc="503381945" ref="modlept"/>
+    <file name="competence3.png" crc="141425596" ref="modulev"/>
+    <file name="competence4.png" crc="45217639" ref="sdl"/>
   </folder>
   <file name="index.html" crc="3819438423" mt="1403684861354" redirect="true"/>
   <file name="vision.html" crc="3910569470" mt="1403685986244" redirect="true"/>
   <file name="goals.html" crc="319015191" mt="1403684861401" redirect="true"/>
-  <file name="growth.html" crc="3871420181" mt="1403686693750" redirect="true"/>
-  <file name="works.html" crc="4169527369" mt="1403686312886" redirect="true"/>
-  <file name="project.html" crc="160280326" mt="1403684906459" redirect="true"/>
-  <file name="sdl.html" crc="61359401" mt="1403684906490" redirect="true"/>
-  <file name="moduleictb.html" crc="522334502" mt="1403684906459" redirect="true"/>
-  <file name="modlept.html" crc="4189632622" mt="1403684906475" redirect="true"/>
-  <file name="modulev.html" crc="513290362" mt="1403685595742" redirect="true"/>
+  <file name="growth.html" crc="56945659" mt="1403739639773" redirect="true"/>
+  <file name="works.html" crc="243857303" mt="1403738715118" redirect="true"/>
+  <file name="project.html" crc="3991548377" mt="1403739637882" redirect="true"/>
+  <file name="sdl.html" crc="395673519" mt="1403741030897" redirect="true"/>
+  <file name="moduleictb.html" crc="4015557508" mt="1403739637679" redirect="true"/>
+  <file name="modlept.html" crc="3863703375" mt="1403741031086" redirect="true"/>
+  <file name="modulev.html" crc="3871723854" mt="1403741031031" redirect="true"/>
 </manifest>
