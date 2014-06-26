@@ -4,7 +4,7 @@
     <file name="goals.css" crc="3853454530" ref="goals"/>
     <file name="iefonts_goals.css" crc="4215348703" ref="goals"/>
     <file name="growth.css" crc="3963848207" ref="growth"/>
-    <file name="index.css" crc="4138626549" ref="index"/>
+    <file name="index.css" crc="3847267623" ref="index"/>
     <file name="vision.css" crc="3860259133" ref="vision"/>
     <file name="works.css" crc="4168894436" ref="works"/>
     <file name="project.css" crc="47028734" ref="project"/>
@@ -84,7 +84,7 @@
     <file name="competenceictb.png" crc="121394572" ref="moduleictb"/>
     <file name="competencecv.png" crc="434682139" ref="project"/>
   </folder>
-  <file name="index.html" crc="3819438423" mt="1403786836246" redirect="true"/>
+  <file name="index.html" crc="3819438423" mt="1403788864085" redirect="true"/>
   <file name="vision.html" crc="4097742400" mt="1403786774404" redirect="true"/>
   <file name="goals.html" crc="457066945" mt="1403786791189" redirect="true"/>
   <file name="growth.html" crc="237245913" mt="1403786807810" redirect="true"/>
