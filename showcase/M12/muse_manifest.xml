@@ -13,7 +13,7 @@
     <file name="iefonts_sdl.css" crc="154991638" ref="sdl"/>
     <file name="modulev.css" crc="4119959500" ref="modulev"/>
     <file name="iefonts_modulev.css" crc="210729808" ref="modulev"/>
-    <file name="moduleictb.css" crc="4024609537" ref="moduleictb"/>
+    <file name="moduleictb.css" crc="3878331341" ref="moduleictb"/>
     <file name="iefonts_moduleictb.css" crc="3768581815" ref="moduleictb"/>
     <file name="modlept.css" crc="281343430" ref="modlept"/>
     <file name="iefonts_modlept.css" crc="536117788" ref="modlept"/>
@@ -78,7 +78,7 @@
     <file name="3.png" crc="116474438" ref="growth"/>
     <file name="back5.jpg" crc="339451609" ref="growth"/>
     <file name="12.png" crc="239326903" ref="growth"/>
-    <file name="competence.png" crc="87844977" ref="project:moduleictb"/>
+    <file name="competence.png" crc="4012465196" ref="project:moduleictb"/>
     <file name="competence2.png" crc="503381945" ref="modlept"/>
     <file name="competence3.png" crc="141425596" ref="modulev"/>
     <file name="competence4.png" crc="45217639" ref="sdl"/>
@@ -90,7 +90,7 @@
   <file name="works.html" crc="243857303" mt="1403738715118" redirect="true"/>
   <file name="project.html" crc="3991548377" mt="1403739637882" redirect="true"/>
   <file name="sdl.html" crc="395673519" mt="1403741030897" redirect="true"/>
-  <file name="moduleictb.html" crc="4015557508" mt="1403739637679" redirect="true"/>
+  <file name="moduleictb.html" crc="4183122979" mt="1403742437267" redirect="true"/>
   <file name="modlept.html" crc="3863703375" mt="1403741031086" redirect="true"/>
   <file name="modulev.html" crc="3871723854" mt="1403741031031" redirect="true"/>
 </manifest>
