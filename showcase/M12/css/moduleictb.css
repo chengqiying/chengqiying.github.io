@@ -139,7 +139,7 @@
 #u1272-4
 {
 	z-index: 161;
-	width: 61px;
+	width: 63px;
 	min-height: 28px;
 	border-style: none;
 	border-color: transparent;
@@ -245,17 +245,17 @@
 	font-weight: 400;
 }
 
-#u1125
+#u1244
 {
 	z-index: 7;
 	width: 343px;
 	height: 226px;
 	border-style: none;
 	border-color: transparent;
-	left: 247px;
+	left: 590px;
 	margin-top: 22px;
 	position: relative;
-	background: #FFFFFF url("../images/eboo%20in%20room_%e5%89%af%e6%9c%ac-u1125-fr.jpg") no-repeat left top;
+	background: #F2F2F2 url("../images/company-u1244-fr.png") no-repeat center top;
 	background-size: cover !important;
 }
 
@@ -610,12 +610,12 @@
 	position: relative;
 }
 
-#u1940
+#u1954
 {
 	z-index: 171;
-	width: 517px;
-	left: 331px;
-	margin-top: 127px;
+	width: 521px;
+	left: 329px;
+	margin-top: 123px;
 	position: relative;
 }
 
@@ -623,7 +623,7 @@
 {
 	width: 0.01px;
 	left: 180px;
-	margin-top: 148px;
+	margin-top: 152px;
 	position: relative;
 }
 
@@ -958,7 +958,7 @@
 	visibility: inherit;
 }
 
-#u1244
+#u1125
 {
 	z-index: 8;
 	width: 343px;
@@ -968,8 +968,8 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 1051px;
-	left: 590px;
-	background: #F2F2F2 url("../images/company-u1244-fr.png") no-repeat center top;
+	left: 247px;
+	background: #FFFFFF url("../images/eboo%20in%20room_%e5%89%af%e6%9c%ac-u1125-fr.jpg") no-repeat left top;
 	background-size: cover !important;
 }
 

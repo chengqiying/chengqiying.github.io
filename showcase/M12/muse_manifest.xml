@@ -1,21 +1,21 @@
 <manifest alg="2" build="30" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="70242198"/>
-    <file name="goals.css" crc="190399730" ref="goals"/>
+    <file name="goals.css" crc="3853454530" ref="goals"/>
     <file name="iefonts_goals.css" crc="4215348703" ref="goals"/>
-    <file name="growth.css" crc="200119024" ref="growth"/>
-    <file name="index.css" crc="4046098899" ref="index"/>
-    <file name="vision.css" crc="173045672" ref="vision"/>
-    <file name="works.css" crc="178307419" ref="works"/>
-    <file name="project.css" crc="4254215297" ref="project"/>
+    <file name="growth.css" crc="3963848207" ref="growth"/>
+    <file name="index.css" crc="4138626549" ref="index"/>
+    <file name="vision.css" crc="3860259133" ref="vision"/>
+    <file name="works.css" crc="4168894436" ref="works"/>
+    <file name="project.css" crc="47028734" ref="project"/>
     <file name="iefonts_project.css" crc="3826903542" ref="project"/>
     <file name="sdl.css" crc="3812786116" ref="sdl"/>
     <file name="iefonts_sdl.css" crc="154991638" ref="sdl"/>
-    <file name="modulev.css" crc="424864177" ref="modulev"/>
+    <file name="modulev.css" crc="4053755697" ref="modulev"/>
     <file name="iefonts_modulev.css" crc="210729808" ref="modulev"/>
-    <file name="moduleictb.css" crc="3977130539" ref="moduleictb"/>
+    <file name="moduleictb.css" crc="3830378282" ref="moduleictb"/>
     <file name="iefonts_moduleictb.css" crc="4018285686" ref="moduleictb"/>
-    <file name="modlept.css" crc="443478800" ref="modlept"/>
+    <file name="modlept.css" crc="4263179295" ref="modlept"/>
     <file name="iefonts_modlept.css" crc="536117788" ref="modlept"/>
     <file name="iefonts_growth.css" crc="227968124" ref="growth"/>
   </folder>
@@ -77,20 +77,21 @@
     <file name="5.png" crc="3826506682" ref="growth"/>
     <file name="3.png" crc="116474438" ref="growth"/>
     <file name="back5.jpg" crc="339451609" ref="growth"/>
-    <file name="12.png" crc="239326903" ref="growth"/>
-    <file name="competence.png" crc="45217639" ref="moduleictb:sdl"/>
+    <file name="competence.png" crc="93228061" ref="sdl"/>
     <file name="competence2.png" crc="503381945" ref="modlept"/>
     <file name="competence3.png" crc="141425596" ref="modulev"/>
-    <file name="1.png" crc="13845563" ref="project"/>
+    <file name="1.png" crc="239326903" ref="growth"/>
+    <file name="competenceictb.png" crc="121394572" ref="moduleictb"/>
+    <file name="competencecv.png" crc="434682139" ref="project"/>
   </folder>
-  <file name="index.html" crc="3819438423" mt="1403684861354" redirect="true"/>
-  <file name="vision.html" crc="4097742400" mt="1403785306204" redirect="true"/>
-  <file name="goals.html" crc="457066945" mt="1403785380191" redirect="true"/>
-  <file name="growth.html" crc="4184961601" mt="1403743025900" redirect="true"/>
-  <file name="works.html" crc="243857303" mt="1403738715118" redirect="true"/>
-  <file name="project.html" crc="249304470" mt="1403785720120" redirect="true"/>
+  <file name="index.html" crc="3819438423" mt="1403786836246" redirect="true"/>
+  <file name="vision.html" crc="4097742400" mt="1403786774404" redirect="true"/>
+  <file name="goals.html" crc="457066945" mt="1403786791189" redirect="true"/>
+  <file name="growth.html" crc="237245913" mt="1403786807810" redirect="true"/>
+  <file name="works.html" crc="243857303" mt="1403786759560" redirect="true"/>
+  <file name="project.html" crc="3923420697" mt="1403787814826" redirect="true"/>
   <file name="sdl.html" crc="393537728" mt="1403786576172" redirect="true"/>
-  <file name="moduleictb.html" crc="20929702" mt="1403785223298" redirect="true"/>
-  <file name="modlept.html" crc="376458525" mt="1403785243196" redirect="true"/>
-  <file name="modulev.html" crc="512114069" mt="1403785160946" redirect="true"/>
+  <file name="moduleictb.html" crc="3807513055" mt="1403787482374" redirect="true"/>
+  <file name="modlept.html" crc="376458525" mt="1403786720394" redirect="true"/>
+  <file name="modulev.html" crc="512114069" mt="1403786736787" redirect="true"/>
 </manifest>
