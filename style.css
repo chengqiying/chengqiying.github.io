@@ -1,4 +1,6 @@
 ﻿@charset "utf-8";
+
+@media and (min-windth : 800px) {};
 /* CSS Document */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
