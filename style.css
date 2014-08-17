@@ -226,7 +226,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	height:4px;
 	width: 125px;
     margin-top:0px;
-	margin: auto;
+	margin-left: 5%;
     position: relative;  
 }
 
@@ -254,7 +254,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:block;
 	width: 980px;
-    margin:auto 110px auto 0px;
+    margin-top:110px;
+	margin-left: 5%;
     position: relative;
     float:left;   
 }
@@ -819,7 +820,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:block;
 	width: 980px;
-    margin:auto 140px auto 0px;
+    margin-top:140px;
+	margin-left:5%;
     position: relative;
     float:left;
 	text-align:center;
