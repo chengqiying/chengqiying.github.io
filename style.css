@@ -66,7 +66,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #guide{
 	width: 958px;
 	height: 230px;
-	margin-left:9.2%;
+	margin:auto;
 	position: relative;
 }
 
@@ -226,7 +226,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	height:4px;
 	width: 125px;
     margin-top:0px;
-	margin-left: 10.5%;
+	margin-left: 9.2%;
     position: relative;  
 }
 
