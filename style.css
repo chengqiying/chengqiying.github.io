@@ -177,7 +177,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	height:30px;
 	width:75px;
-	margin-left:25px;
+	margin-left:30px;
 	float:left;	
 }
 
@@ -230,25 +230,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     position: relative;  
 }
 
-#sperateline1
-{
-	height:1px;
-	width: 125px;
-	background-color:#707070;
-    margin-top:0px;
-    position: relative;
-    float:left;   
-}
-
-#sperateline2
-{
-	height:1px;
-	width: 125px;
-	background-color:#8B8B8B;
-    margin-top:0px;
-    position: relative;
-    float:left;   
-}
 
 #portfolio
 {
