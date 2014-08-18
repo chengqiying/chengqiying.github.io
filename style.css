@@ -765,7 +765,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
-	margin-left:44.5%;
+	margin-left:44.2%;
 }
 
 #contack-text p
@@ -779,7 +779,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #contack-link
 {
-	width:18%;
+	width:180px;
 	height:100px;
 	float:left;
 	margin-top:15px;
