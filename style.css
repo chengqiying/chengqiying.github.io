@@ -53,17 +53,23 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 }
 
 #guide{
-	max-width: 969px;
+	max-width: 980px;
 	height: 108px;
 	margin:0 auto;
-	position: relative;
+}
+
+
+@media  screen and (max-width: 979px)
+#guide
+{
+	max-width: 734px;
 }
 
 #logo
 {
 	display:block;
 	width: 120px;
-	margin-top: -20px;
+	margin-top: -15px;
 	margin-left: 10px;
 	float: left;
 	text-align: center;
