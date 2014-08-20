@@ -73,7 +73,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 }
 }
 
-@media  screen and (max-width: 489px){
+@media  screen and (max-width: 505px){
 #guide
 {
 	max-width: 245px;
@@ -129,7 +129,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	position: relative;
 }
 
-@media  screen and (max-width: 489px){
+@media  screen and (max-width: 505px){
 #intromenu
 {
 	float: left;
@@ -215,7 +215,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 }
 }
 
-@media  screen and (max-width: 489px){
+@media  screen and (max-width: 505px){
 #portfolio
 {
 	max-width: 245px;
