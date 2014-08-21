@@ -1,6 +1,11 @@
 $(document).ready(function(){
 	$('#cv').click(function(){
-		$('#cv-page').FadeIn(500);
-		$("#all, #border, #footer").hide();
+		$(".footer, #all, #border").hide();
+		$('#cv-page').fadeIn(500);
+		
+	});
+	$('#cv-page').click(function(){
+		$('#cv-page').fadeOut(500);
+		$(".footer, #all, #border").show();
 	});
 });

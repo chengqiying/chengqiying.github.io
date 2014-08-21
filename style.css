@@ -167,7 +167,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width:37px;
 	margin-left:25px;
 	float:left;	
-	border:2px solid #323232;
+	border:1px solid #D5D5D5;
 	border-radius:4px;
 }
 
@@ -188,8 +188,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #cv:hover
 {
-	background-color:#323232;
-	border:0px;
+	background-color: #CED73D;
+	border:0px solid #CED73D;
 }
 
 
@@ -842,8 +842,21 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:none;
 	position:fixed;
-	background-color: #C1C1C1;
-	height:100%;	
+	background-color:#E4E4E4;
+	height:100%;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+	z-index: 100;	
+}
+
+a#cv-close
+{
+	height: 100%;
+	width: 30%;
+	background-color: #F1F1F1;
+	margin:0 auto;
 }
 
 
