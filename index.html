@@ -27,8 +27,9 @@
     })
 });
 </script>
+
 <script type="text/javascript">
-$(function() {
+	$(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -52,8 +53,9 @@ $(function() {
 
   ga('create', 'UA-50711544-1', 'chengqiying.com');
   ga('send', 'pageview');
-
 </script>
+<script type="text/javascript" src="resu.js"></script>
+
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
 </head>
 
@@ -76,7 +78,7 @@ $(function() {
 		        <div id="identity">
 					<h2>Interaction designer</h2>
             	</div>
-           		<a id="cv" href= "cv">
+           		<a id="cv" href= "#">
                 	<h2>CV</h2>
             	</a>
 			</div>
@@ -237,7 +239,8 @@ $(function() {
 		© Qiying Cheng 2014
 	</div>
 </div>
- <a href="#" class="back-to-top">Top</a>  
+ <a href="#" class="back-to-top">Top</a> 
+ <div id="cv-page"></div> 
 </body>
 
 </html>

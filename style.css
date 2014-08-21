@@ -837,3 +837,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin:0 auto;
 	padding-top:35px;
 }
+
+#cv-page
+{
+	display:none;
+	position:fixed;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #C1C1C1;
+	overflow: hidden;
+	height:auto;
+}
