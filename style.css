@@ -146,7 +146,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #identity
 {
 	height:22px;
-	width:140px;
+	width:145px;
 	float:left;	
 	border-bottom-style:1px solid #808080;
 }
@@ -158,12 +158,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	color: #000;
 	text-align: right;
 	font-weight:300;
-	padding-top:3px;
+	padding-top:1px;
 }
 
-#intromenu a#cv
+a#cv
 {
-	height:20px;
+	height:18px;
 	width:37px;
 	margin-left:25px;
 	float:left;	
@@ -171,25 +171,20 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	border-radius:4px;
 }
 
+.cvcolor1 
+{ 
+	background-color:#CED73D;
+	border:0px;
+}
+
 #cv h2
 {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	color: #323232;
+	color: #CDCDCD;
 	text-align: center;
-	font-weight:300;
-	padding-top:3px;
-}
-
-#cv h2:hover
-{
-	color: #FFFFFF;
-}
-
-#cv:hover
-{
-	background-color: #CED73D;
-	border:0px solid #CED73D;
+	font-weight: 300;
+	padding-top: 2px;
 }
 
 
