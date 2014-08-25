@@ -11,8 +11,8 @@ $(document).ready(function(){
 		$('#cv-page').fadeIn(500);
 		
 	});
-	$('#cv-page').click(function(){
+	$('#cv-close').click(function(){
 		$('#cv-page').fadeOut(500);
-		$(".footer, #all, #border").show();
+		$(".footer, #all, #border").fadeIn(500);
 	});
 });

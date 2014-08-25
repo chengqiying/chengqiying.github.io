@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#cv-page
+{
+	display: block;
+}
+
+#cv-wrapper
+{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	max-width: 980px;
+	position: relative;
+	display: block;
+}
+
+#nameinfo
+{
+	width: 28%;
+	margin-left: 0px;
+	float: left;
+	height: 100%;
+	min-height: 500px;
+	margin-top:10%;
+
+}
+
+#nameinfo-content
+{
+	width: 100%;
+	margin-left: 0px;
+	text-align: center;
+	float: left;
+}
+
+#nameinfo h1
+{
+	font-size:28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+
+#nameinfo p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+#blockline
+{
+	width:1%;
+	max-width:1px;
+	height: 100%;
+	background-color: #E0E0E0;
+	float: left;
+}
+
+#content
+{
+	width:59%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+#education
+{
+	width:90%;
+	margin-left: 10%;
+}
+
+#education-title
+{
+	width:130px;
+	border-bottom: 1px solid #090909;
+}
+
+h2
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+} 
+
+#education-content-left
+{
+	width:70%;
+	text-align: left;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+#education-content-right
+{
+	width: 29%;
+	text-align: right;
+	margin-top: 2%;
+	display: inline-block;
+}
+
+#education p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+#experience
+{
+	width:90%;
+	margin-left: 10%;
+	margin-top: 10%
+}
+
+#experience-title
+{
+	width:130px;
+	border-bottom: 1px solid #090909;
+	margin-bottom: 2%;
+}
+
+h2
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+} 
+
+#experience-content
+{
+	width:100%;
+	text-align: left;
+	display: inline-block;
+}
+
+.experience-content-title
+{
+	width:100%;
+	text-align: left;
+}
+
+.experience-content-title p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	line-height: 150%;
+}
+
+.experience-content-descrip
+{
+	width:100%;
+	text-align: left;
+	margin-bottom:5%;
+}
+
+.experience-content-descrip p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+#skill
+{
+	width:90%;
+	margin-left: 10%;
+	margin-top: 5%
+}
+
+#skill-title
+{
+	width: 80px;
+	border-bottom: 1px solid #090909;
+	margin-bottom: 2%;
+}
+
+h2
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+} 
+
+#skill-content
+{
+	width:100%;
+	text-align: left;
+	display: inline-block;
+}
+
+#skill p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+#patent
+{
+	width:90%;
+	margin-left: 10%;
+	margin-top: 10%
+}
+
+#patent-title
+{
+	width: 100px;
+	border-bottom: 1px solid #090909;
+	margin-bottom: 2%;
+}
+
+h2
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+} 
+
+#skill-content
+{
+	width:100%;
+	text-align: left;
+	display: inline-block;
+}
+
+#patent p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+.cv-footer, .push {
+    width:100%;
+	background-color:#F4F4F4;
+	height:80px;
+	margin-top:10%;
+	float:left;
+}
+
+#cv-footertext
+{
+	max-width:150px;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	color:#575757;
+	margin:0 auto;
+	padding-top:35px;
+}
+
+#cv-close
+{
+	position:fixed;
+	width:36px;
+	height:36px;
+	background-color: #EBEBEB;
+	border-radius: 18px;
+	margin-left: 92%;
+	margin-top:1%;
+}
