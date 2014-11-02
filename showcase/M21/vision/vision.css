@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,p {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+}
+
+body
+{
+	display: block;
+}
+
+#indext-vision
+{
+	
+}
+
+
+#header
+{
+	background-color: #B1BBED;
+	height: 820px;
+	width: 100%;
+	position: fixed;
+	z-index: -999;
+	
+}
+
+#header h1
+{
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 300px;
+	margin-left: 30%;
+}
+
+#nav
+{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 998;
+	background-color: #B1BBED;
+}
+
+
+.nav-title
+{
+	width: 120px;
+	height: 80px;
+	margin: auto;
+	background: #B1BBED;	
+	opacity: 0;
+	z-index: 999;
+	text-align: center;
+}
+
+.nav-title h2
+{
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 200;
+	color: #FFFFFF;
+	z-index: 999;
+	padding-top: 25px;
+}
+
+#content
+{
+	
+	width: 100%;
+	height: 820px;
+	top: 820px;
+	z-index: 30;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	-webkit-animation: intro-content 2s forwards;
+	-moz-animation: intro-content 2s forwards;
+	-o-animation: intro-content 2s forwards;
+	animation: intro-content 2s forwards;
+}
