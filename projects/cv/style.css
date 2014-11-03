@@ -11,29 +11,35 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 .back-to-top {
     position: fixed;
     bottom: 2em;
-    right: 150px;
-    text-decoration: none;
-    color: #ffffff;
+    right: 100px; 
     background-color: #e6e6e6;
-    font-size: 20px;
-    font-family: Ebrima;
     width:60px;
-    height:47px;
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
+    height:60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
 	/*padding: 1em;*/
 	text-align: center;
-	padding-top: 13px;
+	text-decoration:none;
     display: none;
 }
 
-.back-to-top:hover {    
-    background-color:#D7D7CE;
-	color:#ffffff;
+
+.back-to-top h6
+{    
+    color: #ffffff;
+	font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+	font-weight: 200;
+	margin-top: 17px;
 }
 
-
+.back-to-top h6:hover 
+{
+	background-color: #D7D7CE;
+	color: #ffffff;
+	text-decoration: none;
+}
 
 #all
 {
