@@ -70,7 +70,8 @@ body
 
 .background
 {
-	background-color: #F4F7F3;
+	background: url(images/back1.png) no-repeat;
+	background-size: cover;
 }
 
 .nav-title
@@ -88,7 +89,7 @@ body
 	font-family: 'Roboto';
 	font-size: 20px;
 	font-weight: 300;
-	color: #515151;
+	color: #fff;
 	z-index: 999;
 	padding-top: 27px;
 	text-align: center;
@@ -134,8 +135,8 @@ body
 	text-align: left;
 	font-family: 'Roboto';
 	font-size: 16px;
-	font-weight: 200;
-	color: #393939;
+	font-weight: 300;
+	color: #555555;
 	margin-top: 30px;
 	line-height: 170%;
 	letter-spacing: 0.7px;
