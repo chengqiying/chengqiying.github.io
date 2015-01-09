@@ -2,9 +2,8 @@
 $(document).ready(function(){
 	
 	$('#content').waypoint(function() {
-		$('#nav').addClass('navcolor');
-		$('.nav-title').addClass('animated fadeInUp');
-		$('.nav-title h2').addClass('animated fadeInUpBig ');
+		$('.nav-title').addClass('animated fadeInDown');
+		$('.nav-title h2').addClass('animated fadeInDownBig ');
 		}, { offset: 200 }
 	);
 	/*$('#content').waypoint(function(){
@@ -14,9 +13,8 @@ $(document).ready(function(){
 	);*/
 	
 	$('#content').waypoint(function(){
-		$('#nav').removeClass('navcolor');
-		$('.nav-title').removeClass('animated fadeInUp', {duration: 800});
-		$('.nav-title h2').removeClass('animated fadeInUpBig ', {duration: 800});
+		$('.nav-title').removeClass('animated fadeInDown', {duration: 800});
+		$('.nav-title h2').removeClass('animated fadeInDownBig ', {duration: 800});
 		}, { offset: 290 }
 	);
 		
