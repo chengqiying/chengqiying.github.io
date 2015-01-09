@@ -31,38 +31,55 @@ $(document).ready(function(){
 	
 	$('#concept-1').waypoint(function(){
 		$('#concept-1').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '70%' }
+		}, { offset: '86%' }
 	);
 	$('#concept-1').waypoint(function(){
 		$('#concept-1').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
+		}, { offset: '90%' }
 	);
 	
 	$('#concept-2').waypoint(function(){
 		$('#concept-2').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '70%' }
+		}, { offset: '84%' }
 	);
 	$('#concept-2').waypoint(function(){
 		$('#concept-2').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
+		}, { offset: '90%' }
 	);
 	
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '75%' }
+		}, { offset: '82%' }
 	);
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '85%' }
+		}, { offset: '90%' }
 	);
 	
-	$('#concept-4').waypoint(function(){
-		$('#concept-4').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '75%' }
+	$('#concept-1').hover(function(){
+		$(".concept-1-mask").fadeIn(500);
+		}, function(){
+			$('.concept-1-mask').fadeOut(500);
+	});
+	$('#concept-2').hover(function(){
+		$(".concept-2-mask").fadeIn(500);
+		}, function(){
+			$('.concept-2-mask').fadeOut(500);
+	});
+	$('#concept-3').hover(function(){
+		$(".concept-3-mask").fadeIn(500);
+		}, function(){
+			$('.concept-3-mask').fadeOut(500);
+	});
+	
+	$('#learned').waypoint(function(){
+		$('#learned').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
 	);
-	$('#concept-4').waypoint(function(){
-		$('#concept-4').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '85%' }
+	$('#learned').waypoint(function(){
+		$('#learned').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
 	);
+	
 		
 });

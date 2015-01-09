@@ -60,18 +60,18 @@ body
 	vertical-align: middle;
 	font-family: 'Roboto', sans-serif;;
 	font-size: 18px;
-	font-weight: 200;
-	color: #4F4F4F;
+	font-weight: 300;
+	color: #565656;
 }
 
 .guide-content-title:hover
 {
-	color: #7FE0E6;
+	color: #B2EBF2;
 }
 
 .active
 {
-	color: #7FE0E6;
+	color: #B2EBF2;
 }
 
 #logo
@@ -79,7 +79,7 @@ body
 	width: 90px;
 	height: 100%;
 	display: inline-block;
-	background: #d8f6f8;
+	background: #B2EBF2;
 	margin-left: 10px;
 	margin-right: 10px;
 	vertical-align: middle;
@@ -115,7 +115,7 @@ body
 {
 	text-align: center;
 	margin-top: 200px;
-	background: #d8f6f8;
+	background: #B2EBF2;
 }
 
 #vision-content
@@ -182,7 +182,7 @@ body
 	font-weight: 200;
 	color: #000000;
 	line-height: 150%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -231,7 +231,7 @@ body
 	font-weight: 200;
 	color: #000000;
 	line-height: 150%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -383,7 +383,7 @@ h3
 	font-size: 16px;
 	font-weight: 200;
 	line-height: 150%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -441,7 +441,7 @@ h3
 	font-weight: 200;
 	text-align: center;
 	margin-top: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 }
 
 .activity-line
@@ -462,7 +462,7 @@ h3
 
 #FMP:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -479,7 +479,7 @@ h3
 
 #module-db310:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -496,7 +496,7 @@ h3
 
 #module-db221:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -513,7 +513,7 @@ h3
 
 #module-db518:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -530,7 +530,7 @@ h3
 
 #module-db619:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -547,7 +547,7 @@ h3
 
 #sdl:hover
 {
-	background: #D9F7F9;
+	background: #B2EBF2;
 	-webkit-transition: background .9s;
 	-moz-transition: background .9s;
 	-oz-transition: background .9s;
@@ -557,7 +557,7 @@ h3
 #growth
 {
 	text-align: center;;
-	background-color: #E8F8E2;
+	background-color: #B2EBF2;
 }
 
 #growth-content
@@ -620,7 +620,7 @@ h3
 	font-size: 16px;
 	font-weight: 200;
 	line-height: 150%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -648,7 +648,7 @@ footer
 {
 	color: #F2F2F2;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 70px;
 	padding-bottom: 50px;
 }
 
@@ -658,7 +658,7 @@ footer h4
 	font-size: 14px;
 	font-weight: 200;
 	line-height: 150%;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	color: #9B9B9B;
 }
 

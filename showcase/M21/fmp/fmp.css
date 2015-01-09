@@ -88,7 +88,7 @@ body
 {
 	font-family: 'Roboto';
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #ffffff;
 	z-index: 999;
 	padding-top: 27px;
@@ -139,57 +139,159 @@ body
 	color: #555555;
 	margin-top: 30px;
 	line-height: 170%;
-	letter-spacing: 0.7px;
+	letter-spacing: 0.5px;
 }
 
 #concept
 {
 	width: 932px;
 	display: block;
-	margin: 50px auto;
+	margin: 40px auto;
 	font-size: 0;
 }
 
 #concept-1
 {
-	width: 456px;
-	height: 306px;
-	background: url(images/concept1.png) no-repeat;
-	background-size:cover;
+	width: 304px;
+	height: 204px;
 	display: inline-block;
 	opacity: 0;
+}
+
+#concept-1-pic
+{
+	width: 304px;
+	height: 204px;
+	z-index: 31;
+	position: absolute;
+	background: url(images/concept1.png) no-repeat;
+	background-size:cover;
+}
+
+.concept-1-mask
+{
+	width: 304px;
+	height: 204px;
+	background-color: rgba(0,172,193,0.8);
+	z-index: 32;
+	position: absolute;
+	display: none;
+}
+
+.concept-1-mask h4
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 80px;
 }
 
 #concept-2
 {
-	width: 456px;
-	height: 306px;
-	background: url(images/concept2.png) no-repeat;
-	background-size:cover;
-	margin-left: 20px;
+	width: 304px;
+	height: 204px;
+	margin-left: 10px;
 	display: inline-block;
 	opacity: 0;
+}
+
+#concept-2-pic
+{
+	width: 304px;
+	height: 204px;
+	z-index: 31;
+	position: absolute;
+	background: url(images/concept2.png) no-repeat;
+	background-size:cover;
+}
+
+.concept-2-mask
+{
+	width: 304px;
+	height: 204px;
+	background-color: rgba(0,172,193,0.8);
+	z-index: 32;
+	position: absolute;
+	display: none;
+}
+
+.concept-2-mask h4
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 80px;
 }
 
 #concept-3
 {
-	width: 456px;
-	height: 306px;
-	background: url(images/concept3.png) no-repeat;
-	background-size: cover;
-	margin-top: 20px;
+	width: 304px;
+	height: 204px;
+	margin-left: 10px;
 	display: inline-block;
 	opacity: 0;
 }
 
-#concept-4
+#concept-3-pic
 {
-	width: 456px;
-	height: 306px;
-	background: url(images/concept4.png) no-repeat;
+	width: 304px;
+	height: 204px;
+	z-index: 31;
+	position: absolute;
+	background: url(images/concept3.png) no-repeat;
 	background-size:cover;
-	margin-left: 20px;
-	margin-top: 20px;
-	display: inline-block;
+}
+
+.concept-3-mask
+{
+	width: 304px;
+	height: 204px;
+	background-color: rgba(0,172,193,0.8);
+	z-index: 32;
+	position: absolute;
+	display: none;
+}
+
+.concept-3-mask h4
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 80px;
+}
+
+#learned
+{
+	width: 40%;
+	display: block;
+	margin: 0 auto;
 	opacity: 0;
+}
+
+#learned h3
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	color: #515151;
+	margin-top: 100px;
+}
+
+#learned p
+{
+	text-align: left;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 300;
+	color: #555555;
+	margin-top: 30px;
+	line-height: 170%;
+	letter-spacing: 0.5px;
 }
