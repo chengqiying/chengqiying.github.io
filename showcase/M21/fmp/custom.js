@@ -49,20 +49,20 @@ $(document).ready(function(){
 	
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '70%' }
+		}, { offset: '75%' }
 	);
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
+		}, { offset: '85%' }
 	);
 	
 	$('#concept-4').waypoint(function(){
 		$('#concept-4').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '70%' }
+		}, { offset: '75%' }
 	);
 	$('#concept-4').waypoint(function(){
 		$('#concept-4').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
+		}, { offset: '85%' }
 	);
 		
 });
