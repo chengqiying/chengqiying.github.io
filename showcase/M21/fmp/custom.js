@@ -22,11 +22,11 @@ $(document).ready(function(){
 	
 	$('#introduction').waypoint(function(){
 		$('#introduction').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '70%' }
+		}, { offset: '80%' }
 	);
 	$('#introduction').waypoint(function(){
 		$('#introduction').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%'}
+		}, { offset: '90%'}
 	);
 	
 	$('#concept-1').waypoint(function(){
