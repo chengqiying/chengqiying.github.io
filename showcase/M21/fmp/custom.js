@@ -22,47 +22,47 @@ $(document).ready(function(){
 	
 	$('#introduction').waypoint(function(){
 		$('#introduction').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 600 }
+		}, { offset: '70%' }
 	);
 	$('#introduction').waypoint(function(){
 		$('#introduction').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 700 }
+		}, { offset: '80%'}
 	);
 	
 	$('#concept-1').waypoint(function(){
 		$('#concept-1').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 600 }
+		}, { offset: '70%' }
 	);
 	$('#concept-1').waypoint(function(){
 		$('#concept-1').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 700 }
+		}, { offset: '80%' }
 	);
 	
 	$('#concept-2').waypoint(function(){
 		$('#concept-2').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 600 }
+		}, { offset: '70%' }
 	);
 	$('#concept-2').waypoint(function(){
 		$('#concept-2').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 700 }
+		}, { offset: '80%' }
 	);
 	
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 600 }
+		}, { offset: '70%' }
 	);
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 700 }
+		}, { offset: '80%' }
 	);
 	
 	$('#concept-4').waypoint(function(){
 		$('#concept-4').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 600 }
+		}, { offset: '70%' }
 	);
 	$('#concept-4').waypoint(function(){
 		$('#concept-4').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 700 }
+		}, { offset: '80%' }
 	);
 		
 });
