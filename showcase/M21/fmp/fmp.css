@@ -53,8 +53,8 @@ body
 {
 	font-family: 'Roboto';
 	font-size: 24px;
-	font-weight: 200;
-	color: #515151;
+	font-weight: 300;
+	color: #ffffff;
 	margin-left: 30%;
 	margin-top: 20px;
 	line-height: 160%;
@@ -70,7 +70,7 @@ body
 
 .background
 {
-	background: url(images/back2.png) no-repeat;
+	background: url(images/back.png) no-repeat;
 	background-size: cover;
 }
 
@@ -89,7 +89,7 @@ body
 	font-family: 'Roboto';
 	font-size: 20px;
 	font-weight: 300;
-	color: #515151;
+	color: #ffffff;
 	z-index: 999;
 	padding-top: 27px;
 	text-align: center;
