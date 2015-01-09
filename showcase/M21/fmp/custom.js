@@ -22,7 +22,7 @@ $(document).ready(function(){
 	
 	$('#introduction').waypoint(function(){
 		$('#introduction').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: 500 }
+		}, { offset: 600 }
 	);
 	$('#introduction').waypoint(function(){
 		$('#introduction').removeClass('animated fadeInUpBig', {duration: 1600});
