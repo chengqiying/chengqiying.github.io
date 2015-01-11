@@ -137,7 +137,7 @@ body
 	font-size: 16px;
 	font-weight: 300;
 	color: #555555;
-	margin-top: 30px;
+	margin-top: 40px;
 	line-height: 170%;
 	letter-spacing: 0.5px;
 }
@@ -146,7 +146,7 @@ body
 {
 	width: 932px;
 	display: block;
-	margin: 40px auto;
+	margin: 50px auto;
 	font-size: 0;
 }
 
@@ -266,12 +266,30 @@ body
 	margin-top: 80px;
 }
 
+
+@media screen and (max-width: 931px) {
+    #concept {
+        width: 304px;
+    }
+	
+	#concept-2 {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+	
+	#concept-3 {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
+
 #learned
 {
-	width: 40%;
+	width: 60%;
 	display: block;
-	margin: 0 auto;
+	margin: 130px auto;
 	opacity: 0;
+	
 }
 
 #learned h3
@@ -291,7 +309,175 @@ body
 	font-size: 16px;
 	font-weight: 300;
 	color: #555555;
-	margin-top: 30px;
 	line-height: 170%;
 	letter-spacing: 0.5px;
+}
+
+#part-1
+{
+	width: 45%;
+	margin-top: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#part-2
+{
+	width: 45%;
+	display: inline-block;
+	margin-left: 9%;
+	margin-top: 70px;
+	vertical-align: top;
+}
+
+#part-3
+{
+	width: 45%;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#part-4
+{
+	width: 45%;
+	display: inline-block;
+	margin-left: 9%;
+	margin-top: 50px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 931px) {
+    #learned {
+        width: 50%;
+    }
+	#part-1 {
+        display: inline;
+    }
+	
+	#part-2 {
+		display: inline;
+		margin-left: 0;
+	}
+	
+	#part-3 {
+        display: inline;
+    }
+	
+	#part-4 {
+		display: inline;
+		margin-left: 0;
+	}
+}
+
+#development
+{
+	width: 40%;
+	display: block;
+	margin: 120px auto;
+	opacity: 0;
+	
+}
+
+#development h3
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	color: #515151;
+	margin-top: 100px;
+}
+
+#development p
+{
+	text-align: left;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 300;
+	color: #555555;
+	line-height: 170%;
+	letter-spacing: 0.5px;
+}
+
+#deve
+{
+	width: 100%;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#reference
+{
+	width: 475px;
+	display: block;
+	margin: 120px auto;
+	opacity: 0;
+	
+}
+
+#reference h3
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	color: #515151;
+	margin-top: 100px;
+}
+
+#reference p
+{
+	text-align: left;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 300;
+	color: #555555;
+	line-height: 170%;
+	letter-spacing: 0.5px;
+}
+
+#video
+{
+	width: 110px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#report
+{
+	width: 50px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+#feedback
+{
+	width: 120px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+#posters
+{
+	width: 60px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+@media screen and (max-width: 475px) {
+    #reference {
+        width: 225px;
+    }
+	#feedback {
+		margin-left: 0px;
+}
 }

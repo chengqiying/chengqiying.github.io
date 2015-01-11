@@ -30,8 +30,8 @@ $(document).ready(function(){
 	);
 	
 	$('#concept-1').waypoint(function(){
-		$('#concept-1').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '86%' }
+		$('#concept-1').addClass('animated fadeInUpBig', {duration: 3000});
+		}, { offset: '65%' }
 	);
 	$('#concept-1').waypoint(function(){
 		$('#concept-1').removeClass('animated fadeInUpBig', {duration: 1600});
@@ -39,8 +39,8 @@ $(document).ready(function(){
 	);
 	
 	$('#concept-2').waypoint(function(){
-		$('#concept-2').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '84%' }
+		$('#concept-2').addClass('animated fadeInUpBig', {duration: 3000});
+		}, { offset: '60%' }
 	);
 	$('#concept-2').waypoint(function(){
 		$('#concept-2').removeClass('animated fadeInUpBig', {duration: 1600});
@@ -48,8 +48,8 @@ $(document).ready(function(){
 	);
 	
 	$('#concept-3').waypoint(function(){
-		$('#concept-3').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '82%' }
+		$('#concept-3').addClass('animated fadeInUpBig', {duration: 3000});
+		}, { offset: '55%' }
 	);
 	$('#concept-3').waypoint(function(){
 		$('#concept-3').removeClass('animated fadeInUpBig', {duration: 1600});
@@ -81,5 +81,22 @@ $(document).ready(function(){
 		}, { offset: '90%'}
 	);
 	
+	$('#development').waypoint(function(){
+		$('#development').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
+	);
+	$('#development').waypoint(function(){
+		$('#development').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
+	);
+	
+	$('#reference').waypoint(function(){
+		$('#reference').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
+	);
+	$('#reference').waypoint(function(){
+		$('#reference').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
+	);
 		
 });
