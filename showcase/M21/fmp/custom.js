@@ -3,6 +3,8 @@ $(document).ready(function(){
 	
 	$('#content').waypoint(function() {
 		$("#nav").addClass('background');
+		$('#home').addClass('animated fadeInDown');
+		$('#home p').addClass('animated fadeInDown');
 		$('.nav-title').addClass('animated fadeInDown');
 		$('.nav-title h2').addClass('animated fadeInDownBig');
 		}, { offset: 85 }
@@ -15,6 +17,8 @@ $(document).ready(function(){
 
 	$('#content').waypoint(function(){
 		$("#nav").removeClass('background');
+		$('#home').removeClass('animated fadeInDown');
+		$('#home p').removeClass('animated fadeInDown');
 		$('.nav-title').removeClass('animated fadeInDown');
 		$('.nav-title h2').removeClass('animated fadeInUownBig', {duration: 800});
 		}, { offset: 86}
@@ -90,6 +94,15 @@ $(document).ready(function(){
 		}, { offset: '90%'}
 	);
 	
+	$('#process').waypoint(function(){
+		$('#process').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
+	);
+	$('#process').waypoint(function(){
+		$('#process').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
+	);
+	
 	$('#reference').waypoint(function(){
 		$('#reference').addClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '80%' }
@@ -98,5 +111,16 @@ $(document).ready(function(){
 		$('#reference').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%'}
 	);
+	
+	$('#other').waypoint(function(){
+		$('#other').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%' }
+	);
+	$('#other').waypoint(function(){
+		$('#other').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '95%'}
+	);
+	
+	
 		
 });
