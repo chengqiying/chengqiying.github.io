@@ -240,7 +240,7 @@ a#home:hover
 {
 	width: 50%;
 	height: 400px;
-	background: url(images/ux1.png) no-repeat;
+	background: url(images/ux1.jpg) no-repeat;
 	background-size: cover;
 	display: inline-block;
 }
@@ -249,7 +249,7 @@ a#home:hover
 {
 	width: 50%;
 	height: 400px;
-	background: url(images/ux2.png) no-repeat;
+	background: url(images/ux2.jpg) no-repeat;
 	background-size: cover;
 	display: inline-block;
 }
@@ -297,7 +297,7 @@ a#home:hover
 {
 	width: 50%;
 	height: 400px;
-	background: url(images/gsk1.png) no-repeat;
+	background: url(images/gsk1.jpg) no-repeat;
 	background-size: cover;
 	display: inline-block;
 }
@@ -306,7 +306,7 @@ a#home:hover
 {
 	width: 50%;
 	height: 400px;
-	background: url(images/gsk2.png) no-repeat;
+	background: url(images/gsk2.jpg) no-repeat;
 	background-size: cover;
 	display: inline-block;
 }
@@ -377,7 +377,7 @@ a#home:hover
 
 #other
 {
-	width: 737px;
+	width: 741px;
 	display: block;
 	margin:170px auto 0 auto;
 	opacity: 0;	
