@@ -70,7 +70,7 @@ $(document).ready(function(){
 		}, { offset: '60%' }
 	);
 	$('#works-3').waypoint(function(){
-		$('#concept-3').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-3').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
 	$('#works-3-title').waypoint(function(){
