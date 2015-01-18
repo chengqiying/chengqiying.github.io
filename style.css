@@ -206,32 +206,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #portfolio
 {
 	display:block;
-	max-width: 980px;
+	width: 966px;
     margin:140px auto 0px auto;
 }
-
-
-@media  screen and (max-width: 979px){
-#portfolio
-{
-	max-width: 735px;
-}
-}
-
-@media  screen and (max-width: 734px){
-#portfolio
-{
-	max-width: 490px;
-}
-}
-
-@media  screen and (max-width: 505px){
-#portfolio
-{
-	max-width: 245px;
-}
-}
-
 
 #works-1-title
 {
@@ -257,6 +234,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	height: 200px;
     margin-top:100px;
 	opacity: 0;
+	font-size: 0;
 }
 
 .item
@@ -401,6 +379,7 @@ a.cv-back h3
 	height: 200px;
     margin-top:100px;
 	opacity: 0;
+	font-size: 0;
 }
 
 
@@ -513,6 +492,7 @@ a.cv-back h3
 	height: 200px;
     margin-top:100px;
 	opacity: 0;
+	font-size: 0;
 }
 
 .item a.ghost-front
@@ -623,6 +603,7 @@ a.cv-back h3
 	height: 200px;
     margin-top:100px;
 	opacity: 0;
+	font-size: 0;
 }
 
 .item a.sbracelet-front
@@ -822,6 +803,40 @@ a.cv-back h3
 	color:#575757;
 	margin:0 auto;
 	padding-top:35px;
+}
+
+
+@media  screen and (max-width: 965px){
+#portfolio
+{
+	width: 322px;
+}
+
+#works-1
+{
+	height: 645px;
+}
+
+#works-2
+{
+	height: 645px;
+}
+
+#works-3
+{
+	height: 645px;
+}
+
+#works-4
+{
+	height: 645px;
+}
+.item
+{
+	margin-top: 15px;
+}
+
+
 }
 
 #cv-page
