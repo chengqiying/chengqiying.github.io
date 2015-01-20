@@ -494,7 +494,7 @@ a#home:hover
 
 #reference
 {
-	width: 340px;
+	width: 435px;
 	display: block;
 	margin: 120px auto;
 	opacity: 0;	
@@ -537,7 +537,7 @@ a.link:hover
 
 #report
 {
-	width: 45px;
+	width: 140px;
 	margin-top: 50px;
 	display: inline-block;
 	vertical-align: top;

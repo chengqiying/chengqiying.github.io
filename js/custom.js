@@ -33,71 +33,83 @@ $(document).ready(function(){
 	
 	$('#works-1').waypoint(function(){
 		$('#works-1').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-1-line').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-1-circle').addClass('animated fadeInUpBig', {duration: 3000});
 		}, { offset: '60%' }
 	);
 	$('#works-1').waypoint(function(){
 		$('#works-1').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-1-line').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-1-circle').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
 	$('#works-1-title').waypoint(function(){
 		$('#works-1-title').addClass('animated fadeInUpBig', {duration: 3000});
-		}, { offset: '80%' }
+		}, { offset: '70%' }
 	);
 	$('#works-1-title').waypoint(function(){
 		$('#works-1-title').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
 	
+	
 	$('#works-2').waypoint(function(){
 		$('#works-2').addClass('animated fadeInUpBig', {duration: 3000});
-		}, { offset: '60%' }
+		$('#works-2-title').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-2-line').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-2-circle').addClass('animated fadeInUpBig', {duration: 3000});
+		}, { offset: '80%' }
 	);
 	$('#works-2').waypoint(function(){
 		$('#works-2').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '90%' }
-	);
-	$('#works-2-title').waypoint(function(){
-		$('#works-2-title').addClass('animated fadeInUpBig', {duration: 3000});
-		}, { offset: '80%' }
-	);
-	$('#works-2-title').waypoint(function(){
 		$('#works-2-title').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-2-line').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-2-circle').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
+
 	
 	$('#works-3').waypoint(function(){
 		$('#works-3').addClass('animated fadeInUpBig', {duration: 3000});
-		}, { offset: '60%' }
+		$('#works-3-title').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-3-line').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-3-circle').addClass('animated fadeInUpBig', {duration: 3000});
+		}, { offset: '80%' }
 	);
 	$('#works-3').waypoint(function(){
 		$('#works-3').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-3-title').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-3-line').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-3-circle').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
-	$('#works-3-title').waypoint(function(){
+	/*$('#works-3-title').waypoint(function(){
 		$('#works-3-title').addClass('animated fadeInUpBig', {duration: 3000});
 		}, { offset: '80%' }
 	);
 	$('#works-3-title').waypoint(function(){
 		$('#works-3-title').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
-	);
+	);*/
 	
 	$('#works-4').waypoint(function(){
 		$('#works-4').addClass('animated fadeInUpBig', {duration: 3000});
+		$('#works-4-title').addClass('animated fadeInUpBig', {duration: 3000});
 		}, { offset: '80%' }
 	);
 	$('#works-4').waypoint(function(){
 		$('#works-4').removeClass('animated fadeInUpBig', {duration: 1600});
+		$('#works-4-title').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);
-	$('#works-4-title').waypoint(function(){
+	/*$('#works-4-title').waypoint(function(){
 		$('#works-4-title').addClass('animated fadeInUpBig', {duration: 3000});
 		}, { offset: '80%' }
 	);
 	$('#works-4-title').waypoint(function(){
 		$('#works-4-title').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
-	);
+	);*/
 	
 	$('.sleep-front').hover(function(){
 		$(".sleep-back").fadeIn(500);

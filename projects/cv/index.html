@@ -4,10 +4,12 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
     var offset = 220;
@@ -44,62 +46,40 @@ $(function() {
 });
 </script>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h2>city vitality</h2> 
         </div>
+    </div> 
+	<div id="header"> 
+        <h1>City Vitality</h1> 
+        <p>digital service<br>individual<br>duration: 02.2014 - 06.2014(9 weeks)</p>     	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>City Vitality</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p>Service Research</p>
-                	<p>Individual</p>
-                	<p>Duration: 9 weeks</p>
-                	<p>02.2014 - 06.2014</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
+        	<div id="introduction">
             	<h2>Inroduction</h2>
                 
                 <div id="introductiontext">
                	  <p>The project “City Vitality“ is about making concrete neighborhoods more ‘vital’ by identifying and connecting needs of different groups together, and designing from a systems design perspective in this context. The aim of the project is to find out how design can contribute to the sense of community for people living in the same physical neighborhood. “Research Through Design“ framework is adopted as the scheme to guide the research process. The design concept of a community service application is proposed as the main intervention to collect qualitative and quantitative data about residents’ sense of community.</p>
 			  </div>
-          </div>
-            <div id="approach">
-            	<h2>Approach</h2>
-            	<div id="approachtext">
-                   
-                </div>
-                <div id="approachpic"></div> 
-            </div>
-            <div id="context">
-            	<h2>Context Exploration</h2>
-                <div id="context-text">
-                	<p>Various insights from four kinds of context exploration methods were showing the same
-situation that the sense of community in Hertoghof was at a quite low level. In the other hand, it indicated that improvements needed be made in this apartment. Although the physical environment limits the connection, digital service
-still has opportunities to be applied and further help residents to build a stronger community.</p>
-              </div> 
-                <div id="contextpic1"></div> 
-                <div id="contextpic2"></div> 
-            </div>
+          	</div>
+            
             <div id="concept">
-            	<h2>Ideation and Prototype</h2>
-                <div id="idea-pic"></div>
+            	<h2>Prototype</h2>
+                <div id="concept-pic">
+                    <div id="concept1-pic"></div>
+                	<div id="concept2-pic"></div> 
+                </div>
+                <!--<div id="idea-pic"></div>
                 <div id="idea-text">
                 	<p>Having a basic understanding of the situation of residents’ sense of community and the analysised
 reasons from the context exploration session, therefore, the possible concepts can focus on enhacing the three lack aspects of sense of community through building the fundamental connection between residents of Hertoghof. The first step is to provide the chance for them to know their neighbors around, e.g who are they and where do they com from? The futher step is
@@ -131,11 +111,26 @@ appear on the mapped place.</p>
                         	<p>Users get the opportunity to know the neighbors living around by the room map. All these private information is provided by the users themself voluntarily.</p> 
                     	</div>
                     </div>
-                </div>
-                </div> 
-                <div id="proto1-pic"></div>
-                <div id="proto2-pic"></div>  
+                </div>-->
+                 
             </div>
+            
+            <div id="approach">
+            	<h2>Approach</h2>
+                <div id="approachpic"></div> 
+            </div>
+            
+            <div id="context">
+            	<h2>Context Exploration</h2>
+                <div id="context-text">
+                	<p>Various insights from four kinds of context exploration methods were showing the same
+situation that the sense of community in Hertoghof was at a quite low level. In the other hand, it indicated that improvements needed be made in this apartment. Although the physical environment limits the connection, digital service
+still has opportunities to be applied and further help residents to build a stronger community.</p>
+              </div> 
+                <div id="contextpic1"></div> 
+                <div id="contextpic2"></div> 
+            </div>
+            
             
             <div id="evaluate">
             	<h2>Evaluation</h2>
@@ -174,7 +169,7 @@ with the intervention of the design of the community application. Therefore, it 
 				</div>
 				<a id="forward" class="slide_nav" href="#">right</a>
                 </div> 
-            </div>
+            
 
       </div>
       </div>     
@@ -184,8 +179,7 @@ with the intervention of the design of the community application. Therefore, it 
 	<div id="footertext">
 		© Qiying Cheng 2014
 	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+</div> 
 </body>
 
 </html>

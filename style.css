@@ -232,7 +232,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 	width: 100%;
 	height: 200px;
-    margin-top:100px;
+    margin-top:80px;
 	opacity: 0;
 	font-size: 0;
 }
@@ -355,11 +355,34 @@ a.cv-back h3
 	line-height: 150%;
 }
 
+#works-1-line
+{
+	display:block;
+	width: 1.5px;
+	height: 150px;
+    margin:0px auto 0 auto;
+	background-color: #4DD0E1;
+	opacity: 0;
+	font-size: 0;
+}
+
+#works-1-circle
+{
+	display:block;
+	width: 10px;
+	height: 10px;
+    margin:0 auto;
+	background-color: #4DD0E1;
+	border-radius: 5px;
+	opacity: 0;
+	font-size: 0;
+}
+
 #works-2-title
 {
 	width:100%;
 	display: block;
-	margin-top: 240px;
+	margin-top: 30px;
 	opacity: 0;
 }
 
@@ -377,7 +400,7 @@ a.cv-back h3
 	display:block;
 	width: 100%;
 	height: 200px;
-    margin-top:100px;
+    margin-top:80px;
 	opacity: 0;
 	font-size: 0;
 }
@@ -467,11 +490,34 @@ a.cv-back h3
 	margin-top: 85px;
 }
 
+#works-2-line
+{
+	display:block;
+	width: 1.5px;
+	height: 150px;
+    margin:0px auto 0 auto;
+	background-color: #4DD0E1;
+	opacity: 0;
+	font-size: 0;
+}
+
+#works-2-circle
+{
+	display:block;
+	width: 10px;
+	height: 10px;
+    margin:0 auto;
+	background-color: #4DD0E1;
+	border-radius: 5px;
+	opacity: 0;
+	font-size: 0;
+}
+
 #works-3-title
 {
 	width:100%;
 	display: block;
-	margin-top: 240px;
+	margin-top: 30px;
 	opacity: 0;
 }
 
@@ -490,7 +536,7 @@ a.cv-back h3
 	display:block;
 	width: 100%;
 	height: 200px;
-    margin-top:100px;
+    margin-top:80px;
 	opacity: 0;
 	font-size: 0;
 }
@@ -579,11 +625,34 @@ a.cv-back h3
 	margin-top: 85px;
 }
 
+#works-3-line
+{
+	display:block;
+	width: 1.5px;
+	height: 150px;
+    margin:0px auto 0 auto;
+	background-color: #4DD0E1;
+	opacity: 0;
+	font-size: 0;
+}
+
+#works-3-circle
+{
+	display:block;
+	width: 10px;
+	height: 10px;
+    margin:0 auto;
+	background-color: #4DD0E1;
+	border-radius: 5px;
+	opacity: 0;
+	font-size: 0;
+}
+
 #works-4-title
 {
 	width:100%;
 	display: block;
-	margin-top: 240px;
+	margin-top: 30px;
 	opacity: 0;
 }
 
@@ -601,7 +670,7 @@ a.cv-back h3
 	display:block;
 	width: 100%;
 	height: 200px;
-    margin-top:100px;
+    margin-top:80px;
 	opacity: 0;
 	font-size: 0;
 }
@@ -693,8 +762,9 @@ a.cv-back h3
 #contact
 {
 	display:block;
-	max-width:180px;
-    margin:0px auto;
+	width:185px;
+	height:70px;
+    margin:140px auto 0 auto;
 	opacity: 0;
 }
 
@@ -704,19 +774,20 @@ a.cv-back h3
 	display:block;
 	border-bottom:#636363 dashed 1px;
 	float:left;
-	margin:140px 40px auto;
+	margin:0px 40px auto;
 }
 
-#contack-text p
+#contact-text p
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto';
+	font-weight: 300px;
 	font-size:16px;
 	text-align:center;
 }
 
 #contack-link
 {
-	width:180px;
+	width:185px;
 	height:40px;
 	float:left;
 	margin-top:15px;
@@ -724,73 +795,78 @@ a.cv-back h3
 
 #email
 {
-	width:33px;
-	height:33px;
+	width:34px;
+	height:34px;
+	border-radius: 17px;
 	margin-left:0%;
-	background:url('images/e.png') no-repeat 0 0;
+	background:url('images/email.png') no-repeat 0 0;
+	background-size: cover;
+	background-color: #3E3E3E;
 	float:left;
 }
 
 #email:hover
 {
-	background:url('images/e2.png') no-repeat 0 0;
-}
-
-#facebook
-{
-	width:33px;
-	height:33px;
-	margin:0px 0px 0px 15px;
-	background:url('images/f.png') no-repeat 0 0;
-	float:left;
-}
-
-#facebook:hover
-{
-	background:url('images/f2.png') no-repeat 0 0;
+	background-color:#4DD0E1;
 }
 
 #linkedin
 {
-	width:33px;
-	height:33px;
+	width:34px;
+	height:34px;
+	border-radius: 17px;
 	margin:0px 0px 0px 15px;
-	background:url('images/l.png') no-repeat 0 0;
+	background:url('images/linkedin.png') no-repeat 0 0;
+	background-size: cover;
+	background-color: #3E3E3E;
 	float:left;
 }
 
 #linkedin:hover
 {
-	background:url('images/l2.png') no-repeat 0 0;
+	background-color:#4DD0E1;
+}
+
+
+#facebook
+{
+	width:34px;
+	height:34px;
+	border-radius: 17px;
+	margin:0px 0px 0px 15px;
+	background:url('images/facebook.png') no-repeat 0 0;
+	background-size: cover;
+	background-color: #3E3E3E;
+	float:left;
+}
+
+#facebook:hover
+{
+	background-color:#4DD0E1;
 }
 
 #vimeo
 {
-	width:33px;
-	height:33px;
+	width:34px;
+	height:34px;
+	border-radius: 17px;
 	margin:0px 0px 0px 15px;
-	background:url('images/v.png') no-repeat 0 0;
+	background:url('images/vimeo.png') no-repeat 0 0;
+	background-size: cover;
+	background-color: #3E3E3E;
 	float:left;
 }
 
 #vimeo:hover
 {
-	background:url('images/v2.png') no-repeat 0 0;
-}
-
-#contact-title-text h3
-{
-    font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
-	color: #000;
-	text-align: left;
+	background-color:#4DD0E1;
 }
 
 .footer, .push {
     width:100%;
 	background-color:#F4F4F4;
 	height:80px;
-	margin-top:30px;
+	margin-top:100px;
 	float:left;
 }
 
