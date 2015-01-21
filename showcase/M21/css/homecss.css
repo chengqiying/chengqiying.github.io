@@ -94,6 +94,7 @@ body
 	margin-top: 20px;
 }
 
+
 #welcome
 {
 	text-align: center;
@@ -106,6 +107,39 @@ body
 	font-size: 38px;
 	font-weight: 200;
 	word-spacing: 15px;	
+}
+
+
+@media screen and (max-width: 700px) {
+    .guide-content-title {
+		width: 100px;
+		font-size: 16px;
+	}
+	#welcome h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+    .guide-content-title {
+		width: 70px;
+		font-size: 14px;
+	}
+	#logo {
+		width: 45px;
+		height: 50%;
+	}
+	#logo img {
+		width: 40px;
+		height:21px;
+		margin-top: 10px;
+	}
+	#welcome {
+		margin-top: 200px;
+	}
+	#welcome h1 {
+		font-size: 24px;
+	}	
 }
 
 #vision-identity
@@ -561,6 +595,11 @@ body
 		width: 120px;
 		height:120px;
 	}
+	#growth-main-icon { 
+		width: 120px;
+		height:120px;
+		margin-left: 120px;
+	}
 	#vision-text {
 		width: 350px;
 		margin-left: 120px;
@@ -575,6 +614,26 @@ body
 	}
 	#identity-content {
 		width: 600px;	
+	}
+	
+	#goals-content {
+		width: 600px;	
+	}
+	#goals-text1 {
+		width: 240px;
+	}
+	#goals-text2 {
+		width: 240px;
+		margin-left: 100px;
+	}
+	
+	#growth-main-text {
+		width: 350px;
+		
+	}
+	
+	#growth-content {
+		width: 600px;	
 	}	
 }
 
@@ -582,6 +641,12 @@ body
     .icon { 
 		width: 100px;
 		height:100px;
+	}
+	
+	#growth-main-icon { 
+		width: 100px;
+		height:100px;
+		margin-left: 60px;
 	}
 	#vision-text {
 		width: 230px;
@@ -596,7 +661,29 @@ body
 	}
 	#identity-content {
 		width: 400px;	
+	}
+	#goals-content {
+		width: 400px;	
+	}
+	#goals-text1 {
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+	#goals-text2 {
+		width: 300px;
+		display: block;
+		margin:30px auto 0 auto;;
+		
 	}	
+	
+	#growth-content {
+		width: 400px;	
+	}
+	#growth-main-text {
+		width: 230px;
+		
+	}
 }
 
 
