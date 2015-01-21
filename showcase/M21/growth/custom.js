@@ -102,26 +102,7 @@ $(document).ready(function(){
 		$('#future').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%'}
 	);
-
-	$('#gsk-process').waypoint(function(){
-		$('#gsk-process').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
-	);
-	$('#gsk-process').waypoint(function(){
-		$('#gsk-process').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '90%'}
-	);
 	
-	
-	
-	$('#reference').waypoint(function(){
-		$('#reference').addClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '80%' }
-	);
-	$('#reference').waypoint(function(){
-		$('#reference').removeClass('animated fadeInUpBig', {duration: 1600});
-		}, { offset: '90%'}
-	);
 	
 	$('#other').waypoint(function(){
 		$('#other').addClass('animated fadeInUpBig', {duration: 1600});

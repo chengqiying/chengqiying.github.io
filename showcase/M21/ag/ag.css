@@ -491,6 +491,63 @@ a#home:hover
 }
 }
 
+#competency
+{
+	width: 175px;
+	display: block;
+	margin: 120px auto;
+	opacity: 0;	
+}
+
+#competency h3
+{
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-weight: 300;
+	color: #515151;
+	margin-top: 100px;
+}
+
+#competency p
+{
+	text-align: left;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 300;
+	color: #555555;
+	line-height: 170%;
+	letter-spacing: 0.5px;
+}
+
+#sdl
+{
+	width: 35px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#ic
+{
+	width: 20px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+
+#it
+{
+	width: 20px;
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+
 
 #reference
 {
@@ -720,6 +777,47 @@ a.link:hover
 	{
 		margin-top: 7px;
 	}
+}
+
+#growthlink
+{
+	width: 100px;
+	display: block;
+	margin:120px auto 0 auto;
+	opacity: 0;	
+}
+
+.growthlink-content
+{
+	width: 100px;
+	height: 55px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	border: #80DEEA solid 1px;
+	color: #555555;
+	z-index: 35;
+	position: relative;
+	opacity: 1;
+}
+
+.growthlink-content:hover
+{
+	color: #ffffff;
+	background-color: #80DEEA;
+}
+
+.growthlink-content h5
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 0.5px;	
+	line-height: 150%;
+	
 }
 
 footer

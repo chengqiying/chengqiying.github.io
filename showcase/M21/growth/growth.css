@@ -428,159 +428,47 @@ a#home:hover
 	letter-spacing: 0.5px;
 }
 
-#gsk-process
-{
-	width: 100%;
-	display: block;
-	margin: 80px auto 0 auto;
-	opacity: 0;
-	font-size:0;
-}
-
-#gsk-1
-{
-	width: 50%;
-	height: 400px;
-	background: url(images/gsk1.jpg) no-repeat;
-	background-size: cover;
-	display: inline-block;
-}
-
-#gsk-2
-{
-	width: 50%;
-	height: 400px;
-	background: url(images/gsk2.jpg) no-repeat;
-	background-size: cover;
-	display: inline-block;
-}
-
-
-
 #other
 {
-	width: 741px;
+	width: 100px;
 	display: block;
-	margin:170px auto 0 auto;
+	margin:120px auto 0 auto;
 	opacity: 0;	
-}
-
-.other-doublewrap-1
-{
-	width: 120px;
-	height: 120px;
-	border-radius: 60px;
-	display: inline-block;
-	vertical-align: top;
-	z-index: 35;
-	position: relative;
-}
-
-.other-doublewrap
-{
-	width: 120px;
-	height: 120px;
-	border-radius: 60px;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 30px;
-	z-index: 35;
-	position: relative;
 }
 
 .other-wrap
 {
-	width: 120px;
-	height: 120px;
-	border-radius: 60px;
+	width: 100px;
+	height: 55px;
+	border-radius: 10px;
 	display: inline-block;
 	vertical-align: top;
 	text-decoration: none;
-	background-color: #80DEEA;
-	color: #ffffff;
+	border: #80DEEA solid 1px;
+	color: #555555;
 	z-index: 35;
-	position: absolute;
+	position: relative;
 	opacity: 1;
 }
 
 .other-wrap:hover
 {
-	opacity: 0.5;
-}
-
-#fmp-pic
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	background: url(images/project.png) no-repeat;
-	background-size: cover;
-	z-index: 34;
-	position: absolute;
-}
-
-#module-db518-pic
-{
-	width:100%;
-	height:100%;
-	border-radius: 50%;
-	background: url(images/advanced.png) no-repeat;
-	background-size: cover;
-	z-index: 34;
-	position: absolute;
-}
-
-#module-db310-pic
-{
-	width:100%;
-	height:100%;
-	border-radius: 50%;
-	background: url(images/children.png) no-repeat;
-	background-size: cover;
-	z-index: 34;
-	position: absolute;
-}
-
-#module-db619-pic
-{
-	width:100%;
-	height:100%;
-	border-radius: 50%;
-	background: url(images/materiality.png) no-repeat;
-	background-size: cover;
-	z-index: 34;
-	position: absolute;
-}
-
-#module-db221-pic
-{
-	width:100%;
-	height:100%;
-	border-radius: 50%;
-	background: url(images/anything.png) no-repeat;
-	background-size: cover;
-	z-index: 34;
-	position: absolute;
+	color: #ffffff;
+	background-color: #80DEEA;
 }
 
 .other-wrap h5
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 15px;
 	letter-spacing: 0.5px;	
-	line-height: 150%
+	line-height: 150%;
+	
 }
 
-.other-line
-{
-	width: 20px;
-	height: 1px;
-	background-color: #ffffff;
-	margin: 10px auto 0 auto;
-}
 
 @media screen and (max-width: 736px) {
     #other{

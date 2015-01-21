@@ -70,7 +70,7 @@ $(document).ready(function () {
 	}, function(){
 			$('#goals-text2 p').css({color: "#000000"});
 			$('#goals-text2 h2').css({color: "#000000"});	
-	});
+	});*/
 	
 	$('#growth-main-text a').hover(function(){
 		$('#growth-main-text p').css({color: "#3ca2bb"});
@@ -78,7 +78,7 @@ $(document).ready(function () {
 	}, function(){
 			$('#growth-main-text p').css({color: "#000000"});
 			$('#growth-main-text h2').css({color: "#000000"});	
-	});*/
+	});
 	
     
 	

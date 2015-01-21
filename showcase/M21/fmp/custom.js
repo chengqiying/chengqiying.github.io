@@ -103,6 +103,15 @@ $(document).ready(function(){
 		}, { offset: '90%'}
 	);
 	
+	$('#competency').waypoint(function(){
+		$('#competency').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
+	);
+	$('#competency').waypoint(function(){
+		$('#competency').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
+	);
+	
 	$('#reference').waypoint(function(){
 		$('#reference').addClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '80%' }
@@ -118,6 +127,15 @@ $(document).ready(function(){
 	);
 	$('#other').waypoint(function(){
 		$('#other').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '95%'}
+	);
+	
+	$('#growthlink').waypoint(function(){
+		$('#growthlink').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%' }
+	);
+	$('#growthlink').waypoint(function(){
+		$('#growthlink').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '95%'}
 	);
 	

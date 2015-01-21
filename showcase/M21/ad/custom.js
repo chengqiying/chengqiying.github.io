@@ -121,6 +121,24 @@ $(document).ready(function(){
 		}, { offset: '95%'}
 	);
 	
+	$('#growthlink').waypoint(function(){
+		$('#growthlink').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%' }
+	);
+	$('#growthlink').waypoint(function(){
+		$('#growthlink').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '95%'}
+	);
+	
+	$('#competency').waypoint(function(){
+		$('#competency').addClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '80%' }
+	);
+	$('#competency').waypoint(function(){
+		$('#competency').removeClass('animated fadeInUpBig', {duration: 1600});
+		}, { offset: '90%'}
+	);
+	
 	
 		
 });
