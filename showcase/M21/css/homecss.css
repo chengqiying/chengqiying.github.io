@@ -163,7 +163,6 @@ body
 	width: 870px;
 	margin: 80px auto 90px auto;
 	display: block;
-	opacity: 0;	
 }
 
 #identity
@@ -178,7 +177,6 @@ body
 	width: 870px;
 	margin: 80px auto 90px auto;
 	display: block;
-	opacity: 0;
 	
 }
 
@@ -342,7 +340,6 @@ body
 	width: 90%;
 	margin: 0 auto;
 	padding-bottom: 140px;
-	opacity: 0;
 }
 
 #activities-content-title
@@ -521,7 +518,6 @@ body
 	width: 870px;
 	margin: 50px auto 90px auto;
 	display: block;
-	opacity: 0;
 	padding-top:30px;
 }
 

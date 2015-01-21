@@ -1,7 +1,7 @@
 // JavaScript Document	$('text a').hover(function(){
 $(document).ready(function () {
 	
-	$('#vision-content').waypoint(function(){
+	/*$('#vision-content').waypoint(function(){
 		$('#vision-content').addClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '80%' }
 	);
@@ -40,7 +40,7 @@ $(document).ready(function () {
 	$('#growth-content').waypoint(function(){
 		$('#growth-content').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%'}
-	);
+	);*/
 
 	$('#fmp').hover(function(){
 		$('.activity-wrap-back').fadeIn(500);
