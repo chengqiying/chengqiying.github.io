@@ -1,5 +1,14 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('../../font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
 	margin: 0;
@@ -122,8 +131,8 @@ a#home:hover
 
 #content h2
 {
-	font-family: 'Roboto', sans-serif;
-	font-size:22px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size:24px;
 	font-weight:300;
 	text-align: center
 }

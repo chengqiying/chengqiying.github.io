@@ -1,5 +1,14 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('../../font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
 	margin: 0;
@@ -123,8 +132,8 @@ a#home:hover
 
 #content h2
 {
-	font-family: 'Roboto', sans-serif;
-	font-size:22px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size:24px;
 	font-weight:300;
 	text-align: center
 }
@@ -204,12 +213,79 @@ a#home:hover
 #approachpic
 {
 	display:block;
-	width: 1080px;
-	height: 625px;
-	margin: 60px auto 0 auto;
+	width: 800px;
+	height: 1142px;
+	margin: 30px auto 0 auto;
 	font-size:0;
-	background:url('../cv/images/approach.jpg') no-repeat 0 0;
+	background:url('../feedback/images/story.jpg') no-repeat 0 0;
 	background-size:cover;
+}
+
+#interface
+{
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#interface-pic
+{
+	display:block;
+	width: 1080px;
+	height: 456px;
+	margin: 30px auto 0 auto;
+	font-size:0;
+	background:url('../feedback/images/story.jpg') no-repeat 0 0;
+	background-size:cover;
+}
+
+#interface-pic-1
+{
+	width:360px;
+	height:456px;
+	margin-top:20px;
+	display:inline-block;
+	background:url('../feedback/images/face1.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+
+#interface-pic-2
+{
+	width:360px;
+	height:456px;
+	display:inline-block;
+	background:url('../feedback/images/face2.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+#interface-pic-3
+{
+	width:360px;
+	height:456px;
+	display:inline-block;
+	background:url('../feedback/images/face3.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+#interface-text
+{
+	display:block;
+	width:45%;
+	margin:50px auto 0 auto;	
+	text-align:center;
+}
+
+#interface-text a
+{
+	text-decoration: none;
+	font-style: italic;
+	color: #A6A6A6;
+}
+
+#interface-text a:hover
+{
+	color: #00BCD4;
 }
 
 #context
@@ -229,37 +305,46 @@ a#home:hover
 #context-pic
 {
 	display:block;
-	width:960px;
+	width:1120px;
 	margin:60px auto 0 auto;
 	font-size: 0;	
 }
 
 #context-pic-1
 {
-	width:320px;
-	height:185px;
+	width:280px;
+	height:195px;
 	margin-top:20px;
 	display:inline-block;
-	background:url('../cv/images/context1.jpg') no-repeat 0 0;
+	background:url('../feedback/images/field1.jpg') no-repeat 0 0;
 	background-size: cover;
 }
 
 
 #context-pic-2
 {
-	width:320px;
-	height:185px;
+	width:280px;
+	height:195px;
 	display:inline-block;
-	background:url('../cv/images/context2.jpg') no-repeat 0 0;
+	background:url('../feedback/images/field2.jpg') no-repeat 0 0;
 	background-size: cover;
 }
 
 #context-pic-3
 {
-	width:320px;
-	height:185px;
+	width:280px;
+	height:195px;
 	display:inline-block;
-	background:url('../cv/images/context3.jpg') no-repeat 0 0;
+	background:url('../feedback/images/field3.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+#context-pic-4
+{
+	width:280px;
+	height:195px;
+	display:inline-block;
+	background:url('../feedback/images/field4.jpg') no-repeat 0 0;
 	background-size: cover;
 }
 
@@ -277,86 +362,45 @@ a#home:hover
 	margin:30px auto 0 auto;	
 }
 
-#evaluate-pic-s
-{
-	display:block;
-	width:960px;
-	margin:30px auto 0 auto;
-	font-size: 0;	
-}
-
-
-#evaluate-pic-s-1
-{
-	width:960px;
-	height:395px;
-	margin-top:30px;
-	display: block;
-	background:url('../cv/images/eva_structure.jpg') no-repeat 0 0;
-	background-size: cover;
-	opacity: 0.8;
-}
-
-#evaluate-pic-t
-{
-	display:block;
-	width:960px;
-	margin:60px auto 0 auto;
-	font-size: 0;	
-}
-
-#evaluate-pic-t-1
-{
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/test1.jpg') no-repeat 0 0;
-	background-size: cover;
-}
-
-#evaluate-pic-t-2
-{
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/test2.jpg') no-repeat 0 0;
-	background-size: cover;
-}
-
-#evaluate-pic-t-3
-{
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/test3.jpg') no-repeat 0 0;
-	background-size: cover;
-}
-
-#result
-{
-	display:block;
-	width: 100%;
-	margin:150px auto 0 auto;
-}
-
-#result-text
-{
-	display:block;
-	width:45%;
-	margin:30px auto 0 auto;	
-}
-
-#result-text a
+#evaluate-text a
 {
 	text-decoration:none;
 	color: #A6A6A6;
 	font-style: italic;	
 }
 
-#result-text a:hover
+#evaluate-text a:hover
 {
 	color: #00BCD4;	
 }
+
+#evaluate-pic
+{
+	display:block;
+	width:100%;
+	margin:60px auto 0 auto;
+	font-size: 0;	
+}
+
+#evaluate-pic-1
+{
+	width:50%;
+	height:600px;
+	display:inline-block;
+	background: url(images/test1.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+
+#evaluate-pic-2
+{
+	width:50%;
+	height:600px;
+	display:inline-block;
+	background:url(images/test2.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+
+
 
 
 #other
