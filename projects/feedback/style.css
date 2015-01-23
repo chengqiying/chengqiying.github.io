@@ -385,7 +385,7 @@ a#home:hover
 #evaluate-pic-1
 {
 	width:50%;
-	height:600px;
+	height:450px;
 	display:inline-block;
 	background: url(images/test1.jpg) no-repeat 0 0;
 	background-size: cover;
@@ -394,7 +394,7 @@ a#home:hover
 #evaluate-pic-2
 {
 	width:50%;
-	height:600px;
+	height:450px;
 	display:inline-block;
 	background:url(images/test2.jpg) no-repeat 0 0;
 	background-size: cover;

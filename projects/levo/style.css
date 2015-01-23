@@ -1,46 +1,20 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('../../font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: sans-serif;
 }
-
-.back-to-top {
-    position: fixed;
-    bottom: 2em;
-    right: 100px; 
-    background-color: #e6e6e6;
-    width:60px;
-    height:60px;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
-	/*padding: 1em;*/
-	text-align: center;
-	text-decoration:none;
-    display: none;
-}
-
-
-.back-to-top h6
-{    
-    color: #ffffff;
-	font-size: 18px;
-    font-family:'Open Sans', sans-serif;
-	font-weight: 200;
-	margin-top: 17px;
-}
-
-.back-to-top h6:hover 
-{
-	background-color: #D7D7CE;
-	color: #ffffff;
-	text-decoration: none;
-}
-
 
 
 #all
@@ -48,987 +22,367 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 }
 
-#border
+#header
 {
 	width: 100%;
-	height:8px;
-    style: solid;
-    background-color: rgb(0, 0, 0);
-	margin:0px 0px auot 0px;
+	height: 100%;
 	position: fixed;
+	z-index: -999;
+	background: url(images/back.jpg) no-repeat;
+	background-size: cover;
+}
+
+#header h1
+{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 300px;
+	margin-left: 30%;
+	line-height: 150%;
+}
+
+#header p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+	margin-left: 30%;
+	margin-top: 20px;
+	line-height: 160%;
+}
+
+#nav
+{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 998;	
+}
+
+#home
+{
+	width: 30px;
+	height: 30px;
+	background: url(images/homelogo.png) no-repeat;
+	background-size: cover;
+	margin: 27px 0 0 50px;
+	position: absolute;
+	display: block;
+	opacity: 0;
+}
+
+a#home:hover
+{
+	background: url(images/homelogo2.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.background
+{
+	background: url(images/back.jpg) no-repeat;
+	background-size: cover;
+}
+
+.nav-title
+{
+	width: 280px;
+	height: 80px;
+	margin: 0 auto;	
+	opacity: 0;
+	z-index: 999;
+	
+}
+
+.nav-title h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	z-index: 999;
+	padding-top: 27px;
+	text-align: center;
 }
 
 #wrappera
 {
-	width: 1100px;
-	margin:auto;	
+	width: 100%;
+	display: block;
+	top: 820px;
+	z-index: 30;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	-webkit-animation: intro-content 2s forwards;
+	-moz-animation: intro-content 2s forwards;
+	-o-animation: intro-content 2s forwards;
+	animation: intro-content 2s forwards;
 }
 
-#wrapper
-{
-	width: 980px;
-	margin:auto;
-    text-align: left;		
-}
-
-#guide
-{
-	height: 75px;
-	position: fixed;
-	margin:8px 0px auto 0px;
-}
-
-#homeguide
-{
-	width:75px;
-	height:75px;
-	margin-left:905px;
-	background: url('../feedback/images/homeguide.png') no-repeat 0 0;
-}
-
-#homeguide:hover
-{
-	opacity:0.6;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	-ms-transition: opacity 500ms;
-}
-#levo-content
+#content
 {
 	display:block;
-	width:980px;
-	margin-top:155px;
-	float:left;
+	width: 100%;
+	margin:0 auto;
 }
 
-#levo-title
+#content h2
 {
-	display:block;
-	width: 980px;
-	margin-top:0px;
-	float:left;
-}
-
-#levo-title h1
-{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
 	font-size:24px;
 	font-weight:300;
-	margin-top:0px;
-	position:absolute;
+	text-align: center
 }
 
-#levo-title p
+#content p
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-	margin-top: 35px;
-	position:absolute;
-	
-}
-
-#levobrief
-{
-    display:block;
-	width: 980px;
-	margin-top:90px;	
-}
-
-#levobriefpic
-{
-    height:414px;
-	width: 720px;
-	margin-top:0px;	
-	border-top : 1px solid #4F4F4F;
-	border-bottom : 1px solid #4F4F4F;
-	border-left : 1px solid #4F4F4F;
-	border-right : 1px solid #4F4F4F;
-	float:left;
-}
-
-#levobriefimg
-{
-    height: 350px;
-	width: 720px;
-	margin:10px 10px auto;
-}
-
-#levobrieftext
-{
-	height: 350px;
-	width: 190px;
-	margin-top: 0px;
-	margin-left: 40px;
-	float: left;
-}
-
-#levobrieftext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	line-height:1.5;	
-}
-
-#levobriefline
-{
-	border-top : 1px dashed #4F4F4F;
-	width:195px;
-	height:2px;
-	margin-top:12px;
-	float:left
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-weight:300;	
+	line-height: 170%;
+	letter-spacing: 0.3px;
 }
 
 #introduction
 {
 	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
+	width: 45%;
+	margin:150px auto 0 auto;
 }
 
-#introduction h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-
-}
 
 #introductiontext
 {
-	display:block;
-	width:650px;
-	margin-top:15px;
-	line-height:150%;	
+	display: block;
+	width:100%;
+	margin-top:30px;
 }
 
-#introductiontext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;	
-}
-
-#fieldresearch
+#concept
 {
 	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
+	width: 100%;
+	margin-top: 150px;
 }
 
-#fieldresearch h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#fieldresearchtext
+#concept-pic-1
 {
 	display:block;
-	width:650px;
-	margin-top:15px;	
+	width: 800px;
+	height: 445px;
+	margin:60px auto 0 auto;
+	font-size:0;
 }
 
-#fieldresearchtext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	line-height:150%;
-}
-
-#fieldresearchpic
-{
-	width:720px;
-	height:163px;
-	margin-top:20px;
-	float:left;
-}
-
-#pic-1
-{
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research1.png') no-repeat 0 0;
-	float:left;
-}
-
-#pic-2
-{
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research2.png') no-repeat 0 0;
-	float:left;
-}
-
-
-#pic-3
-{
-	width:240px;
-	height:163px;
-	background:url('../levo/images/research3.png') no-repeat 0 0;
-	float:left;
-}
-
-#research-analysis
-{
-	display:block;
-	width:720px;
-	margin-top:20px;
-	float:left;
-}
-
-#analysis-trend
-{
-	display:block;
-	width:335px;
-	margin-top:10px;
-	float:left;
-}
-
-#ana-trend-title
-{
-	display:block;
-	width:60px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#ana-trend-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#analysis-trend p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#analysis-kitchen
-{
-	display:block;
-	width:335px;
-	margin-top:10px;
-	margin-left:50px;
-	float:left;
-}
-
-#ana-kitchen-title
-{
-	display:block;
-	width:145px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#ana-kitchen-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#analysis-kitchen p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#analysis-group
+#concept-text
 {
 	display: block;
-	width: 335px;
-	margin-top: 20px;
-	float: left;
-	clear: left;
+	width:40%;
+	margin: 70px auto 0 auto;
+	text-align: center;	
 }
 
-#ana-group-title
+#concept-pic-2
 {
-	display:block;
-	width:115px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-
-}
-
-#ana-group-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#analysis-group p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#opportunity
-{
-	display: block;
-	width: 720px;
-	margin-top: 20px;
-	float: left;
-}
-
-#opportunity-title
-{
-	display:block;
-	width:105px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-
-}
-
-#opportunity-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#ideationtext
-{
-	display:block;
-	width:650px;
-	margin-top:15px;
-	line-height:120%;	
-}
-
-#opportunitytext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#opportunity-pic
-{
-	height:479px;
-	width:720px;
-	margin-top:20px;
-	background:url('../levo/images/opp.png') no-repeat 0 0;
-	float:left;	
-}
-
-#ideation
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#ideation h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#ideation-pic
-{
-	height:215px;
-	width:720px;
-	margin-top:20px;	
-}
-
-#ideation-pic-1
-{
-	height:215px;
-	width:360px;
-	background:url('../levo/images/ideation2.png') no-repeat 0 0;
-	float:left;	
-
-}
-
-#ideation-pic-2
-{
-	height:215px;
-	width:360px;
-	background:url('../levo/images/ideation1.png') no-repeat 0 0;
-	float:left;	
-}
-
-#ideationtext
-{
-	display:block;
-	width:720px;
-	margin-top:15px;
-	line-height:120%;	
-}
-
-#ideationtext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	line-height:150%;	
-}
-
-#product
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#product h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#producttext
-{
-	display:block;
-	width:720px;
-	margin-top:15px;
-}
-
-#producttext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	line-height:150%;	
-}
-
-#product-pic
-{
-	height:209px;
-	width:720px;
-	margin-top:15px;
-	background:url('../levo/images/concept.png') no-repeat 0 0;	
+	width:800px;
+	height:228px;
+	background:url('../levo/images/concept.jpg') no-repeat 0 0;
+	background-size: cover;
+	margin:60px auto 0 auto;
 }
 
 #business
 {
 	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
+	width: 100%;
+	margin:150px auto 0 auto;
 }
 
-#business h2
+#business-text
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-
+	display: block;
+	width:40%;
+	margin: 30px auto 0 auto;
 }
 
 #business-pic
 {
-	height:282px;
-	width:720px;
+	width:550px;
+	height:261px;
+	background:url('../levo/images/model.jpg') no-repeat 0 0;
+	background-size: cover;
+	margin:60px auto 0 auto;
+}
+
+#customer
+{
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#customer-text
+{
+	display:block;
+	width:45%;
+	margin:50px auto 0 auto;	
+}
+
+#interface-text a
+{
+	text-decoration: none;
+	font-style: italic;
+	color: #A6A6A6;
+}
+
+#interface-text a:hover
+{
+	color: #00BCD4;
+}
+
+#context
+{
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#context-text
+{
+	display:block;
+	width:45%;
+	margin:30px auto 0 auto;	
+}
+
+#context-pic
+{
+	display:block;
+	width:1080px;
+	margin:60px auto 0 auto;
+	font-size: 0;	
+}
+
+#context-pic-1
+{
+	width:360px;
+	height:221px;
 	margin-top:20px;
-	background:url('../levo/images/model.png') no-repeat 0 0;
-	float:left;	
+	display:inline-block;
+	background:url('../levo/images/research2.jpg') no-repeat 0 0;
+	background-size: cover;
 }
 
-#businesstext
+
+#context-pic-2
+{
+	width:360px;
+	height:221px;
+	display:inline-block;
+	background:url('../levo/images/research1.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+#context-pic-3
+{
+	width:360px;
+	height:221px;
+	display:inline-block;
+	background:url('../levo/images/research3.jpg') no-repeat 0 0;
+	background-size: cover;
+}
+
+#evaluate-text a
+{
+	text-decoration:none;
+	color: #A6A6A6;
+	font-style: italic;	
+}
+
+#evaluate-text a:hover
+{
+	color: #00BCD4;	
+}
+
+#evaluate-pic
 {
 	display:block;
-	width: 720px;
-	margin-top:20px;
-	float:left;;
+	width:100%;
+	margin:60px auto 0 auto;
+	font-size: 0;	
 }
 
-#business-vogel
+#evaluate-pic-1
 {
-	display:block;
-	width:335px;
-	margin-top:30px;
-	float:left;
+	width:50%;
+	height:450px;
+	display:inline-block;
+	background: url(images/test1.jpg) no-repeat 0 0;
+	background-size: cover;
 }
 
-#business-vogel-title
+#evaluate-pic-2
 {
-	display:block;
-	width:70px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
+	width:50%;
+	height:450px;
+	display:inline-block;
+	background:url(images/test2.jpg) no-repeat 0 0;
+	background-size: cover;
 }
 
-#business-vogel-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
 
-#business-vogel p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
 
-#business-ikea
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	margin-left:50px;
-	float:left;
-}
 
-#business-ikea-title
+#other
 {
-	display:block;
-	width:57px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#business-ikea-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#business-ikea p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#business-future
-{
+	width: 100px;
 	display: block;
-	width: 335px;
-	margin-top: 30px;
-	float: left;
-	clear: left;
+	margin:120px auto 0 auto;
 }
 
-#business-future-title
+.other-wrap
 {
-	display:block;
-	width:105px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
+	width: 100px;
+	height: 55px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	border: #80DEEA solid 1px;
+	color: #555555;
+	z-index: 35;
+	position: relative;
+	opacity: 1;
 }
 
-#business-future-title h4
+.other-wrap:hover
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
+	color: #ffffff;
+	background-color: #80DEEA;
 }
 
-#business-future p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#story
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#story h2
+.other-wrap h5
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#story-pic
-{
-	height:327px;
-	width:720px;
-	margin-top:15px;
-	float:left;
-	background:url('../levo/images/journey.png') no-repeat 0 0;	
-}
-
-#storytext
-{
-	display:block;
-	width:720px;
-	line-height:120%;
-	float:left;	
-}
-
-#storytext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#story-user
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	float:left;
-}
-
-#story-user-title
-{
-	display:block;
-	width:130px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#story-user-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#user-title-pic
-{
-	height:30px;
-	width:30px;
-	background:url('../levo/images/user.png') no-repeat 0 0;
-	float:left;
-	margin-right:5px;
-}
-
-#story-user p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:1.5;
-}
-
-#story-market
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	margin-left:50px;
-	float:left;
-}
-
-#story-market-title
-{
-	display:block;
-	width:165px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#story-market-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#story-market p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#market-title-pic
-{
-	height:30px;
-	width:30px;
-	background:url('../levo/images/market.png') no-repeat 0 0;
-	float:left;
-	margin-right:5px;
-}
-
-
-#story-shop
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	float:left;
-}
-
-#story-shop-title
-{
-	display:block;
-	width:170px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#shop-title-pic
-{
-	height:30px;
-	width:30px;
-	background:url('../levo/images/shop.png') no-repeat 0 0;
-	float:left;
-	margin-right:5px;
-}
-
-#story-shop-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#story-shop p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#story-brand
-{
-	display:block;
-	width:335px;
-	margin-top:30px;
-	margin-left:50px;
-	float:left;
-}
-
-#story-brand-title
-{
-	display: block;
-	width: 105px;
-	float: left;
-	border-bottom: 1px dashed #2A2A2A;
-	clear: left;
-}
-
-#brand-title-pic
-{
-	height:30px;
-	width:30px;
-	background:url('../levo/images/brand.png') no-repeat 0 0;
-	float:left;
-	margin-right:5px;
-}
-
-#story-brand-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#story-brand p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-	line-height:150%;
-}
-
-#interface
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#interface h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-br 
-{
-	clear:both;
-}
-
-.frame 
-{
-	width:720px;
-	height:447px;
-	background-color:#CCC;
-	overflow:hidden;
-	margin-top:20px;
-	border-top : 1px solid #4F4F4F;
-	border-bottom : 1px solid #4F4F4F;
-	border-left : 1px solid #4F4F4F;
-	border-right : 1px solid #4F4F4F;
-}
-
-.frame .list
-{
-	list-style:none;
-	padding:0;
-	margin:0;
-	width:10000px;
-}
-
-.frame .list li 
-{
-	width:720px;
-	height:447px;
-	float:left;
-}
-
-.frame #big_list2
- {
-	height:10000px;
-}
-
-.frame #big_list2 li 
-{
-	clear:both;
-}
-
-.frame #big_list4 
-{
-	height:10000px;
-}
-
-.frame #big_list4 li 
-{
-	clear:both;
-}
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 0.5px;	
+	line-height: 150%;
 	
-.l_frame 
-{
-	width:260px;
-	height:0px;
-	background-color:#CCC;
-	overflow:hidden;
-	float:left;
-}
-
-.l_frame .list 
-{
-	list-style:none;
-	padding:0;
-	margin:0;
-	width:10000px;
-}
-
-.l_frame .list li
- {
-	float:left;
-	width:76px;
-	height:76px;
-	cursor:pointer;
-	border:solid 2px #cc3910;
-}
-
-.l_frame .list .cur 
-{
-	border:solid 2px #0FF;
-}
-
-.l_frame2 
-{
-	height:208px;
-	width:80px;
-	background-color:#CCC;
-	overflow:hidden;
-}
-
-.l_frame2 .list {
-	list-style:none;
-	padding:0;
-	margin:0;
-	height:10000px;
-}
-
-.l_frame2 .list li
-{
-	width:76px;
-	height:76px;
-	cursor:pointer;
-	border:solid 2px #cc3910;
-}
-
-.l_frame2 .list .cur 
-{
-	border:solid 2px #0FF;
-}
-	
-.slide_nav 
-{
-	height:0px;
-	width:16px;	
-	display:block;
-	float:left;
-	background-color:#2A0;
-	text-indent:-10000px;		
-}
-
-.slide_nav2 
-{
-	width:0px;
-	height:16px;
-	display:block;
-	background-color:#2A0;
-	text-indent:-10000px;	
 }
 
 .footer, .push
 {
     width:100%;
-	min-width:720px;
+	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
-	margin-top:30px;
+	margin-top:120px;
 	float:left;
 }
 
@@ -1038,6 +392,7 @@ br
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
+	font-weight: 300;
 	color:#575757;
 	margin:auto;
 	padding-top:30px;
