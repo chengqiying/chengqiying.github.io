@@ -1,5 +1,13 @@
 ﻿@charset "utf-8";
-
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('./font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('./font/fontscorecomttwcenmt.woff') format('woff'), url('./font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
 /* CSS Document */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
@@ -55,7 +63,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #cv-1 h2
 {
 	font-size: 16px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 	text-align: center;
 	font-weight: 300;
@@ -221,8 +229,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #works-1-title h3
 {
 	text-align: center;
-	font-family: 'Roboto';
-	font-size: 20px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size: 24px;
 	font-weight: 300;
 	color: #515151;
 }
@@ -389,8 +397,8 @@ a.cv-back h3
 #works-2-title h3
 {
 	text-align: center;
-	font-family: 'Roboto';
-	font-size: 20px;
+	font-family:'fontscorecomttwcenmt', sans-serif;
+	font-size: 24px;
 	font-weight: 300;
 	color: #515151;
 }
@@ -525,8 +533,8 @@ a.cv-back h3
 #works-3-title h3
 {
 	text-align: center;
-	font-family: 'Roboto';
-	font-size: 20px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size: 24px;
 	font-weight: 300;
 	color: #515151;
 }
@@ -659,8 +667,8 @@ a.cv-back h3
 #works-4-title h3
 {
 	text-align: center;
-	font-family: 'Roboto';
-	font-size: 20px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size: 24px;
 	font-weight: 300;
 	color: #515151;
 }
@@ -772,7 +780,6 @@ a.cv-back h3
 {
 	width:100px;
 	display:block;
-	border-bottom:#636363 dashed 1px;
 	float:left;
 	margin:0px 40px auto;
 }
