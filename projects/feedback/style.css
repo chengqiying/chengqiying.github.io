@@ -150,7 +150,7 @@ a#home:hover
 #introduction
 {
 	display:block;
-	width: 45%;
+	width: 40%;
 	margin:150px auto 0 auto;
 }
 
@@ -271,7 +271,7 @@ a#home:hover
 #interface-text
 {
 	display:block;
-	width:45%;
+	width:40%;
 	margin:50px auto 0 auto;	
 	text-align:center;
 }
@@ -298,7 +298,7 @@ a#home:hover
 #context-text
 {
 	display:block;
-	width:45%;
+	width:40%;
 	margin:30px auto 0 auto;	
 }
 
@@ -358,7 +358,7 @@ a#home:hover
 #evaluate-text
 {
 	display:block;
-	width:45%;
+	width:40%;
 	margin:30px auto 0 auto;	
 }
 

@@ -150,7 +150,7 @@ a#home:hover
 #introduction
 {
 	display:block;
-	width: 45%;
+	width: 40%;
 	margin:150px auto 0 auto;
 }
 
@@ -195,55 +195,6 @@ a#home:hover
 	margin:60px auto 0 auto;
 }
 
-#business
-{
-	display:block;
-	width: 100%;
-	margin:150px auto 0 auto;
-}
-
-#business-text
-{
-	display: block;
-	width:40%;
-	margin: 30px auto 0 auto;
-}
-
-#business-pic
-{
-	width:550px;
-	height:261px;
-	background:url('../levo/images/model.jpg') no-repeat 0 0;
-	background-size: cover;
-	margin:60px auto 0 auto;
-}
-
-#customer
-{
-	display:block;
-	width: 100%;
-	margin:150px auto 0 auto;
-}
-
-#customer-text
-{
-	display:block;
-	width:45%;
-	margin:50px auto 0 auto;	
-}
-
-#interface-text a
-{
-	text-decoration: none;
-	font-style: italic;
-	color: #A6A6A6;
-}
-
-#interface-text a:hover
-{
-	color: #00BCD4;
-}
-
 #context
 {
 	display:block;
@@ -254,7 +205,7 @@ a#home:hover
 #context-text
 {
 	display:block;
-	width:45%;
+	width:40%;
 	margin:30px auto 0 auto;	
 }
 
@@ -295,46 +246,42 @@ a#home:hover
 	background-size: cover;
 }
 
-#evaluate-text a
-{
-	text-decoration:none;
-	color: #A6A6A6;
-	font-style: italic;	
-}
-
-#evaluate-text a:hover
-{
-	color: #00BCD4;	
-}
-
-#evaluate-pic
+#business
 {
 	display:block;
-	width:100%;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#business-text
+{
+	display: block;
+	width:40%;
+	margin: 30px auto 0 auto;
+}
+
+#business-pic
+{
+	width:550px;
+	height:261px;
+	background:url('../levo/images/model.jpg') no-repeat 0 0;
+	background-size: cover;
 	margin:60px auto 0 auto;
-	font-size: 0;	
 }
 
-#evaluate-pic-1
+#customer
 {
-	width:50%;
-	height:450px;
-	display:inline-block;
-	background: url(images/test1.jpg) no-repeat 0 0;
-	background-size: cover;
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
 }
 
-#evaluate-pic-2
+#customer-text
 {
-	width:50%;
-	height:450px;
-	display:inline-block;
-	background:url(images/test2.jpg) no-repeat 0 0;
-	background-size: cover;
+	display:block;
+	width:40%;
+	margin:50px auto 0 auto;	
 }
-
-
-
 
 #other
 {
