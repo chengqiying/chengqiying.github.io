@@ -968,7 +968,9 @@ a.cv-back h3
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	padding-bottom: 10px;
+	line-height: 150%;
 }
+
 
 #nameinfo p
 {
@@ -1009,21 +1011,71 @@ h2
 
 #education-content-left
 {
-	width:70%;
+	width:100%;
 	text-align: left;
 	margin-top: 2%;
 	display: inline-block;
-}
-
-#education-content-right
-{
-	width: 29%;
-	text-align: right;
-	margin-top: 2%;
-	display: inline-block;
+	vertical-align: top;
 }
 
 #education p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 150%;
+}
+
+#work
+{
+	width:90%;
+	margin-left: 12%;
+	margin-top: 10%
+}
+
+#work-title
+{
+	width:190px;
+	border-bottom: 1px solid #090909;
+	margin-bottom: 2%;
+}
+
+h2
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+} 
+
+#work-content
+{
+	width:100%;
+	text-align: left;
+	display: inline-block;
+}
+
+.work-content-title
+{
+	width:100%;
+	text-align: left;
+}
+
+.work-content-title p
+{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	line-height: 150%;
+}
+
+.work-content-descrip
+{
+	width:100%;
+	text-align: left;
+	margin-bottom:5%;
+}
+
+.work-content-descrip p
 {
 	font-size:14px;
 	font-family: 'Open Sans', sans-serif;
@@ -1040,7 +1092,7 @@ h2
 
 #experience-title
 {
-	width:130px;
+	width:110px;
 	border-bottom: 1px solid #090909;
 	margin-bottom: 2%;
 }
@@ -1184,18 +1236,18 @@ a#cv-close
 	position: fixed;
 	width: 32px;
 	height: 32px;
-	border: 1px solid #E3E3E3;
 	border-radius: 16px;
 	margin-left: 5%;
 	margin-top: 0.5%;
 	text-align: center;
-	background: url(images/resume/close1.gif);
+	background: url(images/resume/close1.png);
+	background-size: cover;
 }
 
 a#cv-close:hover
 {
-	border:0;
-	background: url(images/resume/close2.gif);
+	background: url(images/resume/close2.png);
+	background-size: cover;
 	
 }
 
