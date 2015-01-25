@@ -4,116 +4,81 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>sprouting postcard</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Sprouting Postcard</h1> 
+        	<p>concept product desing<br>teamwork<br>duration: 11.2011 (1 week)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Sprouting Postcard</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p> Concept Product Design</p>
-                	<p>Team: Qiying Cheng,</p>
-                	<p>Shaoting Gu</p>
-                    <p>Duration: 1 week</p>
-                	<p>11.2011</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
-            	<h2>A Postcard with Growth of Plant Life </h2>
+        	<!--<div id="introduction">
+            	<h2>Get Information by A Simple and Habitual Action</h2>
                 <div id="introductiontext">
-               	  <p>The stamp of the postcard is transformed into a piece of soil contented with seeds sprout on the way to the destination. When receiving the postcard, receivers also get an extra piece of green grass, which can be taken out of the card and replanted into the flowerpot.</p>
-			  </div>
-          </div>
-            <div id="detail">
+               		<p></p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>-->
+            
+            <div id="concept">
+            	<h2>A Postcard with Growth of Plant Life</h2>
+                <div id="concept-text">
+               		<p>The stamp of the postcard is transformed into a piece of soil contented with seeds sprout on the way to the destination. When receiving the postcard, receivers also get an extra piece of green grass, which can be taken out of the card and replanted into the flowerpot.</p>
+			   </div>
+               <div id="concept-pic"></div> 
+            </div>
+            
+            <div id="process">
             	<h2>The Scent from Distant Friends</h2>
-            	<div id="detailpic">
-           	  	  <div id="pic-1"></div>
-                    <div id="pic-2"></div>
+                <div id="process-text">
+               		<p>Our friends can smell the soil where the postcard sent from by the piece of the grown grass. The design tends to add more fun in sending and receivving postcards.</p>
+			   </div>
+               <div id="process-pic"></div>
+            </div>
+            
+            <div id="theory">
+            	<h2>Operation</h2>
+                <div id="theory-pic"></div> 
+            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/stool/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
 
-                </div>
-                <div id="detail-analysis">
-                	<div id="detail-miss">
-                    	<div id="detail-miss-title">
-                        	<h4>Miss Delivery</h4>
-                        </div>
-                        <p>Our friends can smell the soil where the postcard sent from by the piece of the grown grass.  The design tends to add more fun in sending and receivving postcards. </p>
-                    </div>
-                </div> 
-              <div id="operation-pic">
-                	<div id="operation-pic-title">
-                      <h4>Operation</h4>
-                    </div>
-                	<div id="pic-3"></div>
-                    <div id="pic-4"></div>
-                    <div id="pic-5"></div>
-                </div>
-            </div> 
       </div>
       </div>     
-	</div> 
+ 	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

@@ -4,149 +4,80 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
+
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>ghost</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Ghost</h1> 
+        	<p>changing behavior<br>teamwork<br>duration: 09.2013 (2 weeks)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Ghost</h1>
-                
-       	  </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-                    	<iframe src="https://player.vimeo.com/video/75006954?byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p>Interaction Design</p>
-               	  <p>Changing Behavior</p>
-                	<p>Team: Qiying Cheng, </p>
-                	<p>	Veer Doing</p>
-                    <p>Duration: 2 weeks</p>
-                	<p>09.2013</p>
-                    <div id="ghostbriefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
+        	<div id="introduction">
             	<h2>Introduction</h2>
                 <div id="introductiontext">
-                	<p>GHOSTs (generic, highly-organic shape-changing interfaces) are display surfaces made of malleable materials that can change into and retain arbitrary shapes so as to display output from the system or afford new actions. At the same time, GHOSTs allow users to deform, touch, or otherwise manipulate the shape of their display surface to provide input to the system.</p>
-</div>
-            </div>
-            <div id="implement">
-            	<h2>Implementation</h2>
-                <div id="implement-text">	<p>At first, we made a physical sketch to decide the appropriate construction of the box. Paper and cloth of various thicknesses were tested to find out the smoothest one.  The basic movement worked well in the first prototype. In order to enhance the smoothness of movement, we change the construction of wheels. In the final prototype, another up board was added for the appearance of box and to improve the tidiness of inside.</p>
-            	</div
-                ><div id="implement-structure">
-                    	<div id="implement-structure-title">
-                        	<h4>Structure Sketch</h4>
-                        </div>
-                        <div id="implement-structure-pic">
-               	  			<div id="s-pic-1"></div>
-                    		<div id="s-pic-2"></div>
-                    		<div id="s-pic-3"></div>
-                		</div>
+               		<p>GHOSTs (generic, highly-organic shape-changing interfaces) are display surfaces made of malleable materials that can change into and retain arbitrary shapes so as to display output from the system or afford new actions. At the same time, GHOSTs allow users to deform, touch, or otherwise manipulate the shape of their display surface to provide input to the system.</p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>
+            
+            <div id="concept">
+            	<h2>Prototype process</h2>
+                <div id="concept-text">
+               		<p>The design is an rolling belt which was simple. The belt can be accelerated with touching. It goes fast in the same direction with touching when touching fast and goes slowly when touching slowly. It goes longer when touching with more pressure. It also can be stopped when touching again.</p>
+			   </div>
+                <div id="concept-pic">
+                	<iframe src="https://player.vimeo.com/video/75006954?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div> 
-                <div id="implement-material">
-                    	<div id="implement-material-title">
-                        	<h4>Belt Material</h4>
-                        </div>
-                        <div id="implement-material-pic">
-               	  			<div id="m-pic-1"></div>
-                    		<div id="m-pic-2"></div>
-                    		<div id="m-pic-3"></div>
-                		</div>
-                </div>	
-                <div id="implement-first">
-                    	<div id="implement-first-title">
-                        	<h4>First Prototype</h4>
-                        </div>
-                        <div id="implement-first-pic">
-               	  			<div id="f-pic-1"></div>
-                    		<div id="f-pic-2"></div>
-                    		<div id="f-pic-3"></div>
-                            <div id="f-pic-4"></div>
-                		</div>
-                </div>
-            </div>            
-    
-            <div id="product">
-            	<h2>The Concept   				</h2>
-            	<div id="product-text">
-            	  <p>The concept we chose was an rolling belt which  was simple and suited the theme of changing behavior. The belt can be accelerated with touching. It goes fast in  the same direction with touching when touching fast and slowly when touching  slowly. It goes longer when touching with more pressure. It also can be stopped  when touching again. And, there is a bonus sound effect when the belt stops in  a high speed.</p>
-				</div>
-                <div id="product-pic">
-                	<div id="product-pic-1"></div>
-                    <div id="product-pic-2"></div>
-                </div>
+            </div>
+            
+            <div id="process">
+            	<h2>Prototype process</h2>
+                <div id="process-pic"></div> 
             </div>
             
             <div id="theory">
-            	<h2>Supporting Theory</h2>
-           		<div id="theory-text">
-               		<p>The Interaction Frogger Framework</p>
-				</div>
-                <div id="theory-pic"></div>
+            	<h2>Interaction Frogger Framework</h2>
+                <div id="theory-pic"></div> 
             </div>
-         </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/iwall/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
+
+      </div>
       </div>     
-  </div>
+ 	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

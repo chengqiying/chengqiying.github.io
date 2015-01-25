@@ -4,114 +4,85 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>color picking bee</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Color Picking Bee</h1> 
+        	<p>interaction desing<br>teamwork<br>duration: 04.2012 (8 weeks)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Color Picking Bee</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-                    	<iframe src="https://player.vimeo.com/video/90573610" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p>Interaction Design</p>
-                	<p>Team: Qiying Cheng,</p>
-                	<p>Shaoting Gu</p>
-                    <p>Duration: 2 weeks</p>
-                	<p>04.2012</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
-            	<h2>Pick the Color and Keep it</h2>
+        	<!--<div id="introduction">
+            	<h2>Get Information by A Simple and Habitual Action</h2>
                 <div id="introductiontext">
-               	  <p>The world of color is amazing and beautiful, however all the varieties of colors will inevitably fade away with time going by. The color picking bee  intends to gather colors from objects and keep them in a honeycomb-like interactive light installation.</p>
-			  </div>
-       	  </div>
-            <div id="interaction">
-            	<h2>Interaction</h2>
-            	<div id="interaction-text">
-                	<p>First, let the bee picks up the color by color sensor and then the light in it shows the same color. When it is moved close enough to the honeycomb, the photoresistor in the honeycomb can sense the light, so the color signals will be tranfered to the honeycomb by wireless transmission modules. Then the light in the honeycomb turns on and reflects the same color. Meanwhile the light in the bee gradually fades away.</p>
-                    
-                </div>
-                <div id="interaction-pic">
-                	<div id="interaction-pic-1"></div>
-                    <div id="interaction-pic-2"></div>
-                    <div id="interaction-pic-3"></div>
+               		<p></p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>-->
+            
+            <div id="concept">
+            	<h2>Pick the Color and Keep It</h2>
+                <div id="concept-text">
+               		<p>The world of color is amazing and beautiful, however all the varieties of colors will inevitably fade away with time going by. The color picking bee intends to gather colors from objects and keep them in a honeycomb-like interactive light installation.</p>
+			   </div>
+                <div id="concept-pic">
+                	<iframe src="https://player.vimeo.com/video/90573610?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div> 
             </div>
-            <div id="schematic">
+            
+            <div id="process">
+            	<h2>Interaction</h2>
+                <div id="process-text">
+               		<p>First, let the bee picks up the color by color sensor and then the light inside it shows the same color. When it is moved close enough to the honeycomb, the photoresistor in the honeycomb can sense the light, so the color signals will be tranfered to the honeycomb by wireless transmission modules. Then the light in the honeycomb turns on and reflects the same color. Meanwhile the light in the bee gradually fades away.</p>
+			   </div>
+               <div class="process-pic" id="process-pic-1"></div>
+               <div class="process-pic" id="process-pic-2"></div>
+            </div>
+            
+            <div id="theory">
             	<h2>Schematic</h2>
-                <div id="schematic-text"></div> 
-                <div id="schematicpic"></div> 
+                <div id="theory-pic-1"></div> 
+                <div id="theory-pic-2"></div>
             </div>
-            <div id="circuit">
-            	<h2>Electronic Circuit</h2>
-                <div id="circuit-text"></div> 
-                <div id="circuit-pic"></div> 
-            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/sbracelet/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
+
       </div>
-	</div>     
-    </div>
+      </div>     
+ 	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

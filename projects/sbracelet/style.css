@@ -1,44 +1,19 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: 'fontscorecomttwcenmt';
+	src: url('../../font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.back-to-top {
-    position: fixed;
-    bottom: 2em;
-    right: 100px; 
-    background-color: #e6e6e6;
-    width:60px;
-    height:60px;
-    -moz-border-radius: 60px;
-    -webkit-border-radius: 60px;
-    border-radius: 60px;
-	/*padding: 1em;*/
-	text-align: center;
-	text-decoration:none;
-    display: none;
-}
-
-
-.back-to-top h6
-{    
-    color: #ffffff;
-	font-size: 18px;
-    font-family:'Open Sans', sans-serif;
-	font-weight: 200;
-	margin-top: 17px;
-}
-
-.back-to-top h6:hover 
-{
-	background-color: #D7D7CE;
-	color: #ffffff;
-	text-decoration: none;
 }
 
 
@@ -47,470 +22,380 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display:block;
 }
 
-#border
+#header
 {
 	width: 100%;
-	height:8px;
-    style: solid;
-    background-color: rgb(0, 0, 0);
-	margin:0px 0px auot 0px;
 	position: fixed;
+	z-index: -999;
+}
+
+#header img
+{
+	width: 100%;
+	position: relative;
+}
+
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 35%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
+{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
+}
+
+#header-text p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+	margin-left: 0;
+	margin-top: 20px;
+	line-height: 160%;
+	position: relative;
+}
+
+#nav
+{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 998;	
+}
+
+#home
+{
+	width: 30px;
+	height: 30px;
+	background: url(images/homelogo.png) no-repeat;
+	background-size: cover;
+	margin: 27px 0 0 50px;
+	position: absolute;
+	display: block;
+	opacity: 0;
+}
+
+a#home:hover
+{
+	background: url(images/homelogo2.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.background
+{
+	background: url(images/back.jpg) no-repeat;
+	background-size: cover;
+}
+
+.nav-title
+{
+	width: 280px;
+	height: 80px;
+	margin: 0 auto;	
+	opacity: 0;
+	z-index: 999;
+	
+}
+
+.nav-title h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	z-index: 999;
+	padding-top: 27px;
+	text-align: center;
 }
 
 #wrappera
 {
-	width: 1100px;
-	margin:auto;	
-}
-
-#wrapper
-{
-	width: 980px;
-	margin:auto;
-    text-align: left;		
-}
-
-#guide
-{
-	height: 75px;
-	position: fixed;
-	margin:8px 0px auto 0px;
-}
-
-#homeguide
-{
-	width:75px;
-	height:75px;
-	margin-left:905px;
-	background: url('../sbracelet/images/homeguide.png') no-repeat 0 0;
-}
-
-#homeguide:hover
-{
-	opacity:0.6;
-	-webkit-transition: opacity 500ms;
-	-moz-transition: opacity 500ms;
-	-o-transition: opacity 500ms;
-	-ms-transition: opacity 500ms;
+	width: 100%;
+	display: block;
+	top: 820px;
+	z-index: 30;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	-webkit-animation: intro-content 2s forwards;
+	-moz-animation: intro-content 2s forwards;
+	-o-animation: intro-content 2s forwards;
+	animation: intro-content 2s forwards;
 }
 
 #content
 {
 	display:block;
-	width:980px;
-	margin-top:155px;
-	float:left;
+	width: 100%;
+	margin:0 auto;
 }
 
-#title
+#content h2
 {
-	display:block;
-	width: 980px;
-	margin-top:0px;
-	float:left;
-}
-
-#title h1
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
+	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-size:24px;
 	font-weight:300;
-	margin-top:0px;
-	position:absolute;
+	text-align: center
 }
 
-#brief
+#content p
 {
-    display:block;
-	width: 980px;
-	margin-top:90px;	
-}
-
-#briefpic
-{
-    height:414px;
-	width: 720px;
-	margin-top:0px;	
-	border-top : 1px solid #4F4F4F;
-	border-bottom : 1px solid #4F4F4F;
-	border-left : 1px solid #4F4F4F;
-	border-right : 1px solid #4F4F4F;
-	float:left;
-}
-
-#briefimg
-{
-    height: 394px;
-	width: 700px;
-	margin:10px 10px auto;
-	background: url('../sbracelet/images/brief.png') no-repeat 0 0;
-}
-
-#brieftext
-{
-	height: 350px;
-	width: 190px;
-	margin-top: 0px;
-	margin-left: 40px;
-	float: left;
-}
-
-#brieftext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	line-height:1.5;	
-}
-
-#briefline
-{
-	border-top : 1px dashed #4F4F4F;
-	width:180px;
-	height:2px;
-	margin-top:12px;
-	float:left
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-weight:300;	
+	line-height: 170%;
+	letter-spacing: 0.3px;
 }
 
 #introduction
 {
 	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
+	width: 100%;
+	margin:150px auto 0 auto;
 }
 
-#introduction h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-
-}
 
 #introductiontext
 {
-	display:block;
-	width:650px;
-	margin-top:15px;
-	line-height:1.5;	
+	display: block;
+	width:40%;
+	margin:30px auto 0 auto;
 }
 
-#introductiontext p
+#introduction-pic
+{
+	display:block;
+	width: 600px;
+	height: 365.5px;
+	margin: 70px auto 0 auto;
+	font-size:0;
+	background:url('../ghost/images/concept.jpg') no-repeat 0 0;
+	background-size:cover;
+}
+
+#concept
+{
+	display:block;
+	width: 100%;
+	margin-top: 150px;
+}
+
+#concept-text
+{
+	display: block;
+	width:40%;
+	margin: 50px auto 0 auto;	
+}
+
+#concept-pic
+{
+	display:block;
+	width: 720px;
+	height: 420px;
+	margin:60px auto 0 auto;
+	font-size:0;
+	background: url(images/concept.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+
+#process
+{
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#process-pic
+{
+	display:block;
+	width: 720px; 
+	height: 270px;
+	margin: 70px auto 0 auto;
+	font-size:0;
+	background: url(images/use.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+#process-text
+{
+	display: block;
+	width:40%;
+	margin:30px auto 0 auto;
+}
+
+#theory
+{
+	display:block;
+	width: 100%;
+	margin:150px auto 0 auto;
+}
+
+#theory-pic
+{
+	display:block;
+	width: 720px;
+	height: 297px;
+	margin: 50px auto 0 auto;
+	font-size:0;
+	background: url(images/scenario.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+
+#theory-text
+{
+	display: block;
+	width:40%;
+	margin:30px auto 0 auto;
+}
+
+#other
+{
+	width: 100px;
+	display: block;
+	margin:120px auto 0 auto;
+}
+
+.other-wrap
+{
+	width: 100px;
+	height: 55px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	border: #80DEEA solid 1px;
+	color: #555555;
+	z-index: 35;
+	position: relative;
+	opacity: 1;
+}
+
+.other-wrap:hover
+{
+	color: #ffffff;
+	background-color: #80DEEA;
+}
+
+.other-wrap h5
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;	
-}
-
-#idea
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#idea h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#ideapic
-{
-	width:720px;
-	height:376px;
-	margin-top:30px;
-	float:left;
-	background:url('../sbracelet/images/ideation.png') no-repeat 0 0;
-}
-
-#detail
-{
-	display:block;
-	width: 980px;
-	margin-top:50px;
-	float:left;
-}
-
-#detail h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#detailtext
-{
-	display:block;
-	width:650px;
-	margin-top:15px;
-	line-height:1.5;	
-}
-
-#detailtext p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-}
-
-#detailpic
-{
-	width:720px;
-	dispaly:block;
-	margin-top:30px;
-	float:left;
-}
-
-#pic-1
-{
-	width:360px;
-	height:155px;
-	background:url('../stool/images/fold.png') no-repeat 0 0;
-	float:left;
-}
-
-#pic-2
-{
-	width:360px;
-	height:155px;
-	background:url('../stool/images/detail.png') no-repeat 0 0;
-	float:left;
-}
-
-
-#use
-{
-	display:block;
-	width: 980px;
-	margin-top:60px;
-	float:left;
-}
-
-#use h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-
-#usepic
-{
-	width:720px;
-	height:248px;
-	margin-top:30px;
-	float:left;
-	background:url('../sbracelet/images/use.png') no-repeat 0 0;
-}
-
-#use-analysis
-{
-	display:block;
-	width:720px;
-	margin-top:20px;
-	float:left;
-}
-
-#use-switch
-{
-	display:block;
-	width:315px;
-	float:left;
-}
-
-#use-switch-title
-{
-	display:block;
-	width:93px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#use-switch-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#use-switch p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-}
-
-#use-zoom
-{
-	display:block;
-	width:315px;
-	margin-left:20px;
-	float:left;
-}
-
-#use-zoom-title
-{
-	display:block;
-	width:90px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#use-zoom-title h4
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:17px;
-	font-weight:300;
-}
-
-#use-zoom p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	margin-top:10px;
-	float:left;
-}
-
-#senario
-{
-	display:block;
-	width: 980px;
-	margin-top:60px;
-	float:left;
-}
-
-#senario h2
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:22px;
-	font-weight:300;
-}
-
-#senario-analysis
-{
-	display:block;
-	width:650px;
-	margin-top:20px;
-	float:left;
-}
-
-#senario p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:300;
-	float:left;
-	line-height:1.5;
-}
-
-#senariopic
-{
-	width:720px;
-	height:270px;
-	margin-top:30px;
-	float:left;
-	background:url('../sbracelet/images/senario.png') no-repeat 0 0;
-}
-
-#func
-{
-	width:720px;
-	display:block;
-	margin-top:15px;
-	float:left;
-}
-
-#preview
-{
-	width:57px;
-	display:block;
-	margin-left:50px;
-	float:left;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#preview p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	text-align:center;
-	font-weight:300;
-}
-
-#recom
-{
-	width:122px;
-	display:block;
-	float:left;
-	margin-left:100px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#recom p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	text-align:center;
-	font-weight:300;
-}
-
-#traffic
-{
-	width:140px;
-	display:block;
-	float:left;
-	margin-left:60px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#traffic p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	text-align:center;
-	font-weight:300;
-}
-
-#route
-{
-	width:120px;
-	display:block;
-	float:left;
-	margin-left:60px;
-	border-bottom:1px dashed #2A2A2A;
-}
-
-#route p
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	text-align:center;
-	font-weight:300;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 0.5px;	
+	line-height: 150%;
+	
 }
 
 .footer, .push
 {
     width:100%;
-	min-width:720px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
-	float:left;
 }
 
 #footertext
 {
-	width:720px;
+	width:100%;
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
+	font-weight: 300;
 	color:#575757;
-	margin:auto;
+	margin:0 auto;
 	padding-top:30px;
 }
+
+@media screen and (max-width: 900px) {
+    #introduction-pic {
+		width: 540px;
+		height: 341.25px
+	}
+	#concept-pic {
+        width: 640px;
+		height: 350px;
+    }
+	#process-pic {
+        width: 600px;
+		height: 225px;
+    }
+	#theory-pic {
+        width: 600px;
+		height: 247.5px;
+    }
+	
+	#header-text {
+		left:25%;
+	}
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+    #header h1 {
+		font-size: 36px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	#concept-pic {
+        width: 400px;
+		height: 234px;
+    }
+	#process-pic {
+        width: 400px;
+		height: 150px;
+    }
+	#theory-pic {
+        width: 400px;
+		height: 165px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#header-text {
+		top:30%;
+		left: 18%;
+	}
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#concept-pic {
+        width: 360px;
+		height: 210px;
+    }
+	#process-pic {
+        width: 360px;
+		height: 135px;
+    }
+	#theory-pic {
+        width: 360px;
+		height: 148.5px;
+    }
+}
+
+	

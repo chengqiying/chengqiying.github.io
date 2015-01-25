@@ -25,33 +25,46 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header
 {
 	width: 100%;
-	height: 100%;
 	position: fixed;
 	z-index: -999;
-	background: url(images/back.jpg) no-repeat;
-	background-size: cover;
 }
 
-#header h1
+#header img
+{
+	width: 100%;
+	position: relative;
+}
+
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 35%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	font-weight: 400;
-	margin-top: 300px;
-	margin-left: 30%;
-	line-height: 150%;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
 }
 
-#header p
+#header-text p
 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	color: #ffffff;
-	margin-left: 30%;
+	margin-left: 0;
 	margin-top: 20px;
 	line-height: 160%;
+	position: relative;
 }
 
 #nav
@@ -213,15 +226,15 @@ a#home:hover
 {
 	display:block;
 	width:1080px;
-	margin:60px auto 0 auto;
+	height:221px;
+	margin:80px auto 0 auto;
 	font-size: 0;	
 }
 
 #context-pic-1
 {
-	width:360px;
-	height:221px;
-	margin-top:20px;
+	width:33.333333%;
+	height:100%;
 	display:inline-block;
 	background:url('../levo/images/research2.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -230,8 +243,8 @@ a#home:hover
 
 #context-pic-2
 {
-	width:360px;
-	height:221px;
+	width:33.333333%;
+	height:100%;
 	display:inline-block;
 	background:url('../levo/images/research1.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -239,8 +252,8 @@ a#home:hover
 
 #context-pic-3
 {
-	width:360px;
-	height:221px;
+	width:33.333333%;
+	height:100%;
 	display:inline-block;
 	background:url('../levo/images/research3.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -326,21 +339,130 @@ a#home:hover
 .footer, .push
 {
     width:100%;
-	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
-	float:left;
 }
 
 #footertext
 {
-	width:720px;
+	width:100%;
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight: 300;
 	color:#575757;
-	margin:auto;
+	margin:0 auto;
 	padding-top:30px;
+}
+
+@media screen and (max-width: 1180px) {
+	#context-pic {
+        width: 810px;
+		height: 165.75px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+	#context-pic {
+        width: 680px;
+    }
+	#evaluate-pic-t {
+        width: 680px;
+    }
+	#evaluate-pic-s {
+        width: 680px;
+    }
+	
+}
+
+@media screen and (max-width: 900px) {
+	#approachpic {
+        width: 600px;
+		height: 578.4px;
+    }
+	#header-text {
+		left:25%;
+	}
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}		
+	
+}
+
+@media screen and (max-width: 820px) {
+	#concept-pic-1 {
+        width: 640px;
+		height: 356px;
+    }
+	#concept-pic-2 {
+        width: 640px;
+		height: 182.4px;
+    }
+	#business-pic {
+        width: 450px;
+		height: 213px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    #header h1 {
+		font-size: 36px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	#concept-pic-1 {
+        width: 420px;
+		height: 233.7px;
+    }
+	#concept-pic-2 {
+        width: 420px;
+		height: 120px;
+    }
+	#context-pic {
+        width: 400px;
+		height: 81.9px;
+    }
+	#business-pic {
+        width: 400px;
+		height: 190px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #header-text {
+		top:30%;
+		left: 18%;
+	}
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#concept-pic-1 {
+        width: 320px;
+		height: 178px;
+    }
+	#concept-pic-2 {
+        width: 360px;
+		height: 103px;
+    }
+	#context-pic {
+        width: 360px;
+		height: 73.7px;
+    }
+	#business-pic {
+        width: 360px;
+		height: 171px;
+    }
 }

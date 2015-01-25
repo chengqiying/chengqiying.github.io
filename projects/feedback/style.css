@@ -25,33 +25,45 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header
 {
 	width: 100%;
-	height: 100%;
 	position: fixed;
 	z-index: -999;
-	background: url(images/back.jpg) no-repeat;
-	background-size: cover;
+}
+#header img
+{
+	width: 100%;
+	position: relative;
 }
 
-#header h1
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 35%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	font-weight: 400;
-	margin-top: 300px;
-	margin-left: 30%;
-	line-height: 150%;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
 }
 
-#header p
+#header-text p
 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	color: #ffffff;
-	margin-left: 30%;
+	margin-left: 0;
 	margin-top: 20px;
 	line-height: 160%;
+	position: relative;
 }
 
 #nav
@@ -185,24 +197,6 @@ a#home:hover
 	font-size:0;
 }
 
-#concept1-pic
-{
-	width:50%;
-	height:425px;
-	background:url('../cv/images/concept1.jpg') no-repeat 0 0;
-	background-size: cover;
-	display: inline-block;
-}
-
-#concept2-pic
-{
-	width:50%;
-	height:425px;
-	background:url('../cv/images/concept2.jpg') no-repeat 0 0;
-	background-size: cover;
-	display: inline-block;
-}
-
 #approach
 {
 	display:block;
@@ -241,8 +235,8 @@ a#home:hover
 
 #interface-pic-1
 {
-	width:360px;
-	height:456px;
+	width:33.33333%;
+	height:100%;
 	margin-top:20px;
 	display:inline-block;
 	background:url('../feedback/images/face1.jpg') no-repeat 0 0;
@@ -252,8 +246,8 @@ a#home:hover
 
 #interface-pic-2
 {
-	width:360px;
-	height:456px;
+	width:33.33333%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/face2.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -261,8 +255,8 @@ a#home:hover
 
 #interface-pic-3
 {
-	width:360px;
-	height:456px;
+	width:33.33333%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/face3.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -306,15 +300,15 @@ a#home:hover
 {
 	display:block;
 	width:1120px;
-	margin:60px auto 0 auto;
+	height:195px;
+	margin:80px auto 0 auto;
 	font-size: 0;	
 }
 
 #context-pic-1
 {
-	width:280px;
-	height:195px;
-	margin-top:20px;
+	width:25%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/field1.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -323,8 +317,8 @@ a#home:hover
 
 #context-pic-2
 {
-	width:280px;
-	height:195px;
+	width:25%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/field2.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -332,8 +326,8 @@ a#home:hover
 
 #context-pic-3
 {
-	width:280px;
-	height:195px;
+	width:25%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/field3.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -341,8 +335,8 @@ a#home:hover
 
 #context-pic-4
 {
-	width:280px;
-	height:195px;
+	width:25%;
+	height:100%;
 	display:inline-block;
 	background:url('../feedback/images/field4.jpg') no-repeat 0 0;
 	background-size: cover;
@@ -382,25 +376,16 @@ a#home:hover
 	font-size: 0;	
 }
 
-#evaluate-pic-1
+#evaluate-pic-1, #evaluate-pic-2
 {
 	width:50%;
-	height:450px;
 	display:inline-block;
-	background: url(images/test1.jpg) no-repeat 0 0;
-	background-size: cover;
 }
 
-#evaluate-pic-2
+#evaluate-pic-1 img, #evaluate-pic-2 img
 {
-	width:50%;
-	height:450px;
-	display:inline-block;
-	background:url(images/test2.jpg) no-repeat 0 0;
-	background-size: cover;
+	width:100%;
 }
-
-
 
 
 #other
@@ -445,22 +430,137 @@ a#home:hover
 
 .footer, .push
 {
-    width:100%;
-	min-width:1100px;
+    display: block;
+	width:100%;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
-	float:left;
 }
 
 #footertext
 {
-	width:720px;
+	width:100%;
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight: 300;
 	color:#575757;
-	margin:auto;
+	margin:0 auto;
 	padding-top:30px;
+}
+
+@media screen and (max-width: 1180px) {
+	#context-pic {
+        width: 840px;
+		height: 146.25px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+	#interface-pic {
+        width: 800px;
+		height: 337.8px;
+    }
+	#header-text {
+		left:25%;
+	}
+	#header h1 {
+		font-size: 44px;
+	}
+	#header p {
+		font-size: 18px;
+		margin-top: 15px;
+	}	
+}
+
+@media screen and (max-width: 900px) {
+	#approachpic {
+        width: 600px;
+		height: 578.4px;
+    }
+	#context-pic {
+        width: 720px;
+		height: 125.4px;
+    }
+	
+}
+
+@media screen and (max-width: 820px) {
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	#concept-pic {
+        width: 640px;
+		height: 356px;
+    }
+	#approachpic {
+        width: 640px;
+		height: 913.6px;
+    }
+	#interface-pic {
+        width: 640px;
+		height: 270.3px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+	#header-text {
+		left:20%;
+	}
+	#header h1 {
+		font-size: 30px;
+	}
+	#header p {
+		font-size: 15px;
+	}
+	#concept-pic {
+        width: 420px;
+		height: 233.7px;
+    }
+	#approachpic {
+        width: 400px;
+		height: 571px;
+    }
+	#interface-pic {
+        width: 400px;
+		height: 168.9px;
+    }
+	#context-pic {
+        width: 400px;
+		height: 68.6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	#header-text {
+		top:30%;
+		left: 18%;
+	}
+	#header h1 {
+		font-size: 22px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#concept-pic {
+        width: 320px;
+		height: 178px;
+    }
+	#approachpic {
+        width: 360px;
+		height: 380.7px;
+    }
+	#interface-pic {
+        width: 360px;
+		height: 152px;
+    }
+	#context-pic {
+        width: 360px;
+		height: 62.7px;
+    }
 }

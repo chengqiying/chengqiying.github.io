@@ -4,114 +4,77 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>foldable stool</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Foldable Stool</h1> 
+        	<p>concept product desing<br>teamwork<br>duration: 11.2011 (1 week)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Foldable Stool</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p> Concept Product Design</p>
-                	<p>Team: Qiying Cheng,</p>
-                	<p>Rong Yu, Shaoting Gu</p>
-                    <p>Duration: 1 week</p>
-                	<p>11.2011</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
-            	<h2>The Chinese Mindset: Yin and Yang</h2>
+        	<!--<div id="introduction">
+            	<h2>Get Information by A Simple and Habitual Action</h2>
                 <div id="introductiontext">
-               	  <p>This design comes out of the Chinese traditional mindset of Yin and Yang. The stool is made of a wood board with legs hidden in the body. The stool brings convenience to transportation as it will take much less space than the normal stools. </p>
-			  </div>
-          </div>
-            <div id="detail">
-            	<h2>Save Space                </h2>
-            	<div id="detail-analysis">
-                	<div id="detail-fold">
-                    	<div id="detail-fold-title">
-                        	<h4>Unfolding</h4>
-                        </div>
-                        <p>Unfold the hidden legs, the board turns into a seat. When unneeded, it can be folded into a plat board and stacked up.</p>
-                    </div>
-                    <div id="detail-bend">
-                    	<div id="detail-bend-title">
-                        	<h4>Bending Structure</h4>
-                        </div>
-                        <p>The legs are jointed with the body of the stool by a flexiable bending structure.</p>
-                    </div>
-                </div>
-                	<div id="detailpic">
-           	  	  <div id="pic-1"></div>
-                    <div id="pic-2"></div>
-                </div> 
+               		<p></p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>-->
+            
+            <div id="concept">
+            	<h2>The Chinese Mindset: Yin and Yang</h2>
+                <div id="concept-text">
+               		<p>This design comes out of the Chinese traditional mindset of Yin and Yang. The stool is made of a wood board with legs hidden in the body. The stool brings convenience to transportation as it will take much less space than the normal stools.</p>
+			   </div>
+               <div id="concept-pic"></div> 
+            </div>
+            
+            <div id="process">
+            	<h2>Saving Space</h2>
+                <div id="process-text">
+               		<p><span style="color:#00BCD4">Unfolding: </span>Unfold the hidden legs, the board turns into a seat. When unneeded, it can be folded into a plat board and stacked up.</br><span style="color:#00BCD4">Bending structure: </span>The legs are jointed with the body of the stool by a flexiable bending structure.</p>
+			   </div>
+               <div id="process-pic"></div>
+               <div id="theory-pic"></div>
+            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/sleep/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
 
-            </div> 
       </div>
       </div>     
-	</div>
+ 	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

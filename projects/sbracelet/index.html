@@ -4,126 +4,84 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>self-guided bracelet</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Self-Guided Bracelet</h1> 
+        	<p>concept product desing<br>individual<br>duration: 10.2011 (1 week)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Self-Guided Bracelet</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p> Concept Product Design</p>
-                	<p>Individual</p>
-                    <p>Duration: 2 weeks</p>
-                	<p>10.2011</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
-            	<h2>Design Based  on Wireless Technology for Sharing</h2>
+        	<!--<div id="introduction">
+            	<h2>Get Information by A Simple and Habitual Action</h2>
                 <div id="introductiontext">
-               	  <p>&quot;Traveling&quot; is a bracelet which can provide aerial views of scenic areas, the traffic flow and preview of a specific spot, and recommended spots around. After the tour, tourists can upload their  routes to the cloud storage for sharing.</p>
-			  </div>
-          </div>
-          <div id="idea">
-            	<h2>Ideation</h2>
-                <div id="ideapic"></div> 
+               		<p></p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>-->
+            
+            <div id="concept">
+            	<h2>Design Based on Wireless Technology for Sharing</h2>
+                <div id="concept-text">
+               		<p>"Traveling" is a bracelet which can provide aerial views of scenic areas, the traffic flow and preview of a specific spot, and recommended spots around. After the tour, tourists can upload their routes to the cloud storage for sharing.</p>
+			   </div>
+               <div id="concept-pic"></div> 
             </div>
-            <div id="use">
+            
+            <div id="process">
             	<h2>Simple Interaction by Sliding</h2>
-                <div id="use-analysis">
-               	  <div id="use-switch">
-                   	<div id="use-switch-title">
-                        	<h4>Switching</h4>
-                        </div>
-                        <p>The four funtions can be easily switched by finger sliding on the surface of the bracelet.     	  </p>
-               	  </div>
-                    <div id="use-zoom">
-                    	<div id="use-zoom-title">
-                       	  <h4>Zooming</h4>
-                      </div>
-                        <p>The content is possible t be zoomed in and out for a clear view in different contexts.</p>
-                  </div>
-                </div>
-                <div id="usepic"></div>
+                <div id="process-text">
+               		<p><span style="color:#00BCD4">Switching: </span>The four funtions can be easily switched by finger sliding on the surface of the bracelet.<br><span style="color:#00BCD4">Zooming: </span>The content is possible t be zoomed in and out for a clear view in different contexts.</p>
+			   </div>
+               <div id="process-pic"></div>
             </div>
-            <div id="senario">
-            	<h2>Use</h2>
-              <div id="senario-analysis">
-                    <p>There are four main functions in the bracelet. The first one provides a preview of the chosen scenic spot, the second gives the recommendation of the scenic spots around the person, the third one hepls to check the visitor flowrate of a certain spot, and the last function is about recording and uploading tour routes to the cloud storage, and share with others afterwards.</p>   
+            
+            <div id="theory">
+            	<h2>Scenarios</h2>
+                <div id="theory-text">
+                	<p>There are four main functions in the bracelet. The first one provides a preview of the chosen scenic spot, the second gives the recommendation of the scenic spots around the person, the third one hepls to check the visitor flowrate of a certain spot, and the last function is about recording and uploading tour routes to the cloud storage, and share with others afterwards.</p>
                 </div>
-            	<div id="senariopic"></div>
-                <div id="func">
-                	<div id="preview"><p>Preview</p></div>
-                    <div id="recom"><p>Recommendation</p></div>
-                    <div id="traffic"><p>Traffic flow Preview</p></div>
-                    <div id="route"><p>Routes recording</p></div>
-                </div>
-            </div> 
+                <div id="theory-pic"></div> 
+            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/pcard/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
+
       </div>
       </div>     
-	</div>
+ 	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

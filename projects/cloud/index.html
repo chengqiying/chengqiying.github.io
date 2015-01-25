@@ -4,136 +4,97 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+<link href="animate.css" rel="stylesheet" type="text/css" />
 <title>Qiying Cheng</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 1500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
-        } else {
-            jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
-</script>
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<script src="waypoint/waypoints.min.js"></script>
+<script src="custom.js" type="text/javascript"></script>
 
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Averia+Libre:400,400italic,300italic,700,300,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div id="border"></div>
 <div id="all">
-	<div id="wrappera">
-    <div id="wrapper">
-        <div id="guide">
-        	<a href="http://www.chengqiying.com"><div id="homeguide"></div></a>
+	<div id="nav">
+        <a id="home" href="http://chengqiying.com"></a>
+        <div class="nav-title">
+            <h3>farm produce cloud</h3> 
         </div>
+    </div> 
+	<div id="header">
+    	<img src="images/back.jpg"> 
+        <div id="header-text">
+        	<h1>Farm Produce Cloud</h1> 
+        	<p>service design<br>teamwork<br>duration: 08.2012 (1 week)</p>
+        </div>      	
+    </div>
+    
+	<div id="wrappera">
         <div id="content">
-            <div id="title">
-        		<h1>Farm Produce Cloud</h1>
-          </div>
-        	<div id="brief">
-            	<div id="briefpic">
-                	<div id="briefimg">
-
-                    </div>
-                </div>
-        		<div id="brieftext">
-                	<p> Service Design</p>
-                	<p>Team: Qiying Cheng,</p>
-                	<p>Shaoting Gu</p>
-                    <p>Duration: 1 week</p>
-                	<p>08.2012</p>
-                    <div id="briefline"></div>   
-                </div>
-			</div>
-            <div id="introduction">
+        	<div id="introduction">
             	<h2>All Sections processed in the Cloud</h2>
                 <div id="introductiontext">
-               	  <p>The complete service design procedure is contained in the cloud. Farmers just need to upload the information about the produce to the resource pool. Based on these, the design ecosystem will create the sound products for consumer.</p>
-			  </div>
-          </div>
-            <div id="detail">
-            	<h2>Procedure</h2>
-				<div id="detailpic"></div> 
+               	  <p>The complete service design procedure is contained in the cloud. Farmers only need to upload the information about the produce to the resource pool. The design ecosystem will create the sound products for consumer.</p>
+			   </div>
+               <div id="introduction-pic"></div>
+          	</div>
+            
+            <div id="concept">
+            	<h2>Service Precedure</h2> 
+				<div id="concept-pic"></div> 
             </div>
             
-            <div id="diagram">
-            	<h2>The Service</h2>
-                <div id="dia-1">
-               	  <div id="dia-1-text">
-                    	<div id="dia-1-text-title">
-                        	<h4>1. Uploading and Evaluation</h4>
-                        </div>
-                        <p>Farmers upload the basic informaiton of the produce into the resource pool in the cloud and the selected will get evaluations from assessors afterwards.</p>
-                    </div>
-                	<div id="dia-1-pic"></div>
-                </div> 
-                <div id="dia-2">
-               	  <div id="dia-2-text">
-                    	<div id="dia-2-text-title">
-                        	<h4>2. Investment</h4>
-                        </div>
-                        <p>Investors have the access to the evaluations and investing money in the most potential produce.</p>
-                    </div>
-                	<div id="dia-2-pic"></div>
-                </div>
-                <div id="dia-3">
-                	<div id="dia-3-text">
-                    	<div id="dia-3-text-title">
-                        	<h4>3. Planning and Marketing</h4>
-                        </div>
-                        <p>Food designers will work on those produce that get the investment. Marketers cooperate with designers to bring this products into the market.</p>
-                    </div>
-                	<div id="dia-3-pic"></div>
-                </div>
-                <div id="dia-4">
-               	  <div id="dia-4-text">
-                    	<div id="dia-4-text-title">
-                        	<h4>4. Logistics and Consume</h4>
-                        </div>
-                        <p>Finally, the complete products are transported to the retail for consuming</p>
-                  </div>
-                	<div id="dia-4-pic"></div>
-                </div>
-            </div> 
+            <div id="upload">
+            	<h2>Uploading and Evaluation</h2>
+                <div id="upload-text">
+               	  <p>The complete service design procedure is contained in the cloud. Farmers only need to upload the information about the produce to the resource pool. Based on these, the design ecosystem will create the sound products for consumer.</p>
+			   </div>
+                <div id="upload-pic"></div> 
+            </div>
+            
+            <div id="invest">
+            	<h2>Investment</h2>
+                <div id="invest-text">
+               	  <p>Investors have the access to the evaluations and investing money in the most potential produce.</p>
+			   </div>
+                <div id="invest-pic"></div> 
+            </div>
+            
+            <div id="plan">
+            	<h2>Planning and Marketing</h2>
+                <div id="plan-text">
+               	  <p>Food designers will work on those produce that get the investment. Marketers cooperate with designers to bring this products into the market.</p>
+			   </div>
+                <div id="plan-pic"></div> 
+            </div>
+            
+            <div id="consume">
+            	<h2>Logistics and Consume</h2>
+                <div id="consume-text">
+               	  <p>Finally, the complete products are transported to the retail for consuming.</p>
+			   </div>
+                <div id="consume-pic"></div> 
+            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/projects/ghost/">
+                    <h5>next</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
+
       </div>
       </div>     
  	</div>
 </div>
-<div class="footer">
-	<div id="footertext">
-		© Qiying Cheng 2014
-	</div>
-</div>
- <a href="#" class="back-to-top"><h6>Top</h6></a>  
+
 </body>
 
 </html>

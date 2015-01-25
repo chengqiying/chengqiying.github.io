@@ -25,33 +25,48 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header
 {
 	width: 100%;
-	height: 100%;
 	position: fixed;
 	z-index: -999;
-	background: url(images/back.jpg) no-repeat;
-	background-size: cover;
 }
 
-#header h1
+#header img
+{
+	width: 100%;
+	position: relative;
+}
+
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 35%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	font-weight: 400;
-	margin-top: 300px;
-	margin-left: 30%;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
 }
 
-#header p
+#header-text p
 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	color: #ffffff;
-	margin-left: 30%;
+	margin-left: 0;
 	margin-top: 20px;
 	line-height: 160%;
+	position: relative;
 }
+
 
 #nav
 {
@@ -179,27 +194,19 @@ a#home:hover
 {
 	display:block;
 	width: 100%;
-	height: 425px;
 	margin:60px auto 0 auto;
 	font-size:0;
 }
 
-#concept1-pic
+#concept1-pic, #concept2-pic
 {
 	width:50%;
-	height:425px;
-	background:url('../cv/images/concept1.jpg') no-repeat 0 0;
-	background-size: cover;
 	display: inline-block;
 }
 
-#concept2-pic
+#concept1-pic img, #concept2-pic img
 {
-	width:50%;
-	height:425px;
-	background:url('../cv/images/concept2.jpg') no-repeat 0 0;
-	background-size: cover;
-	display: inline-block;
+	width:100%;
 }
 
 #approach
@@ -212,8 +219,8 @@ a#home:hover
 #approachpic
 {
 	display:block;
-	width: 1080px;
-	height: 625px;
+	width: 720px;
+	height: 694px;
 	margin: 60px auto 0 auto;
 	font-size:0;
 	background:url('../cv/images/approach.jpg') no-repeat 0 0;
@@ -237,39 +244,23 @@ a#home:hover
 #context-pic
 {
 	display:block;
-	width:960px;
-	margin:60px auto 0 auto;
+	width: 960px;
+	margin:80px auto 0 auto;
 	font-size: 0;	
 }
 
-#context-pic-1
+#context-pic-1, #context-pic-2, #context-pic-3
 {
-	width:320px;
-	height:185px;
-	margin-top:20px;
+	width:33.3333333%;
 	display:inline-block;
-	background:url('../cv/images/context1.jpg') no-repeat 0 0;
-	background-size: cover;
 }
 
 
-#context-pic-2
+#context-pic-1 img, #context-pic-2 img, #context-pic-3 img
 {
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/context2.jpg') no-repeat 0 0;
-	background-size: cover;
+	width:100%;
 }
 
-#context-pic-3
-{
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/context3.jpg') no-repeat 0 0;
-	background-size: cover;
-}
 
 #evaluate
 {
@@ -290,54 +281,32 @@ a#home:hover
 	display:block;
 	width:960px;
 	margin:30px auto 0 auto;
-	font-size: 0;	
+	font-size: 0;
+	opacity: 0.8;	
 }
 
-
-#evaluate-pic-s-1
+#evaluate-pic-s img
 {
-	width:960px;
-	height:395px;
-	margin-top:30px;
-	display: block;
-	background:url('../cv/images/eva_structure.jpg') no-repeat 0 0;
-	background-size: cover;
-	opacity: 0.8;
+	width:100%;
 }
 
 #evaluate-pic-t
 {
 	display:block;
-	width:960px;
+	width:960px;;
 	margin:60px auto 0 auto;
 	font-size: 0;	
 }
 
-#evaluate-pic-t-1
+#evaluate-pic-t-1, #evaluate-pic-t-2, #evaluate-pic-t-3
 {
-	width:320px;
-	height:185px;
+	width:33.333333%;
 	display:inline-block;
-	background:url('../cv/images/test1.jpg') no-repeat 0 0;
-	background-size: cover;
 }
 
-#evaluate-pic-t-2
+#evaluate-pic-t-1 img, #evaluate-pic-t-2 img, #evaluate-pic-t-3 img
 {
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/test2.jpg') no-repeat 0 0;
-	background-size: cover;
-}
-
-#evaluate-pic-t-3
-{
-	width:320px;
-	height:185px;
-	display:inline-block;
-	background:url('../cv/images/test3.jpg') no-repeat 0 0;
-	background-size: cover;
+	width:100%;
 }
 
 #result
@@ -410,21 +379,98 @@ a#home:hover
 .footer, .push
 {
     width:100%;
-	min-width:1100px;
 	background-color:#F4F4F4;
 	height:80px;
 	margin-top:120px;
-	float:left;
 }
 
 #footertext
 {
-	width:720px;
+	width:100%;
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight: 300;
 	color:#575757;
-	margin:auto;
+	margin:0 auto;
 	padding-top:30px;
+}
+
+
+@media screen and (max-width: 960px) {
+	#context-pic {
+        width: 680px;
+    }
+	#evaluate-pic-t {
+        width: 680px;
+    }
+	#evaluate-pic-s {
+        width: 680px;
+    }
+	
+}
+
+@media screen and (max-width: 900px) {
+	#approachpic {
+        width: 600px;
+		height: 578.4px;
+    }
+	#header-text {
+		left:25%;
+	}
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}		
+	
+}
+
+@media screen and (max-width: 680px) {
+    #header h1 {
+		font-size: 36px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	#approachpic {
+        width: 360px;
+		height: 347px;
+    }
+	#context-pic {
+        width: 480px;
+    }
+	#evaluate-pic-t {
+        width: 480px;
+    }
+	#evaluate-pic-s {
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #header-text {
+		top:30%;
+		left: 18%;
+	}
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#context-pic {
+        width: 340px;
+    }
+	#evaluate-pic-t {
+        width: 340px;
+    }
+	#evaluate-pic-s {
+        width: 340px;
+    }
 }
