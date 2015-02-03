@@ -223,7 +223,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width:100%;
 	display: block;
 	margin-top: 150px;
-	opacity: 0;
+	opacity: 1;
 }
 
 #works-1-title h3
@@ -241,7 +241,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width: 100%;
 	height: 200px;
     margin-top:80px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -370,7 +370,7 @@ a.cv-back h3
 	height: 150px;
     margin:0px auto 0 auto;
 	background-color: #4DD0E1;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -382,7 +382,7 @@ a.cv-back h3
     margin:0 auto;
 	background-color: #4DD0E1;
 	border-radius: 5px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -391,7 +391,7 @@ a.cv-back h3
 	width:100%;
 	display: block;
 	margin-top: 30px;
-	opacity: 0;
+	opacity: 1;
 }
 
 #works-2-title h3
@@ -409,7 +409,7 @@ a.cv-back h3
 	width: 100%;
 	height: 200px;
     margin-top:80px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -505,7 +505,7 @@ a.cv-back h3
 	height: 150px;
     margin:0px auto 0 auto;
 	background-color: #4DD0E1;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -517,7 +517,7 @@ a.cv-back h3
     margin:0 auto;
 	background-color: #4DD0E1;
 	border-radius: 5px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -526,7 +526,7 @@ a.cv-back h3
 	width:100%;
 	display: block;
 	margin-top: 30px;
-	opacity: 0;
+	opacity: 1;
 }
 
 
@@ -545,7 +545,7 @@ a.cv-back h3
 	width: 100%;
 	height: 200px;
     margin-top:80px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -640,7 +640,7 @@ a.cv-back h3
 	height: 150px;
     margin:0px auto 0 auto;
 	background-color: #4DD0E1;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -652,7 +652,7 @@ a.cv-back h3
     margin:0 auto;
 	background-color: #4DD0E1;
 	border-radius: 5px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -661,7 +661,7 @@ a.cv-back h3
 	width:100%;
 	display: block;
 	margin-top: 30px;
-	opacity: 0;
+	opacity: 1;
 }
 
 #works-4-title h3
@@ -679,7 +679,7 @@ a.cv-back h3
 	width: 100%;
 	height: 200px;
     margin-top:80px;
-	opacity: 0;
+	opacity: 1;
 	font-size: 0;
 }
 
@@ -773,7 +773,7 @@ a.cv-back h3
 	width:185px;
 	height:70px;
     margin:140px auto 0 auto;
-	opacity: 0;
+	opacity: 1;
 }
 
 #contact-text
