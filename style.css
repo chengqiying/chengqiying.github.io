@@ -19,32 +19,46 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header
 {
 	width: 100%;
-	height: 100%;
 	position: fixed;
-	z-index: 0;
-	background: url(images/back.jpg) no-repeat;
-	background-size: cover;
+	z-index: -999;
 }
 
-#header h1
+#header img
+{
+	width: 100%;
+	position: relative;
+}
+
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 35%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
 {
 	color: #fff;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	font-weight: 400;
-	margin-top: 300px;
-	margin-left: 30%;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
 }
 
-#header p
+#header-text p
 {
-	font-family: 'Roboto';
-	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 	font-weight: 300;
 	color: #ffffff;
-	margin-left: 30%;
-	margin-top: 15px;
+	margin-left: 0;
+	margin-top: 20px;
 	line-height: 160%;
+	position: relative;
 }
 
 #cv-1
@@ -53,10 +67,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width: 60px;
 	border: 1px solid #ffffff;
 	border-radius: 4px;
-	margin-top: 40px;
-	margin-left:30%;
+	margin-top: 30px;
 	display: inline-block;
 	text-decoration: none;
+	position: relative;
 }
 
 
@@ -1325,4 +1339,141 @@ a#cv-close:hover
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
+}
+
+
+@media screen and (max-width: 1080px) {
+	#header-text {
+		left:25%;
+	}
+	#header h1 {
+		font-size: 44px;
+	}
+	#header p {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+	#cv {
+		width: 40px;
+		height: 18px;
+		margin-top: 10px;
+		border-radius: 3px;
+		top: 22px;
+		right: 60px;
+	}	
+	#cv h2 {
+		font-size: 14px;
+		padding-top: 1.5px;
+	}
+	#cv-1 {
+		width: 45px;
+		height: 20px;
+		margin-top: 20px;
+	}	
+	#cv-1 h2 {
+		font-size: 14px;
+		padding-top: 3px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	#cv {
+		width: 35px;
+		height: 16px;
+		margin-top: 10px;
+		border-radius: 3px;
+		top: 20px;
+		right: 40px;
+	}	
+	#cv h2 {
+		font-size: 12px;
+		padding-top: 1.5px;
+	}
+	#cv-1 {
+		width: 35px;
+		height: 16px;
+		margin-top: 20px;
+	}	
+	#cv-1 h2 {
+		font-size: 12px;
+		padding-top: 2px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#header-text {
+		left:20%;
+	}
+	#header h1 {
+		font-size: 30px;
+	}
+	#header p {
+		font-size: 15px;
+	}
+	#cv {
+		width: 30px;
+		height: 14px;
+		margin-top: 10px;
+		border-radius: 3px;
+		top: 22px;
+		right: 30px;
+	}	
+	#cv h2 {
+		font-size: 10px;
+		padding-top: 1.5px;
+	}
+	#cv-1 {
+		width: 25px;
+		height: 12px;
+		margin-top: 15px;
+		border-radius: 3px;
+	}	
+	#cv-1 h2 {
+		font-size: 10px;
+		padding-top: 1px;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	#header-text {
+		top:30%;
+		left: 18%;
+	}
+	#header h1 {
+		font-size: 22px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	#cv {
+		width: 20px;
+		height: 10px;
+		margin-top: 10px;
+		border-radius: 2px;
+		top: 25px;
+		right: 30px;
+	}	
+	#cv h2 {
+		font-size: 7px;
+		padding-top: 1.5px;
+	}
+	#cv-1 {
+		width: 16px;
+		height: 8px;
+		margin-top: 10px;
+		border-radius: 2px;
+	}	
+	#cv-1 h2 {
+		font-size: 7px;
+		padding-top: 0.5px;
+	}
 }
