@@ -25,6 +25,12 @@ $(document).ready(function(){
 		
 	});
 	
+	$('#arrow').hover(function(){
+		$('#arrow').addClass("animated pulse");
+		}, function(){
+			$('#arrow').removeClass("animated pulse");;
+	});
+	
 	$('#cv-close').click(function(){
 		$('#cv-page').fadeOut(500);
 		$(".footer, #all, #nav, #header").fadeIn(500);

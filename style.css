@@ -20,7 +20,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width: 100%;
 	position: fixed;
-	z-index: -999;
+	z-index: 0;
+	
 }
 
 #header img
@@ -33,7 +34,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width: 100%;
 	display: block;
-	top: 35%;
+	top: 33%;
 	left: 30%;
 	position: absolute;
 }
@@ -68,7 +69,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	border: 1px solid #ffffff;
 	border-radius: 4px;
 	margin-top: 30px;
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 	position: relative;
 }
@@ -83,6 +84,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	font-weight: 300;
 	padding-top: 4.5px;
 	text-decoration: none;
+}
+
+#arrow
+{
+	height: 16px;
+	width: 40px;
+	background: url(images/arrow.png) no-repeat;
+	background-size: cover;
+	margin-top: 220px;
+	display: block;
+	position: relative;
 }
 
 #nav
@@ -1374,6 +1386,20 @@ a#cv-close:hover
 		font-size: 14px;
 		padding-top: 3px;
 	}
+	#arrow {
+		height: 14px;
+		width: 35px;
+		margin-top: 200px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	#arrow {
+		height: 12px;
+		width: 30px;
+		margin-top: 170px;
+	}
+
 }
 
 @media screen and (max-width: 860px) {
@@ -1405,6 +1431,29 @@ a#cv-close:hover
 		font-size: 12px;
 		padding-top: 2px;
 	}
+	#arrow {
+		height: 8px;
+		width: 20px;
+		margin-top: 150px;
+	}
+
+}
+
+@media screen and (max-width: 780px) {
+	#arrow {
+		height: 8px;
+		width: 20px;
+		margin-top: 130px;
+	}
+
+}
+@media screen and (max-width: 740px) {
+	#arrow {
+		height: 8px;
+		width: 20px;
+		margin-top: 110px;
+	}
+
 }
 
 @media screen and (max-width: 680px) {
@@ -1439,7 +1488,30 @@ a#cv-close:hover
 		font-size: 10px;
 		padding-top: 1px;
 	}
+	#arrow {
+		height: 8px;
+		width: 20px;
+		margin-top: 90px;
+	}
 	
+}
+
+@media screen and (max-width: 620px) {
+	#arrow {
+		height: 8px;
+		width: 20px;
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 540px) {
+	#arrow {
+		height: 6px;
+		width: 15px;
+		margin-top: 70px;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1475,5 +1547,10 @@ a#cv-close:hover
 	#cv-1 h2 {
 		font-size: 7px;
 		padding-top: 0.5px;
+	}
+	#arrow {
+		height: 6px;
+		width: 15px;
+		margin-top: 60px;
 	}
 }
