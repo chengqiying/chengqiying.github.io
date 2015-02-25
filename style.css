@@ -1456,15 +1456,15 @@ a#cv-close:hover
 	}
 	#cv {
 		width: 20px;
-		height: 14px;
+		height: 12px;
 		margin-top: 10px;
 		border-radius: 2px;
-		top: 20px;
+		top: 22px;
 		right: 30px;
 	}	
 	#cv h2 {
-		font-size: 7px;
-		padding-top: 1.5px;
+		font-size: 8px;
+		padding-top: 2px;
 	}
 	#cv-1 {
 		width: 16px;
