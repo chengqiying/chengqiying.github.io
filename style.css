@@ -1390,7 +1390,7 @@ a#cv-close:hover
 		margin-top: 10px;
 		border-radius: 3px;
 		top: 20px;
-		right: 40px;
+		right: 50px;
 	}	
 	#cv h2 {
 		font-size: 12px;
@@ -1423,7 +1423,7 @@ a#cv-close:hover
 		margin-top: 10px;
 		border-radius: 3px;
 		top: 22px;
-		right: 30px;
+		right: 45px;
 	}	
 	#cv h2 {
 		font-size: 10px;
@@ -1456,10 +1456,10 @@ a#cv-close:hover
 	}
 	#cv {
 		width: 20px;
-		height: 10px;
+		height: 14px;
 		margin-top: 10px;
 		border-radius: 2px;
-		top: 25px;
+		top: 20px;
 		right: 30px;
 	}	
 	#cv h2 {
