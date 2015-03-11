@@ -1142,12 +1142,13 @@ html head + body .ui-body-a.ui-focus {
 }
 
 @media screen and (max-width: 380px) {
-    #iphone, #device {
+    #iphone, #device, #bar{
     	display: none;
     }
     .sensor, .home{
     	display: none;
     }
+
 }
 
 #screen-content {
@@ -1155,12 +1156,24 @@ html head + body .ui-body-a.ui-focus {
   	width: 320px;
   	margin-left:-160px;
   	margin-top: -284px;
-  	background: no-repeat center center url("pics/1.jpg");
-  	background-size: cover;
   	position: absolute;
 	left:50%;
 	top: 50%;
 	z-index: 100;
+}
+
+#bar {
+	height: 18.5px;
+  	width: 320px;
+	background: no-repeat center center url("pics/2.jpg");
+  	background-size: cover;
+}
+
+#channel {
+	height: 549.5px;
+  	width: 320px;
+	background: no-repeat center center url("pics/1.jpg");
+  	background-size: cover;
 }
 
 
