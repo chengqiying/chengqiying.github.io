@@ -1094,13 +1094,26 @@ html head + body .ui-body-a.ui-focus {
 	box-shadow: 0 0 12px 			#3388cc /*{a-active-background-color}*/;
 }
 
+.desktop {
+	position: relative;;
+}
+
 #iphone {
+	height: 768px;
+  	width: 380px;
+	display: block;
+  	top: 50%;
+  	left: 50%;
+  	margin: 0 auto;
+}
+
+#device {
 	height: 568px;
   	width: 320px;
   	border-radius: 55px;
   	background: #242324;
   	margin: 0 auto;
-  	position: relative;
+  	position: absolute;
 	padding: 100px 30px;
 	box-shadow: 0px 0px 0px 2px #3d3d3d;
 }
@@ -1115,6 +1128,7 @@ html head + body .ui-body-a.ui-focus {
   background: #333;
   top: 50px;
 }
+
 .home {
 	position: absolute;
   	width: 60px;
@@ -1127,15 +1141,24 @@ html head + body .ui-body-a.ui-focus {
   	border: 5px solid #333;
 }
 
+@media screen and (max-width: 380px) {
+    #iphone, #device {
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+}
+
 #screen-content {
 	height: 568px;
   	width: 320px;
-  	margin: 0;
+  	margin-left:-160px;
+  	margin-top: -284px;
   	background: #fff;
-  	position: relative;
-  	margin-top: 0px;
-  	margin-left: 0px;
-
+  	position: absolute;
+	left:50%;
+	top: 50%;
 }
 
 
