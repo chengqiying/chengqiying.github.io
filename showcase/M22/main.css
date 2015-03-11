@@ -1155,7 +1155,8 @@ html head + body .ui-body-a.ui-focus {
   	width: 320px;
   	margin-left:-160px;
   	margin-top: -284px;
-  	background: #fff;
+  	background: no-repeat url("pics/1.jpg");
+  	background-size: cover;
   	position: absolute;
 	left:50%;
 	top: 50%;
