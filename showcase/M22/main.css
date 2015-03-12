@@ -1151,6 +1151,9 @@ html head + body .ui-body-a.ui-focus {
     #screen-content{
     	top: 20px;
     }
+    #channel{
+    	margin-top: -20px;
+    }
 
 }
 
