@@ -1141,7 +1141,7 @@ html head + body .ui-body-a.ui-focus {
   	border: 5px solid #333;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 410px) {
     #iphone, #device{
     	display: none;
     }
@@ -1153,6 +1153,7 @@ html head + body .ui-body-a.ui-focus {
     }
     #channel{
     	margin-top: -20px;
+    	background: no-repeat center url("pics/3.jpg");
     }
 
 }
