@@ -1149,6 +1149,11 @@ html head + body .ui-body-a.ui-focus {
     	display: none;
     }
 
+	#channel {
+		margin-top: 18.5px;
+	}
+
+
 }
 
 #screen-content {
@@ -1167,6 +1172,7 @@ html head + body .ui-body-a.ui-focus {
   	width: 320px;
 	background: no-repeat center center url("pics/2.jpg");
   	background-size: cover;
+  	margin: 0 auto;
 }
 
 #channel {
