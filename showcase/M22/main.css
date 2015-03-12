@@ -1151,10 +1151,10 @@ body {
 
 
 #screen-content {
-	height: 568px;
+	height: 548px;
   	width: 320px;
   	margin-left:-160px;
-  	margin-top: -284px;
+  	margin-top: -274px;
   	position: absolute;
 	left:50%;
 	top: 50%;
@@ -1163,9 +1163,9 @@ body {
 }
 
 #channel {
-	height: 568px;
+	height: 548px;
   	width: 320px;
-	background: no-repeat center url("pics/3.jpg");
+	background: no-repeat center url("pics/4.jpg");
   	background-size:cover;
   	margin: 0 auto;
 }
