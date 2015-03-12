@@ -1148,11 +1148,9 @@ html head + body .ui-body-a.ui-focus {
     .sensor, .home{
     	display: none;
     }
-
-	#channel {
-		margin-top: 18.5px;
-	}
-
+     #bar{
+    	background: #016ad0;
+    }
 
 }
 
