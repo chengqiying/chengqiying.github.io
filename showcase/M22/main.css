@@ -1148,7 +1148,7 @@ html head + body .ui-body-a.ui-focus {
     .sensor, .home{
     	display: none;
     }
-    #screen-content{
+    .ui-page{
     	padding-top:20px;
     }
 
