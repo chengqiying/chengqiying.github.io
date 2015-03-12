@@ -1174,9 +1174,17 @@ body {
 @media screen and (max-width: 410px) {
     #phone, #device{
     	display: none;
+    	height:0;
+    	width:0;
+    	margin: 0;
+    	padding: 0;
     }
     .sensor, .home{
     	display: none;
+    	height:0;
+    	width:0;
+    	margin: 0;
+    	padding: 0;
     }
 }
 
