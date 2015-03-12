@@ -1154,10 +1154,8 @@ body {
 	height: 568px;
   	width: 320px;
   	margin-left:-160px;
-  	margin-top: -284px;
   	position: absolute;
 	left:50%;
-	top: 50%;
 	z-index: 100;
 }
 
