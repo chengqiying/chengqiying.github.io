@@ -1100,6 +1100,7 @@ body {
   	-webkit-user-select: none;
   	cursor: default !important;
   	position: fixed;
+  	top:20px;
 }
 
 .desktop {
@@ -1157,7 +1158,7 @@ body {
   	position: absolute;
 	left:50%;
 	z-index: 100;
-	top:20px;
+
 }
 
 #channel {
