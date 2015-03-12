@@ -1149,7 +1149,7 @@ html head + body .ui-body-a.ui-focus {
     	display: none;
     }
     #screen-content{
-    	margin-top:-264px;
+    	top: 20px;
     }
 
 }
