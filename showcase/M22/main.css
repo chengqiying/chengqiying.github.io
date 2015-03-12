@@ -1099,8 +1099,7 @@ body {
   	overflow: hidden;
   	-webkit-user-select: none;
   	cursor: default !important;
-  	min-height: 100%;
-  	-webkit-font-smoothing: antialiased;
+  	position: fixed;
 }
 
 .desktop {
@@ -1168,10 +1167,18 @@ body {
 	height: 568px;
   	width: 320px;
 	background: no-repeat center url("pics/1.jpg");
-  	background-size: cover;
+  	background-size:cover;
   	margin: 0 auto;
 }
 
+@media screen and (max-width: 410px) {
+    #phone, #device{
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+}
 
 
 /* Structure */
