@@ -1094,6 +1094,15 @@ html head + body .ui-body-a.ui-focus {
 	box-shadow: 0 0 12px 			#3388cc /*{a-active-background-color}*/;
 }
 
+body {
+	background-color: #1e1e1e;
+  	overflow: hidden;
+  	-webkit-user-select: none;
+  	cursor: default !important;
+  	min-height: 100%;
+  	-webkit-font-smoothing: antialiased;
+}
+
 .desktop {
 	position: relative;;
 }
@@ -1104,7 +1113,9 @@ html head + body .ui-body-a.ui-focus {
 	display: block;
   	top: 50%;
   	left: 50%;
-  	margin: 0 auto;
+  	margin-top: -384px;
+  	margin-left: -190px;
+  	position: absolute;
 }
 
 #device {
@@ -1161,14 +1172,7 @@ html head + body .ui-body-a.ui-focus {
   	margin: 0 auto;
 }
 
-@media screen and (max-width: 410px) {
-    #iphone, #device{
-    	display: none;
-    }
-    .sensor, .home{
-    	display: none;
-    }
-}
+
 
 /* Structure */
 /* Disabled
@@ -1246,12 +1250,7 @@ div.ui-mobile-viewport {
 	overflow-x: hidden;
 }
 
-body {
-	background-color: #1e1e1e;
-  	overflow: hidden;
-  	-webkit-user-select: none;
-  	cursor: default !important;
-}
+
 /* "page" containers - full-screen views, one should always be in view post-pageload */
 .ui-mobile [data-role=page],
 .ui-mobile [data-role=dialog],
