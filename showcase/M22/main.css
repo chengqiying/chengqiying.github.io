@@ -1168,7 +1168,7 @@ html head + body .ui-body-a.ui-focus {
 #channel {
 	height: 568px;
   	width: 320px;
-	background: no-repeat center center url("pics/1.jpg");
+	background: no-repeat center url("pics/1.jpg");
   	background-size: cover;
   	margin: 0 auto;
 }
