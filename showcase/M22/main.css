@@ -1112,9 +1112,7 @@ body {
 	display: block;
   	top: 50%;
   	left: 50%;
-  	margin-top: -384px;
-  	margin-left: -190px;
-  	position: absolute;
+  	margin: 0 auto;
 }
 
 #device {
@@ -1179,7 +1177,7 @@ body {
     	margin: 0;
     	padding: 0;
     }
-    .sensor, .home{
+    .sensor, .home {
     	display: none;
     	height:0;
     	width:0;
