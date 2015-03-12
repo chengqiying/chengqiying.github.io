@@ -1161,7 +1161,14 @@ html head + body .ui-body-a.ui-focus {
   	margin: 0 auto;
 }
 
-
+@media screen and (max-width: 410px) {
+    #iphone, #device{
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+}
 
 /* Structure */
 /* Disabled
@@ -1359,17 +1366,7 @@ div.ui-mobile-viewport {
 	clear: both;
 }
 
-@media screen and (max-width: 410px) {
-    #iphone, #device{
-    	display: none;
-    }
-    .sensor, .home{
-    	display: none;
-    }
-    .ui-body{
-    	background: #016ad0; margin-top: 20px
-    }
-}
+
 
 .ui-bar h1,
 .ui-bar h2,
