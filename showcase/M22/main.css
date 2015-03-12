@@ -1270,17 +1270,6 @@ div.ui-mobile-viewport {
 	}
 }
 
-@media screen and (max-width: 410px) {
-    #iphone, #device{
-    	display: none;
-    }
-    .sensor, .home{
-    	display: none;
-    }
-    .ui-page{
-    	top: 20px;
-    }
-}
 /* Fouc */
 .ui-mobile-rendering > * {
 	visibility: hidden;
@@ -1369,6 +1358,19 @@ div.ui-mobile-viewport {
 	display: block;
 	clear: both;
 }
+
+@media screen and (max-width: 410px) {
+    #iphone, #device{
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+    .ui-body{
+    	background: #016ad0; margin-top: 20px
+    }
+}
+
 .ui-bar h1,
 .ui-bar h2,
 .ui-bar h3,
