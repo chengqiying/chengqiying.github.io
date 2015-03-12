@@ -1148,6 +1148,9 @@ html head + body .ui-body-a.ui-focus {
     .sensor, .home{
     	display: none;
     }
+    #channel{
+    	padding-top:20px;
+    }
 
 }
 
