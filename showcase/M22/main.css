@@ -1157,6 +1157,7 @@ body {
   	position: absolute;
 	left:50%;
 	z-index: 100;
+	top:20px;
 }
 
 #channel {
