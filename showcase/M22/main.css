@@ -1161,22 +1161,7 @@ html head + body .ui-body-a.ui-focus {
   	margin: 0 auto;
 }
 
-@media screen and (max-width: 410px) {
-    #iphone, #device{
-    	display: none;
-    }
-    .sensor, .home{
-    	display: none;
-    }
-    .ui-page{
-    	top: 20px;
-    }
-    #channel{
-    	margin-top: -20px;
-    	
-    }
 
-}
 
 /* Structure */
 /* Disabled
@@ -1283,6 +1268,22 @@ div.ui-mobile-viewport {
 	.ui-mobile .ui-page {
 		min-height: 300px;
 	}
+}
+
+@media screen and (max-width: 410px) {
+    #iphone, #device{
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+    .ui-page{
+    	top: 20px;
+    }
+    #channel{
+    	margin-top: -20px;
+    }
+
 }
 /* Fouc */
 .ui-mobile-rendering > * {
