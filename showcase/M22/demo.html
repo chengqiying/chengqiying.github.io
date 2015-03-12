@@ -22,19 +22,6 @@
    	<link rel="apple-touch-icon" href="assets/img/favicon-114X114.png" sizes="120x120">
    	<link rel="apple-touch-icon" href="assets/img/favicon-57X57.png" sizes="57X57">
 
-	<script>
-    var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
-        parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
-    if (updateStatusBar) {
-        document.body.style.webkitTransform = 'translate3d(0, 20px, 0)';
-    }
-	</script>
-	<script>       
-    document.addEventListener('deviceready', function() {
-        StatusBar.overlaysWebView(false);
-        StatusBar.backgroundColorByName('green');
-    }, false);
-	</script>
 </head> 
 <body class="ui-mobile-viewport ui-overlay-a desktop"> 
 
