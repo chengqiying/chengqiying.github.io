@@ -1148,9 +1148,6 @@ html head + body .ui-body-a.ui-focus {
     .sensor, .home{
     	display: none;
     }
-     #bar{
-    	background: #016ad0;
-    }
 
 }
 
@@ -1165,16 +1162,8 @@ html head + body .ui-body-a.ui-focus {
 	z-index: 100;
 }
 
-#bar {
-	height: 18.5px;
-  	width: 320px;
-	background: no-repeat center center url("pics/2.jpg");
-  	background-size: cover;
-  	margin: 0 auto;
-}
-
 #channel {
-	height: 549.5px;
+	height: 568px;
   	width: 320px;
 	background: no-repeat center center url("pics/1.jpg");
   	background-size: cover;
