@@ -1100,7 +1100,6 @@ body {
   	-webkit-user-select: none;
   	cursor: default !important;
   	position: fixed;
-  	top:20px;
 }
 
 .desktop {
@@ -1155,8 +1154,10 @@ body {
 	height: 568px;
   	width: 320px;
   	margin-left:-160px;
+  	margin-top: -284px;
   	position: absolute;
 	left:50%;
+	top: 50%;
 	z-index: 100;
 
 }
