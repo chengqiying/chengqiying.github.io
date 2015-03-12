@@ -1142,7 +1142,7 @@ html head + body .ui-body-a.ui-focus {
 }
 
 @media screen and (max-width: 380px) {
-    #iphone, #device, #bar{
+    #iphone, #device{
     	display: none;
     }
     .sensor, .home{
