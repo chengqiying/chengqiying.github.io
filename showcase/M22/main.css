@@ -1141,22 +1141,6 @@ html head + body .ui-body-a.ui-focus {
   	border: 5px solid #333;
 }
 
-@media screen and (max-width: 410px) {
-    #iphone, #device{
-    	display: none;
-    }
-    .sensor, .home{
-    	display: none;
-    }
-    .ui-page{
-    	top: 20px;
-    }
-    #channel{
-    	margin-top: -20px;
-    	background: no-repeat center url("pics/3.jpg");
-    }
-
-}
 
 #screen-content {
 	height: 568px;
@@ -1177,7 +1161,22 @@ html head + body .ui-body-a.ui-focus {
   	margin: 0 auto;
 }
 
+@media screen and (max-width: 410px) {
+    #iphone, #device{
+    	display: none;
+    }
+    .sensor, .home{
+    	display: none;
+    }
+    .ui-page{
+    	top: 20px;
+    }
+    #channel{
+    	margin-top: -20px;
+    	
+    }
 
+}
 
 /* Structure */
 /* Disabled
