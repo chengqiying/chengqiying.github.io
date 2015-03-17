@@ -1284,7 +1284,8 @@ body {
 #seeback {
 	width: 320px;
 	height: 30px;
-	margin-top: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 #seeback-icon {
@@ -1303,6 +1304,70 @@ body {
 	font-weight: 200;
 	display: block;
 	text-align: center;
+}
+
+.topic-more {
+	height: 60px;
+	width: 320px;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+}
+
+.topic-more-icon {
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#getup .topic-more-icon {
+	background: url(pics/coffee.jpg);
+	background-size: cover;
+}
+
+#energy .topic-more-icon {
+	background: url(pics/alcohol.jpg);
+	background-size: cover;
+}
+
+#quality .topic-more-icon {
+	background: url(pics/sport.jpg);
+	background-size: cover;
+}
+
+#awake .topic-more-icon {
+	background: url(pics/nap.jpg);
+	background-size: cover;
+}
+
+#beforebed .topic-more-icon {
+	background: url(pics/sport.jpg);
+	background-size: cover;
+}
+
+#sleeplate .topic-more-icon {
+	background: url(pics/nap.jpg);
+	background-size: cover;
+}
+
+.topic-more-text {
+	color: #b6b7b7;
+	font-size: 1.1em;
+	font-weight: 200;
+	margin-top: 10px;
+	margin-left: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.topic-more-arrow {
+	height: 14px;
+	width: 7px;
+	margin-top: 20px;
+	margin-right: 15px;
+	float: right;
 }
 
 /*menu*/
