@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$('#cv').hover(function(){
-		$('#cv h2').css({color: "#26C6DA"});
+		$('#cv h2').css({color: "#ffffff"});
 		$('#cv').addClass("cvcolor1");
 		}, function(){
-			$('#cv h2').css({color: "#ffffff"});
+			$('#cv h2').css({color: "#E9E9E9"});
 			$('#cv').removeClass("cvcolor1");;
 	});
 	$('#cv').click(function(){
@@ -13,10 +13,10 @@ $(document).ready(function(){
 	});
 	
 	$('#cv-1').hover(function(){
-		$('#cv-1 h2').css({color: "#26C6DA"});
+		$('#cv-1 h2').css({color: "#515151"});
 		$('#cv-1').addClass("cvcolor1");
 		}, function(){
-			$('#cv-1 h2').css({color: "#ffffff"});
+			$('#cv-1 h2').css({color: "#515151"});
 			$('#cv-1').removeClass("cvcolor1");;
 	});
 	$('#cv-1').click(function(){

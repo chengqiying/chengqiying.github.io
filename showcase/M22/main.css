@@ -1382,6 +1382,7 @@ body {
 	height: 548px;
   	width: 320px;
   	background-color: #fff;
+  	opacity: 0;
   	top:0;
   	left:320px;
   	position: absolute;

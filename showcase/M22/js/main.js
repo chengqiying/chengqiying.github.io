@@ -51,6 +51,19 @@ $(document).ready(function(){
       .end();
   });
 
+  /*to have coffee*/
+  $('#coffee').click(function(){
+    move('#havecoffee')
+      .to(-320, 0)
+      .set('opacity', 1)
+      .duration('0.5s')
+      .end(); 
+    move('#channel')
+      .set('opacity', 0)
+      .duration('0.4s')
+      .end(); 
+  });
+
 });
        
 
