@@ -1176,6 +1176,7 @@ body {
 	background-color: #016ad0;
   	margin: 0 auto;
   	position: relative;
+  	z-index: 10;
 }
 
 .content-header-title {
@@ -1194,6 +1195,7 @@ body {
 
 #channel-topic-noon {
 	display: block;
+	z-index: 9
 }
 
 .topic {

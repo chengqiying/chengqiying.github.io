@@ -8,7 +8,6 @@ $(document).ready(function(){
       .duration('0.5s')
       .end(); 
     move('#channel-topic-noon')
-      .to(0, -498)
       .set('opacity', 0)
       .duration('0.5s')
       .end(); 
@@ -16,7 +15,7 @@ $(document).ready(function(){
 
   $('#seemore-icon').mousedown(function(){
     move('#seemore-icon')
-      .scale('0.9')
+      .scale('0.85')
       .duration('0.5s')
       .end();
   });
@@ -24,6 +23,7 @@ $(document).ready(function(){
     move('#seemore-icon')
       .scale('1')
       .duration('0.5s')
+      .delay('0.2s')
       .end();
   });
 
@@ -38,12 +38,13 @@ $(document).ready(function(){
       .to(0, 0)
       .set('opacity', 1)
       .duration('0.5s')
+      .delay('0.2s')
       .end(); 
   });
 
   $('#seeback-icon').mousedown(function(){
     move('#seeback-icon')
-      .scale('0.9')
+      .scale('0.85')
       .duration('0.5s')
       .end();
   });
