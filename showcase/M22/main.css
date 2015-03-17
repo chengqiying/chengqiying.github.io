@@ -1329,32 +1329,32 @@ body {
 }
 
 #getup .topic-more-icon {
-	background: url(pics/coffee.jpg);
+	background: url(pics/getup.jpg);
 	background-size: cover;
 }
 
 #energy .topic-more-icon {
-	background: url(pics/alcohol.jpg);
+	background: url(pics/energy.jpg);
 	background-size: cover;
 }
 
 #quality .topic-more-icon {
-	background: url(pics/sport.jpg);
+	background: url(pics/quality.jpg);
 	background-size: cover;
 }
 
 #awake .topic-more-icon {
-	background: url(pics/nap.jpg);
+	background: url(pics/awake.jpg);
 	background-size: cover;
 }
 
 #beforebed .topic-more-icon {
-	background: url(pics/sport.jpg);
+	background: url(pics/beforebed.jpg);
 	background-size: cover;
 }
 
 #sleeplate .topic-more-icon {
-	background: url(pics/nap.jpg);
+	background: url(pics/sleeplate.jpg);
 	background-size: cover;
 }
 
