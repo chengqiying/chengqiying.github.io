@@ -1,50 +1,50 @@
 
 $(document).ready(function(){
-  $('#seemore-icon').click(function(){
+  $('#seemore').click(function(){
     move('#channel-topic-more')
       .to(0, -448)
       .set('opacity', 1)
-      .duration('0.4s')
+      .duration('0.5s')
       .end(); 
     move('#channel-topic-noon')
       .set('opacity', 0)
-      .duration('0.3s')
+      .duration('0.4s')
       .end(); 
   });
 
-  $('#seemore-icon').mousedown(function(){
+  $('#seemore').mousedown(function(){
     move('#seemore-icon')
       .scale('0.85')
       .duration('0.5s')
       .end();
   });
-  $('#seemore-icon').mouseup(function(){
+  $('#seemore').mouseup(function(){
     move('#seemore-icon')
       .scale('1')
       .duration('0.5s')
       .end();
   });
 
-  $('#seeback-icon').click(function(){
+  $('#seeback').click(function(){
     
     move('#channel-topic-more')
       .to(0, 0)
       .set('opacity', 1)
-      .duration('0.4s')
+      .duration('0.5s')
       .end(); 
     move('#channel-topic-noon')
       .set('opacity', 1)
-      .duration('0.3s')
+      .duration('0.4s')
       .end();
   });
 
-  $('#seeback-icon').mousedown(function(){
+  $('#seeback').mousedown(function(){
     move('#seeback-icon')
       .scale('0.85')
       .duration('0.5s')
       .end();
   });
-  $('#seeback-icon').mouseup(function(){
+  $('#seeback').mouseup(function(){
     move('#seeback-icon')
       .scale('1')
       .duration('0.5s')
