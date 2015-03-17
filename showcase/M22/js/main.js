@@ -14,6 +14,19 @@ $(document).ready(function(){
       .end(); 
   });
 
+  $('#seemore-icon').mousedown(function(){
+    move('#seemore-icon')
+      .scale('0.9')
+      .duration('0.5s')
+      .end();
+  });
+  $('#seemore-icon').mouseup(function(){
+    move('#seemore-icon')
+      .scale('1')
+      .duration('0.5s')
+      .end();
+  });
+
   $('#seeback-icon').click(function(){
     
     move('#channel-topic-more')
@@ -26,6 +39,19 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.5s')
       .end(); 
+  });
+
+  $('#seeback-icon').mousedown(function(){
+    move('#seeback-icon')
+      .scale('0.9')
+      .duration('0.5s')
+      .end();
+  });
+  $('#seeback-icon').mouseup(function(){
+    move('#seeback-icon')
+      .scale('1')
+      .duration('0.5s')
+      .end();
   });
 
 });
