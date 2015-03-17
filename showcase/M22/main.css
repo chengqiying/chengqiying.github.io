@@ -1166,14 +1166,6 @@ body {
 
 }
 
-#channel {
-	height: 548px;
-  	width: 320px;
-  	background-color: #fff;
-  	margin: 0 auto;
-  	position: relative;
-}
-
 .content-header {
 	height: 50px;
   	width: 320px;
@@ -1183,23 +1175,34 @@ body {
   	z-index: 10;
 }
 
-.content-header-title {
-	color: #fff;
-	padding-top: 10px;
-	position: relative;
-	text-align: center;
+#channel {
+	height: 548px;
+  	width: 320px;
+  	background-color: #fff;
+  	margin: -50px auto 0 auto;
+  	position: absolute;
 }
 
-.content-header-title h1 {
+.header-title {
+	color: #fff;
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+	z-index: 11;
+}
+
+.header-title h1 {
 	font-family: ;
 	font-weight: 200;
 	font-size: 1.1em;
 	color: #fff;
+	margin:0;
 }
 
 #channel-topic-noon {
 	display: block;
-	z-index: 9
+	z-index: 9;
+	margin-top:7px;
 }
 
 .topic {
@@ -1258,8 +1261,8 @@ body {
 
 #seemore {
 	width: 320px;
-	height: 30px;
-	margin-top: 30px;
+	height: 50px;
+	padding-top: 30px;
 }
 
 #seemore-icon {
@@ -1289,22 +1292,20 @@ body {
 
 #seeback {
 	width: 320px;
-	height: 30px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	height: 55px;
 }
 
 #seeback-icon {
 	height: 12px;
 	width: 23px;
-	margin: 0 auto;
+	margin: 25px auto 0 auto;
 	display: block;
 }
 
 #seeback-text {
 	height: 10px;
 	width: 100px;
-	margin: 5px auto 0 auto;
+	margin: 5px auto 25px auto;
 	color: #b6b7b7;
 	font-size: 0.8em;
 	font-weight: 200;
@@ -1374,6 +1375,16 @@ body {
 	margin-top: 20px;
 	margin-right: 15px;
 	float: right;
+}
+
+/*havecoffee*/
+#havecoffee {
+	height: 548px;
+  	width: 320px;
+  	background-color: #fff;
+  	top:0;
+  	left:320px;
+  	position: absolute;
 }
 
 /*menu*/
