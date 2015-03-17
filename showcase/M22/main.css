@@ -1274,6 +1274,38 @@ body {
 	text-align: center;
 }
 
+#channel-topic-more {
+	display: block;
+	top: 498px;
+	position: absolute;
+	opacity:0;
+}
+
+#seeback {
+	width: 320px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#seeback-icon {
+	height: 12px;
+	width: 23px;
+	margin: 0 auto;
+	display: block;
+}
+
+#seeback-text {
+	height: 10px;
+	width: 100px;
+	margin: 5px auto 0 auto;
+	color: #b6b7b7;
+	font-size: 0.8em;
+	font-weight: 200;
+	display: block;
+	text-align: center;
+}
+
+/*menu*/
 .menu {
 	height: 50px;
 	width: 320px;
