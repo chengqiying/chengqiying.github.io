@@ -1,15 +1,14 @@
 
 $(document).ready(function(){
   $('#seemore-icon').click(function(){
-    
     move('#channel-topic-more')
       .to(0, -448)
       .set('opacity', 1)
-      .duration('0.5s')
+      .duration('0.4s')
       .end(); 
     move('#channel-topic-noon')
       .set('opacity', 0)
-      .duration('0.5s')
+      .duration('0.3s')
       .end(); 
   });
 
@@ -23,7 +22,6 @@ $(document).ready(function(){
     move('#seemore-icon')
       .scale('1')
       .duration('0.5s')
-      .delay('0.2s')
       .end();
   });
 
@@ -31,15 +29,13 @@ $(document).ready(function(){
     
     move('#channel-topic-more')
       .to(0, 0)
-      .set('opacity', 0)
-      .duration('0.5s')
+      .set('opacity', 1)
+      .duration('0.4s')
       .end(); 
     move('#channel-topic-noon')
-      .to(0, 0)
       .set('opacity', 1)
-      .duration('0.5s')
-      .delay('0.2s')
-      .end(); 
+      .duration('0.3s')
+      .end();
   });
 
   $('#seeback-icon').mousedown(function(){

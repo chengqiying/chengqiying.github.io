@@ -1099,7 +1099,10 @@ body {
   	overflow: hidden;
   	-webkit-user-select: none;
   	cursor: default !important;
-  	position: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
 
 .desktop {
@@ -1159,6 +1162,7 @@ body {
 	left:50%;
 	top: 50%;
 	z-index: 100;
+	overflow: hidden;
 
 }
 
@@ -1280,7 +1284,7 @@ body {
 	display: block;
 	top: 498px;
 	position: absolute;
-	opacity:0;
+	opacity: 0;
 }
 
 #seeback {
