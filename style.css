@@ -590,8 +590,8 @@ a.cv-back h3
 
 #contact-text p
 {
-	font-family: 'Roboto';
-	font-weight: 300px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200px;
 	font-size:16px;
 	text-align:center;
 }
@@ -685,8 +685,9 @@ a.cv-back h3
 {
 	max-width:150px;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:14px;
+	font-weight:300;
 	color:#575757;
 	margin:0 auto;
 	padding-top:35px;
