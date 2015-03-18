@@ -6,7 +6,7 @@
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
 .fontsforweb_fontid_13141 {
-	font-family: 'fontscorecomttwcenmt' !important;
+	font-family: 'Gotham Rounded Book' !important;
 }
 /* CSS Document */
 
@@ -113,62 +113,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	animation: intro-content 2s forwards;	
 }
 
-/*#logo
-{
-	display:block;
-	width: 90px;
-	margin-top: -17px;
-	margin-left: 10px;
-	float: left;
-	text-align: center;
-}
-
-#logopic
-{
-	background: url('images/logo.png') no-repeat 0 0;
-	height: 50px;
-	width: 88px;
-	margin: 0px auto;
-	float: left;
-}
-
-#works-title
-{
-    height: 20px;
-	width: 120px;
-	margin-left: 11px;
-	margin-right: 11px;
-	margin-top:30px;
-}
-
-#works-title-pic
-{
-    height: 15px;
-	width: 25px;
-	margin-top:4px;
-	margin-left:2px;
-	float:left;
-	background:url('images/smalleye.png') no-repeat 0 0;
-}
-
-#works-title-text
-{
-    height: 20px;
-	width: 47px;
-	margin-top:0px;
-	margin-left:13px;
-	float:left;
-}
-
-#works-title-text h3
-{
-    font-size: 18px;
-	font-family: 'Roboto', sans-serif;
-	color: #000;
-	text-align: left;
-	font-weight:300;
-}
-*/
 #name
 {
 	width: 100%;
@@ -189,9 +133,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .name-title h2
 {
-	font-family:'fontscorecomttwcenmt', sans-serif;
+	font-family:'Raleway', sans-serif;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 200;
 	color: #515151;
 	z-index: 999;
 	padding-top: 27px;
@@ -200,9 +144,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 .name-title h3
 {
-	font-family:'fontscorecomttwcenmt', sans-serif;
-	font-size: 18px;
-	font-weight: 100;
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
 	color: #BBBBBB;
 	z-index: 999;
 	text-align: center;
@@ -214,7 +158,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width: 45px;
 	border: 1px solid #E9E9E9;
 	border-radius: 4px;
-	margin: 30px auto 0 auto;
+	margin: 45px auto 0 auto;
 	display:block;
 	opacity: 1;
 	text-decoration: none;
@@ -230,8 +174,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #cv h2
 {
 	font-size: 14px;
-	font-family: 'Roboto';
-	color: #E9E9E9;
+	font-family: 'Raleway', sans-serif;
+	color: #C6C6C6;
 	text-align: center;
 	font-weight: 300;
 	padding-top: 3px;
@@ -242,7 +186,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	display:block;
 	width: 1140px;
-    margin:150px auto 0px auto;
+    margin:180px auto 0px auto;
 }
 
 .works {
@@ -309,9 +253,9 @@ a.sleep-back
 
 a.sleep-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 65px;
@@ -338,9 +282,9 @@ a.cv-back
 
 a.cv-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -366,9 +310,9 @@ a.cv-back h3
 
 .item a.feedback-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 65px;
@@ -395,9 +339,9 @@ a.cv-back h3
 
 .item a.levo-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -423,9 +367,9 @@ a.cv-back h3
 
 .item a.buer-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -451,9 +395,9 @@ a.cv-back h3
 
 .item a.cloud-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -479,9 +423,9 @@ a.cv-back h3
 
 .item a.ghost-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -507,9 +451,9 @@ a.cv-back h3
 
 .item a.iwall-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -535,9 +479,9 @@ a.cv-back h3
 
 .item a.bee-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -563,9 +507,9 @@ a.cv-back h3
 
 .item a.sbracelet-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px;
@@ -591,9 +535,9 @@ a.cv-back h3
 
 .item a.pcard-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px
@@ -619,9 +563,9 @@ a.cv-back h3
 
 .item a.stool-back h3
 {
-	font-family: 'Roboto';
+	font-family:'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 18px;
 	color:#FFFFFF;
 	text-align:center;
 	margin-top: 85px
