@@ -241,18 +241,18 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #portfolio
 {
 	display:block;
-	width: 1080px;
+	width: 1140px;
     margin:150px auto 0px auto;
 }
 
-#works-1
-{
+.works {
 	display:block;
 	width: 100%;
-	height: 200px;
-    margin-top:40px;
+	height: 250px;
+    margin-top:30px;
 	opacity: 1;
 	font-size: 0;
+	position: relative;
 }
 
 .item
@@ -261,8 +261,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     width: 350px;
     height: 250px;
     margin-top:0px;
-	margin-right:5px;
-	margin-left:5px;
+	margin-right:15px;
+	margin-left:15px;
     padding: 0;
     float: left;
     overflow: hidden;
@@ -299,7 +299,7 @@ a.sleep-front
 
 a.sleep-back 
 {
-	background-color: rgba(0,172,193,0.8);
+	background-color: rgba(60,60,60,0.7);
 	position:absolute;
 	text-decoration:none;
 	display: none;
@@ -328,7 +328,7 @@ a.cv-front
 
 a.cv-back 
 {
-	background-color: rgba(0,172,193,0.8);
+	background-color: rgba(60,60,60,0.7);
 	position:absolute;
 	text-decoration:none;
 	display: none;
@@ -356,7 +356,7 @@ a.cv-back h3
 
 .item a.feedback-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -375,17 +375,6 @@ a.cv-back h3
 	line-height: 150%;
 }
 
-#works-2
-{
-	display:block;
-	width: 100%;
-	height: 200px;
-    margin-top:10px;
-	opacity: 1;
-	font-size: 0;
-}
-
-
 .item a.levo-front
 {
 	background: url('images/projects/levo/1.png') no-repeat 0 0;
@@ -396,7 +385,7 @@ a.cv-back h3
 
 .item a.levo-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -424,7 +413,7 @@ a.cv-back h3
 
 .item a.buer-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -452,7 +441,7 @@ a.cv-back h3
 
 .item a.cloud-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -470,16 +459,6 @@ a.cv-back h3
 	margin-top: 85px;
 }
 
-#works-3
-{
-	display:block;
-	width: 100%;
-	height: 200px;
-    margin-top:10px;
-	opacity: 1;
-	font-size: 0;
-}
-
 .item a.ghost-front
 {
 	background: url('images/projects/ghost/1.jpg') no-repeat 0 0;
@@ -490,7 +469,7 @@ a.cv-back h3
 
 .item a.ghost-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -518,7 +497,7 @@ a.cv-back h3
 
 .item a.iwall-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -546,7 +525,7 @@ a.cv-back h3
 
 .item a.bee-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -564,16 +543,6 @@ a.cv-back h3
 	margin-top: 85px;
 }
 
-#works-4
-{
-	display:block;
-	width: 100%;
-	height: 200px;
-    margin-top:10px;
-	opacity: 1;
-	font-size: 0;
-}
-
 .item a.sbracelet-front
 {
 	background: url('images/projects/sbracelet/1.jpg') no-repeat 0 0;
@@ -584,7 +553,7 @@ a.cv-back h3
 
 .item a.sbracelet-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -612,7 +581,7 @@ a.cv-back h3
 
 .item a.pcard-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;
@@ -640,7 +609,7 @@ a.cv-back h3
 
 .item a.stool-back 
 {
-	background-color:rgba(0,172,193,0.8);
+	background-color:rgba(60,60,60,0.7);
 	position:absolute;
 	display: none;
 	text-decoration:none;

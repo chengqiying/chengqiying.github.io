@@ -116,64 +116,266 @@ $(document).ready(function(){
 	);*/
 	
 	$('.sleep-front').hover(function(){
-		$(".sleep-back").fadeIn(500);
+		$(".sleep-back").fadeIn(200);
+		move('.sleep-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.sleep-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.sleep-back').fadeOut(500);
+			$('.sleep-back').fadeOut(100);
+			move('.sleep-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.sleep-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.cv-front').hover(function(){
-		$(".cv-back").fadeIn(500);
+		$(".cv-back").fadeIn(200);
+		move('.cv-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.cv-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.cv-back').fadeOut(500);
+			$('.cv-back').fadeOut(100);
+			move('.cv-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.cv-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});	
+	
 	$('.feedback-front').hover(function(){
-		$(".feedback-back").fadeIn(500);
+		$(".feedback-back").fadeIn(200);
+		move('.feedback-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.feedback-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.feedback-back').fadeOut(500);
+			$('.feedback-back').fadeOut(100);
+			move('.feedback-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.feedback-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
 	$('.levo-front').hover(function(){
-		$(".levo-back").fadeIn(500);
+		$(".levo-back").fadeIn(200);
+		move('.levo-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.levo-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.levo-back').fadeOut(500);
+			$('.levo-back').fadeOut(100);
+			move('.levo-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.levo-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.ghost-front').hover(function(){
-		$(".ghost-back").fadeIn(500);
+		$(".ghost-back").fadeIn(200);
+		move('.ghost-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.ghost-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.ghost-back').fadeOut(500);
+			$('.ghost-back').fadeOut(100);
+			move('.ghost-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.ghost-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});	
+	
 	$('.iwall-front').hover(function(){
-		$(".iwall-back").fadeIn(500);
+		$(".iwall-back").fadeIn(200);
+		move('.iwall-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.iwall-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.iwall-back').fadeOut(500);
+			$('.iwall-back').fadeOut(100);
+			move('.iwall-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.iwall-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.buer-front').hover(function(){
-		$(".buer-back").fadeIn(500);
+		$(".buer-back").fadeIn(200);
+		move('.buer-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.buer-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.buer-back').fadeOut(500);
+			$('.buer-back').fadeOut(100);
+			move('.buer-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.buer-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.cloud-front').hover(function(){
-		$(".cloud-back").fadeIn(500);
+		$(".cloud-back").fadeIn(200);
+		move('.cloud-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.cloud-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.cloud-back').fadeOut(500);
+			$('.cloud-back').fadeOut(100);
+			move('.cloud-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.cloud-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.bee-front').hover(function(){
-		$(".bee-back").fadeIn(500);
+		$(".bee-back").fadeIn(200);
+		move('.bee-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.bee-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.bee-back').fadeOut(500);
+			$('.bee-back').fadeOut(100);
+			move('.bee-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.bee-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.sbracelet-front').hover(function(){
-		$(".sbracelet-back").fadeIn(500);
+		$(".levo-back").fadeIn(200);
+		move('.levo-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.levo-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.sbracelet-back').fadeOut(500);
+			$('.levo-back').fadeOut(100);
+			move('.levo-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.levo-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.pcard-front').hover(function(){
-		$(".pcard-back").fadeIn(500);
+		$(".pcard-back").fadeIn(200);
+		move('.pcard-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.pcard-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.pcard-back').fadeOut(500);
+			$('.pcard-back').fadeOut(100);
+			move('.pcard-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.pcard-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
+	
 	$('.stool-front').hover(function(){
-		$(".stool-back").fadeIn(500);
+		$(".stool-back").fadeIn(200);
+		move('.stool-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.stool-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
 		}, function(){
-			$('.stool-back').fadeOut(500);
+			$('.stool-back').fadeOut(100);
+			move('.stool-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.stool-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
 	});
 	/*
 	$('#contact').waypoint(function(){
