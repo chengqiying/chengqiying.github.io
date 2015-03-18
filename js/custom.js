@@ -313,22 +313,22 @@ $(document).ready(function(){
 	});
 	
 	$('.sbracelet-front').hover(function(){
-		$(".levo-back").fadeIn(200);
-		move('.levo-front')
+		$(".sbracelet-back").fadeIn(200);
+		move('.sbracelet-front')
 			.scale(1.3)
       		.duration('0.8s')
       		.end();
-		move('.levo-back')
+		move('.sbracelet-back')
 			.scale(1.3)
       		.duration('0.8s')
       		.end(); 
 		}, function(){
-			$('.levo-back').fadeOut(100);
-			move('.levo-front')
+			$('.sbracelet-back').fadeOut(100);
+			move('.sbracelet-front')
 				.scale(1)
       			.duration('0.8s')
       			.end(); 
-			move('.levo-back')
+			move('.sbracelet-back')
 				.scale(1)
       			.duration('0.8s')
       			.end();
