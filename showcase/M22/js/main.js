@@ -2,7 +2,7 @@
 $(document).ready(function(){
   $('#seemore').click(function(){
     move('#channel-topic-more')
-      .to(0, -448)
+      .to(0, -498)
       .set('opacity', 1)
       .duration('0.5s')
       .end(); 
@@ -56,12 +56,64 @@ $(document).ready(function(){
     move('#havecoffee')
       .to(-320, 0)
       .set('opacity', 1)
-      .duration('0.5s')
+      .duration('0.4s')
+      .ease('in')
       .end(); 
     move('#channel')
       .set('opacity', 0)
       .duration('0.4s')
+      .delay('0.4s')
+      .end();
+    move('#channel-title')
+      .set('opacity', 0)
+      .duration('0.2s')
       .end(); 
+    move('#coffee-title')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .delay('0.2s')
+      .end();
+    move('#coffee-back')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .delay('0.2s')
+      .end();
+    move('#coffee-add')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .delay('0.2s')
+      .end();
+  });
+
+  $('#coffee-back').click(function(){
+    move('#havecoffee')
+      .to(0, 0)
+      .set('opacity', 1)
+      .duration('0.5s')
+      .ease('in')
+      .delay('0.4s')
+      .end(); 
+    move('#channel')
+      .set('opacity', 1)
+      .duration('0.4s')
+      .end();
+    move('#channel-title')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .delay('0.2s')
+      .end(); 
+    move('#coffee-title')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    move('#coffee-back')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    move('#coffee-add')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
   });
 
 });

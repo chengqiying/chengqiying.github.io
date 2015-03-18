@@ -1165,30 +1165,22 @@ body {
 	overflow: hidden;
 
 }
-
+/*header*/
 .content-header {
 	height: 50px;
   	width: 320px;
 	background-color: #016ad0;
   	margin: 0 auto;
-  	position: relative;
+  	position: absolute;
   	z-index: 10;
 }
 
-#channel {
-	height: 548px;
-  	width: 320px;
-  	background-color: #fff;
-  	margin: -50px auto 0 auto;
-  	position: absolute;
-}
-
 .header-title {
-	color: #fff;
-	margin-top: 20px;
-	position: relative;
+	width: 320px;
+	top: 20px;
+	margin:0 auto;
 	text-align: center;
-	z-index: 11;
+	position: absolute;
 }
 
 .header-title h1 {
@@ -1196,13 +1188,67 @@ body {
 	font-weight: 200;
 	font-size: 1.1em;
 	color: #fff;
-	margin:0;
+	margin:0;;
+}
+
+.header-back {
+	width: 9px;
+	height: 16px;
+	top: 23px;
+	left:15px;
+	text-align: left;
+	position: absolute;
+}
+
+.header-cancel {
+	width: 50px;
+	top: 24px;
+	left:15px;
+	text-align: left;
+	position: absolute;
+}
+
+.header-cancel h2 {
+	font-family: ;
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #fff;
+	margin: 0;
+}
+
+.header-add {
+	width: 15px;
+	height: 15px;
+	top: 23px;
+	right:15px;
+	text-align: right;
+	position: absolute;
+}
+
+.header-add h2 {
+	font-family: ;
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #fff;
+	margin: 0;
+}
+
+/*channel*/
+#channel-title {
+	z-index: 15;
+}
+
+#channel {
+	height: 498px;
+  	width: 320px;
+  	background-color: #fff;
+  	top:50px;
+  	position: absolute;
 }
 
 #channel-topic-noon {
 	display: block;
 	z-index: 9;
-	margin-top:7px;
 }
 
 .topic {
@@ -1377,17 +1423,6 @@ body {
 	float: right;
 }
 
-/*havecoffee*/
-#havecoffee {
-	height: 548px;
-  	width: 320px;
-  	background-color: #fff;
-  	opacity: 0;
-  	top:0;
-  	left:320px;
-  	position: absolute;
-}
-
 /*menu*/
 .menu {
 	height: 50px;
@@ -1463,6 +1498,73 @@ body {
 #menu-channels .menu-text {
 	color: #016ad0
 }
+
+/*havecoffee*/
+#coffee-title, #coffee-back, #coffee-add {
+	opacity: 0;
+	z-index: 15;
+}
+
+#havecoffee {
+	height: 498px;
+  	width: 320px;
+  	background-color: #E2E2E2;
+  	opacity: 0;
+  	top:50px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: scroll;
+}
+
+.post {
+	width:320px;
+	height: 150px;
+	background-color: #fff;
+	margin-top: 0px;
+	position: absolute;
+}
+
+.portrait {
+	width:40px;
+	height: 40px;
+	border-radius: 10px;
+	background: url(pics/awake.jpg);
+	background-size: cover;
+	margin-top: 30px;
+	margin-left:15px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.name {
+	width: 200px;
+	height: 33px;
+	margin-top: 30px;
+	margin-left:15px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.name h1 {
+	font-family: ;
+	font-weight: 200;
+	font-size: 0.9em;
+	color: #B6B7B7;
+	margin:0;;
+}
+
+.name p {
+	font-family: ;
+	font-weight: 200;
+	font-size: 0.6em;
+	color: #B6B7B7;
+	margin:3px 0 0 0;
+}
+
+
 
 @media screen and (max-width: 410px) {
     #phone, #device{
