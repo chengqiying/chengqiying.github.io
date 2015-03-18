@@ -1541,7 +1541,7 @@ body {
 }
 
 .portrait {
-	width:42px;
+	width:40px;
 	height: 40px;
 	border-radius: 10px;
 	background: url(pics/stan.jpg);
@@ -1580,8 +1580,8 @@ body {
 }
 
 .post-coffee-content {
-	width:100px;
-	height: 73px;
+	width:105px;
+	height: 77px;
 	margin-top: 20px;
 	margin-left:72px;
 	position: relative;
