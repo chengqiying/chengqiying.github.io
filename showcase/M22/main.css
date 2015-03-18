@@ -1540,17 +1540,42 @@ body {
 	margin:2px 0 0 0;
 }
 
+#stan {
+	height: 225px;
+}
+
+#estelle {
+	height: 209px;
+}
+
+#zack {
+	height: 225px;
+}
+
 .portrait {
 	width:40px;
 	height: 40px;
 	border-radius: 10px;
-	background: url(pics/stan.jpg);
-	background-size: cover;
 	margin-top: 30px;
 	margin-left:15px;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+#stan .portrait {
+	background: url(pics/stan.jpg);
+	background-size: cover;
+}
+
+#estelle .portrait {
+	background: url(pics/estelle.jpg);
+	background-size: cover;
+}
+
+#zack .portrait {
+	background: url(pics/zack.jpg);
+	background-size: cover;
 }
 
 .name {
@@ -1580,8 +1605,6 @@ body {
 }
 
 .post-coffee-content {
-	width:105px;
-	height: 77px;
 	margin-top: 20px;
 	margin-left:72px;
 	position: relative;
@@ -1589,9 +1612,26 @@ body {
 }
 
 #stancoffee {
+	width:105px;
+	height: 77px;
 	background: url(pics/stancoffee.jpg);
 	background-size: cover;
 }
+
+#estellecoffee {
+	width:105px;
+	height: 61px;
+	background: url(pics/estellecoffee.jpg);
+	background-size: cover;
+}
+
+#zackcoffee {
+	width:103px;
+	height: 77px;
+	background: url(pics/zackcoffee.jpg);
+	background-size: cover;
+}
+
 
 .like {
 	width: 35px;
