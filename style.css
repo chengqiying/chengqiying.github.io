@@ -241,7 +241,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #portfolio
 {
 	display:block;
-	width: 930px;
+	width: 1080px;
     margin:150px auto 0px auto;
 }
 
@@ -258,8 +258,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 .item
 {
 	display: block;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     margin-top:0px;
 	margin-right:5px;
 	margin-left:5px;
@@ -267,6 +267,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
     float: left;
     overflow: hidden;
     position: relative;
+	background-color:#F0F0F0;
 }
 
 
@@ -275,6 +276,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	width: 300px;
     height: 200px;
     display: block;
+	margin-left:25px;
+	margin-toP:25px;
 }
 
 a.sleep-front 
