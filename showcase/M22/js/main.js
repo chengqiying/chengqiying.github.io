@@ -277,14 +277,21 @@ $(document).ready(function(){
   });
 
   $('#coffee-done').mousedown(function(){
-    $('#coffee-done h5').css({color: "#fff"});
-    $('#coffee-done').css({color: "#058DE0"});
-    }, function(){
-      $('#coffee-done h2').css({color: "#058DE0"});
-      $('#coffee-done').css({color: "#fff"});;
+    $('#inputcoffee h5').css({color: "#fff"});
+    $('#coffee-done').addClass("done-color");
 
     move('#coffee-done')
-      .scale('0.85')
+      .scale('1.2')
+      .duration('0.5s')
+      .end();
+  });
+
+  $('#coffee-done').mouseup(function(){
+    $('#inputcoffee h5').css({color: "#058DE0"});
+    $('#coffee-done').removeClass("done-color");
+
+    move('#coffee-done')
+      .scale('1')
       .duration('0.5s')
       .end();
   });

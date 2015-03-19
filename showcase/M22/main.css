@@ -1901,6 +1901,10 @@ body {
 	text-align: center;
 }
 
+.done-color {
+	background-color: #058DE0;
+}
+
 
 #coffee-done {
 	margin-top: 40px;
