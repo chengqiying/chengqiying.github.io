@@ -535,6 +535,7 @@
 		<div class="header-title" id="coffee-title">
 			<h1>Have coffee/tea</h1>
 		</div>
+		<div class="header-back-click" id="coffee-back-click"></div>
 		<div class="header-back" id="coffee-back">
 			<svg viewBox="419.6 296.3 2.4 4.3" enable-background="new 419.6 296.3 2.4 4.3" xml:space="preserve">
 				<g id="Layer_2" display="none">
@@ -559,6 +560,7 @@
 				<polyline fill="none" stroke="#FFFFFF" stroke-width="0.3" stroke-miterlimit="10" points="421.8,300.4 419.8,298.4 421.8,296.4 "/>
 			</svg>
 		</div>
+		<div class="header-add-click" id="coffee-add-click"></div>
 		<div class="header-add" id="coffee-add">
 			<svg viewBox="418.8 296.4 4 4" enable-background="new 418.8 296.4 4 4" xml:space="preserve">
 				<g id="Layer_2" display="none">
@@ -604,6 +606,24 @@
 			</svg>
 		</div>
 		<div id="havecoffee">
+			<!--a new coffee post-->
+			<div class="post-coffee" id="luis">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>Luis Lee <span style="color:#515151">had coffee</span></h1>
+					<p>just now</p>
+				</div>
+				<div class="post-coffee-content" id="luiscoffee"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+			<div class="postspace" id="luis-space"></div>
+
+			<!--existing coffee posts-->
 			<div class="post-coffee" id="stan">
 				<div class="portrait"></div>
 				<div class="name">
@@ -640,7 +660,7 @@
 					<h1>Zack Hoonan <span style="color:#515151">had coffee</span></h1>
 					<p>2 hours ago</p>
 				</div>
-				<div class="post-coffee-content" id="stancoffee"></div>
+				<div class="post-coffee-content" id="zackcoffee"></div>
 				<div class="like">
 					<h2>like</h2>
 				</div>
@@ -648,7 +668,46 @@
 					<h2>comment</h2>
 				</div>	
 			</div>
-		</div>		
+		</div>
+		
+
+		<!--have coffee input-->
+		<div class="header-cancel-click" id="coffee-cancel-click"></div>
+		<div class="header-cancel" id="coffee-cancel"><h2>Cancel</h2></div>
+		<div id="inputcoffee">
+			<div class="i" id="coffee-i">
+				<h1>I have</h1>
+			</div>
+			<div class="input-button" id="coffee-tea">
+				<div class="button-coffee"><h2>coffee</h2></div>
+				<div class="button-tea"><h2>tea</h2></div>
+			</div>
+			<div class="at" id="coffee-at">
+				<h1>at</h1>
+			</div>
+			<div class="time" id="coffee-time">
+				<div class="hour"><h3>09</h3></div>
+				<div class="minu"><h3>20</h3></div>
+			</div>
+			<div class="share" id="coffee-share">
+				<h1>share to</h1>
+			</div>
+			<div class="share-button" id="coffee-share-button">
+				<div class="estelle-button">
+					<div class="estelle-button-portrait"></div>
+					<div class="estelle-button-text"><h4>Estelle</h4></div>
+				</div>
+				<div class="stan-button">
+					<div class="stan-button-portrait"></div>
+					<div class="stan-button-text"><h4>Stan</h4></div>
+				</div>
+				<div class="zack-button">
+					<div class="zack-button-portrait"></div>
+					<div class="zack-button-text"><h4>Zack</h4></div>
+				</div>
+			</div>
+			<div class="done" id="coffee-done"><h5>Done</h5></div>
+		</div>	
 		
 
 	</div>

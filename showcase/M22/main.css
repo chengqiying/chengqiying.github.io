@@ -1191,6 +1191,21 @@ body {
 	margin:0;;
 }
 
+.header-back-click{
+	width:50px;
+	height: 40px;
+	top:10px;
+	position: absolute;
+}
+
+.header-cancel-click{
+	width:70px;
+	height: 40px;
+	top:10px;
+	left:50px;
+	position: absolute;
+}
+
 .header-back {
 	width: 9px;
 	height: 16px;
@@ -1210,10 +1225,18 @@ body {
 
 .header-cancel h2 {
 	font-family: ;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 0.8em;
 	color: #fff;
 	margin: 0;
+}
+
+.header-add-click {
+	width:50px;
+	height: 40px;
+	top:10px;
+	right:0;
+	position: absolute;
 }
 
 .header-add {
@@ -1505,16 +1528,26 @@ body {
 	z-index: 15;
 }
 
+#coffee-back-click, #coffee-add-click {
+	opacity: 0;
+	z-index: 16;
+}
+
 #havecoffee {
-	height: 498px;
+	height: 738px;
   	width: 320px;
   	background-color: #E2E2E2;
   	opacity: 0;
-  	top:50px;
+  	top:-190px;
   	left:320px;
   	position: absolute;
   	z-index: 9;
   	overflow: scroll;
+  	-webkit-overflow-scrolling: touch;
+}
+
+#havecoffee::-webkit-scrollbar { 
+	display: none!important 
 }
 
 .postspace {
@@ -1552,6 +1585,14 @@ body {
 	height: 225px;
 }
 
+#luis {
+	height: 225px;
+}
+
+#luis-space {
+	opacity: 0;
+}
+
 .portrait {
 	width:40px;
 	height: 40px;
@@ -1574,6 +1615,11 @@ body {
 }
 
 #zack .portrait {
+	background: url(pics/zack.jpg);
+	background-size: cover;
+}
+
+#luis .portrait {
 	background: url(pics/zack.jpg);
 	background-size: cover;
 }
@@ -1632,6 +1678,12 @@ body {
 	background-size: cover;
 }
 
+#luiscoffee {
+	width:103px;
+	height: 77px;
+	background: url(pics/zackcoffee.jpg);
+	background-size: cover;
+}
 
 .like {
 	width: 35px;
@@ -1658,6 +1710,202 @@ body {
 	display: inline-block;
 	text-align: center;
 }
+
+/*input coffee*/
+#inputcoffee {
+	height: 498px;
+  	width: 320px;
+  	background-color: #fff;
+  	opacity: 0;
+  	top:50px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: hidden;
+}
+
+#inputcoffee h1 {
+	font-family: ;
+	font-weight: 200;
+	font-size: 1em;
+	color: #515151;
+	margin:0;
+}
+
+#inputcoffee h2{
+	font-family: ;
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #B6B7B7;
+	margin:2px 0 0 0;
+}
+
+#inputcoffee h3{
+	font-family: ;
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #fff;
+	margin:20px 0 0 0;
+}
+
+#inputcoffee h4{
+	font-family: ;
+	font-weight: 100;
+	font-size: 0.8em;
+	color: #058DE0;
+	margin:4px 0 0 0;
+}
+
+#inputcoffee h5{
+	font-family: ;
+	font-weight: 100;
+	font-size: 1em;
+	color: #058DE0;
+	margin:4px 0 0 0;
+}
+
+#coffee-cancel {
+	opacity: 0;
+	z-index: 15;
+}
+
+#coffee-cancel-click {
+	opacity: 0;
+	z-index: 16;
+}
+
+.i, .at, .share, .share-button {
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+
+#coffee-i {
+	margin-top: 40px;
+}
+
+.input-button {
+
+}
+
+#coffee-tea {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.button-coffee {
+	width: 55px;
+	height:20px;
+	border-radius: 4px;
+	border: solid 1px #c1c1c1;
+	position: relative;
+	display: inline-block;	
+}
+
+.button-tea {
+	width: 35px;
+	height:20px;
+	border-radius: 4px;
+	border: solid 1px #c1c1c1;
+	margin-left: 20px;
+	position: relative;
+	display: inline-block;	
+}
+
+#coffee-at {
+	margin-top: 40px;
+}
+
+.time {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#coffee-time {
+	margin-top: 15px;
+}
+
+.hour, .minu  {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #016ad0;
+	position: relative;
+	display: inline-block;
+}
+
+.minu {
+	margin-left:20px;
+}
+
+#coffee-share {
+	margin-top:40px;
+}
+
+#coffee-share-button {
+	margin-top:10px;
+}
+
+.estelle-button, .stan-button, .zack-button {
+	width: 40px;
+	height: 60px;
+	position: relative;
+	display: inline-block;
+}
+
+.stan-button, .zack-button {
+	margin-left:20px;
+}
+
+
+.estelle-button-portrait {
+	width: 40px;
+	height: 40px;
+	background: url(pics/estelle.jpg);
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.stan-button-portrait {
+	width: 40px;
+	height: 40px;
+	background: url(pics/stan.jpg);
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.zack-button-portrait {
+	width: 40px;
+	height: 40px;
+	background: url(pics/zack.jpg);
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.estelle-button-text, .stan-button-text, .zack-button-text {
+	position: relative;
+	display: block;
+}
+
+.done {
+	width: 60px;
+	height:25px;
+	border-radius: 4px;
+	border: solid 1px #058DE0;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+
+#coffee-done {
+	margin-top: 40px;
+}
+
 
 
 
