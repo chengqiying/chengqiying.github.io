@@ -38,7 +38,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width: 100%;
 	display: block;
-	top: 20%;
+	top: 24%;
 	left: 30%;
 	position: absolute;
 }
@@ -564,11 +564,29 @@ a#home:hover
 	#header-text {
 		left:22%;
 	}
+	#wrappera {
+	top: 400px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#wrappera {
+	top: 370px;
+	}
+	#introduction {
+		margin-top: 100px;
+	}
 }
 
 @media screen and (max-width: 860px) {
 	#header-text {
 		left:20%;
+	}
+	#wrappera {
+	top: 320px;
+	}
+	#introduction {
+		margin-top: 80px;
 	}
 }
 
@@ -576,11 +594,20 @@ a#home:hover
 	#header h1 {
 		font-size: 34px;
 	}
+	#wrappera {
+	top: 300px;
+	}
+	#introduction {
+		margin-top: 70px;
+	}
 }
 
 @media screen and (max-width: 680px) {
 	#header-text {
 		left:18%;
+	}
+	#wrappera {
+		top: 250px;
 	}
 }
 
@@ -591,6 +618,12 @@ a#home:hover
 	#header p {
 		font-size: 14px;
 		margin-top: 10px;
+	}
+	#introduction {
+		margin-top: 50px;
+	}
+	#wrappera {
+		top: 220px;
 	}
 }
 
@@ -609,6 +642,12 @@ a#home:hover
 		margin: 27px 0 0 25px;
 		width: 25px;
   		height: 25px;
+	}
+	#wrappera {
+		top: 200px;
+	}
+	#introduction {
+		margin-top: 40px;
 	}
 }
 

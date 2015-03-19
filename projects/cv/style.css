@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 @font-face {
-	font-family: 'fontscorecomttwcenmt';
+	font-family: 'Raleway';
 	src: url('../../font/fontscorecomttwcenmt.eot');
 	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
 }
@@ -39,7 +39,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width: 100%;
 	display: block;
-	top: 35%;
+	top: 24%;
 	left: 30%;
 	position: absolute;
 }
@@ -47,9 +47,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header-text h1
 {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
-	font-weight: 400;
+	font-weight: 300;
 	margin-top:0;
 	margin-left: 0;
 	position: relative;
@@ -57,9 +57,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #header-text p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 200;
 	color: #ffffff;
 	margin-left: 0;
 	margin-top: 20px;
@@ -113,7 +113,7 @@ a#home:hover
 
 .nav-title h3
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	color: #ffffff;
@@ -126,7 +126,7 @@ a#home:hover
 {
 	width: 100%;
 	display: block;
-	top: 820px;
+	top: 450px;
 	z-index: 30;
 	overflow: hidden;
 	position: relative;
@@ -146,15 +146,15 @@ a#home:hover
 
 #content h2
 {
-	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:24px;
-	font-weight:300;
+	font-weight:200;
 	text-align: center
 }
 
 #content p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:16px;
 	font-weight:300;	
 	line-height: 170%;
@@ -165,7 +165,7 @@ a#home:hover
 {
 	display:block;
 	width: 40%;
-	margin:150px auto 0 auto;
+	margin:130px auto 0 auto;
 }
 
 
@@ -453,24 +453,111 @@ a#home:hover
 }
 
 @media screen and (max-width: 480px) {
-    #header-text {
-		top:30%;
-		left: 18%;
-	}
 	#header h1 {
-		font-size: 26px;
+		font-size: 22px;
 	}
 	#header p {
 		font-size: 12px;
 		margin-top: 10px;
 	}
+	#concept-pic {
+        width: 320px;
+		height: 178px;
+    }
+	#approachpic {
+        width: 360px;
+		height: 380.7px;
+    }
+	#interface-pic {
+        width: 360px;
+		height: 152px;
+    }
 	#context-pic {
-        width: 340px;
+        width: 360px;
+		height: 62.7px;
     }
-	#evaluate-pic-t {
-        width: 340px;
-    }
-	#evaluate-pic-s {
-        width: 340px;
-    }
+}
+
+
+
+@media screen and (max-width: 1080px) {
+
+	#wrappera {
+	top: 400px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#wrappera {
+	top: 370px;
+	}
+	#introduction {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+
+	#wrappera {
+	top: 320px;
+	}
+	#introduction {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#header h1 {
+		font-size: 34px;
+	}
+	#wrappera {
+	top: 300px;
+	}
+	#introduction {
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	#wrappera {
+		top: 250px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	#introduction {
+		margin-top: 50px;
+	}
+	#wrappera {
+		top: 220px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#header h1 {
+		font-size: 22px;
+	}
+	#header p {
+		font-size: 12px;
+	}
+	#home {
+		margin: 27px 0 0 25px;
+		width: 25px;
+  		height: 25px;
+	}
+	#wrappera {
+		top: 200px;
+	}
+	#introduction {
+		margin-top: 40px;
+	}
 }
