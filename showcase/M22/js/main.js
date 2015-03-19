@@ -275,15 +275,23 @@ $(document).ready(function(){
       .duration('0.2s')
       .end();
   });
-});
 
+  $('#coffee-done').mousedown(function(){
+    $('#coffee-done h5').css({color: "#fff"});
+    $('#coffee-done').css({color: "#058DE0"});
+    }, function(){
+      $('#coffee-done h2').css({color: "#058DE0"});
+      $('#coffee-done').css({color: "#fff"});;
 
-$('#coffee-done').mousedown(function(){
     move('#coffee-done')
       .scale('0.85')
       .duration('0.5s')
       .end();
+  });
 });
+
+
+
        
 
 
