@@ -38,7 +38,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	width: 100%;
 	display: block;
-	top: 35%;
+	top: 20%;
 	left: 30%;
 	position: absolute;
 }
@@ -124,7 +124,7 @@ a#home:hover
 {
 	width: 100%;
 	display: block;
-	top: 820px;
+	top: 450px;
 	z-index: 30;
 	overflow: hidden;
 	position: relative;
@@ -134,6 +134,7 @@ a#home:hover
 	-o-animation: intro-content 2s forwards;
 	animation: intro-content 2s forwards;
 }
+
 
 #content
 {
@@ -163,7 +164,7 @@ a#home:hover
 {
 	display:block;
 	width: 40%;
-	margin:150px auto 0 auto;
+	margin:130px auto 0 auto;
 }
 
 
@@ -443,9 +444,6 @@ a#home:hover
 }
 
 @media screen and (max-width: 1080px) {
-	#header-text {
-		left:25%;
-	}
 	#header h1 {
 		font-size: 44px;
 	}
@@ -460,6 +458,9 @@ a#home:hover
         width: 720px;
 		height: 149px;
     }
+	#header h1 {
+		font-size: 42px;
+	}
 	
 }
 
@@ -469,7 +470,6 @@ a#home:hover
 	}
 	#header p {
 		font-size: 16px;
-		margin-top: 10px;
 	}
 	.concept-3-pic {
         width: 600px;
@@ -494,9 +494,6 @@ a#home:hover
 }
 
 @media screen and (max-width: 680px) {
-	#header-text {
-		left:20%;
-	}
 	#header h1 {
 		font-size: 30px;
 	}
@@ -526,10 +523,6 @@ a#home:hover
 }
 
 @media screen and (max-width: 480px) {
-	#header-text {
-		top:30%;
-		left: 18%;
-	}
 	#header h1 {
 		font-size: 22px;
 	}
@@ -557,4 +550,70 @@ a#home:hover
         width: 360px;
 		height: 74.5px;
     }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+	#header-text {
+		left:25%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#header-text {
+		left:22%;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#header-text {
+		left:20%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#header h1 {
+		font-size: 34px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#header-text {
+		left:18%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#header h1 {
+		font-size: 22px;
+	}
+	#header-text {
+		left: 14%;
+	}
+	#header p {
+		font-size: 12px;
+	}
+	#home {
+		margin: 27px 0 0 25px;
+		width: 25px;
+  		height: 25px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#header-text {
+		left: 13%;
+	}
 }
