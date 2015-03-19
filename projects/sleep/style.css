@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 @font-face {
-	font-family: 'fontscorecomttwcenmt';
+	font-family: 'Raleway';
 	src: url('../../font/fontscorecomttwcenmt.eot');
 	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
 }
@@ -46,9 +46,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 #header-text h1
 {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
 	margin-top:0;
 	margin-left: 0;
 	position: relative;
@@ -56,9 +56,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 
 #header-text p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 200;
 	color: #ffffff;
 	margin-left: 0;
 	margin-top: 20px;
@@ -111,7 +111,7 @@ a#home:hover
 
 .nav-title h3
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	color: #ffffff;
@@ -144,15 +144,15 @@ a#home:hover
 
 #content h2
 {
-	font-family: 'fontscorecomttwcenmt', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:24px;
-	font-weight:300;
+	font-weight:200;
 	text-align: center
 }
 
 #content p
 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:16px;
 	font-weight:300;	
 	line-height: 170%;

@@ -16,87 +16,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	border: 0;
 }
 
-#header
-{
-	width: 100%;
-	position: fixed;
-	z-index: 0;
-	
-}
-
-#header img
-{
-	width: 100%;
-	position: relative;
-}
-
-#header-text
-{
-	width: 100%;
-	display: block;
-	top: 33%;
-	left: 30%;
-	position: absolute;
-}
-
-#header-text h1
-{
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 50px;
-	font-weight: 400;
-	margin-top:0;
-	margin-left: 0;
-	position: relative;
-}
-
-#header-text p
-{
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-	color: #ffffff;
-	margin-left: 0;
-	margin-top: 20px;
-	line-height: 160%;
-	position: relative;
-}
-
-#cv-1
-{
-	height: 25px;
-	width: 60px;
-	border: 1px solid #ffffff;
-	border-radius: 4px;
-	margin-top: 30px;
-	display: block;
-	text-decoration: none;
-	position: relative;
-}
-
-
-#cv-1 h2
-{
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
-	text-align: center;
-	font-weight: 300;
-	padding-top: 4.5px;
-	text-decoration: none;
-}
-
-#arrow
-{
-	height: 16px;
-	width: 40px;
-	background: url(images/arrow.png) no-repeat;
-	background-size: cover;
-	margin-top: 220px;
-	display: block;
-	position: relative;
-}
-
 
 #wrapper
 {
@@ -192,8 +111,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 .works {
 	display:block;
 	width: 100%;
-	height: 250px;
-    margin-top:30px;
+	height: 1120px;
+    margin-top:0px;
 	opacity: 1;
 	font-size: 0;
 	position: relative;
@@ -204,7 +123,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	display: block;
     width: 350px;
     height: 250px;
-    margin-top:0px;
+    margin-top:30px;
 	margin-right:15px;
 	margin-left:15px;
     padding: 0;
@@ -578,6 +497,7 @@ a.cv-back h3
 	height:70px;
     margin:140px auto 0 auto;
 	opacity: 1;
+	position: relative;
 }
 
 #contact-text
@@ -693,39 +613,6 @@ a.cv-back h3
 	padding-top:35px;
 }
 
-
-@media  screen and (max-width: 965px){
-#portfolio
-{
-	width: 322px;
-}
-
-#works-1
-{
-	height: 645px;
-}
-
-#works-2
-{
-	height: 645px;
-}
-
-#works-3
-{
-	height: 645px;
-}
-
-#works-4
-{
-	height: 645px;
-}
-.item
-{
-	margin-top: 15px;
-}
-
-
-}
 
 #cv-page
 {
@@ -1132,204 +1019,21 @@ a#cv-close:hover
 	animation-name: fadeInUp;
 }
 
-
-@media screen and (max-width: 1080px) {
-	#header-text {
-		left:25%;
+@media screen and (max-width: 1180px) {
+	#portfolio {
+		width:760px;
 	}
-	#header h1 {
-		font-size: 44px;
-	}
-	#header p {
-		font-size: 18px;
-		margin-top: 15px;
-	}
-	#cv {
-		width: 40px;
-		height: 18px;
-		margin-top: 10px;
-		border-radius: 3px;
-		top: 22px;
-		right: 60px;
-	}	
-	#cv h2 {
-		font-size: 14px;
-		padding-top: 1.5px;
-	}
-	#cv-1 {
-		width: 45px;
-		height: 20px;
-		margin-top: 20px;
-	}	
-	#cv-1 h2 {
-		font-size: 14px;
-		padding-top: 3px;
-	}
-	#arrow {
-		height: 14px;
-		width: 35px;
-		margin-top: 200px;
+	.works {
+		height:1680px;
 	}
 }
 
-@media screen and (max-width: 960px) {
-	#arrow {
-		height: 12px;
-		width: 30px;
-		margin-top: 170px;
+@media screen and (max-width: 800px) {
+	#portfolio {
+		width:380px;
 	}
-
-}
-
-@media screen and (max-width: 860px) {
-	#header h1 {
-		font-size: 40px;
-	}
-	#header p {
-		font-size: 16px;
-		margin-top: 10px;
-	}
-	#cv {
-		width: 35px;
-		height: 16px;
-		margin-top: 10px;
-		border-radius: 3px;
-		top: 20px;
-		right: 50px;
-	}	
-	#cv h2 {
-		font-size: 12px;
-		padding-top: 1.5px;
-	}
-	#cv-1 {
-		width: 35px;
-		height: 16px;
-		margin-top: 20px;
-	}	
-	#cv-1 h2 {
-		font-size: 12px;
-		padding-top: 2px;
-	}
-	#arrow {
-		height: 8px;
-		width: 20px;
-		margin-top: 150px;
-	}
-
-}
-
-@media screen and (max-width: 780px) {
-	#arrow {
-		height: 8px;
-		width: 20px;
-		margin-top: 130px;
-	}
-
-}
-@media screen and (max-width: 740px) {
-	#arrow {
-		height: 8px;
-		width: 20px;
-		margin-top: 110px;
-	}
-
-}
-
-@media screen and (max-width: 680px) {
-	#header-text {
-		left:20%;
-	}
-	#header h1 {
-		font-size: 30px;
-	}
-	#header p {
-		font-size: 15px;
-	}
-	#cv {
-		width: 30px;
-		height: 14px;
-		margin-top: 10px;
-		border-radius: 3px;
-		top: 22px;
-		right: 45px;
-	}	
-	#cv h2 {
-		font-size: 10px;
-		padding-top: 1.5px;
-	}
-	#cv-1 {
-		width: 25px;
-		height: 12px;
-		margin-top: 15px;
-		border-radius: 3px;
-	}	
-	#cv-1 h2 {
-		font-size: 10px;
-		padding-top: 1px;
-	}
-	#arrow {
-		height: 8px;
-		width: 20px;
-		margin-top: 90px;
-	}
-	
-}
-
-@media screen and (max-width: 620px) {
-	#arrow {
-		height: 8px;
-		width: 20px;
-		margin-top: 80px;
-	}
-
-}
-
-@media screen and (max-width: 540px) {
-	#arrow {
-		height: 6px;
-		width: 15px;
-		margin-top: 70px;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-	#header-text {
-		top:30%;
-		left: 18%;
-	}
-	#header h1 {
-		font-size: 22px;
-	}
-	#header p {
-		font-size: 12px;
-		margin-top: 10px;
-	}
-	#cv {
-		width: 20px;
-		height: 12px;
-		margin-top: 10px;
-		border-radius: 2px;
-		top: 22px;
-		right: 30px;
-	}	
-	#cv h2 {
-		font-size: 8px;
-		padding-top: 2px;
-	}
-	#cv-1 {
-		width: 16px;
-		height: 8px;
-		margin-top: 10px;
-		border-radius: 2px;
-	}	
-	#cv-1 h2 {
-		font-size: 7px;
-		padding-top: 0.5px;
-	}
-	#arrow {
-		height: 6px;
-		width: 15px;
-		margin-top: 60px;
+	.works {
+		height:3360px;
 	}
 }
+
