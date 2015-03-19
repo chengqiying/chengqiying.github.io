@@ -1533,12 +1533,22 @@ body {
 	z-index: 16;
 }
 
+#newpost {
+	height: 240px;
+  	width: 320px;
+  	opacity: 0;
+  	top:-190px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+}
+
 #havecoffee {
-	height: 738px;
+	height: 498px;
   	width: 320px;
   	background-color: #E2E2E2;
   	opacity: 0;
-  	top:-190px;
+  	top:50px;
   	left:320px;
   	position: absolute;
   	z-index: 9;
@@ -1590,7 +1600,8 @@ body {
 }
 
 #luis-space {
-	opacity: 0;
+	opacity: 1;
+	background-color: #E2E2E2;
 }
 
 .portrait {
@@ -1800,6 +1811,11 @@ body {
 	border: solid 1px #c1c1c1;
 	position: relative;
 	display: inline-block;	
+}
+
+.button-coffee-color, .button-tea-color {
+	border-color: #AA6F30;
+	background-color: #AA6F30;
 }
 
 .button-tea {

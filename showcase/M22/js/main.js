@@ -58,7 +58,13 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.3s')
       .ease('in')
-      .end(); 
+      .end();
+     move('#newpost')
+      .to(-320, 0)
+      .set('opacity', 1)
+      .duration('0.3s')
+      .ease('in')
+      .end();
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -97,16 +103,30 @@ $(document).ready(function(){
 
   /*to have coffee back*/
   $('#coffee-back-click').click(function(){
-    move('#havecoffee')
-      .to(0, 240)
-      .set('opacity', 0)
+    move('#newpost')
+      .x(0)
       .duration('0.3s')
-      .ease('in')
-      .delay('0.3s')
-      .end(); 
+      .end(function(){
+        move('#newpost')
+          .y(0)
+          .set('opacity', 0)
+          .duration('0.2s')
+          .end();
+      });
+    move('#havecoffee')
+      .x(0)
+      .duration('0.3s')
+      .end(function(){
+        move('#havecoffee')
+          .y(0)
+          .set('opacity', 0)
+          .duration('0.2s')
+          .end();
+      });
     move('#channel')
       .set('opacity', 1)
-      .duration('0.3s')
+      .duration('0.2s')
+      .delay('0.2')
       .end();
     move('#channel-title')
       .set('opacity', 1)
@@ -133,9 +153,10 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+    
   });
 
-  /*input coffee*/
+  /*add coffee*/
   $('#coffee-add-click').click(function(){
 
     move('#inputcoffee')
@@ -239,10 +260,15 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+    move('#newpost')
+      .to(-320, 240)
+      .set('opacity', 1)
+      .duration('0.3s')      
+      .delay('0.3s')
+      .end();
     move('#havecoffee')
       .to(-320, 240)
       .set('opacity', 1)
-      .set('height', 498)
       .duration('0.3s')
       .end();
     move('#coffee-back')
@@ -265,15 +291,6 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    move('#luis')
-      .set('opacity', 1)
-      .set('margin-top', 0)
-      .duration('0.2s')
-      .end();
-    move('#luis-space')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .end();
   });
 
   $('#coffee-done').mousedown(function(){
@@ -289,11 +306,21 @@ $(document).ready(function(){
   $('#coffee-done').mouseup(function(){
     $('#inputcoffee h5').css({color: "#058DE0"});
     $('#coffee-done').removeClass("done-color");
-
     move('#coffee-done')
       .scale('1')
       .duration('0.5s')
       .end();
+  });
+
+  /*input coffee/tea button*/
+  $('.button-coffee').click(function(){
+    $('.button-coffee h2').css({color: "#fff"});
+    $('.button-coffee').addClass("button-coffee-color"); 
+  });
+
+  $('.button-tea').click(function(){
+    $('.button-tea h2').css({color: "#fff"});
+    $('.button-tea').addClass("button-tea-color"); 
   });
 });
 
