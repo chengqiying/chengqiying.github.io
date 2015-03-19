@@ -1813,11 +1813,6 @@ body {
 	display: inline-block;	
 }
 
-.button-coffee-color, .button-tea-color {
-	border-color: #AA6F30;
-	background-color: #AA6F30;
-}
-
 .button-tea {
 	width: 35px;
 	height:20px;
@@ -1826,6 +1821,11 @@ body {
 	margin-left: 20px;
 	position: relative;
 	display: inline-block;	
+}
+
+.button-coffee-color, .button-tea-color {
+	border-color: #AA6F30;
+	background-color: #AA6F30;
 }
 
 #coffee-at {
