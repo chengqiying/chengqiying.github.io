@@ -185,7 +185,7 @@ a#home:hover
 {
 	display: block;
 	width:40%;
-	margin: 50px auto 0 auto;	
+	margin: 30px auto 0 auto;	
 }
 
 #concept-pic
@@ -209,7 +209,7 @@ a#home:hover
 	display:block;
 	width: 800px;
 	height: 1142px;
-	margin: 30px auto 0 auto;
+	margin: 20px auto 0 auto;
 	font-size:0;
 	background:url('../feedback/images/story.jpg') no-repeat 0 0;
 	background-size:cover;
