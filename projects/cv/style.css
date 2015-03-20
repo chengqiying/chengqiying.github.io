@@ -48,7 +48,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	font-size: 48px;
 	font-weight: 300;
 	margin-top:0;
 	margin-left: 0;
@@ -366,7 +366,7 @@ a#home:hover
 
 .other-wrap h5
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
@@ -388,7 +388,7 @@ a#home:hover
 {
 	width:100%;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:14px;
 	font-weight: 300;
 	color:#575757;
@@ -415,9 +415,6 @@ a#home:hover
         width: 600px;
 		height: 578.4px;
     }
-	#header-text {
-		left:25%;
-	}
 	#header h1 {
 		font-size: 40px;
 	}
@@ -453,29 +450,19 @@ a#home:hover
 }
 
 @media screen and (max-width: 480px) {
-	#header h1 {
-		font-size: 22px;
-	}
 	#header p {
 		font-size: 12px;
 		margin-top: 10px;
 	}
-	#concept-pic {
-        width: 320px;
-		height: 178px;
-    }
-	#approachpic {
-        width: 360px;
-		height: 380.7px;
-    }
-	#interface-pic {
-        width: 360px;
-		height: 152px;
-    }
 	#context-pic {
-        width: 360px;
-		height: 62.7px;
-    }
+        width: 340px;
+	}
+	#evaluate-pic-t {
+        width: 340px;
+	}
+	#evaluate-pic-s {
+        width: 340px;
+	}
 }
 
 
