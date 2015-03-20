@@ -1536,19 +1536,16 @@ body {
 #newpost {
 	height: 240px;
   	width: 320px;
-  	opacity: 0;
-  	top:-190px;
-  	left:320px;
-  	position: absolute;
-  	z-index: 9;
+  	margin-top:0px;
+  	position: relative;
 }
 
 #havecoffee {
-	height: 498px;
+	height: 738px;
   	width: 320px;
   	background-color: #E2E2E2;
   	opacity: 0;
-  	top:50px;
+  	top:-190px;
   	left:320px;
   	position: absolute;
   	z-index: 9;
@@ -1738,7 +1735,7 @@ body {
 #inputcoffee h1 {
 	font-family: ;
 	font-weight: 200;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: #515151;
 	margin:0;
 }
@@ -1746,17 +1743,17 @@ body {
 #inputcoffee h2{
 	font-family: ;
 	font-weight: 200;
-	font-size: 0.8em;
+	font-size: 1em;
 	color: #B6B7B7;
-	margin:2px 0 0 0;
+	margin:3px 0 0 0;
 }
 
 #inputcoffee h3{
 	font-family: ;
 	font-weight: 100;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	color: #fff;
-	margin:20px 0 0 0;
+	margin:25px 0 0 0;
 }
 
 #inputcoffee h4{
@@ -1792,7 +1789,7 @@ body {
 }
 
 #coffee-i {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .input-button {
@@ -1805,8 +1802,8 @@ body {
 }
 
 .button-coffee {
-	width: 55px;
-	height:20px;
+	width: 65px;
+	height:27px;
 	border-radius: 4px;
 	border: solid 1px #c1c1c1;
 	position: relative;
@@ -1814,8 +1811,8 @@ body {
 }
 
 .button-tea {
-	width: 35px;
-	height:20px;
+	width: 45px;
+	height:27px;
 	border-radius: 4px;
 	border: solid 1px #c1c1c1;
 	margin-left: 20px;
@@ -1829,7 +1826,7 @@ body {
 }
 
 #coffee-at {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .time {
@@ -1839,13 +1836,13 @@ body {
 }
 
 #coffee-time {
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .hour, .minu  {
-	width: 60px;
-	height: 60px;
-	border-radius: 30px;
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
 	background-color: #016ad0;
 	position: relative;
 	display: inline-block;
@@ -1860,18 +1857,19 @@ body {
 }
 
 #coffee-share-button {
-	margin-top:10px;
+	margin-top:20px;
 }
 
-.estelle-button, .stan-button, .zack-button {
+.estelle-button, .stan-button, .zack-button, .grace-button, .david-button {
 	width: 40px;
 	height: 60px;
 	position: relative;
 	display: inline-block;
+	opacity: 0.3;
 }
 
-.stan-button, .zack-button {
-	margin-left:20px;
+.stan-button, .zack-button, .grace-button, .david-button {
+	margin-left:15px;
 }
 
 
@@ -1882,6 +1880,7 @@ body {
 	background-size: cover;
 	position: relative;
 	display: block;
+    
 }
 
 .stan-button-portrait {
@@ -1902,7 +1901,25 @@ body {
 	display: block;
 }
 
-.estelle-button-text, .stan-button-text, .zack-button-text {
+.grace-button-portrait {
+	width: 40px;
+	height: 40px;
+	background: url(pics/grace.jpg);
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.david-button-portrait {
+	width: 40px;
+	height: 40px;
+	background: url(pics/david.jpg);
+	background-size: cover;
+	position: relative;
+	display: block;
+}
+
+.portrait-button-text {
 	position: relative;
 	display: block;
 }

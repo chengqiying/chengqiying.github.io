@@ -52,19 +52,25 @@ $(document).ready(function(){
   });
 
   /*to have coffee*/
+  _i=false;
   $('#coffee').click(function(){
-    move('#havecoffee')
-      .to(-320, 0)
-      .set('opacity', 1)
-      .duration('0.3s')
-      .ease('in')
-      .end();
-     move('#newpost')
-      .to(-320, 0)
-      .set('opacity', 1)
-      .duration('0.3s')
-      .ease('in')
-      .end();
+    if(!_i){
+      move('#havecoffee')
+        .to(-320, 0)
+        .set('opacity', 1)
+        .duration('0.3s')
+        .ease('in')
+        .end();
+    } 
+    else if (_i){
+      move('#havecoffee')
+        .to(-320, 240)
+        .set('opacity', 1)
+        .duration('0.3s')
+        .ease('in')
+        .end();
+    }
+    
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -102,27 +108,22 @@ $(document).ready(function(){
   });
 
   /*to have coffee back*/
+  
   $('#coffee-back-click').click(function(){
-    move('#newpost')
-      .x(0)
-      .duration('0.3s')
-      .end(function(){
-        move('#newpost')
-          .y(0)
-          .set('opacity', 0)
-          .duration('0.2s')
-          .end();
-      });
-    move('#havecoffee')
-      .x(0)
-      .duration('0.3s')
-      .end(function(){
-        move('#havecoffee')
-          .y(0)
-          .set('opacity', 0)
-          .duration('0.2s')
-          .end();
-      });
+    if(!_i){
+      move('#havecoffee')
+        .to(0, 0)
+        .set('opacity', 0)
+        .duration('0.3s')
+        .end();
+    } 
+    else if (_i){
+      move('#havecoffee')
+        .to(0, 240)
+        .set('opacity', 0)
+        .duration('0.3s')
+        .end();
+    }
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -221,6 +222,7 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+
     move('#coffee-back')
       .set('opacity', 1)
       .duration('0.2s')
@@ -245,6 +247,7 @@ $(document).ready(function(){
 
   /*done coffeeinput*/
   $('#coffee-done').click(function(){
+    _i=true;
     move('#inputcoffee')
       .to(0, 0)
       .set('opacity', 0)
@@ -257,14 +260,9 @@ $(document).ready(function(){
       .duration('0.2s')
       .end();
     move('#coffee-cancel-click')
+      .to(0, 0)
       .set('opacity', 0)
       .duration('0.2s')
-      .end();
-    move('#newpost')
-      .to(-320, 240)
-      .set('opacity', 1)
-      .duration('0.3s')      
-      .delay('0.3s')
       .end();
     move('#havecoffee')
       .to(-320, 240)
@@ -291,37 +289,147 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-  });
-
-  $('#coffee-done').mousedown(function(){
-    $('#inputcoffee h5').css({color: "#fff"});
-    $('#coffee-done').addClass("done-color");
-
-    move('#coffee-done')
+      $('#inputcoffee h5').css({color: "#fff"});
+      $('#coffee-done').addClass("done-color");
+      move('#coffee-done')
       .scale('1.2')
       .duration('0.5s')
       .end();
   });
 
-  $('#coffee-done').mouseup(function(){
-    $('#inputcoffee h5').css({color: "#058DE0"});
-    $('#coffee-done').removeClass("done-color");
-    move('#coffee-done')
-      .scale('1')
-      .duration('0.5s')
-      .end();
-  });
+
 
   /*input coffee/tea button*/
+  c = false
   $('.button-coffee').click(function(){
-    $('.button-coffee h2').css({color: "#fff"});
-    $('.button-coffee').addClass("button-coffee-color"); 
+    if (!c){
+      $('.button-coffee h2').css({color: "#fff"});
+      $('.button-coffee').addClass("button-coffee-color"); 
+      c= true;
+    }
+    else if (c){
+      $('.button-coffee h2').css({color: "#B6B7B7"});
+      $('.button-coffee').removeClass("button-coffee-color"); 
+      c= false;
+    }
   });
 
+  t = false
   $('.button-tea').click(function(){
-    $('.button-tea h2').css({color: "#fff"});
-    $('.button-tea').addClass("button-tea-color"); 
+    if (!t){
+      $('.button-tea h2').css({color: "#fff"});
+      $('.button-tea').addClass("button-tea-color"); 
+      t= true;
+    }
+    else if (t){
+      $('.button-tea h2').css({color: "#B6B7B7"});
+      $('.button-tea').removeClass("button-tea-color"); 
+      t= false;
+    }
   });
+
+  /*select friends*/
+  _estelle=false
+  $('.estelle-button').click(function(){
+    if(!_estelle){
+      move('.estelle-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _estelle=true;
+    }
+    else if(_estelle) {
+      move('.estelle-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _estelle=false;
+    }
+  });
+
+  _stan=false
+  $('.stan-button').click(function(){
+    if(!_stan){
+      move('.stan-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _stan=true;
+    }
+    else if(_stan) {
+      move('.stan-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _stan=false;
+    }
+  });
+
+  _zack=false
+  $('.zack-button').click(function(){
+    if(!_zack){
+      move('.zack-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _zack=true;
+    }
+    else if(_zack) {
+      move('.zack-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _zack=false;
+    }
+  });
+
+  _grace=false
+  $('.grace-button').click(function(){
+    if(!_grace){
+      move('.grace-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _grace=true;
+    }
+    else if(_grace) {
+      move('.grace-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _grace=false;
+    }
+  });
+
+  _david=false
+  $('.david-button').click(function(){
+    if(!_david){
+      move('.david-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _david=true;
+    }
+    else if(_david) {
+      move('.david-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _david=false;
+    }
+  });
+
+  
 });
 
 
