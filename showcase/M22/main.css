@@ -1809,7 +1809,7 @@ body {
 }
 
 #coffee-at {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .time {
@@ -1819,7 +1819,6 @@ body {
 }
 
 #coffee-time {
-	margin-top: 10px;
 }
 
 .hour, .minu  {
@@ -1832,7 +1831,7 @@ body {
 }
 
 .minu {
-	margin-left:20px;
+	margin-left:30px;
 }
 
 #coffee-share {
