@@ -677,27 +677,27 @@ $(document).ready(function(){
       $('#verygood').animate({width: "50px"}, {duration: 50});
       _g=false;
     }
-
-    _vg=false
+  });
+    _vgd=false
   $('#verygood').click(function(){
-    if(!_vg){
+    if(!_vgd){
       $('#verygood').animate({width:"250px"}, {duration: 300});
       $('#poor').animate({width: "0"}, {duration: 50});
       $('#fair').animate({width: "0"}, {duration: 50});
       $('#good').animate({width: "0"}, {duration: 50});
       $('#verypoor').animate({width: "0"}, {duration: 50});
-      _vg=true;
+      _vgd=true;
     }
-    else if(_vg) {
+    else if(_vgd) {
       $('#verygood').animate({width:"50px"}, {duration: 500});
       $('#poor').animate({width: "50px"}, {duration: 50});
       $('#fair').animate({width: "50px"}, {duration: 50});
       $('#good').animate({width: "50px"}, {duration: 50});
       $('#verypoor').animate({width: "50px"}, {duration: 50});
-      _vg=false;
+      _vgd=false;
     }
   });
-  });
+
 
   /*select friends*/
   _estelle=false
