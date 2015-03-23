@@ -1618,7 +1618,7 @@ body {
 }
 
 #luis .portrait {
-	background: url(pics/zack.jpg);
+	background: url(pics/luis.jpg);
 	background-size: cover;
 }
 
@@ -1685,7 +1685,7 @@ body {
 	width: 35px;
 	height:20px;
 	border-radius: 4px;
-	border: solid 1px #c1c1c1;
+	border: solid 1px #cccccc;
 	float: right;
 	margin-right: 15px;
 	margin-top:20px;
@@ -1698,7 +1698,7 @@ body {
 	width: 70px;
 	height:20px;
 	border-radius: 4px;
-	border: solid 1px #B6B7B7;
+	border: solid 1px #cccccc;
 	float: right;
 	margin-right: 15px;
 	margin-top:20px;
@@ -1735,6 +1735,7 @@ body {
 }
 
 #inputcoffee h3{
+	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 100;
 	font-size: 2em;
 	color: #205D6B;
@@ -1788,7 +1789,7 @@ body {
 	width: 65px;
 	height:27px;
 	border-radius: 4px;
-	border: solid 1px #B6B7B7;
+	border: solid 1px #cccccc;
 	position: relative;
 	display: inline-block;	
 }
@@ -1797,7 +1798,7 @@ body {
 	width: 45px;
 	height:27px;
 	border-radius: 4px;
-	border: solid 1px #B6B7B7;
+	border: solid 1px #cccccc;
 	margin-left: 20px;
 	position: relative;
 	display: inline-block;	
