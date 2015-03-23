@@ -1163,7 +1163,7 @@ body {
 	top: 50%;
 	z-index: 100;
 	overflow: hidden;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 
 }
 /*header*/
@@ -1728,7 +1728,7 @@ body {
 }
 
 #inputcoffee h2{
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 1em;
 	color: #B6B7B7;
 	margin:3px 0 0 0;
