@@ -228,10 +228,6 @@ body {
 	vertical-align: middle;
 }
 
-.topic-clickcolor {
-	background-color: #f6f6f6;
-}
-
 #coffee .topic-icon,  #coffee .topic-more-icon{
 	background: url(pics/coffee.jpg);
 	background-size: cover;
@@ -332,15 +328,17 @@ body {
 }
 
 #channel-topic-more {
+	height: 458px;
 	display: block;
 	top: 498px;
 	position: absolute;
 	opacity: 0;
+	overflow: scroll;
 }
 
 #seeback {
 	width: 320px;
-	height: 55px;
+	height: 50px;
 }
 
 #seeback-icon {
@@ -371,6 +369,7 @@ body {
 .topic-more-icon {
 	height: 40px;
 	width: 40px;
+	border-radius: 20px;
 	margin-top: 10px;
 	margin-left: 15px;
 	display: inline-block;
@@ -498,7 +497,7 @@ body {
   	left:320px;
   	position: absolute;
   	z-index: 9;
-  	overflow: scroll;
+  	overflow: auto;
   	-webkit-overflow-scrolling: touch;
 }
 
@@ -525,23 +524,11 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:2px 0 0 0;
+	margin:4px 0 0 0;
 }
 
-.post-coffee #stan {
-	height: 225px;
-}
-
-.post-coffee #estelle {
+#post-coffee-estelle {
 	height: 209px;
-}
-
-.post-coffee #zack {
-	height: 225px;
-}
-
-.post-coffee #luis {
-	height: 225px;
 }
 
 .post-coffee #luis-space {
@@ -560,27 +547,32 @@ body {
 	vertical-align: middle;
 }
 
-#stan .portrait {
+#post-coffee-stan .portrait, #post-getup-stan .portrait, #post-beforebed-stan .portrait, #post-quality-stan .portrait {
 	background: url(pics/stan.jpg);
 	background-size: cover;
 }
 
-#estelle .portrait {
+#post-coffee-estelle .portrait, #post-getup-estelle .portrait, #post-beforebed-estelle .portrait, #post-quality-estelle .portrait  {
 	background: url(pics/estelle.jpg);
 	background-size: cover;
 }
 
-#zack .portrait {
+#post-coffee-zack .portrait, #post-getup-zack .portrait, #post-beforebed-zack .portrait, #post-quality-zack .portrait {
 	background: url(pics/zack.jpg);
 	background-size: cover;
 }
 
-#grace .portrait {
+#post-coffee-grace .portrait, #post-getup-grace .portrait, #post-beforebed-grace .portrait, #post-quality-grace .portrait {
 	background: url(pics/grace.jpg);
 	background-size: cover;
 }
 
-#luis .portrait {
+#post-coffee-david .portrait, #post-getup-david .portrait, #post-beforebed-david .portrait, #post-quality-david .portrait {
+	background: url(pics/david.jpg);
+	background-size: cover;
+}
+
+#post-coffee-luis .portrait, #post-getup-luis .portrait, #post-beforebed-luis .portrait, #post-quality-luis .portrait {
 	background: url(pics/luis.jpg);
 	background-size: cover;
 }
@@ -694,7 +686,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #B6B7B7;
-	margin:3px 0 0 0;
+	margin:6px 0 0 0;
 }
 
 #inputcoffee h3{
@@ -716,7 +708,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:2px 0 0 0;
+	margin:5px 0 0 0;
 }
 
 #coffee-cancel {
@@ -926,6 +918,46 @@ body {
 	display: none!important 
 }
 
+/*sleep well post*/
+.post-quality-content {
+	margin-top: 20px;
+	margin-left:72px;
+	position: relative;
+	display:block;
+}
+
+#stanquality {
+	width:98px;
+	height: 77px;
+	background: url(pics/stanquality.jpg);
+	background-size: cover;
+}
+
+#estellequality {
+	width:94px;
+	height: 78px;
+	background: url(pics/estellequality.jpg);
+	background-size: cover;
+}
+
+#gracequality {
+	width:92px;
+	height: 48px;
+	background: url(pics/gracequality.jpg);
+	background-size: cover;
+}
+
+#luisquality {
+	width:91px;
+	height: 76px;
+	background: url(pics/luisquality.jpg);
+	background-size: cover;
+}
+
+#post-quality-grace {
+	height: 196px;
+}
+
 /*input quality*/
 #input-quality {
 	height: 498px;
@@ -950,7 +982,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #B6B7B7;
-	margin:3px 0 0 0;
+	margin:6px 0 0 0;
 }
 
 #input-quality h3{
@@ -974,7 +1006,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:2px 0 0 0;
+	margin:5px 0 0 0;
 }
 
 .post-quality {
@@ -989,7 +1021,7 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:2px 0 0 0;
+	margin:4px 0 0 0;
 }
 
 .post-quality #stan {
@@ -1085,6 +1117,401 @@ body {
 }
 
 
+
+/*get up time*/
+#getup-title, #getup-back, #getup-add, #getup-cancel {
+	opacity: 0;
+	z-index: 15;
+}
+
+#getup-back-click, #getup-add-click, #getup-cancel-click {
+	display: none;
+	z-index: 16;
+}
+
+#getup-newpost {
+	height: 240px;
+  	width: 320px;
+  	margin-top:0px;
+  	position: relative;
+}
+
+#getuptime {
+	height: 738px;
+  	width: 320px;
+  	background-color: #E2E2E2;
+  	opacity: 0;
+  	top:-190px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: scroll;
+  	-webkit-overflow-scrolling: touch;
+}
+
+#getuptime::-webkit-scrollbar { 
+	display: none!important 
+}
+
+/*getup post*/
+.post-getup-content {
+	margin-top: 20px;
+	margin-left:72px;
+	position: relative;
+	display:block;
+}
+
+#zackgetup {
+	width:105px;
+	height: 78px;
+	background: url(pics/zackgetup.jpg);
+	background-size: cover;
+}
+
+#davidgetup {
+	width:100px;
+	height: 72px;
+	background: url(pics/davidgetup.jpg);
+	background-size: cover;
+}
+
+#gracegetup {
+	width:99px;
+	height: 62px;
+	background: url(pics/gracegetup.jpg);
+	background-size: cover;
+}
+
+#luisgetup {
+	width:96px;
+	height: 78px;
+	background: url(pics/luisgetup.jpg);
+	background-size: cover;
+}
+#post-getup-david {
+	height: 218px;
+}
+
+#post-getup-grace {
+	height: 210px;
+}
+
+/*input getup*/
+#input-getup {
+	height: 498px;
+  	width: 320px;
+  	background-color: #fff;
+  	opacity: 0;
+  	top:50px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: hidden;
+}
+
+#input-getup h1 {
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #515151;
+	margin:0;
+}
+
+#input-getup h2{
+	font-weight: 200;
+	font-size: 1em;
+	color: #B6B7B7;
+	margin:6px 0 0 0;
+}
+
+#input-getup h3{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color: #205D6B;
+	margin:20px 0 0 0;
+}
+
+#input-getup h4{
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #76CEE5;
+	margin:4px 0 0 0;
+}
+
+#input-getup h5{
+	font-weight: 200;
+	font-size: 1em;
+	color: #76CEE5;
+	margin:5px 0 0 0;
+}
+
+.post-getup {
+	width:320px;
+	height: 225px;
+	background-color: #fff;
+	margin-top: 0px;
+	position: relative;
+}
+
+.post-getup h2{
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #B6B7B7;
+	margin:4px 0 0 0;
+}
+
+.post-getup #zack {
+	height: 225px;
+}
+
+.post-getup #david {
+	height: 209px;
+}
+
+.post-getup #grace {
+	height: 225px;
+}
+
+.post-getup #luis {
+	height: 225px;
+}
+
+.post-getup #luis-space {
+	opacity: 1;
+	background-color: #E2E2E2;
+}
+
+.post-getup-content {
+	margin-top: 20px;
+	margin-left:72px;
+	position: relative;
+	display:block;
+}
+
+#getup-i {
+	margin-top: 60px;
+}
+
+.time {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#getup-time {
+	margin-top:20px;
+}
+
+.hour, .minu  {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	background-color: #BDE9F4;
+	position: relative;
+	display: inline-block;
+}
+
+.minu {
+	margin-left:30px;
+}
+
+#getup-share {
+	margin-top:60px;
+}
+
+#getup-done {
+	margin-top: 40px
+}
+
+
+/*before bed state*/
+
+#beforebed-title, #beforebed-back, #beforebed-add, #beforebed-cancel {
+	opacity: 0;
+	z-index: 15;
+}
+
+#beforebed-back-click, #beforebed-add-click, #beforebed-cancel-click {
+	display: none;
+	z-index: 16;
+}
+
+#beforebed-newpost {
+	height: 200px;
+  	width: 320px;
+  	margin-top:0px;
+  	position: relative;
+}
+
+#beforebedstate {
+	height: 738px;
+  	width: 320px;
+  	background-color: #E2E2E2;
+  	opacity: 0;
+  	top:-150px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: scroll;
+  	-webkit-overflow-scrolling: touch;
+}
+
+#beforebedstate::-webkit-scrollbar { 
+	display: none!important 
+}
+
+/*beforebed post*/
+.post-beforebed-content {
+	margin-top: 20px;
+	margin-left:72px;
+	position: relative;
+	display:block;
+}
+
+#stanbeforebed {
+	width:94px;
+	height: 38px;
+	background: url(pics/stanbeforebed.jpg);
+	background-size: cover;
+}
+
+#davidbeforebed {
+	width:87px;
+	height: 38px;
+	background: url(pics/davidbeforebed.jpg);
+	background-size: cover;
+}
+
+#gracebeforebed {
+	width:109px;
+	height: 38px;
+	background: url(pics/gracebeforebed.jpg);
+	background-size: cover;
+}
+
+#luisbeforebed {
+	width:98px;
+	height: 38px;
+	background: url(pics/luisbeforebed.jpg);
+	background-size: cover;
+}
+
+.post-beforebed {
+	width:320px;
+	height: 185px;
+	background-color: #fff;
+	margin-top: 0px;
+	position: relative;
+}
+
+.post-beforebed h2{
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #B6B7B7;
+	margin:4px 0 0 0;
+}
+
+#post-beforebed-david {
+	height: 209px;
+}
+#post-beforebed-luis-space {
+	opacity: 1;
+	background-color: #E2E2E2;
+}
+
+.post-beforebed-content {
+	margin-top: 20px;
+	margin-left:72px;
+	position: relative;
+	display:block;
+}
+
+/*input beforebed*/
+#input-beforebed {
+	height: 498px;
+  	width: 320px;
+  	background-color: #fff;
+  	opacity: 0;
+  	top:50px;
+  	left:320px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: hidden;
+}
+
+#input-beforebed h1 {
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #515151;
+	margin:0;
+}
+
+#input-beforebed h2{
+	font-weight: 200;
+	font-size: 1em;
+	color: #B6B7B7;
+	margin:6px 0 0 0;
+}
+
+#input-beforebed h3{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 1.7em;
+	color: #205D6B;
+	margin:30px 0 0 0;
+}
+
+#input-beforebed h4{
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #76CEE5;
+	margin:4px 0 0 0;
+}
+
+#input-beforebed h5{
+	font-weight: 200;
+	font-size: 1em;
+	color: #76CEE5;
+	margin:5px 0 0 0;
+}
+
+
+#beforebed-i {
+	margin-top: 60px;
+}
+
+.state {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#beforebed-state {
+	margin-top:15px;
+}
+
+.state-content  {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #BDE9F4;
+	position: relative;
+	display: inline-block;
+}
+
+#beforebed-share {
+	margin-top:60px;
+}
+
+#beforebed-done {
+	margin-top: 40px
+}
+
+
+
+.topic-clickcolor {
+	background-color: #f6f6f6;
+}
 
 @media screen and (max-width: 410px) {
     #phone, #device{

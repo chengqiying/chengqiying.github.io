@@ -244,7 +244,7 @@
 				</div>
 				<div class="topic-more" id="sleeptime">
 					<div class="topic-more-icon"></div>
-					<div class="topic-more-text">Sleep late</div>
+					<div class="topic-more-text">Sleep time</div>
 					<div class="topic-more-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
@@ -611,7 +611,7 @@
 		<div id="havecoffee">
 			<!--a new coffee post-->
 			<div id="coffee-newpost">
-				<div class="post-coffee" id="luis">
+				<div class="post-coffee" id="post-coffee-luis">
 					<div class="portrait"></div>
 					<div class="name">
 						<h1>Luis Lee <span style="color:#515151">had coffee</span></h1>
@@ -628,7 +628,7 @@
 				<div class="postspace" id="luis-space"></div>
 			</div>
 			<!--existing coffee posts-->
-			<div class="post-coffee" id="stan">
+			<div class="post-coffee" id="post-coffee-stan">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Stan Kenton <span style="color:#515151">had coffee</span></h1>
@@ -643,7 +643,7 @@
 				</div>	
 			</div>
 			<div class="postspace"></div>
-			<div class="post-coffee" id="estelle">
+			<div class="post-coffee" id="post-coffee-estelle">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Estelle Lee <span style="color:#515151">had tea</span></h1>
@@ -658,7 +658,7 @@
 				</div>	
 			</div>
 			<div class="postspace"></div>
-			<div class="post-coffee" id="zack">
+			<div class="post-coffee" id="post-coffee-zack">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Zack Hoonan <span style="color:#515151">had coffee</span></h1>
@@ -799,13 +799,13 @@
 		<div id="sleepquality">
 			<!--a new sleepquality post-->
 			<div id="quality-newpost">
-				<div class="post-quality" id="luis">
+				<div class="post-quality" id="post-quality-luis">
 					<div class="portrait"></div>
 					<div class="name">
 						<h1>Luis Lee's <span style="color:#515151">sleep is</span></h1>
 						<p>just now</p>
 					</div>
-					<div class="post-quality-content" id="luiscoffee"></div>
+					<div class="post-quality-content" id="luisquality"></div>
 					<div class="like">
 						<h2>like</h2>
 					</div>
@@ -816,13 +816,13 @@
 				<div class="postspace" id="luis-space"></div>
 			</div>
 			<!--existing sleequality posts-->
-			<div class="post-quality" id="estelle">
+			<div class="post-quality" id="post-quality-estelle">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Estelle Lee's <span style="color:#515151">sleep is</span></h1>
 					<p>35 minutes ago</p>
 				</div>
-				<div class="post-quality-content" id="stancoffee"></div>
+				<div class="post-quality-content" id="estellequality"></div>
 				<div class="like">
 					<h2>like</h2>
 				</div>
@@ -831,13 +831,13 @@
 				</div>	
 			</div>
 			<div class="postspace"></div>
-			<div class="post-quality" id="stan">
+			<div class="post-quality" id="post-quality-stan">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Stan Kenton's <span style="color:#515151">sleep is</span></h1>
 					<p>1 hour ago</p>
 				</div>
-				<div class="post-quality-content" id="estellecoffee"></div>
+				<div class="post-quality-content" id="stanquality"></div>
 				<div class="like">
 					<h2>like</h2>
 				</div>
@@ -846,13 +846,13 @@
 				</div>	
 			</div>
 			<div class="postspace"></div>
-			<div class="post-quality" id="grace">
+			<div class="post-quality" id="post-quality-grace">
 				<div class="portrait"></div>
 				<div class="name">
 					<h1>Grace Wong's <span style="color:#515151">sleep is</span></h1>
 					<p>2 hours ago</p>
 				</div>
-				<div class="post-quality-content" id="zackcoffee"></div>
+				<div class="post-quality-content" id="gracequality"></div>
 				<div class="like">
 					<h2>like</h2>
 				</div>
@@ -904,7 +904,372 @@
 				</div>
 			</div>
 			<div class="done" id="quality-done"><h5>Done</h5></div>
-		</div>	
+		</div>
+
+
+		<!--getup time-->
+		<div class="header-title" id="getup-title">
+			<h1>Get up time</h1>
+		</div>
+		<div class="header-back-click" id="getup-back-click"></div>
+		<div class="header-back" id="getup-back">
+			<svg viewBox="419.6 296.3 2.4 4.3" enable-background="new 419.6 296.3 2.4 4.3" xml:space="preserve">
+				<g id="Layer_2" display="none">
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 -331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 -331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 0,7568879104 0,8920739840 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 0,-403157216 0,8827486208 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 0,2883563264 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 0,-9097537536 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				</g>
+				<polyline fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" points="421.8,300.4 419.8,298.4 421.8,296.4 "/>
+			</svg>
+		</div>
+		<div class="header-add-click" id="getup-add-click"></div>
+		<div class="header-add" id="getup-add">
+			<svg viewBox="418.8 296.4 4 4" enable-background="new 418.8 296.4 4 4" xml:space="preserve">
+				<g id="Layer_2" display="none">
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 
+		-331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 
+		-331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 
+		0,7568879104 0,8920739840 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 
+		0,-403157216 0,8827486208 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 
+		0,2883563264 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 
+		0,-9097537536 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+				</g>
+				<g>
+					<g>
+						<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="420.8" y1="296.4" x2="420.8" y2="300.4"/>
+					</g>
+					<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="422.8" y1="298.4" x2="418.8" y2="298.4"/>
+				</g>
+			</svg>
+		</div>
+
+		<div id="getuptime">
+			<!--a new getup post-->
+			<div id="getup-newpost">
+				<div class="post-getup" id="post-getup-luis">
+					<div class="portrait"></div>
+					<div class="name">
+						<h1>Luis Lee <span style="color:#515151">got up at</span></h1>
+						<p>just now</p>
+					</div>
+					<div class="post-getup-content" id="luisgetup"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>	
+				</div>
+				<div class="postspace" id="luis-space"></div>
+			</div>
+			<!--existing getup posts-->
+			<div class="post-getup" id="post-getup-zack">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>Zack Hoonan <span style="color:#515151">got up at</span></h1>
+					<p>1 hour ago</p>
+				</div>
+				<div class="post-quality-content" id="zackgetup"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+			<div class="postspace"></div>
+			<div class="post-getup" id="post-getup-david">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>David Lee <span style="color:#515151">got up at</span></h1>
+					<p>2 hours ago</p>
+				</div>
+				<div class="post-getup-content" id="davidgetup"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+			<div class="postspace"></div>
+			<div class="post-getup" id="post-getup-grace">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>Grace Wong <span style="color:#515151">got up at</span></h1>
+					<p>3 hours ago</p>
+				</div>
+				<div class="post-getup-content" id="gracegetup"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+		</div>
+		
+
+		<!--getup input-->
+		<div class="header-cancel-click" id="getup-cancel-click"></div>
+		<div class="header-cancel" id="getup-cancel"><h2>Cancel</h2></div>
+		<div id="input-getup">
+			<div class="i" id="getup-i">
+				<h1>I got up at</h1>
+			</div>
+		
+			<div class="time" id="getup-time">
+				<div class="hour"><h3>8</h3></div>
+				<div class="minu"><h3>10</h3></div>
+			</div>
+			<div class="share" id="getup-share">
+				<h1>share to</h1>
+			</div>
+			<div class="share-button" id="getup-share-button">
+				<div class="estelle-button">
+					<div class="estelle-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Estelle</h4></div>
+				</div>
+				<div class="stan-button">
+					<div class="stan-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Stan</h4></div>
+				</div>
+				<div class="zack-button">
+					<div class="zack-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Zack</h4></div>
+				</div>
+				<div class="grace-button">
+					<div class="grace-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Grace</h4></div>
+				</div>
+				<div class="david-button">
+					<div class="david-button-portrait"></div>
+					<div class="portrait-button-text"><h4>David</h4></div>
+				</div>
+			</div>
+			<div class="done" id="getup-done"><h5>Done</h5></div>
+		</div>
+
+
+		<!--before bed state-->
+		<div class="header-title" id="beforebed-title">
+			<h1>Bedfore bed state</h1>
+		</div>
+		<div class="header-back-click" id="beforebed-back-click"></div>
+		<div class="header-back" id="beforebed-back">
+			<svg viewBox="419.6 296.3 2.4 4.3" enable-background="new 419.6 296.3 2.4 4.3" xml:space="preserve">
+				<g id="Layer_2" display="none">
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 -331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 -331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 0,7568879104 0,8920739840 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 0,-403157216 0,8827486208 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 0,2883563264 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 0,-9097537536 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				</g>
+				<polyline fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" points="421.8,300.4 419.8,298.4 421.8,296.4 "/>
+			</svg>
+		</div>
+		<div class="header-add-click" id="beforebed-add-click"></div>
+		<div class="header-add" id="beforebed-add">
+			<svg viewBox="418.8 296.4 4 4" enable-background="new 418.8 296.4 4 4" xml:space="preserve">
+				<g id="Layer_2" display="none">
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 
+		-331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 
+		-331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 
+		0,7568879104 0,8920739840 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 
+		0,-403157216 0,8827486208 0,8431425024 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 
+		0,2883563264 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 
+		0,-9097537536 0,0 0,0 0,0 	"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
+		"/>
+				</g>
+				<g>
+					<g>
+						<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="420.8" y1="296.4" x2="420.8" y2="300.4"/>
+					</g>
+					<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="422.8" y1="298.4" x2="418.8" y2="298.4"/>
+				</g>
+			</svg>
+		</div>
+
+		<div id="beforebedstate">
+			<!--a before bed state post-->
+			<div id="beforebed-newpost">
+				<div class="post-beforebed" id="post-beforebed-luis">
+					<div class="portrait"></div>
+					<div class="name">
+						<h1>Luis Lee <span style="color:#515151">felt</span></h1>
+						<p>just now</p>
+					</div>
+					<div class="post-beforebed-content" id="luisbeforebed"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>	
+				</div>
+				<div class="postspace" id="luis-space"></div>
+			</div>
+			<!--existing before bed state posts-->
+			<div class="post-beforebed" id="post-beforebed-grace">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>Grace Wong <span style="color:#515151">felt</span></h1>
+					<p>36 minutes ago</p>
+				</div>
+				<div class="post-beforebed-content" id="gracebeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+			<div class="postspace"></div>
+			<div class="post-beforebed" id="post-beforebed-david">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>David Lee <span style="color:#515151">felt</span></h1>
+					<p>45 minutes ago</p>
+				</div>
+				<div class="post-beforebed-content" id="davidbeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+			<div class="postspace"></div>
+			<div class="post-beforebed" id="post-beforebed-stan">
+				<div class="portrait"></div>
+				<div class="name">
+					<h1>Stan Kenton <span style="color:#515151">felt</span></h1>
+					<p>1 hour ago</p>
+				</div>
+				<div class="post-getup-content" id="stanbeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>	
+			</div>
+		</div>
+		
+
+		<!--before bed state input-->
+		<div class="header-cancel-click" id="beforebed-cancel-click"></div>
+		<div class="header-cancel" id="beforebed-cancel"><h2>Cancel</h2></div>
+		<div id="input-beforebed">
+			<div class="i" id="beforebed-i">
+				<h1>I felt</h1>
+			</div>
+		
+			<div class="state" id="beforebed-state">
+				<div class="state-content"><h3>happy</h3></div>
+			</div>
+			<div class="share" id="beforebed-share">
+				<h1>share to</h1>
+			</div>
+			<div class="share-button" id="beforebed-share-button">
+				<div class="estelle-button">
+					<div class="estelle-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Estelle</h4></div>
+				</div>
+				<div class="stan-button">
+					<div class="stan-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Stan</h4></div>
+				</div>
+				<div class="zack-button">
+					<div class="zack-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Zack</h4></div>
+				</div>
+				<div class="grace-button">
+					<div class="grace-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Grace</h4></div>
+				</div>
+				<div class="david-button">
+					<div class="david-button-portrait"></div>
+					<div class="portrait-button-text"><h4>David</h4></div>
+				</div>
+			</div>
+			<div class="done" id="beforebed-done"><h5>Done</h5></div>
+		</div>
 		
 
 	</div>

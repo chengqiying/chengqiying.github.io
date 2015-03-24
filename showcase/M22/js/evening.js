@@ -6,7 +6,7 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.5s')
       .end(); 
-    move('#channel-topic-morning')
+    move('#channel-topic-evening')
       .set('opacity', 0)
       .duration('0.4s')
       .end(); 
@@ -32,7 +32,7 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.5s')
       .end(); 
-    move('#channel-topic-morning')
+    move('#channel-topic-evening')
       .set('opacity', 1)
       .duration('0.4s')
       .end();
@@ -1405,10 +1405,9 @@ $(document).ready(function(){
       _davidbeforebed=false;
     }
   });
+
+  
 });
-
-
-
 
 
 
