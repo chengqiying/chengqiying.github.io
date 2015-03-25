@@ -403,6 +403,7 @@ body {
 	position: absolute;
 	bottom: 0px;
 	background-color: #fff;
+	z-index: 10;
 }
 
 #menu-friends {
@@ -420,9 +421,8 @@ body {
 }
 
 #menu-channels-svg circle {
-	fill: #BDE9F4;
+	fill: #bde9f4;
 }
-
 
 #menu-channels .menu-icon {
 	width:20px;
@@ -548,7 +548,7 @@ body {
 .portrait {
 	width:40px;
 	height: 40px;
-	border-radius: 10px;
+	border-radius: 20px;
 	margin-top: 30px;
 	margin-left:15px;
 	position: relative;
@@ -1537,6 +1537,153 @@ friends*/
   	position: absolute;
   	display: none;
 }
+
+#member {
+	width: 100%;
+	height: 60px;
+	background-color: #bde9f4;
+	position: relative;
+	text-align: center;
+}
+
+.member-portrait {
+	width: 40px;
+	height:40px;
+	border-radius: 20px;
+	border: 1px solid #47aafc;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 10px;
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+#member-portrait-estelle {
+	background: url(pics/estelle.jpg);
+	background-size: cover;
+}
+
+#member-portrait-david {
+	background: url(pics/david.jpg);
+	background-size: cover;
+}
+
+#member-portrait-zack {
+	background: url(pics/zack.jpg);
+	background-size: cover;
+}
+
+#member-portrait-grace {
+	background: url(pics/grace.jpg);
+	background-size: cover;
+}
+
+#member-portrait-stan {
+	background: url(pics/stan.jpg);
+	background-size: cover;
+}
+
+#member-add {
+	width: 15px;
+	height:15px;
+	margin-left: 10px;
+	margin-right: 5px;
+	display: inline-block;
+	z-index: 15;
+	margin-top:10px;
+	vertical-align: middle;
+}
+
+#member-add-svg line {
+	stroke: #058baa;
+}
+
+#member-add-click {
+	width:50px;
+	height: 40px;
+	top:70px;
+	right:0px;
+	position: absolute;
+	display: none;
+	z-index: 16;
+}
+
+/*friends feed*/
+#friends-feeds {
+	height: 388px;
+  	width: 320px;
+  	background-color: #E2E2E2;
+  	top:60px;
+  	position: absolute;
+  	z-index: 9;
+  	overflow: auto;
+  	-webkit-overflow-scrolling: touch;
+}
+
+#friends-feeds::-webkit-scrollbar { 
+	display: none!important 
+}
+
+.postspace {
+	width: 320px;
+	height: 15px;
+	margin:0;
+	position: relative;
+}
+
+.feeds-post {
+	width:320px;
+	background-color: #fff;
+	margin-top: 0px;
+	position: relative;
+}
+
+.feeds-post h2{
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #B6B7B7;
+	margin:4px 0 0 0;
+}
+
+#feeds-post-david .portrait {
+	background: url(pics/david.jpg);
+	background-size: cover;
+}
+
+#feeds-post-grace .portrait {
+	background: url(pics/grace.jpg);
+	background-size: cover;
+}
+
+#feeds-post-stan .portrait {
+	background: url(pics/stan.jpg);
+	background-size: cover;
+}
+
+#feeds-post-estelle .portrait {
+	background: url(pics/estelle.jpg);
+	background-size: cover;
+}
+
+
+#feeds-post-grace {
+	height: 210px;
+}
+
+#feeds-post-stan {
+	height: 225px;
+}
+
+#feeds-post-david {
+	height: 225px;
+}
+
+#feeds-post-estelle {
+	height: 185px;
+}
+
+
+
 
 @media screen and (max-width: 410px) {
     #phone, #device{
