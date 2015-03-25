@@ -1,5 +1,100 @@
 
 $(document).ready(function(){
+  /*menu---------------------------------*/
+  $('#menu-friends').click(function(){
+    $('#friends-title').css({display: "block"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#me').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "block"}, 200);
+
+    $('#menu-friends-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+
+    $('#menu-friends .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-channels').click(function(){
+    $('#channel-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#me').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#channel').css({display: "block"}, 200);
+
+    $('#menu-channels-svg circle').css({fill: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+
+    $('#menu-channels .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-me').click(function(){
+    $('#me-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#me').css({display: "block"}, 200);
+
+    $('#menu-me-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+
+    $('#menu-me .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-tips').click(function(){
+    $('#tips-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#me').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#tips').css({display: "block"}, 200);
+
+    $('#menu-tips-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+
+    $('#menu-tips .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  /*channel--------------------------*/
+  /*see more/back*/
   $('#seemore').click(function(){
     move('#channel-topic-more')
       .to(0, -498)

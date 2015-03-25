@@ -1,5 +1,100 @@
 
 $(document).ready(function(){
+  /*menu---------------------------------*/
+  $('#menu-friends').click(function(){
+    $('#friends-title').css({display: "block"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#me').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "block"}, 200);
+
+    $('#menu-friends-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+
+    $('#menu-friends .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-channels').click(function(){
+    $('#channel-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#me').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#channel').css({display: "block"}, 200);
+
+    $('#menu-channels-svg circle').css({fill: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+
+    $('#menu-channels .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-me').click(function(){
+    $('#me-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#tips-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#tips').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#me').css({display: "block"}, 200);
+
+    $('#menu-me-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#CECECE"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+
+    $('#menu-me .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  $('#menu-tips').click(function(){
+    $('#tips-title').css({display: "block"}, 200);
+    $('#friends-title').css({display: "none"}, 200);
+    $('#channel-title').css({display: "none"}, 200);
+    $('#me-title').css({display: "none"}, 200);
+
+    $('#channel').css({display: "none"}, 200);
+    $('#me').css({display: "none"}, 200);
+    $('#friends').css({display: "none"}, 200);
+    $('#tips').css({display: "block"}, 200);
+
+    $('#menu-tips-svg path').css({fill: "#BDE9F4"}, 200);
+    $('#menu-tips-svg circle').css({stroke: "#BDE9F4"}, 200);
+    $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-me-svg path').css({fill: "#CECECE"}, 200);
+    $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
+
+    $('#menu-tips .menu-text').css({color: "#76cee5"}, 200);
+    $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
+    $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+  });
+
+  /*channel--------------------------*/
+  /*see more/back*/
   $('#seemore').click(function(){
     move('#channel-topic-more')
       .to(0, -498)
@@ -82,6 +177,11 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end(); 
+    move('.menu')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#coffee-title')
       .set('opacity', 1)
       .duration('0.2s')
@@ -121,6 +221,12 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
+
+    move('.menu')
+      .set('opacity', 1)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -421,6 +527,11 @@ $(document).ready(function(){
         .ease('in')
         .end();
     } 
+    move('.menu')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -468,6 +579,11 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
+    move('.menu')
+      .set('opacity', 1)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -824,6 +940,11 @@ $(document).ready(function(){
         .ease('in')
         .end();
     } 
+    move('.menu')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -871,6 +992,11 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
+    move('.menu')
+      .set('opacity', 1)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -1105,7 +1231,7 @@ $(document).ready(function(){
   });
 
 
-  /* getup*/
+  /* before bed*/
   _k=false;
   $('#beforebed').click(function(){
     $('#beforebed').addClass("topic-clickcolor");
@@ -1125,7 +1251,12 @@ $(document).ready(function(){
         .duration('0.3s')
         .ease('in')
         .end();
-    } 
+    }
+    move('.menu')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end(); 
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -1173,6 +1304,11 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
+    move('.menu')
+      .set('opacity', 1)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -1200,7 +1336,7 @@ $(document).ready(function(){
     
   });
 
-  /*add getuptime*/
+  /*add beforebed time*/
   $('#beforebed-add-click').click(function(){
 
     move('#input-beforebed')
@@ -1405,6 +1541,10 @@ $(document).ready(function(){
       _davidbeforebed=false;
     }
   });
+
+
+  
+
 });
 
 

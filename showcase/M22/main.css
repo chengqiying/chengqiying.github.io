@@ -415,6 +415,15 @@ body {
 	height: 20px;
 }
 
+#menu-friends-svg path, #menu-me-svg path, #menu-tips-svg path {
+	fill: #CECECE;
+}
+
+#menu-channels-svg circle {
+	fill: #BDE9F4;
+}
+
+
 #menu-channels .menu-icon {
 	width:20px;
 	height: 20px;
@@ -1511,6 +1520,22 @@ body {
 
 .topic-clickcolor {
 	background-color: #f6f6f6;
+}
+
+/*------------------------------------------
+friends*/
+#friends-title {
+	z-index: 15;
+	display: none;
+}
+
+#friends {
+	height: 498px;
+  	width: 320px;
+  	background-color: #fff;
+  	top:50px;
+  	position: absolute;
+  	display: none;
 }
 
 @media screen and (max-width: 410px) {
