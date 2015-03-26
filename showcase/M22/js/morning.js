@@ -2,15 +2,16 @@
 $(document).ready(function(){
   /*menu---------------------------------*/
   $('#menu-friends').click(function(){
-    $('#friends-title').css({display: "block"}, 200);
-    $('#channel-title').css({display: "none"}, 200);
-    $('#me-title').css({display: "none"}, 200);
-    $('#tips-title').css({display: "none"}, 200);
+    $('#friends-title').fadeIn(200);
+    $('#member-add-click').fadeIn(200);
+    $('#channel-title').fadeOut(200);
+    $('#me-title').fadeOut(200);
+    $('#tips-title').fadeOut(200);
 
-    $('#channel').css({display: "none"}, 200);
-    $('#me').css({display: "none"}, 200);
-    $('#tips').css({display: "none"}, 200);
-    $('#friends').css({display: "block"}, 200);
+    $('#channel').fadeOut(200);
+    $('#me').fadeOut(200);
+    $('#tips').fadeOut(200);
+    $('#friends').show(200);
 
     $('#menu-friends-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
@@ -25,15 +26,16 @@ $(document).ready(function(){
   });
 
   $('#menu-channels').click(function(){
-    $('#channel-title').css({display: "block"}, 200);
-    $('#friends-title').css({display: "none"}, 200);
-    $('#me-title').css({display: "none"}, 200);
-    $('#tips-title').css({display: "none"}, 200);
+    $('#channel-title').fadeIn(200);
+    $('#friends-title').fadeOut(200);
+    $('#member-add-click').fadeOut(200);
+    $('#me-title').fadeOut(200);
+    $('#tips-title').fadeOut(200);
 
-    $('#me').css({display: "none"}, 200);
-    $('#tips').css({display: "none"}, 200);
-    $('#friends').css({display: "none"}, 200);
-    $('#channel').css({display: "block"}, 200);
+    $('#me').fadeOut(200);
+    $('#tips').fadeOut(200);
+    $('#friends').fadeOut(200);
+    $('#channel').show(200);
 
     $('#menu-channels-svg circle').css({fill: "#BDE9F4"}, 200);
     $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
@@ -48,15 +50,16 @@ $(document).ready(function(){
   });
 
   $('#menu-me').click(function(){
-    $('#me-title').css({display: "block"}, 200);
-    $('#friends-title').css({display: "none"}, 200);
-    $('#channel-title').css({display: "none"}, 200);
-    $('#tips-title').css({display: "none"}, 200);
+    $('#me-title').fadeIn(200);
+    $('#friends-title').fadeOut(200);
+    $('#member-add-click').fadeOut(200);
+    $('#channel-title').fadeOut(200);
+    $('#tips-title').fadeOut(200);
 
-    $('#channel').css({display: "none"}, 200);
-    $('#tips').css({display: "none"}, 200);
-    $('#friends').css({display: "none"}, 200);
-    $('#me').css({display: "block"}, 200);
+    $('#channel').fadeOut(200);
+    $('#tips').fadeOut(200);
+    $('#friends').fadeOut(200);
+    $('#me').show(200);
 
     $('#menu-me-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
@@ -71,15 +74,16 @@ $(document).ready(function(){
   });
 
   $('#menu-tips').click(function(){
-    $('#tips-title').css({display: "block"}, 200);
-    $('#friends-title').css({display: "none"}, 200);
-    $('#channel-title').css({display: "none"}, 200);
-    $('#me-title').css({display: "none"}, 200);
+    $('#tips-title').fadeIn(200);
+    $('#friends-title').fadeOut(200);
+    $('#member-add-click').fadeOut(200);
+    $('#channel-title').fadeOut(200);
+    $('#me-title').fadeOut(200);
 
-    $('#channel').css({display: "none"}, 200);
-    $('#me').css({display: "none"}, 200);
-    $('#friends').css({display: "none"}, 200);
-    $('#tips').css({display: "block"}, 200);
+    $('#channel').fadeOut(200);
+    $('#me').fadeOut(200);
+    $('#friends').fadeOut(200);
+    $('#tips').show(200);
 
     $('#menu-tips-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-tips-svg circle').css({stroke: "#BDE9F4"}, 200);
@@ -1543,7 +1547,178 @@ $(document).ready(function(){
   });
 
 
-  
+
+  /*friends------------------------------*/
+  /*like/comment*/
+  _davidlike=false
+  $('#feeds-post-david-like').click(function(){
+    if(!_davidlike){
+      $('#feeds-post-david-like').addClass("like-color");
+      $('#feeds-post-david-like h2').css({color: "#ffffff"}, 200);
+      _davidlike=true;
+    }
+    else if(_davidlike) {
+      $('#feeds-post-david-like').removeClass("like-color");
+      $('#feeds-post-david-like h2').css({color: "#B6B7B7"}, 200);
+      _davidlike=false;
+    }
+  });
+
+  _keyboard=false
+  $('#feeds-post-david-comment').click(function(){
+    if(!_keyboard){
+      move('.keyboard')
+      .to(0, -257)
+      .duration('0.2s')
+      .end();
+      _keyboard=true;
+    }
+    else if(_keyboard) {
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      _keyboard=false;
+    }
+  });
+
+  _gracelike=false
+  $('#feeds-post-grace-like').click(function(){
+    if(!_gracelike){
+      $('#feeds-post-grace-like').addClass("like-color");
+      $('#feeds-post-grace-like h2').css({color: "#ffffff"}, 200);
+      _gracelike=true;
+    }
+    else if(_gracelike) {
+      $('#feeds-post-grace-like').removeClass("like-color");
+      $('#feeds-post-grace-like h2').css({color: "#B6B7B7"}, 200);
+      _gracelike=false;
+    }
+  });
+
+  _keyboard=false
+  $('#feeds-post-grace-comment').click(function(){
+    if(!_keyboard){
+      move('.keyboard')
+      .to(0, -257)
+      .duration('0.2s')
+      .end();
+      _keyboard=true;
+    }
+    else if(_keyboard) {
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      _keyboard=false;
+    }
+  });
+
+  _stanlike=false
+  $('#feeds-post-stan-like').click(function(){
+    if(!_stanlike){
+      $('#feeds-post-stan-like').addClass("like-color");
+      $('#feeds-post-stan-like h2').css({color: "#ffffff"}, 200);
+      _stanlike=true;
+    }
+    else if(_stanlike) {
+      $('#feeds-post-stan-like').removeClass("like-color");
+      $('#feeds-post-stan-like h2').css({color: "#B6B7B7"}, 200);
+      _stanlike=false;
+    }
+  });
+
+  _keyboard=false
+  $('#feeds-post-stan-comment').click(function(){
+    if(!_keyboard){
+      move('.keyboard')
+      .to(0, -257)
+      .duration('0.2s')
+      .end();
+      _keyboard=true;
+    }
+    else if(_keyboard) {
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+    }
+  });
+
+  _estellelike=false
+  $('#feeds-post-estelle-like').click(function(){
+    if(!_estellelike){
+      $('#feeds-post-estelle-like').addClass("like-color");
+      $('#feeds-post-estelle-like h2').css({color: "#ffffff"}, 200);
+      _estellelike=true;
+    }
+    else if(_estellelike) {
+      $('#feeds-post-estelle-like').removeClass("like-color");
+      $('#feeds-post-estelle-like h2').css({color: "#B6B7B7"}, 200);
+      _estellelike=false;
+    }
+  });
+
+  _keyboard=false
+  $('#feeds-post-estelle-comment').click(function(){
+    if(!_keyboard){
+      move('.keyboard')
+      .to(0, -257)
+      .duration('0.2s')
+      .end();
+      _keyboard=true;
+    }
+    else if(_keyboard) {
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      _keyboard=false;
+    }
+  });
+
+  /*add member*/
+  $('#member-add-click').click(function(){
+    $('#friends-feeds').addClass("opacity-black");
+    $('#member').addClass("opacity-black");
+    
+    $('#addfriends-title').fadeIn(200);
+    $('#member-add-back').fadeIn(200);
+    $('#member-add-back-click').fadeIn(200);
+
+    $('#friends-title').fadeOut(50);
+    $('#member-add').fadeOut(50);
+    $('#member-add-click').fadeOut(50);
+    move('#friends')
+    .to(-250, 0)
+    .duration('0.2s')
+    .end();
+    move('#addfriends')
+    .to(-250, 0)
+    .duration('0.2s')
+    .end();
+  });
+
+  $('#member-add-back-click').click(function(){
+    $('#friends-feeds').addClass("opacity-black");
+    $('#member').addClass("opacity-black");    
+    
+    $('#friends-title').fadeIn(200);
+    $('#member-add').fadeIn(200);
+    $('#member-add-click').fadeIn(200);
+
+    $('#addfriends-title').fadeOut(50);
+    $('#member-add-back').fadeOut(50);
+    $('#member-add-back-click').fadeOut(50);
+    move('#friends')
+    .to(0, 0)
+    .duration('0.2s')
+    .end();
+    move('#addfriends')
+    .to(0, 0)
+    .duration('0.2s')
+    .end();
+  });
 
 });
 

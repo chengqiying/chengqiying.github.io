@@ -9,6 +9,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" id="apple-mobile-web-app-status-bar">
 	<meta name="apple-mobile-web-app-title" content="Test">
 	<link rel="stylesheet" href="main.css"/>
+	<link rel="stylesheet" href="animate.css">
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 
@@ -1167,18 +1168,19 @@
 				<div id="member-add-click"></div>
 			</div>
 
+			<!--friends feeds-->
 			<div id="friends-feeds">
 				<div class="feeds-post" id="feeds-post-david">
 					<div class="portrait"></div>
 					<div class="name">
 					<h1>David Lee <span style="color:#515151">had coffee</span></h1>
-					<p>2 hours ago</p>
+					<p>24 minutes ago</p>
 					</div>
 					<div class="post-coffee-content" id="zackcoffee"></div>
-					<div class="like">
+					<div class="like" id="feeds-post-david-like">
 						<h2>like</h2>
 					</div>
-					<div class="comment">
+					<div class="comment" id="feeds-post-david-comment">
 						<h2>comment</h2>
 					</div>
 				</div>
@@ -1188,13 +1190,13 @@
 					<div class="portrait"></div>
 					<div class="name">
 						<h1>Grace Wong <span style="color:#515151">got up at</span></h1>
-						<p>3 hours ago</p>
+						<p>50 minutes ago</p>
 					</div>
 					<div class="post-getup-content" id="gracegetup"></div>
-					<div class="like">
+					<div class="like" id="feeds-post-grace-like">
 						<h2>like</h2>
 					</div>
-					<div class="comment">
+					<div class="comment" id="feeds-post-grace-comment">
 						<h2>comment</h2>
 					</div>	
 				</div>
@@ -1207,10 +1209,10 @@
 						<p>1 hour ago</p>
 					</div>
 					<div class="post-quality-content" id="stanquality"></div>
-					<div class="like">
+					<div class="like" id="feeds-post-stan-like">
 						<h2>like</h2>
 					</div>
-					<div class="comment">
+					<div class="comment" id="feeds-post-stan-comment">
 						<h2>comment</h2>
 					</div>
 				</div>
@@ -1220,18 +1222,52 @@
 					<div class="portrait"></div>
 					<div class="name">
 						<h1>Estelle LEE <span style="color:#515151">felt</span></h1>
-						<p>36 minutes ago</p>
+						<p>2 hours ago</p>
 					</div>
 					<div class="post-beforebed-content" id="gracebeforebed"></div>
-					<div class="like">
+					<div class="like" id="feeds-post-estelle-like">
 						<h2>like</h2>
 					</div>
-					<div class="comment">
+					<div class="comment" id="feeds-post-estelle-comment">
 						<h2>comment</h2>
 					</div>
 				</div>	
 			</div>
 		</div>
+
+		<!--add friends-->
+		<div id="member-add-back">
+			<svg viewBox="419.6 296.3 2.4 4.3" id="member-add-back-svg" enable-background="new 419.6 296.3 2.4 4.3" xml:space="preserve">
+			<g id="Layer_2" display="none">
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 -331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 -331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 0,7568879104 0,8920739840 0,8431425024 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 0,-403157216 0,8827486208 0,8431425024 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 0,2883563264 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 0,-9097537536 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+				<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
+			</g>
+			<polyline fill="none" stroke-width="0.25" stroke-miterlimit="10" points="421.8,300.4 419.8,298.4 421.8,296.4 "/>
+			</svg>
+		</div>
+		<div id="member-add-back-click"></div>
+		<div class="header-title" id="addfriends-title">
+			<h1>Add friends</h1> 
+		</div>
+		<div id="addfriends">				
+		</div>
+		<!--keyboard-->
+		<div class="keyboard"></div>
 
 
 
