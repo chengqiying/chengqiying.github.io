@@ -1691,7 +1691,7 @@ friends*/
 
 .keyboard {
 	width:320px;
-	height:257px;
+	height:261px;
 	top: 548px;
 	position: absolute;
 	background: url(pics/keyboard.jpg);
@@ -1707,10 +1707,11 @@ friends*/
 
 #addfriends {
 	width: 250px;
-	height: 398px;
+	height: 448px;
 	top: 50px;
 	left: 320px;
-	position: absolute;
+	position: absolute;	
+	background-color: #fafafa;
 }
 
 .opacity-black {
@@ -1739,6 +1740,60 @@ friends*/
 
 #member-add-back-svg polyline {
 	stroke: #058baa;
+}
+
+.access-space {
+	width: 100%;
+	height:25px;
+	margin:0;
+}
+
+.access {
+	width:100%;
+	height: 70px;
+	text-align: center;
+}
+
+.access-icon {
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	margin: 0 auto;
+	display: block;
+	vertical-align: middle;
+}
+
+.access-text {
+	color: #333333;
+	font-size: 0.8em;
+	font-weight: 200;
+	margin-top: 15px;
+	display: block;
+	vertical-align: middle;
+}
+
+#accountname {
+	margin-top: 20px;
+}
+
+#accountname .access-icon {
+	background: url(pics/account.jpg);
+	background-size: cover;
+}
+
+#contacts .access-icon {
+	background: url(pics/contacts.jpg);
+	background-size: cover;
+}
+
+#facebook .access-icon {
+	background: url(pics/facebook.jpg);
+	background-size: cover;
+}
+
+#twitter .access-icon {
+	background: url(pics/twitter.jpg);
+	background-size: cover;
 }
 
 

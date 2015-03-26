@@ -4,9 +4,9 @@ $(document).ready(function(){
   $('#menu-friends').click(function(){
     $('#friends-title').fadeIn(200);
     $('#member-add-click').fadeIn(200);
-    $('#channel-title').fadeOut(200);
-    $('#me-title').fadeOut(200);
-    $('#tips-title').fadeOut(200);
+    $('#channel-title').fadeOut(50);
+    $('#me-title').fadeOut(50);
+    $('#tips-title').fadeOut(50);
 
     $('#channel').fadeOut(200);
     $('#me').fadeOut(200);
@@ -27,10 +27,10 @@ $(document).ready(function(){
 
   $('#menu-channels').click(function(){
     $('#channel-title').fadeIn(200);
-    $('#friends-title').fadeOut(200);
+    $('#friends-title').fadeOut(50);
     $('#member-add-click').fadeOut(200);
-    $('#me-title').fadeOut(200);
-    $('#tips-title').fadeOut(200);
+    $('#me-title').fadeOut(50);
+    $('#tips-title').fadeOut(50);
 
     $('#me').fadeOut(200);
     $('#tips').fadeOut(200);
@@ -51,10 +51,10 @@ $(document).ready(function(){
 
   $('#menu-me').click(function(){
     $('#me-title').fadeIn(200);
-    $('#friends-title').fadeOut(200);
+    $('#friends-title').fadeOut(50);
     $('#member-add-click').fadeOut(200);
-    $('#channel-title').fadeOut(200);
-    $('#tips-title').fadeOut(200);
+    $('#channel-title').fadeOut(50);
+    $('#tips-title').fadeOut(50);
 
     $('#channel').fadeOut(200);
     $('#tips').fadeOut(200);
@@ -75,10 +75,10 @@ $(document).ready(function(){
 
   $('#menu-tips').click(function(){
     $('#tips-title').fadeIn(200);
-    $('#friends-title').fadeOut(200);
+    $('#friends-title').fadeOut(50);
     $('#member-add-click').fadeOut(200);
-    $('#channel-title').fadeOut(200);
-    $('#me-title').fadeOut(200);
+    $('#channel-title').fadeOut(50);
+    $('#me-title').fadeOut(50);
 
     $('#channel').fadeOut(200);
     $('#me').fadeOut(200);
