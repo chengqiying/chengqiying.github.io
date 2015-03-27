@@ -1543,6 +1543,7 @@ friends*/
 	background-color: #e4f6f9;
 	position: relative;
 	text-align: center;
+	z-index: 10;
 }
 
 .member-portrait {
@@ -1699,6 +1700,46 @@ friends*/
 	z-index: 17;
 }
 
+#keyboard-send-click {
+	width:80px;
+	height:50px;
+	bottom:0;
+	right:0;
+	position: absolute;
+	z-index: 18;
+}
+
+#keyboard-cancel-click {
+	width:100%;
+	height:211px;
+	bottom:50px;
+	position: absolute;
+	z-index: 18;
+}
+
+#addcomment-david, #addcomment-grace, #addcomment-stan, #addcomment-estelle {
+	width: 100%;
+	height:40px;
+	background-color: #f0f1f2;
+	margin-top: 0px;
+	position: relative;
+	display: none;
+}
+
+#addcomment-david-text, #addcomment-grace-text, #addcomment-stan-text, #addcomment-estelle-text {
+	width: 100%;
+  	padding-top: 15px;
+  	margin-left:50px;
+  	position: relative;
+}
+
+#addcomment-david-text p, #addcomment-grace-text p, #addcomment-stan-text p, #addcomment-estelle-text p{
+	font-weight: 200;
+  	font-size: 0.8em;
+  	color: #B6B7B7;
+  	margin:0;
+}
+
 /*add friends*/
 #addfriends-title {
 	z-index: 15;
@@ -1711,7 +1752,7 @@ friends*/
 	top: 50px;
 	left: 320px;
 	position: absolute;	
-	background-color: #fafafa;
+	background-color: #e4f6f9;
 }
 
 .opacity-black {
@@ -1723,7 +1764,7 @@ friends*/
 	height:12px;
 	z-index: 15;
 	top:68px;
-	left: 30px;
+	left: 40px;
 	position: absolute;
 	display: none;
 }

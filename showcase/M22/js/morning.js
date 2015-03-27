@@ -1565,12 +1565,18 @@ $(document).ready(function(){
   });
 
   _keyboard=false
+  _davidkeyboard=false
   $('#feeds-post-david-comment').click(function(){
     if(!_keyboard){
       move('.keyboard')
-      .to(0, -257)
+      .to(0, -261)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, -35)
+      .duration('0.2s')
+      .end();
+      _davidkeyboard=true;
       _keyboard=true;
     }
     else if(_keyboard) {
@@ -1578,11 +1584,18 @@ $(document).ready(function(){
       .to(0, 0)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
+      _davidkeyboard=false;
       _keyboard=false;
     }
   });
 
+
   _gracelike=false
+  _gracekeyboard=false
   $('#feeds-post-grace-like').click(function(){
     if(!_gracelike){
       $('#feeds-post-grace-like').addClass("like-color");
@@ -1596,13 +1609,17 @@ $(document).ready(function(){
     }
   });
 
-  _keyboard=false
   $('#feeds-post-grace-comment').click(function(){
     if(!_keyboard){
       move('.keyboard')
-      .to(0, -257)
+      .to(0, -261)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, -35)
+      .duration('0.2s')
+      .end();
+      _gracekeyboard=true;
       _keyboard=true;
     }
     else if(_keyboard) {
@@ -1610,11 +1627,16 @@ $(document).ready(function(){
       .to(0, 0)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
       _keyboard=false;
     }
   });
 
   _stanlike=false
+  _stankeyboatd=false
   $('#feeds-post-stan-like').click(function(){
     if(!_stanlike){
       $('#feeds-post-stan-like').addClass("like-color");
@@ -1628,13 +1650,17 @@ $(document).ready(function(){
     }
   });
 
-  _keyboard=false
   $('#feeds-post-stan-comment').click(function(){
     if(!_keyboard){
       move('.keyboard')
-      .to(0, -257)
+      .to(0, -261)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, -35)
+      .duration('0.2s')
+      .end();
+      _stankeyboatd=true;
       _keyboard=true;
     }
     else if(_keyboard) {
@@ -1642,10 +1668,16 @@ $(document).ready(function(){
       .to(0, 0)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
+      _keyboard=false;
     }
   });
 
   _estellelike=false
+  _estelleboard=false
   $('#feeds-post-estelle-like').click(function(){
     if(!_estellelike){
       $('#feeds-post-estelle-like').addClass("like-color");
@@ -1659,12 +1691,15 @@ $(document).ready(function(){
     }
   });
 
-  _keyboard=false
   $('#feeds-post-estelle-comment').click(function(){
     if(!_keyboard){
       move('.keyboard')
-      .to(0, -257)
+      .to(0, -261)
       .duration('0.2s')
+      .end();
+      move('#friends-feeds')
+      .to(0, -35)
+      .duration('0.1s')
       .end();
       _keyboard=true;
     }
@@ -1673,9 +1708,61 @@ $(document).ready(function(){
       .to(0, 0)
       .duration('0.2s')
       .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
       _keyboard=false;
     }
   });
+
+  /*keyboard*/
+  $('#keyboard-cancel-click').click(function(){
+    if(_keyboard){
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
+      _keyboard=false;
+      _davidkeyboard=false;
+      _gracekeyboard=false;
+    }
+  });
+
+  $('#keyboard-send-click').click(function(){
+    if(_davidkeyboard){
+      $('#addcomment-david').slideDown(200);
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
+      _keyboard=false;
+      _davidkeyboard=false;
+    }
+    else if(_gracekeyboard){
+      $('#addcomment-grace').slideDown(200);
+      move('.keyboard')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      move('#friends-feeds')
+      .to(0, 0)
+      .duration('0.1s')
+      .end();
+      _keyboard=false;
+      _gracekeyboard=false;
+    }
+  });
+
+  
 
   /*add member*/
   $('#member-add-click').click(function(){
