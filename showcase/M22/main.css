@@ -144,6 +144,13 @@ body {
 	position: absolute;
 }
 
+.header-search-click{
+	width:50px;
+	height: 40px;
+	top:10px;
+	position: absolute;
+}
+
 .header-cancel-click{
 	width:70px;
 	height: 40px;
@@ -153,6 +160,15 @@ body {
 
 .header-back {
 	width: 9px;
+	height: 16px;
+	top: 23px;
+	left:15px;
+	text-align: left;
+	position: absolute;
+}
+
+.header-search {
+	width: 25px;
 	height: 16px;
 	top: 23px;
 	left:15px;
@@ -422,6 +438,10 @@ body {
 
 #menu-channels-svg circle {
 	fill: #bde9f4;
+}
+
+#menu-tips-svg circle {
+	stroke: #CECECE;
 }
 
 #menu-channels .menu-icon {
@@ -1838,7 +1858,218 @@ friends*/
 }
 
 
+/*------------------------------------------
+tips*/
+#tips-title, #tips-search, #tips-add {
+	display: none;
+	z-index: 15;
+}
 
+#tips-search-click, #tips-add-click {
+	display: none;
+	z-index: 16;
+}
+
+#tips {
+	height: 498px;
+  	width: 320px;
+  	top:50px;
+  	background-color: #ffffff;
+  	position: absolute;
+  	display: none;
+}
+
+#tips-one {
+	width:150px;
+	height:150px;
+	margin-top: 45px;
+	margin-left: 30px;
+	position: relative;
+}
+
+#tips-one-portrait {
+	width:40px;
+	height:40px;
+	border-radius: 20px;
+	border: 1px solid #ffafa4;
+	background: url(pics/zack.jpg);
+	background-size: cover;
+	margin-left: 90px;
+	position: relative;
+	display: block;
+	z-index: 10;
+}
+
+#tips-one-content {
+	width:130px;
+	height:130px;
+	border-radius: 65px;
+	border: 1px solid #5fc6ff;
+	margin-top: -30px;
+	position: relative;
+	display: block;
+	z-index: 9;
+}
+
+#tips-one-text {
+	width:100px;
+	height:50px;
+	margin: 38px auto 0 auto;
+	position: relative;
+	display: block;
+}
+
+#tips-one-text h1{
+	font-weight: 300;
+	font-size: 1em;
+	color: #5fc6ff;
+	margin:10px 0 0 0;
+	line-height: 130%;
+}
+
+#tips-two {
+	width:120px;
+	height:120px;
+	margin-top: -30px;
+	margin-left: 180px;
+	position: relative;
+}
+
+#tips-two-portrait {
+	width:36px;
+	height:36px;
+	border-radius: 18px;
+	border: 1px solid #ffafa4;
+	background: url(pics/estelle.jpg);
+	background-size: cover;
+	margin-left: 70px;
+	position: relative;
+	display: block;
+	z-index: 10;
+}
+
+#tips-two-content {
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	border: 1px solid #5fc6ff;
+	margin-top: -30px;
+	position: relative;
+	display: block;
+	z-index: 9;
+}
+
+#tips-two-text {
+	width:80px;
+	height:50px;
+	margin: 28px 0 0 15px;
+	position: relative;
+	display: block;
+}
+
+#tips-two-text h1{
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #5fc6ff;
+	margin:10px 0 0 0;
+	line-height: 130%;
+}
+
+#tips-three {
+	width:100px;
+	height:100px;
+	margin-top: -15px;
+	margin-left: 50px;
+	position: relative;
+}
+
+#tips-three-portrait {
+	width:30px;
+	height:30px;
+	border-radius: 15px;
+	border: 1px solid #ffafa4;
+	background: url(pics/stan.jpg);
+	background-size: cover;
+	margin-left: 60px;
+	position: relative;
+	display: block;
+	z-index: 10;
+}
+
+#tips-three-content {
+	width:80px;
+	height:80px;
+	border-radius: 40px;
+	border: 1px solid #5fc6ff;
+	margin-top: -30px;
+	position: relative;
+	display: block;
+	z-index: 9;
+}
+
+#tips-three-text {
+	width:55px;
+	height:50px;
+	margin: 20px 0 0 15px;
+	position: relative;
+	display: block;
+}
+
+#tips-three-text h1{
+	font-weight: 300;
+	font-size: 0.7em;
+	color: #5fc6ff;
+	margin:10px 0 0 0;
+	line-height: 130%;
+}
+
+#tips-four {
+	width:80px;
+	height:80px;
+	margin-top: -20px;
+	margin-left: 190px;
+	position: relative;
+}
+
+#tips-four-portrait {
+	width:24px;
+	height:24px;
+	border-radius: 12px;
+	border: 1px solid #ffafa4;
+	background: url(pics/grace.jpg);
+	background-size: cover;
+	margin-left: 40px;
+	position: relative;
+	display: block;
+	z-index: 10;
+}
+
+#tips-four-content {
+	width:60px;
+	height:60px;
+	border-radius: 30px;
+	border: 1px solid #5fc6ff;
+	margin-top: -20px;
+	position: relative;
+	display: block;
+	z-index: 9;
+}
+
+#tips-four-text {
+	width:30px;
+	height:50px;
+	margin: 20px 0 0 15px;
+	position: relative;
+	display: block;
+}
+
+#tips-four-text h1{
+	font-weight: 300;
+	font-size: 0.6em;
+	color: #5fc6ff;
+	margin:10px 0 0 0;
+	line-height: 130%;
+}
 
 @media screen and (max-width: 410px) {
     #phone, #device{

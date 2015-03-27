@@ -7,6 +7,10 @@ $(document).ready(function(){
     $('#channel-title').fadeOut(50);
     $('#me-title').fadeOut(50);
     $('#tips-title').fadeOut(50);
+    $('#tips-search').fadeOut(50);
+    $('#tips-add').fadeOut(50);
+    $('#tips-search-click').fadeOut(50);
+    $('#tips-add-click').fadeOut(50);
 
     $('#channel').fadeOut(400);
     $('#me').fadeOut(400);
@@ -31,6 +35,10 @@ $(document).ready(function(){
     $('#member-add-click').fadeOut(200);
     $('#me-title').fadeOut(50);
     $('#tips-title').fadeOut(50);
+    $('#tips-search').fadeOut(50);
+    $('#tips-add').fadeOut(50);
+    $('#tips-search-click').fadeOut(50);
+    $('#tips-add-click').fadeOut(50);
 
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
@@ -55,6 +63,10 @@ $(document).ready(function(){
     $('#member-add-click').fadeOut(200);
     $('#channel-title').fadeOut(50);
     $('#tips-title').fadeOut(50);
+    $('#tips-search').fadeOut(50);
+    $('#tips-add').fadeOut(50);
+    $('#tips-search-click').fadeOut(50);
+    $('#tips-add-click').fadeOut(50);
 
     $('#channel').fadeOut(400);
     $('#tips').fadeOut(400);
@@ -75,6 +87,10 @@ $(document).ready(function(){
 
   $('#menu-tips').click(function(){
     $('#tips-title').fadeIn(200);
+    $('#tips-add').fadeIn(200);
+    $('#tips-search').fadeIn(200);
+    $('#tips-add-click').fadeIn(200);
+    $('#tips-search-click').fadeIn(200);
     $('#friends-title').fadeOut(50);
     $('#member-add-click').fadeOut(200);
     $('#channel-title').fadeOut(50);
@@ -206,8 +222,7 @@ $(document).ready(function(){
   }, 500);
   });
 
-  /*to have coffee back*/
-  
+  /*to have coffee back*/  
   $('#coffee-back-click').click(function(){
     
     $('#coffee').removeClass("topic-clickcolor");
@@ -254,8 +269,7 @@ $(document).ready(function(){
     move('#coffee-add')
       .set('opacity', 0)
       .duration('0.2s')
-      .end();
-    
+      .end();    
   });
 
   /*add coffee*/
@@ -1789,8 +1803,6 @@ $(document).ready(function(){
     }
   });
 
-  
-
   /*add member*/
   $('#member-add-click').click(function(){
     $('#friends-feeds').addClass("opacity-black");
@@ -1834,6 +1846,40 @@ $(document).ready(function(){
     .end();
   });
 
+
+  /*tips-------------------------------*/
+  /*to have coffee back*/  
+  $('#tip-search-click').click(function(){
+    move('#tips')
+      .to(0, 0)
+      .set('opacity', 0)
+      .duration('0.3s')
+      .end();
+    move('.menu')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
+    move('#tips-search-title')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .delay('0.2s')
+      .end(); 
+    move('#tips-title')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    $('#tips-search-click').css({display: "none"}, 200);
+    $('#tips-add-click').css({display: "none"}, 200);
+    move('#tips-search')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    move('#tips-add')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();    
+  });
 });
 
 
