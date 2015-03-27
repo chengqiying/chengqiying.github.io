@@ -1904,7 +1904,7 @@ tips*/
 	width:130px;
 	height:130px;
 	border-radius: 65px;
-	border: 1px solid #5fc6ff;
+	border: 1px solid #92eaff;
 	margin-top: -30px;
 	position: relative;
 	display: block;
@@ -1952,7 +1952,7 @@ tips*/
 	width:100px;
 	height:100px;
 	border-radius: 50px;
-	border: 1px solid #5fc6ff;
+	border: 1px solid #92eaff;
 	margin-top: -30px;
 	position: relative;
 	display: block;
@@ -2000,7 +2000,7 @@ tips*/
 	width:80px;
 	height:80px;
 	border-radius: 40px;
-	border: 1px solid #5fc6ff;
+	border: 1px solid #92eaff;
 	margin-top: -30px;
 	position: relative;
 	display: block;
@@ -2048,7 +2048,7 @@ tips*/
 	width:60px;
 	height:60px;
 	border-radius: 30px;
-	border: 1px solid #5fc6ff;
+	border: 1px solid #92eaff;
 	margin-top: -20px;
 	position: relative;
 	display: block;
@@ -2069,6 +2069,133 @@ tips*/
 	color: #5fc6ff;
 	margin:10px 0 0 0;
 	line-height: 130%;
+}
+
+.tips-full-color {
+	background-color: #92eaff;
+	border-radius: 0;
+	height:498px;
+	margin:0;
+}
+
+.tips-content-color {
+	background-color: #92eaff;
+}
+
+/*tips full*/
+.tips-full-click{
+	width:320px;
+	height: 498px;
+	top:0px;
+	position: absolute;
+	display: none;
+	z-index: 19;
+}
+
+.tips-full {
+	height: 548px;
+  	width: 320px;
+  	top:0px;
+  	background-color: #92eaff;
+  	position: absolute;
+  	display: none;
+  	z-index: 18;
+  	vertical-align: middle;
+}
+
+.tips-full:before {
+	height: 100%;
+	width:0;
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.tips-full-text {
+  	width: 80%;
+  	margin-left: 10%;
+  	position: relative;
+  	vertical-align: middle;
+  	display: inline-block;
+  	text-align: center;
+}
+
+.tips-full-text p{
+	font-weight: 300;
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 130%;
+}
+
+.tips-full-text-edit {
+  	width: 80%;
+  	left: 10%;
+  	top:20px;
+  	position: absolute;
+  	text-align: left;
+  	display: none;
+}
+
+.tips-full-text-edit p{
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #ffffff;
+	line-height: 130%;
+}
+
+#tips-edit-done {
+	width: 60px;
+	height: 30px;
+	top:220px;
+	left: 10%;
+	border-radius: 5px;
+	background-color: #2bd2f9;
+	position: absolute;
+	display: none;
+	text-align: center;;
+}
+
+#tips-edit-done h2{
+	font-weight: 300;
+	font-size: 0.9em;
+	color: #ffffff;
+	position: relative;
+	margin: 9px 0 0 0;
+}
+
+#forward {
+	width: 25px;
+	height: 16px;
+	bottom: 10px;
+	left:15px;
+	text-align: left;
+	position: absolute;
+}
+
+#forward-click{
+	width:80px;
+	height: 40px;
+	bottom:0px;
+	position: absolute;
+	z-index: 20;
+}
+
+#edit {
+	width: 25px;
+	height: 16px;
+	bottom: 10px;
+	right:15px;
+	text-align: left;
+	position: absolute;
+}
+
+#edit-click{
+	width:80px;
+	height: 40px;
+	bottom:0px;
+	right:0;
+	position: absolute;
+	z-index: 20;
 }
 
 @media screen and (max-width: 410px) {
