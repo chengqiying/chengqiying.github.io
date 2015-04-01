@@ -252,14 +252,14 @@ a#home:hover
 #concept-3
 {
 	margin-top:60px;
-	background:url('../sleep/images/concept3-1.jpg') no-repeat 0 0;
+	background:url('../sleep/images/concept-1.jpg') no-repeat 0 0;
 	background-size:cover;
 }
 
 #concept-3-2
 {
 	margin-top: 20px;
-	background:url('../sleep/images/concept3-2.jpg') no-repeat 0 0;
+	background:url('../sleep/images/concept-2.jpg') no-repeat 0 0;
 	background-size:cover;
 }
 
