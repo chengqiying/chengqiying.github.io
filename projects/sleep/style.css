@@ -189,11 +189,21 @@ a#home:hover
 	margin: 100px auto 0 auto;	
 }
 
+#concept-text-1 p
+{
+	margin-top: 30px;	
+}
+
 #concept-text-2
 {
 	display: block;
 	width:40%;
 	margin: 100px auto 0 auto;	
+}
+
+#concept-text-2 p
+{
+	margin-top: 30px;	
 }
 
 #concept-text-3
@@ -260,6 +270,18 @@ a#home:hover
 {
 	margin-top: 20px;
 	background:url('../sleep/images/concept-2.jpg') no-repeat 0 0;
+	background-size:cover;
+}
+
+.concept-3-wireframe
+{
+	display:block;
+	width: 720px;
+	height: 505px;
+	margin:0 auto;
+	font-size:0;
+	margin-top: 60px;
+	background:url('../sleep/images/wireframe.jpg') no-repeat 0 0;
 	background-size:cover;
 }
 
