@@ -209,6 +209,26 @@ a#home:hover
 	width:100%;
 }
 
+#concept-link
+{
+	display:block;
+	width:40%;
+	margin:50px auto 0 auto;	
+	text-align:center;
+}
+
+#concept-link a
+{
+	text-decoration: none;
+	font-style: italic;
+	color: #A6A6A6;
+}
+
+#concept-link a:hover
+{
+	color: #00BCD4;
+}
+
 #approach
 {
 	display:block;
