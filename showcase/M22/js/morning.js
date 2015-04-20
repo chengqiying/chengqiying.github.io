@@ -11,6 +11,12 @@ $(document).ready(function(){
     $('#tips-add').fadeOut(50);
     $('#tips-search-click').fadeOut(50);
     $('#tips-add-click').fadeOut(50);
+    $('#tips-one-full-click').fadeOut(50);
+    $('#tips-one-edit-click').fadeOut(50);
+    $('#tips-one-forward-click').fadeOut(50);
+    $('#forward-click').fadeOut(50);
+    $('#edit-click').fadeOut(50);
+    
 
     $('#channel').fadeOut(400);
     $('#me').fadeOut(400);
@@ -39,6 +45,11 @@ $(document).ready(function(){
     $('#tips-add').fadeOut(50);
     $('#tips-search-click').fadeOut(50);
     $('#tips-add-click').fadeOut(50);
+    $('#tips-one-full-click').fadeOut(50);
+    $('#tips-one-edit-click').fadeOut(50);
+    $('#tips-one-forward-click').fadeOut(50);
+    $('#forward-click').fadeOut(50);
+    $('#edit-click').fadeOut(50);
 
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
@@ -67,6 +78,11 @@ $(document).ready(function(){
     $('#tips-add').fadeOut(50);
     $('#tips-search-click').fadeOut(50);
     $('#tips-add-click').fadeOut(50);
+    $('#tips-one-full-click').fadeOut(50);
+    $('#tips-one-edit-click').fadeOut(50);
+    $('#tips-one-forward-click').fadeOut(50);
+    $('#forward-click').fadeOut(50);
+    $('#edit-click').fadeOut(50);
 
     $('#channel').fadeOut(400);
     $('#tips').fadeOut(400);
@@ -219,7 +235,7 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-  }, 500);
+  }, 300);
   });
 
   /*to have coffee back*/  
@@ -576,7 +592,7 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-  }, 500);
+  }, 300);
   });
 
   /*sleep quality back*/
@@ -989,7 +1005,7 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-  }, 500);
+  }, 300);
   });
 
   /*get up time back*/
@@ -1301,7 +1317,7 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-  }, 500);
+  }, 300);
   });
 
   /*beforebed back*/
@@ -1927,18 +1943,16 @@ $(document).ready(function(){
   /*edit*/
   $('#edit-click').click(function(){
       $('#tips-one-full').css({height: "287px"},200);
-      
-      move('#tips-one-full-click')
-      .to(0, -261)
-      .duration('0.3s')
-      .end();
-      move('.keyboard')
+     
+      move('.tips-keyboard')
       .to(0, -261)
       .duration('0.3s')
       .end();
       $('.tips-full-text-edit').fadeIn(400);
       $('#tips-edit-done').fadeIn(400);
+      $('#tips-one-edit-click').fadeIn(400);
 
+      $('#tips-one-full-click').fadeOut(50);
       $('.tips-full-text').fadeOut(50);
       $('#forward').fadeOut(50);
       $('#forward-click').fadeOut(50);
@@ -1948,15 +1962,11 @@ $(document).ready(function(){
       _fullcancel=false;
   });
 
-  $('#tips-one-full-click').click(function(){
+  $('#tips-one-edit-click').click(function(){
     if (!_fullcancel){
       $('#tips-one-full').css({height: "548px"},200);
 
-      move('#tips-one-full-click')
-      .to(0, 0)
-      .duration('0.3s')
-      .end();
-      move('.keyboard')
+      move('.tips-keyboard')
       .to(0, 0)
       .duration('0.3s')
       .end();
@@ -1965,7 +1975,9 @@ $(document).ready(function(){
       $('#forward-click').fadeIn(400);
       $('#edit').fadeIn(400);
       $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
 
+      $('#tips-one-edit-click').fadeOut(50);
       $('.tips-full-text-edit').fadeOut(50);
       $('#tips-edit-done').fadeOut(50);
       _full=false;
@@ -1977,11 +1989,7 @@ $(document).ready(function(){
     if (!_fullcancel){
       $('#tips-one-full').css({height: "548px"},200);
 
-      move('#tips-one-full-click')
-      .to(0, 0)
-      .duration('0.3s')
-      .end();
-      move('.keyboard')
+      move('.tips-keyboard')
       .to(0, 0)
       .duration('0.3s')
       .end();
@@ -1990,7 +1998,9 @@ $(document).ready(function(){
       $('#forward-click').fadeIn(400);
       $('#edit').fadeIn(400);
       $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
 
+      $('#tips-one-edit-click').fadeOut(50);
       $('.tips-full-text-edit').fadeOut(50);
       $('#tips-edit-done').fadeOut(50);
       _full=false;
@@ -1998,6 +2008,227 @@ $(document).ready(function(){
     }
   });
 
+  $('#tips-keyboard-cancel-click').click(function(){
+    if (!_fullcancel){
+      $('#tips-one-full').css({height: "548px"},200);
+
+      move('.tips-keyboard')
+      .to(0, 0)
+      .duration('0.3s')
+      .end();
+      $('.tips-full-text').fadeIn(400);
+      $('#forward').fadeIn(400);
+      $('#forward-click').fadeIn(400);
+      $('#edit').fadeIn(400);
+      $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
+
+      $('#tips-one-edit-click').fadeOut(50);
+      $('.tips-full-text-edit').fadeOut(50);
+      $('#tips-edit-done').fadeOut(50);
+      _full=false;
+      _fullcancel=true;
+    }
+  });
+
+  $('#tips-keyboard-send-click').click(function(){
+    if (!_fullcancel){
+      $('#tips-one-full').css({height: "548px"},200);
+
+      move('.tips-keyboard')
+      .to(0, 0)
+      .duration('0.3s')
+      .end();
+      $('.tips-full-text').fadeIn(400);
+      $('#forward').fadeIn(400);
+      $('#forward-click').fadeIn(400);
+      $('#edit').fadeIn(400);
+      $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
+
+      $('#tips-one-edit-click').fadeOut(50);
+      $('.tips-full-text-edit').fadeOut(50);
+      $('#tips-edit-done').fadeOut(50);
+      _full=false;
+      _fullcancel=true;
+    }
+  });
+
+  /*tips forward*/
+  $('#forward-click').click(function(){
+      $('#tips-one-full').css({height: "200px"},200);
+
+      move('#tips-forward')
+      .to(0, -348)
+      .duration('0.3s')
+      .end();
+      $('.tips-full-text-forward').fadeIn(400);
+      $('#tips-one-forward-click').fadeIn(50);
+
+      $('#tips-one-full-click').fadeOut(50);
+      $('.tips-full-text').fadeOut(50);
+      $('#forward').fadeOut(50);
+      $('#forward-click').fadeOut(50);
+      $('#edit').fadeOut(50);
+      $('#edit-click').fadeOut(50);
+      _full=true;
+      _fullcancel=false;
+  });
+
+
+  /*tips select friends*/
+  _tips_estelle=false
+  $('#tips-share-button .estelle-button').click(function(){
+    if(!_tips_estelle){
+      move('#tips-share-button .estelle-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _estelle=true;
+    }
+    else if(_tips_estelle) {
+      move('#tips-share-button .estelle-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _tips_estelle=false;
+    }
+  });
+
+  _tips_stan=false
+  $('#tips-share-button .stan-button').click(function(){
+    if(!_tips_stan){
+      move('#tips-share-button .stan-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _tips_stan=true;
+    }
+    else if(_tips_stan) {
+      move('#tips-share-button .stan-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _tips_stan=false;
+    }
+  });
+
+  _tips_zack=false
+  $('#tips-share-button .zack-button').click(function(){
+    if(!_tips_zack){
+      move('#tips-share-button .zack-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _tips_zack=true;
+    }
+    else if(_tips_zack) {
+      move('#tips-share-button .zack-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _tips_zack=false;
+    }
+  });
+
+  _tips_grace=false
+  $('#tips-share-button .grace-button').click(function(){
+    if(!_tips_grace){
+      move('#tips-share-button .grace-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _tips_grace=true;
+    }
+    else if(_tips_grace) {
+      move('#tips-share-button .grace-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _tips_grace=false;
+    }
+  });
+
+  _tips_david=false
+  $('#tips-share-button .david-button').click(function(){
+    if(!_tips_david){
+      move('#tips-share-button .david-button')
+      .set('opacity', 1)
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+      _tips_david=true;
+    }
+    else if(_tips_david) {
+      move('#tips-share-button .david-button')
+      .set('opacity', 0.3)
+      .duration('0.2s')
+      .scale('1')
+      .end();
+      _tips_david=false;
+    }
+  });
+
+  /*tips forward-done*/
+  $('#tips-forward-done').click(function(){
+    if (!_fullcancel){
+      setTimeout(function(){
+      $('#tips-one-full').css({height: "548px"},200);
+      move('#tips-forward')
+      .to(0, 0)
+      .duration('0.3s')
+      .end();
+      $('.tips-full-text').fadeIn(400);
+      $('#forward').fadeIn(400);
+      $('#forward-click').fadeIn(400);
+      $('#edit').fadeIn(400);
+      $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
+
+      $('#tips-one-edit-click').fadeOut(50);
+      $('.tips-full-text-forward').fadeOut(50);
+      }, 500);
+
+      $('#tips-forward h5').css({color: "#fff"});
+      $('#tips-forward-done').addClass("done-color");
+      move('#tips-forward-done')
+      .scale('1.2')
+      .duration('0.5s')
+      .end();  
+      _full=false;
+      _fullcancel=true;
+    }
+  });
+
+  $('#tips-one-forward-click').click(function(){
+    if (!_fullcancel){
+      $('#tips-one-full').css({height: "548px"},200);
+
+      move('#tips-forward')
+      .to(0, 0)
+      .duration('0.3s')
+      .end();
+      $('.tips-full-text').fadeIn(400);
+      $('#forward').fadeIn(400);
+      $('#forward-click').fadeIn(400);
+      $('#edit').fadeIn(400);
+      $('#edit-click').fadeIn(400);
+      $('#tips-one-full-click').fadeIn(50);
+
+      $('#tips-one-forward-click').fadeOut(50);
+      $('.tips-full-text-forward').fadeOut(50);
+      _full=false;
+      _fullcancel=true;
+    }
+  });
 
 });
 

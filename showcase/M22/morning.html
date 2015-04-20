@@ -1304,12 +1304,116 @@
 		</div>
 
 
-		<!--keyboard-->
+		<!--friends keyboard-->
 		<div class="keyboard">
 			<div id="keyboard-cancel-click"></div>
 			<div id="keyboard-send-click"></div>
 		</div>
 
+		<!--me><-->
+		<div class="header-title" id="me-title">
+			<h1>My Sleep</h1> 
+		</div>
+		<div id="me">
+			<div id="sleep-quality">
+				<div id="sleep-quality-title"><h1>Sleep quality</h1></div>
+				<div id="sleep-quality-time">
+					<div id="day"><h2>Today</h2></div><!--
+    			 --><div id="week"><h2>Week</h2></div><!--
+    			 --><div id="start"><h2>Start</h2></div>
+				</div>
+				<div id="sleep-quality-content">
+					<div id="sleep-quality-content-text"><h3>Poor</h3></div>
+				</div>
+			</div>
+			<div id="reasons">
+				<div id="reasons-title"><h1>Related reasons</h1></div>
+				<div id="reasons-content">
+					<div id="reasons-one">
+						<div id="reasons-one-circle"></div>
+						<div id="reasons-one-text"><h4>get up late</h4></div>
+					</div><!--
+    			 --><div id="reasons-two">
+    			 		<div id="reasons-two-circle"></div>
+						<div id="reasons-two-text"><h4>awakening</h4></div>
+    			 	</div><!--
+    			 --><div id="reasons-three">
+    			 		<div id="reasons-three-circle"></div>
+						<div id="reasons-three-text"><h4>nap</h4></div>
+    			 	</div><!--
+    			 --><div id="reasons-four">
+    			 		<div id="reasons-four-circle"></div>
+						<div id="reasons-four-text"><h4>before bed state</h4></div>
+    			 	</div>
+				</div>
+			</div>
+			<div id="me-post">
+				<div id="me-post-title"><h1>My posts</h1></div>
+				<div class="feeds-post-me" id="me-post-luis-coffee">
+					<div class="portrait"></div>
+					<div class="name">
+					<h5>Luis Lee <span style="color:#515151">had coffee</span></h5>
+					<p>5 hours ago</p>
+					</div>
+					<div class="post-coffee-content" id="zackcoffee"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>
+				</div>
+				<div class="postspace"></div>
+
+				<div class="feeds-post-me" id="me-post-luis-getup">
+					<div class="portrait"></div>
+					<div class="name">
+						<h5>Luis Lee <span style="color:#515151">got up at</span></h5>
+						<p>yesterday</p>
+					</div>
+					<div class="post-getup-content" id="gracegetup"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>	
+				</div>
+				<div class="postspace"></div>
+
+				<div class="feeds-post-me" id="me-post-luis-quality">
+					<div class="portrait"></div>
+					<div class="name">
+						<h5>Luis Lee's <span style="color:#515151">sleep is</span></h5>
+						<p>2 days ago</p>
+					</div>
+					<div class="post-quality-content" id="stanquality"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>
+				</div>
+				<div class="postspace"></div>
+
+				<div class="feeds-post-me" id="me-post-luis-beforebed">
+					<div class="portrait"></div>
+					<div class="name">
+						<h5>Luis Lee <span style="color:#515151">felt</span></h5>
+						<p>3 days ago</p>
+					</div>
+					<div class="post-beforebed-content" id="gracebeforebed"></div>
+					<div class="like">
+						<h2>like</h2>
+					</div>
+					<div class="comment">
+						<h2>comment</h2>
+					</div>
+				</div>	
+			
+			</div>
+		</div>
 
 		<!--tips><-->
 		<div class="header-title" id="tips-title">
@@ -1421,10 +1525,14 @@
 			</div>
 		</div>
 		<div class="tips-full-click" id="tips-one-full-click"></div>
+		<div id="tips-one-edit-click"></div>
+		<div id="tips-one-forward-click"></div>
 		<div class="tips-full" id="tips-one-full">
 			<div class="tips-full-text"><p>Do not think too much before sleep</p>
 			</div>
 			<div class="tips-full-text-edit"><p>Do not think too much before sleep<span style="color: #e1e1e1"> I</span></p>
+			</div>
+			<div class="tips-full-text-forward"><p>Do not think too much before sleep</span></p>
 			</div>
 			<div id="tips-edit-done"><h2>Done</h2></div>
 			<div id="forward-click"></div>
@@ -1454,7 +1562,6 @@
 					</g>
 				</svg>
 			</div>
-			<div id="forward-click"></div>
 			<div id="edit-click"></div>
 			<div id="edit">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="245.8 39.9 7.8 6.8" enable-background="new 245.8 39.9 7.8 6.8" xml:space="preserve">
@@ -1484,7 +1591,42 @@
 						<rect x="245.8" y="46.6" fill="#FFFFFF" width="7.6" height="0.1"/>
 					</g>
 				</svg>
+			</div>	
+		</div>
+		<!--tips keyboard-->
+		<div class="tips-keyboard">
+			<div id="tips-keyboard-cancel-click"></div>
+			<div id="tips-keyboard-send-click"></div>
+		</div>
+
+		<!--forward friends-->
+		<div id="tips-forward">
+			<div class="share" id="tips-share">
+				<h1>share to</h1>
 			</div>
+			<div class="share-button" id="tips-share-button">
+				<div class="estelle-button">
+					<div class="estelle-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Estelle</h4></div>
+				</div>
+				<div class="stan-button">
+					<div class="stan-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Stan</h4></div>
+				</div>
+				<div class="zack-button">
+					<div class="zack-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Zack</h4></div>
+				</div>
+				<div class="grace-button">
+					<div class="grace-button-portrait"></div>
+					<div class="portrait-button-text"><h4>Grace</h4></div>
+				</div>
+				<div class="david-button">
+					<div class="david-button-portrait"></div>
+					<div class="portrait-button-text"><h4>David</h4></div>
+				</div>
+			</div>
+			<div class="done" id="tips-forward-done"><h5>Done</h5></div>
 		</div>
 
 

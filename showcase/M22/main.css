@@ -678,6 +678,14 @@ body {
 	text-align: center;
 }
 
+.like::before {
+	height:20px;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
+}
+
 .comment {
 	width: 70px;
 	height:20px;
@@ -689,6 +697,15 @@ body {
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	vertical-align: middle;
+}
+
+.comment::before {
+	height:20px;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
 }
 
 /*input coffee*/
@@ -1662,7 +1679,9 @@ friends*/
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:4px 0 0 0;
+	margin:0;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 #feeds-post-david .portrait {
@@ -1856,6 +1875,297 @@ friends*/
 	background: url(pics/twitter.jpg);
 	background-size: cover;
 }
+/*------------------------------------------
+me*/
+#me-title{
+	display: none;
+	z-index: 15;
+}
+
+#me-search-click, #me-add-click {
+	display: none;
+	z-index: 16;
+}
+
+#me {
+	height: 448px;
+  	width: 320px;
+  	top:50px;
+  	background-color: #ffffff;
+  	position: absolute;
+  	display: none;
+  	overflow: auto;
+}
+
+/*sleep quality*/
+#sleep-quality{
+	width: 100%;
+	margin-top: 30px;
+	display: block;
+}
+
+#sleep-quality-title{
+	width: 100%;
+	display: block;
+}
+
+#me h1{
+	font-weight: 200;
+	font-size: 1.1em;
+	color: #515151;
+	margin: 0  0 0 15px;
+	line-height: 130%;
+}
+
+#sleep-quality-time{
+	width: 100%;
+	margin-top:15px;
+	display: block;
+	text-align: center;
+}
+
+#sleep-quality h2{
+	font-weight: 200;
+	font-size: 0.9em;
+	color: #205d6b;
+	line-height: 130%;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0;
+}
+
+#day{
+	width: 95px;
+	height: 30px;
+	border-left: solid 1px #bde9f4;
+	border-top: solid 1px #bde9f4;
+	border-bottom: solid 1px #bde9f4;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #bde9f4;
+	text-align: center;
+	display: inline-block;	
+	position: relative;
+	vertical-align: middle;
+}
+
+#day::before {
+	height:30px;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
+}
+
+#week{
+	width: 95px;
+	height: 30px;
+	border: solid 1px #bde9f4;
+	text-align: center;
+	display: inline-block;	
+	position: relative;
+	vertical-align: middle;
+}
+
+#week::before {
+	height:30px;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
+}
+
+#start{
+	width: 95px;
+	height: 30px;
+	border-right: solid 1px #bde9f4;
+	border-top: solid 1px #bde9f4;
+	border-bottom: solid 1px #bde9f4;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	display: inline-block;	
+	position: relative;
+	vertical-align: middle;
+}
+
+#start::before {
+	height:30px;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
+}
+
+#sleep-quality-content{
+	width: 120px;
+	height:120px;
+	background-color: #bde9f4;
+	border-radius: 60px;
+	margin-left: 100px;
+	margin-top:30px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+
+#sleep-quality-content::before {
+	height:100%;
+	width: 0%;
+	vertical-align: middle;
+	display: inline-block;
+	content: '';
+}
+
+#sleep-quality-content-text{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#sleep-quality-content h3{
+	font-weight: 200;
+	font-size: 2em;
+	color: #205d6b;
+	margin: 0;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/*related reasons*/
+#reasons{
+	width: 100%;
+	margin-top: 40px;
+	display: block;
+}
+
+#reasons-title{
+	width: 100%;
+	display: block;
+}
+
+#reasons-content{
+	width: 100%;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
+
+#reasons h4{
+	font-weight: 200;
+	font-size: 0.7em;
+	color: #205d6b;
+	line-height: 130%;
+	display: block;
+	margin: 0;
+}
+
+#reasons-one, #reasons-two, #reasons-three, #reasons-four {
+	width: 76px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#reasons-one-circle{
+	width: 50px;
+	height:50px;
+	border-radius: 25px;
+	background-color: #ffede9;
+	margin-left: 13px;
+	display: block;
+}
+
+#reasons-one-text, #reasons-two-text, #reasons-three-text, #reasons-four-text{
+	width: 100%;
+	margin-top:5px;
+	display: block;
+}
+
+#reasons-two-circle{
+	width: 50px;
+	height:50px;
+	border-radius: 25px;
+	background-color: #ffede9;
+	margin-left: 13px;
+	display: block;
+}
+
+#reasons-three-circle{
+	width: 50px;
+	height:50px;
+	border-radius: 25px;
+	background-color: #ffad94;
+	margin-left: 13px;
+	display: block;
+}
+
+#reasons-four-circle{
+	width: 50px;
+	height:50px;
+	border-radius: 25px;
+	background-color: #ff8155;
+	margin-left: 13px;
+	display: block;
+}
+
+/*my post history*/
+#me-post{
+	width: 100%;
+	margin-top: 40px;
+	display: block;
+	background-color: #E2E2E2;
+}
+
+#me-post-title{
+	width: 100%;
+	height:30px;
+	display: block;
+	background-color: #ffffff;
+}
+
+.feeds-post-me {
+	width:320px;
+	background-color: #fff;
+	margin-top: 0px;
+	position: relative;
+}
+
+#me-post-luis-coffee {
+	height: 225px;
+	margin-top:1px;
+}
+
+#me-post-luis-getup{
+	height: 210px;
+}
+
+#me-post-luis-quality {
+	height: 225px;
+}
+
+#me-post-luis-beforebed {
+	height: 185px;
+}
+
+.feeds-post-me .portrait {
+	background: url(pics/luis.jpg);
+	background-size: cover;
+}
+
+.name h5 {
+  font-weight: 200;
+  font-size: 0.9em;
+  color: #B6B7B7;
+  margin: 0;
+}
+
+.feeds-post-me  h2 {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #B6B7B7;
+  margin: 4px 0 0 0;
+}
+
 
 
 /*------------------------------------------
@@ -2092,6 +2402,24 @@ tips*/
 	z-index: 19;
 }
 
+#tips-one-edit-click{
+	width:320px;
+	height: 287px;
+	top:0px;
+	position: absolute;
+	display: none;
+	z-index: 19;
+}
+
+#tips-one-forward-click{
+	width:320px;
+	height: 200px;
+	top:0px;
+	position: absolute;
+	display: none;
+	z-index: 19;
+}
+
 .tips-full {
 	height: 548px;
   	width: 320px;
@@ -2137,6 +2465,22 @@ tips*/
 }
 
 .tips-full-text-edit p{
+	font-weight: 300;
+	font-size: 1.2em;
+	color: #ffffff;
+	line-height: 130%;
+}
+
+.tips-full-text-forward {
+  	width: 70%;
+  	left: 15%;
+  	top:60px;
+  	position: absolute;
+  	text-align: center;
+  	display: none;
+}
+
+.tips-full-text-forward p{
 	font-weight: 300;
 	font-size: 1.2em;
 	color: #ffffff;
@@ -2196,6 +2540,81 @@ tips*/
 	right:0;
 	position: absolute;
 	z-index: 20;
+}
+
+.tips-keyboard {
+	width:320px;
+	height:261px;
+	top: 548px;
+	position: absolute;
+	background: url(pics/keyboard.jpg);
+	background-size: cover;
+	z-index: 17;
+}
+
+#tips-keyboard-send-click {
+	width:80px;
+	height:50px;
+	bottom:0;
+	right:0;
+	position: absolute;
+	z-index: 18;
+}
+
+#tips-keyboard-cancel-click {
+	width:100%;
+	height:211px;
+	bottom:50px;
+	position: absolute;
+	z-index: 18;
+}
+
+#tips-forward {
+	width:320px;
+	height:348px;
+	top: 548px;
+	background-color: #ffffff;
+	position: absolute;
+	z-index: 17;
+}
+
+#tips-forward h1 {
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #515151;
+	margin:0;
+}
+
+#tips-forward h4{
+	font-weight: 200;
+	font-size: 0.8em;
+	color: #76CEE5;
+	margin:4px 0 0 0;
+}
+
+#tips-forward h5{
+	font-weight: 200;
+	font-size: 1em;
+	color: #76CEE5;
+	margin:5px 0 0 0;
+}
+
+.share, .share-button {
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+
+#tips-share-button {
+	margin-top:40px;
+}
+
+#tips-share {
+	margin-top:80px;
+}
+
+#tips-forward-done {
+	margin-top: 40px;
 }
 
 @media screen and (max-width: 410px) {
