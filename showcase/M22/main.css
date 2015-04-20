@@ -553,7 +553,9 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:4px 0 0 0;
+	margin:0;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 #post-coffee-estelle {
@@ -679,7 +681,7 @@ body {
 }
 
 .like::before {
-	height:20px;
+	height:100%;
 	width: 0%;
 	vertical-align: middle;
 	display: inline-block;
@@ -697,11 +699,10 @@ body {
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	vertical-align: middle;
 }
 
 .comment::before {
-	height:20px;
+	height:100%;
 	width: 0%;
 	vertical-align: middle;
 	display: inline-block;
@@ -1067,7 +1068,9 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:4px 0 0 0;
+	margin:0;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 .post-quality #stan {
@@ -1303,7 +1306,9 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:4px 0 0 0;
+	margin:0;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 .post-getup #zack {
@@ -1454,7 +1459,9 @@ body {
 	font-weight: 300;
 	font-size: 0.8em;
 	color: #B6B7B7;
-	margin:4px 0 0 0;
+	margin:0;
+	vertical-align: middle;
+	display: inline-block;
 }
 
 #post-beforebed-david {
@@ -1654,7 +1661,6 @@ friends*/
   	position: absolute;
   	z-index: 9;
   	overflow: auto;
-  	-webkit-overflow-scrolling: touch;
 }
 
 #friends-feeds::-webkit-scrollbar { 
@@ -2054,7 +2060,7 @@ me*/
 #reasons h4{
 	font-weight: 200;
 	font-size: 0.7em;
-	color: #205d6b;
+	color: #515151;
 	line-height: 130%;
 	display: block;
 	margin: 0;
