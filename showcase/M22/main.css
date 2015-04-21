@@ -2068,18 +2068,6 @@ me*/
 	display: inline-block;
 }
 
-/*before bed reasons*/
-#beforebed-reason {
-	height: 498px;
-  	width: 320px;
-  	top:50px;
-  	left:320px;
-  	background-color: #e2e2e2;
-  	position: absolute;
-  	display: block;
-  	overflow: auto;
-}
-
 /*related reasons*/
 #reasons{
 	width: 100%;
@@ -2156,6 +2144,18 @@ me*/
 	background-color: #ff8155;
 	margin-left: 13px;
 	display: block;
+}
+
+/*before bed reasons*/
+#beforebed-reason {
+	height: 498px;
+  	width: 320px;
+  	top:50px;
+  	left:320px;
+  	background-color: #e2e2e2;
+  	position: absolute;
+  	display: block;
+  	overflow: auto;
 }
 
 /*my post history*/
