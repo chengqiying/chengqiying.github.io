@@ -537,6 +537,7 @@ body {
 .postspace {
 	width: 320px;
 	height: 15px;
+	background-color: #E2E2E2;
 	margin:0;
 	position: relative;
 }
@@ -1939,6 +1940,17 @@ me*/
 	display: inline-block;
 	margin: 0;
 }
+#day h2{
+	color: #205d6b;
+}
+
+#week h2{
+	color: #b7b7b7;
+}
+
+#start h2{
+	color: #b7b7b7;
+}
 
 #day{
 	width: 95px;
@@ -1948,7 +1960,6 @@ me*/
 	border-bottom: solid 1px #bde9f4;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-	background-color: #bde9f4;
 	text-align: center;
 	display: inline-block;	
 	position: relative;
@@ -2003,6 +2014,10 @@ me*/
 	content: '';
 }
 
+.time-color{
+	background-color: #bde9f4;
+}
+
 #sleep-quality-content{
 	width: 120px;
 	height:120px;
@@ -2024,18 +2039,45 @@ me*/
 	content: '';
 }
 
-#sleep-quality-content-text{
+#sleep-quality-content-text-day{
 	vertical-align: middle;
 	display: inline-block;
 }
 
+#sleep-quality-content-text-week{
+	vertical-align: middle;
+	display: none;
+}
+
+#sleep-quality-content-text-start{
+	vertical-align: middle;
+	display: none;
+}
+
+.display{
+	display: inline-block;
+}
+
+
 #sleep-quality-content h3{
 	font-weight: 200;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #205d6b;
 	margin: 0;
 	vertical-align: middle;
 	display: inline-block;
+}
+
+/*before bed reasons*/
+#beforebed-reason {
+	height: 498px;
+  	width: 320px;
+  	top:50px;
+  	left:320px;
+  	background-color: #e2e2e2;
+  	position: absolute;
+  	display: block;
+  	overflow: auto;
 }
 
 /*related reasons*/
@@ -2043,6 +2085,7 @@ me*/
 	width: 100%;
 	margin-top: 40px;
 	display: block;
+	border-bottom: 1px solid #E2E2E2;
 }
 
 #reasons-title{
@@ -2053,6 +2096,7 @@ me*/
 #reasons-content{
 	width: 100%;
 	margin-top: 20px;
+	margin-bottom: 30px;
 	display: block;
 	text-align: center;
 }
@@ -2117,28 +2161,41 @@ me*/
 /*my post history*/
 #me-post{
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 20px;
 	display: block;
-	background-color: #E2E2E2;
 }
 
 #me-post-title{
 	width: 100%;
-	height:30px;
 	display: block;
+	margin-bottom: 10px;
 	background-color: #ffffff;
+}
+
+.postspace-two {
+	width: 320px;
+	height: 1px;
+	background-color: #E2E2E2;
+	margin:0;
+	position: relative;
+}
+
+.postspace-three {
+	width: 320px;
+	height: 20px;
+	background-color: #eaeaea;
+	margin:0;
+	position: relative;
 }
 
 .feeds-post-me {
 	width:320px;
 	background-color: #fff;
-	margin-top: 0px;
 	position: relative;
 }
 
 #me-post-luis-coffee {
 	height: 225px;
-	margin-top:1px;
 }
 
 #me-post-luis-getup{

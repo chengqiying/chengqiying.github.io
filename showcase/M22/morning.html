@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="animate.css">
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 	<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
 	<link rel="apple-touch-icon" href="assets/img/favicon-150X150.png" sizes="150x150">
@@ -1318,12 +1320,14 @@
 			<div id="sleep-quality">
 				<div id="sleep-quality-title"><h1>Sleep quality</h1></div>
 				<div id="sleep-quality-time">
-					<div id="day"><h2>Today</h2></div><!--
+					<div id="day" class="time-color"><h2>Today</h2></div><!--
     			 --><div id="week"><h2>Week</h2></div><!--
     			 --><div id="start"><h2>Start</h2></div>
 				</div>
 				<div id="sleep-quality-content">
-					<div id="sleep-quality-content-text"><h3>Poor</h3></div>
+					<div id="sleep-quality-content-text-day"><h3>Poor</h3></div>
+					<div id="sleep-quality-content-text-week"><h3>Good</h3></div>
+					<div id="sleep-quality-content-text-start"><h3>Average</h3></div>
 				</div>
 			</div>
 			<div id="reasons">
@@ -1347,8 +1351,10 @@
     			 	</div>
 				</div>
 			</div>
+			<div class="postspace-three"></div>
 			<div id="me-post">
 				<div id="me-post-title"><h1>My posts</h1></div>
+				<div class="postspace-two"></div>
 				<div class="feeds-post-me" id="me-post-luis-coffee">
 					<div class="portrait"></div>
 					<div class="name">
@@ -1363,7 +1369,7 @@
 						<h2>comment</h2>
 					</div>
 				</div>
-				<div class="postspace"></div>
+				<div class="postspace-two"></div>
 
 				<div class="feeds-post-me" id="me-post-luis-getup">
 					<div class="portrait"></div>
@@ -1379,7 +1385,7 @@
 						<h2>comment</h2>
 					</div>	
 				</div>
-				<div class="postspace"></div>
+				<div class="postspace-two"></div>
 
 				<div class="feeds-post-me" id="me-post-luis-quality">
 					<div class="portrait"></div>
@@ -1395,7 +1401,7 @@
 						<h2>comment</h2>
 					</div>
 				</div>
-				<div class="postspace"></div>
+				<div class="postspace-two"></div>
 
 				<div class="feeds-post-me" id="me-post-luis-beforebed">
 					<div class="portrait"></div>
@@ -1414,6 +1420,70 @@
 			
 			</div>
 		</div>
+
+		<div id="beforebed-reason">
+			<div class="feeds-post-me" id="me-post-luis-beforebed">
+				<div class="portrait"></div>
+				<div class="name">
+					<h5>Luis Lee <span style="color:#515151">felt</span></h5>
+					<p>yesterday</p>
+				</div>
+				<div class="post-beforebed-content" id="gracebeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>
+			</div>
+			<div class="postspace-three"></div>
+			<div class="feeds-post-me" id="me-post-luis-beforebed">
+				<div class="portrait"></div>
+				<div class="name">
+					<h5>Luis Lee <span style="color:#515151">felt</span></h5>
+					<p>2 days ago</p>
+				</div>
+				<div class="post-beforebed-content" id="gracebeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>
+			</div>
+			<div class="postspace-three"></div>
+			<div class="feeds-post-me" id="me-post-luis-beforebed">
+				<div class="portrait"></div>
+				<div class="name">
+					<h5>Luis Lee <span style="color:#515151">felt</span></h5>
+					<p>3 days ago</p>
+				</div>
+				<div class="post-beforebed-content" id="gracebeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>
+			</div>
+			<div class="postspace-three"></div>
+			<div class="feeds-post-me" id="me-post-luis-beforebed">
+				<div class="portrait"></div>
+				<div class="name">
+					<h5>Luis Lee <span style="color:#515151">felt</span></h5>
+					<p>3 days ago</p>
+				</div>
+				<div class="post-beforebed-content" id="gracebeforebed"></div>
+				<div class="like">
+					<h2>like</h2>
+				</div>
+				<div class="comment">
+					<h2>comment</h2>
+				</div>
+			</div>
+		</div>
+
+
 
 		<!--tips><-->
 		<div class="header-title" id="tips-title">

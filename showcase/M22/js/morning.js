@@ -2230,6 +2230,108 @@ $(document).ready(function(){
     }
   });
 
+
+  /*my sleep----------------------------------*/
+  _week=false
+  $('#week').click(function(){
+    if (!false){
+      $('#week').addClass("time-color");      
+      $('#day').removeClass("time-color");      
+      $('#start').removeClass("time-color");
+      $('#week h2').css("color", "#205d6b");
+      $('#day h2').css("color", "#b7b7b7");
+      $('#start h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content-text-week').fadeIn(500);
+      $('#sleep-quality-content-text-week').css("display", "inline-block");
+
+      $('#sleep-quality-content-text-day').fadeOut(50);
+      $('#sleep-quality-content-text-start').fadeOut(50);
+      _week=true;
+      _day=false;
+      _start=false;
+    }
+  });
+
+  _day=false
+  $('#day').click(function(){
+    if (!false){
+      $('#day').addClass("time-color");
+      $('#week').removeClass("time-color");
+      $('#start').removeClass("time-color");
+      $('#day h2').css("color", "#205d6b");
+      $('#week h2').css("color", "#b7b7b7");
+      $('#start h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content-text-day').fadeIn(500);
+      $('#sleep-quality-content-text-day').css("display", "inline-block");
+
+      $('#sleep-quality-content-text-week').fadeOut(50);
+      $('#sleep-quality-content-text-start').fadeOut(50);
+      _day=true;
+      _week=false;
+      _start=false;
+    }
+  });
+
+  _start=false
+  $('#start').click(function(){
+    if (!false){
+      $('#start').addClass("time-color");
+      $('#day').removeClass("time-color");
+      $('#week').removeClass("time-color");
+      $('#start h2').css("color", "#205d6b");
+      $('#day h2').css("color", "#b7b7b7");
+      $('#week h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content-text-start').fadeIn(500);
+      $('#sleep-quality-content-text-start').css("display", "inline-block");
+
+      $('#sleep-quality-content-text-day').fadeOut(50);
+      $('#sleep-quality-content-text-week').fadeOut(50);
+      _start=true;
+      _day=false;
+      _week=false;
+    }
+  });
+
+  /*before bed reasons*/
+  $('#reasons-four').click(function(){
+    move('#reasons-four')
+        .scale('1.1')
+        .duration('0.3s')
+        .ease('in')
+        .end();
+    setTimeout(function(){ 
+      $('.menu').fadeOut(50);
+      $('#me').fadeOut(50);
+      move('#beforebed-reason')
+        .to(-320, 0)
+        .set('opacity', 1)
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      move('#me')
+      .set('opacity', 0)
+      .duration('0.3s')
+      .delay('0.3s')
+      .end();
+    }, 300);
+  });
+
+  $("#beforebed-reason").on("swiperight",function(){
+    $('.menu').fadeIn(500);
+    $('#me').fadeIn(500);
+      move('#beforebed-reason')
+        .to(0, 0)
+        .set('opacity', 0)
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      move('#reasons-four')
+        .scale('1')
+        .duration('0.1s')
+        .ease('in')
+        .end();
+  });         
+
 });
 
 
