@@ -2331,7 +2331,10 @@ $(document).ready(function(){
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
-      $('#clock-circle').addClass("clock-color-day");
+      $('#clock-circle-pic ellipse').css("fill", "#d2f9f8");
+      $('#clock-circle-text-day').fadeIn(50);
+      $('#clock-circle-text-week').fadeOut(50);
+      $('#clock-circle-text-start').fadeOut(50);
       }, 400);
     }
   });
@@ -2345,9 +2348,6 @@ $(document).ready(function(){
     $('#me').fadeIn(500);
     $('.menu').fadeIn(500);
     $('#quality-ani').fadeOut(50);
-    $('#clock-circle').removeClass("clock-color-day");
-    $('#clock-circle').removeClass("clock-color-week");
-    $('#clock-circle').removeClass("clock-color-start");
   });
 
   $('#sleep-quality-content').click(function(){
@@ -2361,7 +2361,10 @@ $(document).ready(function(){
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
-      $('#clock-circle').addClass("clock-color-week");
+      $('#clock-circle-pic circke').css("fill", "#79ecf2");
+      $('#clock-circle-text-week').fadeIn(50);
+      $('#clock-circle-text-day').fadeOut(50);
+      $('#clock-circle-text-start').fadeOut(50);
       }, 400);
     }
   });
@@ -2377,7 +2380,10 @@ $(document).ready(function(){
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
-      $('#clock-circle').addClass("clock-color-start");
+      $('#clock-circle-pic circke').css("fill", "#a2f4f2");
+      $('#clock-circle-text-start').fadeIn(50);
+      $('#clock-circle-text-week').fadeOut(50);
+      $('#clock-circle-text-day').fadeOut(50);
       }, 400);
     }
   });

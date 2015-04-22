@@ -2299,16 +2299,12 @@ me*/
 	border-radius: 75px;
 	margin: 140px 85px 0 auto;
 	position: relative;
+	vertical-align: middle;
 }
 
-.clock-color-day{
-	background-color: #d2f9f8;
-}
-.clock-color-week{
-	background-color: #79ecf2;
-}
-.clock-color-start{
-	background-color: #a2f4f2;
+#clock-circle-pic{
+	vertical-align: middle;
+	display: inline-block;
 }
 
 #reason-circle{
@@ -2316,6 +2312,8 @@ me*/
 	height:60px;
 	border-radius: 30px;
 	background-color: #ff8155;
+	vertical-align: middle;
+	display: inline-block;
     -webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-name:"rotate";
@@ -2341,14 +2339,14 @@ me*/
       -webkit-transform:translate(75px, 75px) rotate(90deg) translate(-75px, -75px) rotate(-90deg);
   }
   38% {
-      -webkit-transform:translate(75px, 75px) rotate(135deg) translate(-75px, -75px) rotate(0deg);
+      -webkit-transform:translate(75px, 75px) rotate(135deg) translate(-75px, -75px) rotate(-135deg);
   }
   50% {
       -webkit-transform:translate(75px, 75px) rotate(180deg) translate(-75px, -75px) rotate(-180deg);
       
   }
   63% {
-      -webkit-transform:translate(75px, 75px) rotate(225deg) translate(-75px, -75px) rotate(225deg);
+      -webkit-transform:translate(75px, 75px) rotate(225deg) translate(-75px, -75px) rotate(-225deg);
   }
   75% {
       -webkit-transform:translate(75px, 75px) rotate(270deg) translate(-75px, -75px) rotate(-270deg);
@@ -2358,7 +2356,7 @@ me*/
   	background-color:#ffad94;
   }
   88% {
-      -webkit-transform:translate(75px, 75px) rotate(315deg) translate(-75px, -75px) rotate(315deg);
+      -webkit-transform:translate(75px, 75px) rotate(315deg) translate(-75px, -75px) rotate(3-15deg);
       background-color:#ffad94;
   }
 
@@ -2370,6 +2368,170 @@ me*/
         background-color:#ff8155;
     }
 }
+
+#reason-circle h2 {
+  	font-weight: 300;
+  	font-size: 0.65em;
+  	color: #515151;
+  	margin:0;
+}
+
+
+
+#reason-circle-getup{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 14px;
+	text-align: center;
+	display: block;
+	position: relative;
+	line-height: 100%;
+  	-webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name:"opacity-getup";
+    -webkit-animation-iteration-count: infinite;}
+
+@-webkit-keyframes opacity-getup {
+  0% {
+  	opacity: 0;
+  }
+  50%{
+  	opacity: 0;
+  }
+  63%{
+  	opacity: 1;
+  }
+
+  70%{
+  	opacity: 1;
+  }
+  75%{
+  	opacity: 0;
+  }
+  88%{
+  	opacity: 0;
+  }
+  100%{
+  	opacity: 0;
+  }
+}
+
+#reason-circle-beforebed{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -32px;
+	text-align: center;
+	display: block;
+	position: relative;
+	line-height: 100%;
+  	-webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name:"opacity-beforebed";
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes opacity-beforebed {
+  0% {
+  	opacity: 1;
+  }  
+  13% {
+  	opacity: 1;
+  }
+  19%{
+  	opacity: 0;
+  }
+  88% {
+  	opacity: 0;
+  }
+  100% {
+  	opacity: 1;
+  }
+}
+
+#reason-circle-awakening{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -21px;
+	text-align: center;
+	display: block;
+	position: relative;
+  	-webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name:"opacity-awakening";
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes opacity-awakening {
+  0% {
+  	opacity: 0;
+  }  
+  13% {
+  	opacity: 0;
+  }
+  16% {
+  	opacity: 1;
+  }
+  22%{
+  	opacity: 1;
+  }
+  25%{
+  	opacity: 0;
+  }
+  32%{
+  	opacity: 0;
+  }
+  38%{
+  	opacity: 1;
+  }
+  44%{
+  	opacity: 1;
+  }
+  50%{
+  	opacity: 0;
+  }
+  88% {
+  	opacity: 0;
+  }
+  100% {
+  	opacity: 0;
+  }
+}
+
+#reason-circle-nap{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -10px;
+	text-align: center;
+	display: block;
+	position: relative;
+  	-webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name:"opacity-nap";
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes opacity-nap {
+  0% {
+  	opacity: 0;
+  }
+  78%{
+  	opacity: 0;
+  }
+  82%{
+  	opacity: 1;
+  }
+
+  88%{
+  	opacity: 1;
+  }
+  90%{
+  	opacity: 0;
+  }
+  100%{
+  	opacity: 0;
+  }
+}
+
 
 
 
