@@ -2234,7 +2234,7 @@ $(document).ready(function(){
   /*my sleep----------------------------------*/
   _week=false
   $('#week').click(function(){
-    if (!false){
+    if (!_week){
       $('#day').addClass("week-color-day");
       $('#week').addClass("week-color-week");
       $('#start').addClass("week-color-start");
@@ -2261,9 +2261,9 @@ $(document).ready(function(){
     }
   });
 
-  _day=false
+  _day=true
   $('#day').click(function(){
-    if (!false){
+    if (!_day){
       $('#day').addClass("day-color-day");
       $('#week').addClass("day-color-week");
       $('#start').addClass("day-color-start");
@@ -2292,7 +2292,7 @@ $(document).ready(function(){
 
   _start=false
   $('#start').click(function(){
-    if (!false){
+    if (!_start){
       $('#day').addClass("start-color-day");
       $('#week').addClass("start-color-week");
       $('#start').addClass("start-color-start");
@@ -2318,11 +2318,70 @@ $(document).ready(function(){
       _week=false;
     }
   });
+  
+  /*quality animation*/
+  $('#sleep-quality-content').click(function(){
+    if (_day){
+      move('#sleep-quality-content')
+        .scale('0.95')
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      setTimeout(function(){  
+      $('#quality-ani').fadeIn(500);
+      $('#me').fadeOut(50);
+      $('#clock-circle').addClass("clock-color-day");
+      }, 400);
+    }
+  });
+
+  $('#quality-ani').click(function(){
+    move('#sleep-quality-content')
+      .scale('1')
+      .duration('0.1s')
+      .ease('in')
+      .end();
+    $('#me').fadeIn(500);
+    $('#quality-ani').fadeOut(50);
+    $('#clock-circle').removeClass("clock-color-day");
+    $('#clock-circle').removeClass("clock-color-week");
+    $('#clock-circle').removeClass("clock-color-start");
+  });
+
+  $('#sleep-quality-content').click(function(){
+    if (_week){
+      move('#sleep-quality-content')
+        .scale('0.95')
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      setTimeout(function(){  
+      $('#quality-ani').fadeIn(500);
+      $('#me').fadeOut(50);
+      $('#clock-circle').addClass("clock-color-week");
+      }, 400);
+    }
+  });
+
+  $('#sleep-quality-content').click(function(){
+    if (_start){
+      move('#sleep-quality-content')
+        .scale('0.95')
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      setTimeout(function(){  
+      $('#quality-ani').fadeIn(500);
+      $('#me').fadeOut(50);
+      $('#clock-circle').addClass("clock-color-start");
+      }, 400);
+    }
+  });
 
   /*before bed reasons*/
   $('#reasons-four').click(function(){
     move('#reasons-four')
-        .scale('1.1')
+        .scale('0.95')
         .duration('0.3s')
         .ease('in')
         .end();
