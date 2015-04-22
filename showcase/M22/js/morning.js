@@ -2330,6 +2330,7 @@ $(document).ready(function(){
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
+      $('.menu').fadeOut(50);
       $('#clock-circle').addClass("clock-color-day");
       }, 400);
     }
@@ -2342,6 +2343,7 @@ $(document).ready(function(){
       .ease('in')
       .end();
     $('#me').fadeIn(500);
+    $('.menu').fadeIn(500);
     $('#quality-ani').fadeOut(50);
     $('#clock-circle').removeClass("clock-color-day");
     $('#clock-circle').removeClass("clock-color-week");
@@ -2358,6 +2360,7 @@ $(document).ready(function(){
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
+      $('.menu').fadeOut(50);
       $('#clock-circle').addClass("clock-color-week");
       }, 400);
     }
@@ -2373,6 +2376,7 @@ $(document).ready(function(){
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
+      $('.menu').fadeOut(50);
       $('#clock-circle').addClass("clock-color-start");
       }, 400);
     }
