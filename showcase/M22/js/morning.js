@@ -2409,7 +2409,7 @@ $(document).ready(function(){
       .duration('0.3s')
       .delay('0.3s')
       .end();
-    }, 300);
+    }, 400);
   });
 
   $("#beforebed-reason").on("swiperight",function(){
