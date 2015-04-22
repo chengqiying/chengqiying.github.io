@@ -107,6 +107,8 @@ $(document).ready(function(){
     $('#tips-search').fadeIn(200);
     $('#tips-add-click').fadeIn(200);
     $('#tips-search-click').fadeIn(200);
+    $('#forward-click').fadeIn(200);
+    $('#edit-click').fadeIn(200);
     $('#friends-title').fadeOut(50);
     $('#member-add-click').fadeOut(200);
     $('#channel-title').fadeOut(50);
