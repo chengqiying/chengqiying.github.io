@@ -2361,7 +2361,7 @@ $(document).ready(function(){
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
-      $('#clock-circle-pic circke').css("fill", "#79ecf2");
+      $('#clock-circle-pic ellipse').css("fill", "#79ecf2");
       $('#clock-circle-text-week').fadeIn(50);
       $('#clock-circle-text-day').fadeOut(50);
       $('#clock-circle-text-start').fadeOut(50);
@@ -2380,7 +2380,7 @@ $(document).ready(function(){
       $('#quality-ani').fadeIn(500);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
-      $('#clock-circle-pic circke').css("fill", "#a2f4f2");
+      $('#clock-circle-pic ellipse').css("fill", "#a2f4f2");
       $('#clock-circle-text-start').fadeIn(50);
       $('#clock-circle-text-week').fadeOut(50);
       $('#clock-circle-text-day').fadeOut(50);
