@@ -2331,6 +2331,8 @@ $(document).ready(function(){
         .end();
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
+      $('#quality-ani-title').fadeIn(500);
+      $('#me-title').fadeOut(50);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
       $('#clock-circle-pic ellipse').css("fill", "#d2f9f8");
@@ -2349,6 +2351,8 @@ $(document).ready(function(){
       .end();
     $('#me').fadeIn(500);
     $('.menu').fadeIn(500);
+    $('#me-title').fadeIn(500);
+    $('#quality-ani-title').fadeOut(50);
     $('#quality-ani').fadeOut(50);
   });
 
@@ -2361,6 +2365,8 @@ $(document).ready(function(){
         .end();
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
+      $('#quality-ani-title').fadeIn(500);
+      $('#me-title').fadeOut(50);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
       $('#clock-circle-pic ellipse').css("fill", "#79ecf2");
@@ -2380,6 +2386,8 @@ $(document).ready(function(){
         .end();
       setTimeout(function(){  
       $('#quality-ani').fadeIn(500);
+      $('#quality-ani-title').fadeIn(500);
+      $('#me-title').fadeOut(50);
       $('#me').fadeOut(50);
       $('.menu').fadeOut(50);
       $('#clock-circle-pic ellipse').css("fill", "#a2f4f2");
