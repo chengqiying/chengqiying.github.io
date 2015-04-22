@@ -1955,9 +1955,6 @@ me*/
 #day{
 	width: 95px;
 	height: 30px;
-	border-left: solid 1px #bde9f4;
-	border-top: solid 1px #bde9f4;
-	border-bottom: solid 1px #bde9f4;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	text-align: center;
@@ -1977,7 +1974,6 @@ me*/
 #week{
 	width: 95px;
 	height: 30px;
-	border: solid 1px #bde9f4;
 	text-align: center;
 	display: inline-block;	
 	position: relative;
@@ -1995,11 +1991,8 @@ me*/
 #start{
 	width: 95px;
 	height: 30px;
-	border-right: solid 1px #bde9f4;
-	border-top: solid 1px #bde9f4;
-	border-bottom: solid 1px #bde9f4;
 	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px; 
 	text-align: center;
 	display: inline-block;	
 	position: relative;
@@ -2014,14 +2007,60 @@ me*/
 	content: '';
 }
 
-.time-color{
-	background-color: #bde9f4;
+.day-color-day{
+	background-color: #d2f9f8;
+	border-left: solid 1px #d2f9f8;
+	border-top: solid 1px #d2f9f8;
+	border-bottom: solid 1px #d2f9f8;
+}
+
+.day-color-week{
+	border: solid 1px #d2f9f8;
+}
+
+.day-color-start{
+	border-right: solid 1px #d2f9f8;
+	border-top: solid 1px #d2f9f8;
+	border-bottom: solid 1px #d2f9f8;
+}
+
+.week-color-day{
+	border-left: solid 1px #79ecf2;
+	border-top: solid 1px #79ecf2;
+	border-bottom: solid 1px #79ecf2;
+}
+
+.week-color-week{
+	background-color: #79ecf2;
+	border: solid 1px #79ecf2;	
+}
+
+.week-color-start{
+	border-right: solid 1px #79ecf2;
+	border-top: solid 1px #79ecf2;
+	border-bottom: solid 1px #79ecf2;
+}
+
+.start-color-day{
+	border-left: solid 1px #a2f4f2;
+	border-top: solid 1px #a2f4f2;
+	border-bottom: solid 1px #a2f4f2;
+}
+
+.start-color-week{
+	border: solid 1px #a2f4f2;	
+}
+
+.start-color-start{
+	background-color: #a2f4f2;
+	border-right: solid 1px #a2f4f2;
+	border-top: solid 1px #a2f4f2;
+	border-bottom: solid 1px #a2f4f2;
 }
 
 #sleep-quality-content{
 	width: 120px;
 	height:120px;
-	background-color: #bde9f4;
 	border-radius: 60px;
 	margin-left: 100px;
 	margin-top:30px;
@@ -2029,6 +2068,18 @@ me*/
 	text-align: center;
 	position: relative;
 	vertical-align: middle;
+}
+
+.sleep-quality-day{
+	background-color: #d2f9f8;
+}
+
+.sleep-quality-week{
+	background-color: #79ecf2;
+}
+
+.sleep-quality-start{
+	background-color: #a2f4f2;
 }
 
 #sleep-quality-content::before {
@@ -2061,7 +2112,7 @@ me*/
 
 #sleep-quality-content h3{
 	font-weight: 200;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	color: #205d6b;
 	margin: 0;
 	vertical-align: middle;

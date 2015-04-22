@@ -2235,12 +2235,21 @@ $(document).ready(function(){
   _week=false
   $('#week').click(function(){
     if (!false){
-      $('#week').addClass("time-color");      
-      $('#day').removeClass("time-color");      
-      $('#start').removeClass("time-color");
+      $('#day').addClass("week-color-day");
+      $('#week').addClass("week-color-week");
+      $('#start').addClass("week-color-start");
+      $('#day').removeClass("start-color-day");
+      $('#day').removeClass("day-color-day");
+      $('#week').removeClass("start-color-week");
+      $('#week').removeClass("day-color-week");
+      $('#start').removeClass("start-color-start");
+      $('#start').removeClass("day-color-start");
       $('#week h2').css("color", "#205d6b");
       $('#day h2').css("color", "#b7b7b7");
       $('#start h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content').removeClass("sleep-quality-day");
+      $('#sleep-quality-content').removeClass("sleep-quality-start");
+      $('#sleep-quality-content').addClass("sleep-quality-week");
       $('#sleep-quality-content-text-week').fadeIn(500);
       $('#sleep-quality-content-text-week').css("display", "inline-block");
 
@@ -2255,12 +2264,21 @@ $(document).ready(function(){
   _day=false
   $('#day').click(function(){
     if (!false){
-      $('#day').addClass("time-color");
-      $('#week').removeClass("time-color");
-      $('#start').removeClass("time-color");
+      $('#day').addClass("day-color-day");
+      $('#week').addClass("day-color-week");
+      $('#start').addClass("day-color-start");
+      $('#day').removeClass("start-color-day");
+      $('#day').removeClass("week-color-day");
+      $('#week').removeClass("start-color-week");
+      $('#week').removeClass("week-color-week");
+      $('#start').removeClass("start-color-start");
+      $('#start').removeClass("week-color-start");
       $('#day h2').css("color", "#205d6b");
       $('#week h2').css("color", "#b7b7b7");
       $('#start h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content').removeClass("sleep-quality-week");
+      $('#sleep-quality-content').removeClass("sleep-quality-start");
+      $('#sleep-quality-content').addClass("sleep-quality-day");
       $('#sleep-quality-content-text-day').fadeIn(500);
       $('#sleep-quality-content-text-day').css("display", "inline-block");
 
@@ -2275,12 +2293,21 @@ $(document).ready(function(){
   _start=false
   $('#start').click(function(){
     if (!false){
-      $('#start').addClass("time-color");
-      $('#day').removeClass("time-color");
-      $('#week').removeClass("time-color");
+      $('#day').addClass("start-color-day");
+      $('#week').addClass("start-color-week");
+      $('#start').addClass("start-color-start");
+      $('#day').removeClass("day-color-day");
+      $('#day').removeClass("week-color-day");
+      $('#week').removeClass("day-color-week");
+      $('#week').removeClass("week-color-week");
+      $('#start').removeClass("day-color-start");
+      $('#start').removeClass("week-color-start");
       $('#start h2').css("color", "#205d6b");
       $('#day h2').css("color", "#b7b7b7");
       $('#week h2').css("color", "#b7b7b7"); 
+      $('#sleep-quality-content').removeClass("sleep-quality-day");
+      $('#sleep-quality-content').removeClass("sleep-quality-week");
+      $('#sleep-quality-content').addClass("sleep-quality-start");
       $('#sleep-quality-content-text-start').fadeIn(500);
       $('#sleep-quality-content-text-start').css("display", "inline-block");
 
