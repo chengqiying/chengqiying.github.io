@@ -2297,7 +2297,7 @@ me*/
 	width: 150px;
 	height:150px;
 	border-radius: 75px;
-	margin: 120px 85px 0 auto;
+	margin: 140px 85px 0 auto;
 	position: relative;
 }
 
@@ -2322,7 +2322,7 @@ me*/
     -webkit-animation-iteration-count: infinite;
     position:absolute;
     left:55px;
-    top:90px;
+    top:110px;
 }
 
 @-webkit-keyframes rotate {
