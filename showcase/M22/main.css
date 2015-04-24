@@ -1655,9 +1655,9 @@ friends*/
 
 /*friends feed*/
 #friends-feeds {
-	height: 398px;
+	height: 448px;
   	width: 320px;
-  	background-color: #E2E2E2;
+  	background-color: #ffffff;
   	top:50px;
   	position: absolute;
   	z-index: 9;
@@ -1724,6 +1724,7 @@ friends*/
 
 #feeds-post-estelle {
 	height: 185px;
+	margin-bottom:50px;
 }
 
 .like-color {
@@ -1792,7 +1793,7 @@ friends*/
 
 #addfriends {
 	width: 250px;
-	height: 448px;
+	height: 498px;
 	top: 50px;
 	left: 320px;
 	position: absolute;	
@@ -1858,7 +1859,7 @@ friends*/
 }
 
 #accountname {
-	margin-top: 20px;
+	margin-top: 45px;
 }
 
 #accountname .access-icon {

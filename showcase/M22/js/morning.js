@@ -18,12 +18,11 @@ $(document).ready(function(){
     $('#forward-click').fadeOut(50);
     $('#edit-click').fadeOut(50);
     
-
     $('#channel').fadeOut(400);
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
     $('#friends').show(400);
-    $('#addfriends').show(400);
+    
 
     $('#menu-friends-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
@@ -36,25 +35,12 @@ $(document).ready(function(){
     $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
 
-    if(_add){
-      move('#friends')
-      .to(0, 0)
-      .duration('0.2s')
-      .end();
-      move('#addfriends')
-      .to(0, 0)
-      .duration('0.2s')
-      .end();
-    }
   });
 
   $('#menu-channels').click(function(){
     $('#channel-title').fadeIn(200);
     $('#friends-title').fadeOut(50);
-    $('#addfriends-title').fadeOut(50);
     $('#member-add-click').fadeOut(50);
-    $('#member-add-back').fadeOut(50);
-    $('#member-add-back-click').fadeOut(50);
     $('#me-title').fadeOut(50);
     $('#tips-title').fadeOut(50);
     $('#tips-search').fadeOut(50);
@@ -70,7 +56,6 @@ $(document).ready(function(){
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
     $('#friends').fadeOut(400);
-    $('#addfriends').fadeOut(400);
     $('#channel').show(400);
 
     $('#menu-channels-svg circle').css({fill: "#BDE9F4"}, 200);
@@ -108,12 +93,6 @@ $(document).ready(function(){
     $('#friends').fadeOut(400);
     $('#me').show(400);
 
-    $('#addfriends-title').fadeOut(50);
-    $('#member-add-click').fadeOut(50);
-    $('#member-add-back').fadeOut(50);
-    $('#member-add-back-click').fadeOut(50);
-    $('#addfriends').fadeOut(400);
-
     $('#menu-me-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
     $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
@@ -143,12 +122,6 @@ $(document).ready(function(){
     $('#me').fadeOut(50);
     $('#friends').fadeOut(50);
     $('#tips').show(400);
-
-    $('#addfriends-title').fadeOut(50);
-    $('#member-add-click').fadeOut(50);
-    $('#member-add-back').fadeOut(50);
-    $('#member-add-back-click').fadeOut(50);
-    $('#addfriends').fadeOut(400);
 
     $('#menu-tips-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-tips-svg circle').css({stroke: "#BDE9F4"}, 200);
@@ -1866,6 +1839,7 @@ $(document).ready(function(){
     $('#friends-title').fadeOut(50);
     $('#member-add').fadeOut(50);
     $('#member-add-click').fadeOut(50);
+    $('.menu').fadeOut(50);
     move('#friends')
     .to(-250, 0)
     .duration('0.2s')
@@ -1884,6 +1858,7 @@ $(document).ready(function(){
     $('#friends-title').fadeIn(200);
     $('#member-add').fadeIn(200);
     $('#member-add-click').fadeIn(200);
+    $('.menu').fadeIn(200);
 
     $('#addfriends-title').fadeOut(50);
     $('#member-add-back').fadeOut(50);
