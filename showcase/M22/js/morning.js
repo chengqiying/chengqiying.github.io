@@ -66,6 +66,21 @@ $(document).ready(function(){
     $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+    move('#friends')
+    .to(0, 0)
+    .duration('0.2s')
+    .end();
+    move('#addfriends')
+    .to(0, 0)
+    .duration('0.2s')
+    .end();
+    $('#friends-feeds').addClass("opacity-black");
+    $('#member').addClass("opacity-black");     
+    $('#member-add').fadeIn(200);
+    $('#member-add-click').fadeIn(200);
+    $('#addfriends-title').fadeOut(50);
+    $('#member-add-back').fadeOut(50);
+    $('#member-add-back-click').fadeOut(50);
   });
 
   $('#menu-me').click(function(){

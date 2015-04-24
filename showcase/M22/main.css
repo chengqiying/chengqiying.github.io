@@ -1796,6 +1796,7 @@ friends*/
 	left: 320px;
 	position: absolute;	
 	background-color: #e4f6f9;
+	z-index: 8;
 }
 
 .opacity-black {
