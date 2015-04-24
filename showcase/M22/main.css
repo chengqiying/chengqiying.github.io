@@ -681,14 +681,6 @@ body {
 	text-align: center;
 }
 
-.like::before {
-	height:100%;
-	width: 0%;
-	vertical-align: middle;
-	display: inline-block;
-	content: '';
-}
-
 .comment {
 	width: 70px;
 	height:20px;
@@ -702,12 +694,20 @@ body {
 	text-align: center;
 }
 
-.comment::before {
-	height:100%;
-	width: 0%;
-	vertical-align: middle;
-	display: inline-block;
-	content: '';
+#like-text{
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+#comment-text{
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 /*input coffee*/
@@ -1687,8 +1687,6 @@ friends*/
 	font-size: 0.8em;
 	color: #B6B7B7;
 	margin:0;
-	vertical-align: middle;
-	display: inline-block;
 }
 
 #feeds-post-david .portrait {
@@ -2261,13 +2259,11 @@ me*/
   margin: 0;
 }
 
-.feeds-post-me  h2 {
+.feeds-post-me h2 {
   font-weight: 300;
   font-size: 0.8em;
   color: #B6B7B7;
-  margin:0;
-  vertical-align: middle;
-  display: inline-block;
+  margin: 0;
 }
 
 /*before bed reasons*/
