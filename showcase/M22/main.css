@@ -2317,7 +2317,7 @@ me*/
 	height:60px;
 	border-radius: 30px;
 	background-color: #ff8155;
-	display: inline-block;
+	display: block;
 	overflow: hidden;
     -webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
