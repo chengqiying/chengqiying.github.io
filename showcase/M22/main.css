@@ -2319,6 +2319,7 @@ me*/
 	background-color: #ff8155;
 	vertical-align: middle;
 	display: inline-block;
+	overflow: hidden;
     -webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-name:"rotate";
@@ -2361,7 +2362,7 @@ me*/
   	background-color:#ffad94;
   }
   88% {
-      -webkit-transform:translate(75px, 75px) rotate(315deg) translate(-75px, -75px) rotate(3-15deg);
+      -webkit-transform:translate(75px, 75px) rotate(315deg) translate(-75px, -75px) rotate(-315deg);
       background-color:#ffad94;
   }
 
@@ -2384,8 +2385,8 @@ me*/
 
 
 #reason-circle-getup{
-	width: 75%;
-	margin-left: 10%;
+	width: 70%;
+	margin-left: 15%;
 	margin-top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
