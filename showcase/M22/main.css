@@ -2390,7 +2390,6 @@ me*/
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
-	position: relative;
 	line-height: 100%;
   	-webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
