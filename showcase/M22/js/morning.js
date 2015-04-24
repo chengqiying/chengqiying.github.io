@@ -3,6 +3,7 @@ $(document).ready(function(){
   /*menu---------------------------------*/
   $('#menu-friends').click(function(){
     $('#friends-title').fadeIn(200);
+    $('#member-add').fadeIn(200);
     $('#member-add-click').fadeIn(200);
     $('#channel-title').fadeOut(50);
     $('#me-title').fadeOut(50);
@@ -22,6 +23,7 @@ $(document).ready(function(){
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
     $('#friends').show(400);
+    $('#addfriends').show(400);
 
     $('#menu-friends-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-channels-svg circle').css({fill: "#CECECE"}, 200);
@@ -33,12 +35,26 @@ $(document).ready(function(){
     $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
+
+    if(_add){
+      move('#friends')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+      move('#addfriends')
+      .to(0, 0)
+      .duration('0.2s')
+      .end();
+    }
   });
 
   $('#menu-channels').click(function(){
     $('#channel-title').fadeIn(200);
     $('#friends-title').fadeOut(50);
-    $('#member-add-click').fadeOut(200);
+    $('#addfriends-title').fadeOut(50);
+    $('#member-add-click').fadeOut(50);
+    $('#member-add-back').fadeOut(50);
+    $('#member-add-back-click').fadeOut(50);
     $('#me-title').fadeOut(50);
     $('#tips-title').fadeOut(50);
     $('#tips-search').fadeOut(50);
@@ -54,6 +70,7 @@ $(document).ready(function(){
     $('#me').fadeOut(400);
     $('#tips').fadeOut(400);
     $('#friends').fadeOut(400);
+    $('#addfriends').fadeOut(400);
     $('#channel').show(400);
 
     $('#menu-channels-svg circle').css({fill: "#BDE9F4"}, 200);
@@ -66,21 +83,8 @@ $(document).ready(function(){
     $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-tips .menu-text').css({color: "#a5a5a5"}, 200);
-    move('#friends')
-    .to(0, 0)
-    .duration('0.2s')
-    .end();
-    move('#addfriends')
-    .to(0, 0)
-    .duration('0.2s')
-    .end();
-    $('#friends-feeds').addClass("opacity-black");
-    $('#member').addClass("opacity-black");     
-    $('#member-add').fadeIn(200);
-    $('#member-add-click').fadeIn(200);
-    $('#addfriends-title').fadeOut(50);
-    $('#member-add-back').fadeOut(50);
-    $('#member-add-back-click').fadeOut(50);
+
+    
   });
 
   $('#menu-me').click(function(){
@@ -104,6 +108,12 @@ $(document).ready(function(){
     $('#friends').fadeOut(400);
     $('#me').show(400);
 
+    $('#addfriends-title').fadeOut(50);
+    $('#member-add-click').fadeOut(50);
+    $('#member-add-back').fadeOut(50);
+    $('#member-add-back-click').fadeOut(50);
+    $('#addfriends').fadeOut(400);
+
     $('#menu-me-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-friends-svg path').css({fill: "#CECECE"}, 200);
     $('#menu-tips-svg path').css({fill: "#CECECE"}, 200);
@@ -125,14 +135,20 @@ $(document).ready(function(){
     $('#forward-click').fadeIn(200);
     $('#edit-click').fadeIn(200);
     $('#friends-title').fadeOut(50);
-    $('#member-add-click').fadeOut(200);
+    $('#member-add-click').fadeOut(50);
     $('#channel-title').fadeOut(50);
     $('#me-title').fadeOut(50);
 
-    $('#channel').fadeOut(400);
-    $('#me').fadeOut(400);
-    $('#friends').fadeOut(400);
+    $('#channel').fadeOut(50);
+    $('#me').fadeOut(50);
+    $('#friends').fadeOut(50);
     $('#tips').show(400);
+
+    $('#addfriends-title').fadeOut(50);
+    $('#member-add-click').fadeOut(50);
+    $('#member-add-back').fadeOut(50);
+    $('#member-add-back-click').fadeOut(50);
+    $('#addfriends').fadeOut(400);
 
     $('#menu-tips-svg path').css({fill: "#BDE9F4"}, 200);
     $('#menu-tips-svg circle').css({stroke: "#BDE9F4"}, 200);
@@ -144,6 +160,7 @@ $(document).ready(function(){
     $('#menu-friends .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-channels .menu-text').css({color: "#a5a5a5"}, 200);
     $('#menu-me .menu-text').css({color: "#a5a5a5"}, 200);
+
   });
 
   /*channel--------------------------*/
@@ -1837,6 +1854,7 @@ $(document).ready(function(){
   });
 
   /*add member*/
+  _add=false;
   $('#member-add-click').click(function(){
     $('#friends-feeds').addClass("opacity-black");
     $('#member').addClass("opacity-black");
@@ -1856,6 +1874,7 @@ $(document).ready(function(){
     .to(-250, 0)
     .duration('0.2s')
     .end();
+    _add=true;
   });
 
   $('#member-add-back-click').click(function(){
@@ -1877,6 +1896,7 @@ $(document).ready(function(){
     .to(0, 0)
     .duration('0.2s')
     .end();
+    _add=false;
   });
 
 
