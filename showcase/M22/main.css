@@ -754,7 +754,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:5px 0 0 0;
+	margin:0;
 }
 
 #coffee-cancel {
@@ -918,10 +918,17 @@ body {
 	text-align: center;
 }
 
+#done-text{
+	position: relative;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
 .done-color {
 	background-color: #BDE9F4;
 }
-
 
 #coffee-done {
 	margin-top: 40px;
@@ -1052,7 +1059,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:5px 0 0 0;
+	margin:0;
 }
 
 .post-quality {
@@ -1288,7 +1295,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:5px 0 0 0;
+	margin:0;
 }
 
 .post-getup {
@@ -1518,7 +1525,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:5px 0 0 0;
+	margin:0;
 }
 
 
@@ -2872,7 +2879,7 @@ tips*/
 	font-size: 0.9em;
 	color: #ffffff;
 	position: relative;
-	margin: 8px 0 0 0;
+	margin:0;
 }
 
 #forward {
@@ -2964,7 +2971,7 @@ tips*/
 	font-weight: 200;
 	font-size: 1em;
 	color: #76CEE5;
-	margin:5px 0 0 0;
+	margin:0;
 }
 
 .share, .share-button {
