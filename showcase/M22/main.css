@@ -2386,7 +2386,8 @@ me*/
 #reason-circle-getup{
 	width: 80%;
 	margin-left: 10%;
-	margin-top: 14px;
+	margin-top: 50%;
+	transform: translateY(-50%);
 	text-align: center;
 	display: block;
 	position: relative;
@@ -2424,7 +2425,8 @@ me*/
 #reason-circle-beforebed{
 	width: 80%;
 	margin-left: 10%;
-	margin-top: -32px;
+	margin-top: -53.3%;
+	transform: translateY(-50%);
 	text-align: center;
 	display: block;
 	position: relative;
@@ -2456,7 +2458,8 @@ me*/
 #reason-circle-awakening{
 	width: 80%;
 	margin-left: 10%;
-	margin-top: -21px;
+	margin-top: -53.3%;
+	transform: translateY(-50%);
 	text-align: center;
 	display: block;
 	position: relative;
@@ -2505,7 +2508,8 @@ me*/
 #reason-circle-nap{
 	width: 80%;
 	margin-left: 10%;
-	margin-top: -10px;
+	margin-top: -16.7%;
+	transform: translateY(-50%);
 	text-align: center;
 	display: block;
 	position: relative;
