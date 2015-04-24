@@ -2387,6 +2387,8 @@ me*/
 	width: 70%;
 	margin-left: 15%;
 	margin-top: 50%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
@@ -2425,6 +2427,8 @@ me*/
 	width: 80%;
 	margin-left: 10%;
 	margin-top: -53.3%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
@@ -2458,7 +2462,9 @@ me*/
 	width: 80%;
 	margin-left: 10%;
 	margin-top: -53.3%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 	text-align: center;
 	display: block;
 	position: relative;
@@ -2508,6 +2514,8 @@ me*/
 	width: 80%;
 	margin-left: 10%;
 	margin-top: -16.7%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
