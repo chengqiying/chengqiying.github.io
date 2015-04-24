@@ -2432,7 +2432,6 @@ me*/
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
-	position: relative;
 	line-height: 100%;
   	-webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
@@ -2467,7 +2466,6 @@ me*/
     transform: translateY(-50%);
 	text-align: center;
 	display: block;
-	position: relative;
   	-webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-name:"opacity-awakening";
@@ -2519,7 +2517,6 @@ me*/
 	transform: translateY(-50%);
 	text-align: center;
 	display: block;
-	position: relative;
   	-webkit-animation-duration: 6s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-name:"opacity-nap";
