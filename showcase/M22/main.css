@@ -1653,7 +1653,7 @@ friends*/
   	top:50px;
   	position: absolute;
   	z-index: 9;
-  	overflow: auto;
+  	overflow: scroll;
 }
 
 #friends-feeds::-webkit-scrollbar { 
