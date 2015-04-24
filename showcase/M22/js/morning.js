@@ -139,6 +139,7 @@ $(document).ready(function(){
   /*channel--------------------------*/
   /*see more/back*/
   $('#seemore').click(function(){
+    setTimeout(function(){
     move('#channel-topic-more')
       .to(0, -498)
       .set('opacity', 1)
@@ -147,24 +148,28 @@ $(document).ready(function(){
     move('#channel-topic-morning')
       .set('opacity', 0)
       .duration('0.4s')
-      .end(); 
-  });
-
-  $('#seemore').mousedown(function(){
+      .end();
+    }, 300); 
     move('#seemore-icon')
       .scale('0.85')
+      .duration('0.3s')
+      .end();
+    move('#seemore-text')
+      .scale('0.85')
+      .duration('0.3s')
+      .end();
+    move('#seeback-icon')
+      .scale('1')
       .duration('0.5s')
       .end();
-  });
-  $('#seemore').mouseup(function(){
-    move('#seemore-icon')
+    move('#seeback-text')
       .scale('1')
       .duration('0.5s')
       .end();
   });
 
   $('#seeback').click(function(){
-    
+    setTimeout(function(){
     move('#channel-topic-more')
       .to(0, 0)
       .set('opacity', 1)
@@ -174,17 +179,21 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.4s')
       .end();
-  });
-
-  $('#seeback').mousedown(function(){
+    }, 300);
+    move('#seemore-icon')
+      .scale('1')
+      .duration('0.3s')
+      .end();
+    move('#seemore-text')
+      .scale('1')
+      .duration('0.3s')
+      .end();
     move('#seeback-icon')
       .scale('0.85')
       .duration('0.5s')
       .end();
-  });
-  $('#seeback').mouseup(function(){
-    move('#seeback-icon')
-      .scale('1')
+    move('#seeback-text')
+      .scale('0.85')
       .duration('0.5s')
       .end();
   });
