@@ -2312,7 +2312,7 @@ me*/
 	background-color: #ff8155;
 	display: block;
 	overflow: hidden;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 7s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-name:"rotate";
     -webkit-animation-iteration-count: infinite;
