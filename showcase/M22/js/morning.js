@@ -1839,7 +1839,7 @@ $(document).ready(function(){
   _add=false;
   $('#member-add-click').click(function(){
     $('#friends-feeds').css("height", "448px");
-    $('#member').addClass("opacity-black");
+    $('#friends').css("height", "498px");
 
     
     $('#addfriends-title').fadeIn(200);
@@ -1863,7 +1863,7 @@ $(document).ready(function(){
 
   $('#member-add-back-click').click(function(){
     $('#friends-feeds').css("height", "398px");
-    $('#member').addClass("opacity-black");    
+    $('#friends').css("height", "448px");    
     
     $('#friends-title').fadeIn(200);
     $('#member-add').fadeIn(200);
