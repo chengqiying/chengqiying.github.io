@@ -732,7 +732,7 @@ body {
 	font-weight: 200;
 	font-size: 1em;
 	color: #B6B7B7;
-	margin:6px 0 0 0;
+	margin:0;
 }
 
 #inputcoffee h3{
@@ -740,7 +740,7 @@ body {
 	font-weight: 100;
 	font-size: 2em;
 	color: #205D6B;
-	margin:20px 0 0 0;
+	margin:0;
 }
 
 #inputcoffee h4{
@@ -782,7 +782,7 @@ body {
 }
 
 #coffee-tea {
-	margin-top: 10px;
+	margin-top: 15px;
 	text-align: center;
 }
 
@@ -793,6 +793,14 @@ body {
 	border: solid 1px #cccccc;
 	position: relative;
 	display: inline-block;	
+}
+
+#button-coffee-text, #button-tea-text{
+	position: relative;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 .button-tea {
@@ -829,7 +837,15 @@ body {
 	border-radius: 80px;
 	background-color: #BDE9F4;
 	position: relative;
-	display: inline-block;
+	display: inline-block;  	
+}
+
+.hour-text, .minu-text{
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 .minu {
@@ -1281,7 +1297,7 @@ body {
 	font-weight: 100;
 	font-size: 2em;
 	color: #205D6B;
-	margin:20px 0 0 0;
+	margin:0;
 }
 
 #input-getup h4{
@@ -1511,7 +1527,7 @@ body {
 	font-weight: 100;
 	font-size: 1.7em;
 	color: #205D6B;
-	margin:30px 0 0 0;
+	margin:0 0 0;
 }
 
 #input-beforebed h4{
@@ -1550,6 +1566,14 @@ body {
 	background-color: #BDE9F4;
 	position: relative;
 	display: inline-block;
+}
+
+#state-content-text{
+	position: relative;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 #beforebed-share {
