@@ -1574,7 +1574,7 @@ friends*/
 }
 
 #friends {
-	height: 498px;
+	height: 448px;
   	width: 320px;
   	top:50px;
   	position: absolute;
@@ -1655,7 +1655,7 @@ friends*/
 
 /*friends feed*/
 #friends-feeds {
-	height: 448px;
+	height: 398px;
   	width: 320px;
   	background-color: #ffffff;
   	top:50px;
@@ -1724,7 +1724,6 @@ friends*/
 
 #feeds-post-estelle {
 	height: 185px;
-	margin-bottom:50px;
 }
 
 .like-color {

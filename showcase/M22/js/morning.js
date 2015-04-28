@@ -1820,7 +1820,7 @@ $(document).ready(function(){
       _keyboard=false;
       _stankeyboard=false;
     }
-    else if(_esttellekeyboard){
+    else if(_estellekeyboard){
       $('#addcomment-estelle').slideDown(200);
       move('.keyboard')
       .to(0, 0)
@@ -1838,8 +1838,9 @@ $(document).ready(function(){
   /*add member*/
   _add=false;
   $('#member-add-click').click(function(){
-    $('#friends-feeds').addClass("opacity-black");
+    $('#friends-feeds').css("height", "448px");
     $('#member').addClass("opacity-black");
+
     
     $('#addfriends-title').fadeIn(200);
     $('#member-add-back').fadeIn(200);
@@ -1861,7 +1862,7 @@ $(document).ready(function(){
   });
 
   $('#member-add-back-click').click(function(){
-    $('#friends-feeds').addClass("opacity-black");
+    $('#friends-feeds').css("height", "398px");
     $('#member').addClass("opacity-black");    
     
     $('#friends-title').fadeIn(200);
