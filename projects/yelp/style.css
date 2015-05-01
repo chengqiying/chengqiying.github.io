@@ -232,7 +232,8 @@ a#home:hover
 .color-pic
 {
 	display:block;
-	width: 700px;
+	margin-left:25%;
+	width: 50%;
 	margin:0 auto;
 	font-size:0;
 	margin-top: 80px;
@@ -299,14 +300,10 @@ a#home:hover
 	padding-top:30px;
 }
 
-@media screen and (max-width: 1180px) {
-	#interface-pic {
-        width: 900px;
-		height: 186px;
-    }
-}
-
 @media screen and (max-width: 1080px) {
+	#header-text {
+		left:25%;
+	}
 	#header h1 {
 		font-size: 44px;
 	}
@@ -316,73 +313,26 @@ a#home:hover
 	}	
 }
 
-@media screen and (max-width: 900px) {
-	#interface-pic {
-        width: 720px;
-		height: 149px;
-    }
-	#header h1 {
-		font-size: 42px;
-	}
-	
-}
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 820px) {
 	#header h1 {
 		font-size: 40px;
 	}
 	#header p {
 		font-size: 16px;
+		margin-top: 10px;
 	}
-	.concept-3-pic {
-        width: 600px;
-		height: 340px;
-    }
-	.concept-2-pic {
-        width: 600px;
-		height: 340px;
-    }
-	.concept-1-pic {
-        width: 600px;
-		height: 450px;
-    }
-	#approachpic {
-        width: 600px;
-		height: 347px;
-    }
-	#interface-pic {
-        width: 600px;
-		height: 124px;
-    }
 }
 
 @media screen and (max-width: 680px) {
+	#header-text {
+		left:20%;
+	}
 	#header h1 {
 		font-size: 30px;
 	}
 	#header p {
 		font-size: 15px;
 	}
-	.concept-3-pic {
-        width: 400px;
-		height: 226.67px;
-    }
-	.concept-2-pic {
-        width: 400px;
-		height: 226.67px;
-    }
-	.concept-1-pic {
-        width: 400px;
-		height: 300px;
-    }
-	#approachpic {
-        width: 400px;
-		height: 231px;
-    }
-	#interface-pic {
-        width: 400px;
-		height: 83px;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -393,28 +343,7 @@ a#home:hover
 		font-size: 12px;
 		margin-top: 10px;
 	}
-	.concept-3-pic {
-        width: 360px;
-		height: 204px;
-    }
-	.concept-2-pic {
-        width: 360px;
-		height: 204px;
-    }
-	.concept-1-pic {
-        width: 360px;
-		height: 270px;
-    }
-	#approachpic {
-        width: 360px;
-		height: 208px;
-    }
-	#interface-pic {
-        width: 360px;
-		height: 74.5px;
-    }
 }
-
 
 
 @media screen and (max-width: 1280px) {
