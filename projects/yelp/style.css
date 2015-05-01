@@ -1,0 +1,521 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Raleway';
+	src: url('../../font/fontscorecomttwcenmt.eot');
+	src: local('fontscorecomttwcenmt'), url('../../font/fontscorecomttwcenmt.woff') format('woff'), url('../../font/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+	font-family: 'fontscorecomttwcenmt' !important;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+#all
+{
+	display:block;
+}
+
+#header
+{
+	width: 100%;
+	position: fixed;
+	z-index: -999;
+}
+#header img
+{
+	width: 100%;
+	position: relative;
+}
+
+#header-text
+{
+	width: 100%;
+	display: block;
+	top: 24%;
+	left: 30%;
+	position: absolute;
+}
+
+#header-text h1
+{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	margin-top:0;
+	margin-left: 0;
+	position: relative;
+}
+
+#header-text p
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight:2300;
+	color: #ffffff;
+	margin-left: 0;
+	margin-top: 20px;
+	line-height: 160%;
+	position: relative;
+}
+
+#nav
+{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 998;	
+}
+
+#home
+{
+	width: 30px;
+	height: 30px;
+	background: url(images/homelogo.png) no-repeat;
+	background-size: cover;
+	margin: 27px 0 0 50px;
+	position: absolute;
+	display: block;
+	opacity: 0;
+}
+
+a#home:hover
+{
+	background: url(images/homelogo2.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.background
+{
+	background: url(images/back.jpg) no-repeat;
+	background-size: cover;
+}
+
+.nav-title
+{
+	width: 280px;
+	height: 80px;
+	margin: 0 auto;	
+	opacity: 0;
+	z-index: 999;
+	
+}
+
+.nav-title h3
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: #ffffff;
+	z-index: 999;
+	padding-top: 27px;
+	text-align: center;
+}
+
+#wrappera
+{
+	width: 100%;
+	display: block;
+	top: 450px;
+	z-index: 30;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	-webkit-animation: intro-content 2s forwards;
+	-moz-animation: intro-content 2s forwards;
+	-o-animation: intro-content 2s forwards;
+	animation: intro-content 2s forwards;
+}
+
+#content
+{
+	display:block;
+	width: 100%;
+	margin:0 auto;
+}
+
+#content h2
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	font-weight:200;
+	text-align: center
+}
+
+#content p
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	font-weight:300;	
+	line-height: 170%;
+	letter-spacing: 0.3px;
+}
+
+#title
+{
+	display:block;
+	width: 40%;
+	margin:130px auto 0 auto;
+}
+
+#title h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:28px;
+	font-weight:400;
+	text-align: center
+}
+
+#introduction
+{
+	display:block;
+	width: 40%;
+	margin:150px auto 0 auto;
+}
+
+
+#introductiontext
+{
+	display: block;
+	width:100%;
+	margin-top:30px;
+}
+
+#concept, #lowfi, #wireframe, #scenario
+{
+	display:block;
+	width: 100%;
+	margin-top: 150px;
+}
+
+#concept-text, #lowfi-text, #wireframe-text, #scenario-text
+{
+	display: block;
+	width:40%;
+	margin: 30px auto 0 auto;	
+}
+
+.scenario-pic
+{
+	display:block;
+	margin-left:10%;
+	width: 80%;
+	font-size:0;
+	margin-top: 80px;
+}
+
+.lowfi-pic, .concept-pic
+{
+	display:block;
+	width: 100%;
+	font-size:0;
+	margin-top: 80px;
+}
+
+.wireframe-pic
+{
+	display:block;
+	width: 60%;
+	font-size:0;
+	margin-top: 60px;
+	margin-left: 20%;
+}
+
+.color-pic
+{
+	display:block;
+	width: 700px;
+	margin:0 auto;
+	font-size:0;
+	margin-top: 80px;
+}
+
+#other
+{
+	width: 100px;
+	display: block;
+	margin:120px auto 0 auto;
+}
+
+.other-wrap
+{
+	width: 100%;
+	height: 55px;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	border: #80DEEA solid 1px;
+	color: #555555;
+	z-index: 35;
+	position: relative;
+	opacity: 1;
+}
+
+.other-wrap:hover
+{
+	color: #ffffff;
+	background-color: #80DEEA;
+}
+
+.other-wrap h5
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 0.5px;	
+	line-height: 150%;
+	
+}
+
+.footer, .push
+{
+    display: block;
+	width:100%;
+	background-color:#F4F4F4;
+	height:80px;
+	margin-top:120px;
+}
+
+#footertext
+{
+	width:100%;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 300;
+	color:#575757;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+@media screen and (max-width: 1180px) {
+	#interface-pic {
+        width: 900px;
+		height: 186px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+	#header h1 {
+		font-size: 44px;
+	}
+	#header p {
+		font-size: 18px;
+		margin-top: 15px;
+	}	
+}
+
+@media screen and (max-width: 900px) {
+	#interface-pic {
+        width: 720px;
+		height: 149px;
+    }
+	#header h1 {
+		font-size: 42px;
+	}
+	
+}
+
+@media screen and (max-width: 860px) {
+	#header h1 {
+		font-size: 40px;
+	}
+	#header p {
+		font-size: 16px;
+	}
+	.concept-3-pic {
+        width: 600px;
+		height: 340px;
+    }
+	.concept-2-pic {
+        width: 600px;
+		height: 340px;
+    }
+	.concept-1-pic {
+        width: 600px;
+		height: 450px;
+    }
+	#approachpic {
+        width: 600px;
+		height: 347px;
+    }
+	#interface-pic {
+        width: 600px;
+		height: 124px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+	#header h1 {
+		font-size: 30px;
+	}
+	#header p {
+		font-size: 15px;
+	}
+	.concept-3-pic {
+        width: 400px;
+		height: 226.67px;
+    }
+	.concept-2-pic {
+        width: 400px;
+		height: 226.67px;
+    }
+	.concept-1-pic {
+        width: 400px;
+		height: 300px;
+    }
+	#approachpic {
+        width: 400px;
+		height: 231px;
+    }
+	#interface-pic {
+        width: 400px;
+		height: 83px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	#header h1 {
+		font-size: 22px;
+	}
+	#header p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.concept-3-pic {
+        width: 360px;
+		height: 204px;
+    }
+	.concept-2-pic {
+        width: 360px;
+		height: 204px;
+    }
+	.concept-1-pic {
+        width: 360px;
+		height: 270px;
+    }
+	#approachpic {
+        width: 360px;
+		height: 208px;
+    }
+	#interface-pic {
+        width: 360px;
+		height: 74.5px;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+	#header-text {
+		left:25%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#header-text {
+		left:22%;
+	}
+	#wrappera {
+	top: 400px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	#wrappera {
+	top: 370px;
+	}
+	#introduction {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#header-text {
+		left:20%;
+	}
+	#wrappera {
+	top: 320px;
+	}
+	#introduction {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	#header h1 {
+		font-size: 34px;
+	}
+	#wrappera {
+	top: 300px;
+	}
+	#introduction {
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#header-text {
+		left:18%;
+	}
+	#wrappera {
+		top: 250px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	#header h1 {
+		font-size: 26px;
+	}
+	#header p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	#introduction {
+		margin-top: 50px;
+	}
+	#wrappera {
+		top: 220px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#header h1 {
+		font-size: 22px;
+	}
+	#header-text {
+		left: 14%;
+	}
+	#header p {
+		font-size: 12px;
+	}
+	#home {
+		margin: 27px 0 0 25px;
+		width: 25px;
+  		height: 25px;
+	}
+	#wrappera {
+		top: 200px;
+	}
+	#introduction {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#header-text {
+		left: 13%;
+	}
+}

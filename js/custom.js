@@ -180,6 +180,29 @@ $(document).ready(function(){
       			.duration('0.8s')
       			.end();
 	});
+	
+	$('.yelp-front').hover(function(){
+		$(".yelp-back").fadeIn(200);
+		move('.yelp-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.yelp-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
+		}, function(){
+			$('.yelp-back').fadeOut(100);
+			move('.yelp-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.yelp-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
+	});	
+	
 	$('.levo-front').hover(function(){
 		$(".levo-back").fadeIn(200);
 		move('.levo-front')
