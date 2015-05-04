@@ -269,7 +269,7 @@ $(document).ready(function(){
         .end();
     }
 
-    $('.menu').fadeIn(200)
+    $('.menu').fadeIn(200);
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
