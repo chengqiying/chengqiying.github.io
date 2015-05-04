@@ -220,6 +220,7 @@ $(document).ready(function(){
         .end();
     }
     
+    $('.menu').fadeOut(50);
     move('#channel')
       .set('opacity', 0)
       .duration('0.3s')
@@ -229,7 +230,6 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end(); 
-    $('.menu').fadeOut(50);
     move('#coffee-title')
       .set('opacity', 1)
       .duration('0.2s')
@@ -268,7 +268,6 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
-
     $('.menu').fadeIn(200);
     move('#channel')
       .set('opacity', 1)
