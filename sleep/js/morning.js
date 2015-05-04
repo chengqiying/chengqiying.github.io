@@ -2439,12 +2439,42 @@ $(document).ready(function(){
       .duration('0.3s')
       .delay('0.3s')
       .end();
+      $('#me-title').fadeOut(50);
+      $('#reason-beforebed-title').fadeIn(300);
+      $('#reason-beforebed-back').fadeIn(300);
+      $('#reason-beforebed-back-click').fadeIn(300);
     }, 400);
   });
+
+  $("#reason-beforebed-back-click").click(function(){
+    $('.menu').fadeIn(500);
+    $('#me').fadeIn(500);
+    $('#me-title').fadeIn(300);
+    $('#reason-beforebed-title').fadeOut(50);
+    $('#reason-beforebed-back').fadeOut(50);
+    $('#reason-beforebed-back-click').fadeOut(50);
+      move('#beforebed-reason')
+        .to(0, 0)
+        .set('opacity', 0)
+        .duration('0.3s')
+        .ease('in')
+        .end();
+      move('#reasons-four')
+        .scale('1')
+        .duration('0.1s')
+        .ease('in')
+        .end();
+
+  });         
+
 
   $("#beforebed-reason").on("swiperight",function(){
     $('.menu').fadeIn(500);
     $('#me').fadeIn(500);
+    $('#me-title').fadeIn(300);
+    $('#reason-beforebed-title').fadeOut(50);
+    $('#reason-beforebed-back').fadeOut(50);
+    $('#reason-beforebed-back-click').fadeOut(50);
       move('#beforebed-reason')
         .to(0, 0)
         .set('opacity', 0)

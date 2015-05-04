@@ -2299,6 +2299,23 @@ me*/
   	overflow: auto;
 }
 
+#reason-beforebed-title{
+	display: none;
+	z-index: 15;
+}
+
+#reason-beforebed-back {
+	display: none;
+	z-index: 16;
+}
+
+#reason-beforebed-back-click {
+	display: none;
+	z-index: 16;
+}
+
+
+
 /*quality animation*/
 #quality-ani {
 	height: 498px;
