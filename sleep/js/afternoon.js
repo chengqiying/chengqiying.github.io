@@ -229,18 +229,14 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end(); 
-    move('.menu')
-      .set('opacity', 0)
-      .duration('0.3s')
-      .delay('0.3s')
-      .end();
+    $('.menu').fadeOut(50);
     move('#coffee-title')
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    $('#coffee-back-click').css({display: "block"}, 200);
-    $('#coffee-add-click').css({display: "block"}, 200);
+    $('#coffee-back-click').fadeIn(200);
+    $('#coffee-add-click').fadeIn(200);
     move('#coffee-back')
       .set('opacity', 1)
       .duration('0.2s')
@@ -273,11 +269,7 @@ $(document).ready(function(){
         .end();
     }
 
-    move('.menu')
-      .set('opacity', 1)
-      .duration('0.3s')
-      .delay('0.3s')
-      .end();
+    $('.menu').fadeIn(200)
     move('#channel')
       .set('opacity', 1)
       .duration('0.2s')
@@ -292,8 +284,8 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-    $('#coffee-back-click').css({display: "none"}, 200);
-    $('#coffee-add-click').css({display: "none"}, 200);
+    $('#coffee-back-click').fadeOut(50);
+    $('#coffee-add-click').fadeOut(50);
     move('#coffee-back')
       .set('opacity', 0)
       .duration('0.2s')
@@ -318,9 +310,9 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    $('#coffee-cancel-click').css({display: "block"}, 200);
-    $('#coffee-add-click').css({display: "none"}, 200);
-    $('#coffee-back-click').css({display: "none"}, 200);
+    $('#coffee-cancel-click').fadeIn(200);
+    $('#coffee-add-click').fadeOut(50);
+    $('#coffee-back-click').fadeOut(50);
     move('#havecoffee')
       .set('opacity', 0)
       .duration('0.3s')
@@ -354,9 +346,9 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-    $('#coffee-cancel-click').css({display: "none"}, 200);
-    $('#coffee-back-click').css({display: "block"}, 200);
-    $('#coffee-back-click').css({display: "block"}, 200);
+    $('#coffee-cancel-click').fadeOut(50);
+    $('#coffee-back-click').fadeIn(200);
+    $('#coffee-back-click').fadeIn(200);
     move('#coffee-back')
       .set('opacity', 1)
       .duration('0.2s')
@@ -400,21 +392,13 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    move('#coffee-back-click')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .delay('0.2s')
-      .end();
+    $('#coffee-back-click').fadeIn(200);
     move('#coffee-add')
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    move('#coffee-add-click')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .delay('0.2s')
-      .end();
+    $('#coffee-add-click').fadeIn(200);
       $('#inputcoffee h5').css({color: "#fff"});
       $('#coffee-done').addClass("done-color");
       move('#coffee-done')

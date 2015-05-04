@@ -310,9 +310,9 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    $('#coffee-cancel-click').fadeOut(50);
-    $('#coffee-add-click').fadeIn(200);
-    $('#coffee-back-click').fadeIn(200);
+    $('#coffee-cancel-click').fadeIn(200);
+    $('#coffee-add-click').fadeOut(50);
+    $('#coffee-back-click').fadeOut(50);
     move('#havecoffee')
       .set('opacity', 0)
       .duration('0.3s')
@@ -1430,9 +1430,9 @@ $(document).ready(function(){
       .duration('0.3s')
       .end();
     $('#beforebedstate').css({height: "498px"});
-    $('#beforebed-cancel-click').fadeIn(200);
-    $('#beforebed-back-click').fadeOut(50);
-    $('#beforebed-add-click').fadeOut(50);
+    $('#beforebed-cancel-click').fadeOut(200);
+    $('#beforebed-back-click').fadeIn(50);
+    $('#beforebed-add-click').fadeIn(50);
     move('#beforebed-back')
       .set('opacity', 1)
       .duration('0.2s')
