@@ -2416,7 +2416,7 @@ $(document).ready(function(){
         .duration('0.1s')
         .ease('in')
         .end();
-  });
+  }); 
 
   
 });
