@@ -219,7 +219,7 @@ $(document).ready(function(){
         .ease('in')
         .end();
     }
-    
+
     $('.menu').fadeOut(50);
     move('#channel')
       .set('opacity', 0)
