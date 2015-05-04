@@ -1,7 +1,5 @@
 
 $(document).ready(function(){
-
-  $ make move.min.js
   /*menu---------------------------------*/
   $('#menu-friends').click(function(){
     $('#friends-title').fadeIn(200);
