@@ -573,7 +573,7 @@ $(document).ready(function(){
       .delay('0.2s')
       .end();
     $('#quality-back-click').fadeIn(200);
-    $('#quality-add-click').cfadeIn(200);
+    $('#quality-add-click').fadeIn(200);
     move('#quality-back')
       .set('opacity', 1)
       .duration('0.2s')
