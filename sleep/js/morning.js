@@ -2467,7 +2467,6 @@ $(document).ready(function(){
 
   });         
 
-
   $("#beforebed-reason").on("swiperight",function(){
     $('.menu').fadeIn(500);
     $('#me').fadeIn(500);

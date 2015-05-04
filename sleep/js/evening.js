@@ -202,7 +202,7 @@ $(document).ready(function(){
   _i=false;
   $('#coffee').click(function(){
     $('#coffee').addClass("topic-clickcolor");
-    setTimeout(function(){ 
+    setTimeout(function(){
     if(!_i){
       move('#havecoffee')
         .to(-320, 0)
