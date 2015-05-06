@@ -388,17 +388,9 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    move('#coffee-back-click')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .delay('0.2s')
-      .end();
+    $('#coffee-back-click').fadeIn(200);
+    $('#coffee-add-click').fadeIn(200);
     move('#coffee-add')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .delay('0.2s')
-      .end();
-    move('#coffee-add-click')
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
