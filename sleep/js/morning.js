@@ -252,7 +252,7 @@ $(document).ready(function(){
 
   /*to have coffee back*/  
   $('#coffee-back-click').click(function(){
-    
+    setTimeout(function(){
     $('#coffee').removeClass("topic-clickcolor");
     if(!_i){
       move('#havecoffee')
@@ -268,7 +268,6 @@ $(document).ready(function(){
         .duration('0.3s')
         .end();
     }
-
     $('.menu').fadeIn(200);
     move('#channel')
       .set('opacity', 1)
@@ -279,26 +278,27 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
-      .end(); 
-    move('#coffee-title')
-      .set('opacity', 0)
-      .duration('0.2s')
       .end();
     $('#coffee-back-click').fadeOut(50);
-    $('#coffee-add-click').fadeOut(50);
-    move('#coffee-back')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
+    $('#coffee-add-click').fadeOut(50); 
     move('#coffee-add')
       .set('opacity', 0)
       .duration('0.2s')
-      .end();    
+      .end();  
+    }, 200);
+    move('#coffee-back')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();  
+    move('#coffee-title')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();  
   });
 
   /*add coffee*/
   $('#coffee-add-click').click(function(){
-
+    setTimeout(function(){
     move('#inputcoffee')
       .to(-320, 0)
       .set('opacity', 1)
@@ -321,16 +321,17 @@ $(document).ready(function(){
     move('#coffee-back')
       .set('opacity', 0)
       .duration('0.2s')
-      .end();  
+      .end(); 
+    }, 200); 
     move('#coffee-add')
       .set('opacity', 0)
       .duration('0.2s')
-      .end();
-    
+      .end(); 
   });
 
 /*cancel coffeeinput*/
   $('#coffee-cancel-click').click(function(){
+    setTimeout(function(){
     move('#inputcoffee')
       .to(0, 0)
       .set('opacity', 0)
@@ -342,13 +343,9 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.3s')
       .end();
-    move('#coffee-cancel')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
     $('#coffee-cancel-click').fadeOut(50);
     $('#coffee-back-click').fadeIn(200);
-    $('#coffee-back-click').fadeIn(200);
+    $('#coffee-add-click').fadeIn(200);
     move('#coffee-back')
       .set('opacity', 1)
       .duration('0.2s')
@@ -359,7 +356,11 @@ $(document).ready(function(){
       .duration('0.2s')
       .delay('0.2s')
       .end();
-    
+    }, 200);
+    move('#coffee-cancel')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
   });
 
   /*done coffeeinput*/
@@ -589,7 +590,7 @@ $(document).ready(function(){
 
   /*sleep quality back*/
   $('#quality-back-click').click(function(){
-    
+    setTimeout(function(){
     $('#quality').removeClass("topic-clickcolor");
     if(!_h){
       move('#sleepquality')
@@ -615,27 +616,27 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
+      .end();
+    $('#quality-back-click').fadeOut(50);
+    $('#quality-add-click').fadeOut(50);
+    move('#quality-add')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    }, 200);
+    move('#quality-back')
+      .set('opacity', 0)
+      .duration('0.2s')
       .end(); 
     move('#quality-title')
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-    $('#quality-back-click').fadeOut(50);
-    $('#quality-add-click').fadeOut(50);
-    move('#quality-back')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    move('#quality-add')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    
   });
 
   /*add quality*/
   $('#quality-add-click').click(function(){
-
+    setTimeout(function(){
     move('#input-quality')
       .to(-320, 0)
       .set('opacity', 1)
@@ -659,6 +660,7 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+    }, 200);
     move('#quality-add')
       .set('opacity', 0)
       .duration('0.2s')
@@ -667,6 +669,7 @@ $(document).ready(function(){
 
   /*cancel sleep quality input*/
   $('#quality-cancel-click').click(function(){
+    setTimeout(function(){
     move('#input-quality')
       .to(0, 0)
       .set('opacity', 0)
@@ -677,10 +680,6 @@ $(document).ready(function(){
     move('#sleepquality')
       .set('opacity', 1)
       .duration('0.3s')
-      .end();
-    move('#quality-cancel')
-      .set('opacity', 0)
-      .duration('0.2s')
       .end();
     $('#quality-cancel-click').fadeOut(50);
     $('#quality-add-click').fadeIn(200);
@@ -694,7 +693,12 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
-      .end();  
+      .end();
+    }, 200);
+    move('#quality-cancel')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end(); 
   });
 
   /*done sleep qualtity input*/
@@ -994,7 +998,7 @@ $(document).ready(function(){
 
   /*get up time back*/
   $('#getup-back-click').click(function(){
-    
+    setTimeout(function(){
     $('#getup').removeClass("topic-clickcolor");
     if(!_j){
       move('#getuptime')
@@ -1020,27 +1024,27 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
+      .end();
+    $('#getup-back-click').fadeOut(50);
+    $('#getup-add-click').fadeOut(50); 
+    move('#getup-add')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    }, 200);
+    move('#getup-back')
+      .set('opacity', 0)
+      .duration('0.2s')
       .end(); 
     move('#getup-title')
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-    $('#getup-back-click').fadeOut(50);
-    $('#getup-add-click').fadeOut(50);
-    move('#getup-back')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    move('#getup-add')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    
   });
 
   /*add getuptime*/
   $('#getup-add-click').click(function(){
-
+    setTimeout(function(){
     move('#input-getup')
       .to(-320, 0)
       .set('opacity', 1)
@@ -1064,6 +1068,7 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+    }, 200);
     move('#getup-add')
       .set('opacity', 0)
       .duration('0.2s')
@@ -1072,6 +1077,7 @@ $(document).ready(function(){
 
   /*cancel getup time input*/
   $('#getup-cancel-click').click(function(){
+    setTimeout(function(){
     move('#input-getup')
       .to(0, 0)
       .set('opacity', 0)
@@ -1082,10 +1088,6 @@ $(document).ready(function(){
     move('#getuptime')
       .set('opacity', 1)
       .duration('0.3s')
-      .end();
-    move('#getup-cancel')
-      .set('opacity', 0)
-      .duration('0.2s')
       .end();
     $('#getup-cancel-click').fadeOut(50);
     $('#getup-add-click').fadeIn(200);
@@ -1099,7 +1101,12 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
-      .end();  
+      .end();
+    }, 200);
+    move('#getup-cancel')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
   });
 
   /*done getup input*/
@@ -1298,7 +1305,7 @@ $(document).ready(function(){
 
   /*beforebed back*/
   $('#beforebed-back-click').click(function(){
-    
+    setTimeout(function(){
     $('#beforebed').removeClass("topic-clickcolor");
     if(!_k){
       move('#beforebedstate')
@@ -1324,27 +1331,27 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
+      .end();
+    $('#beforebed-back-click').fadeOut(50);
+    $('#beforebed-add-click').fadeOut(50);
+    move('#beforebed-add')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end();
+    }, 200);
+    move('#beforebed-back')
+      .set('opacity', 0)
+      .duration('0.2s')
       .end(); 
     move('#beforebed-title')
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-    $('#beforebed-back-click').fadeOut(50);
-    $('#beforebed-add-click').fadeOut(50);
-    move('#beforebed-back')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    move('#beforebed-add')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    
   });
 
   /*add beforebed time*/
   $('#beforebed-add-click').click(function(){
-
+    setTimeout(function(){
     move('#input-beforebed')
       .to(-320, 0)
       .set('opacity', 1)
@@ -1368,6 +1375,7 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
+    }, 200);
     move('#beforebed-add')
       .set('opacity', 0)
       .duration('0.2s')
@@ -1376,6 +1384,7 @@ $(document).ready(function(){
 
   /*cancel beforebed input*/
   $('#beforebed-cancel-click').click(function(){
+    setTimeout(function(){
     move('#input-beforebed')
       .to(0, 0)
       .set('opacity', 0)
@@ -1386,10 +1395,6 @@ $(document).ready(function(){
     move('#beforebedstate')
       .set('opacity', 1)
       .duration('0.3s')
-      .end();
-    move('#beforebed-cancel')
-      .set('opacity', 0)
-      .duration('0.2s')
       .end();
     $('#beforebed-cancel-click').fadeOut(50);
     $('#beforebed-add-click').fadeIn(200);
@@ -1403,7 +1408,12 @@ $(document).ready(function(){
       .set('opacity', 1)
       .duration('0.2s')
       .delay('0.2s')
-      .end();  
+      .end(); 
+    }, 200);
+    move('#beforebed-cancel')
+      .set('opacity', 0)
+      .duration('0.2s')
+      .end(); 
   });
 
   /*done beforebed input*/
