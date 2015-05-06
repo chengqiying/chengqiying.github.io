@@ -1804,6 +1804,7 @@ $(document).ready(function(){
   /*add member*/
   _add=false;
   $('#member-add-click').click(function(){
+    setTimeout(function(){
     $('#friends-feeds').css("height", "448px");
     $('#friends').css("height", "498px");
 
@@ -1813,7 +1814,6 @@ $(document).ready(function(){
     $('#member-add-back-click').fadeIn(200);
 
     $('#friends-title').fadeOut(50);
-    $('#member-add').fadeOut(50);
     $('#member-add-click').fadeOut(50);
     $('.menu').fadeOut(50);
     move('#friends')
@@ -1824,10 +1824,13 @@ $(document).ready(function(){
     .to(-250, 0)
     .duration('0.2s')
     .end();
-    _add=true;
+    _add=true;    
+    },200);
+    $('#member-add').fadeOut(200);
   });
 
   $('#member-add-back-click').click(function(){
+    setTimeout(function(){
     $('#friends-feeds').css("height", "398px");
     $('#friends').css("height", "448px");    
     
@@ -1837,7 +1840,6 @@ $(document).ready(function(){
     $('.menu').fadeIn(200);
 
     $('#addfriends-title').fadeOut(50);
-    $('#member-add-back').fadeOut(50);
     $('#member-add-back-click').fadeOut(50);
     move('#friends')
     .to(0, 0)
@@ -1848,6 +1850,8 @@ $(document).ready(function(){
     .duration('0.2s')
     .end();
     _add=false;
+    },200);
+    $('#member-add-back').fadeOut(200);
   });
 
 
@@ -1930,6 +1934,7 @@ $(document).ready(function(){
 
   /*edit*/
   $('#edit-click').click(function(){
+      setTimeout(function(){
       $('#tips-one-full').css({height: "287px"},200);
      
       move('.tips-keyboard')
@@ -1944,10 +1949,11 @@ $(document).ready(function(){
       $('.tips-full-text').fadeOut(50);
       $('#forward').fadeOut(50);
       $('#forward-click').fadeOut(50);
-      $('#edit').fadeOut(50);
       $('#edit-click').fadeOut(50);
       _full=true;
-      _fullcancel=false;
+      _fullcancel=false;      
+      },200);
+      $('#edit').fadeOut(200);
   });
 
   $('#tips-one-edit-click').click(function(){
@@ -2044,6 +2050,7 @@ $(document).ready(function(){
 
   /*tips forward*/
   $('#forward-click').click(function(){
+      setTimeout(function(){
       $('#tips-one-full').css({height: "200px"},200);
 
       move('#tips-forward')
@@ -2055,12 +2062,13 @@ $(document).ready(function(){
 
       $('#tips-one-full-click').fadeOut(50);
       $('.tips-full-text').fadeOut(50);
-      $('#forward').fadeOut(50);
       $('#forward-click').fadeOut(50);
       $('#edit').fadeOut(50);
       $('#edit-click').fadeOut(50);
       _full=true;
       _fullcancel=false;
+      },200);
+      $('#forward').fadeOut(200);
   });
 
 
@@ -2413,11 +2421,11 @@ $(document).ready(function(){
   });
 
   $("#reason-beforebed-back-click").click(function(){
+    setTimeout(function(){     
     $('.menu').fadeIn(500);
     $('#me').fadeIn(500);
     $('#me-title').fadeIn(300);
     $('#reason-beforebed-title').fadeOut(50);
-    $('#reason-beforebed-back').fadeOut(50);
     $('#reason-beforebed-back-click').fadeOut(50);
       move('#beforebed-reason')
         .to(0, 0)
@@ -2430,7 +2438,8 @@ $(document).ready(function(){
         .duration('0.1s')
         .ease('in')
         .end();
-
+    },200);
+    $('#reason-beforebed-back').fadeOut(200);
   });         
 
   $("#beforebed-reason").on("swiperight",function(){
