@@ -2174,7 +2174,7 @@ $(document).ready(function(){
       $('#edit-click').fadeIn(400);
       $('#tips-one-full-click').fadeIn(50);
 
-      $('#tips-one-edit-click').fadeOut(50);
+      $('#tips-one-forward-click').fadeOut(50);
       $('.tips-full-text-forward').fadeOut(50);
       }, 500);
 
