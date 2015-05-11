@@ -1856,38 +1856,7 @@ $(document).ready(function(){
 
 
   /*tips-------------------------------*/
-  /*to have coffee back*/  
-  $('#tip-search-click').click(function(){
-    move('#tips')
-      .to(0, 0)
-      .set('opacity', 0)
-      .duration('0.3s')
-      .end();
-    move('.menu')
-      .set('opacity', 0)
-      .duration('0.3s')
-      .delay('0.3s')
-      .end();
-    move('#tips-search-title')
-      .set('opacity', 1)
-      .duration('0.2s')
-      .delay('0.2s')
-      .end(); 
-    move('#tips-title')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    $('#tips-search-click').css({display: "none"}, 200);
-    $('#tips-add-click').css({display: "none"}, 200);
-    move('#tips-search')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();
-    move('#tips-add')
-      .set('opacity', 0)
-      .duration('0.2s')
-      .end();    
-  });
+  /*to have coffee back*/
 
 
   /*tips full*/
@@ -2189,7 +2158,7 @@ $(document).ready(function(){
       $('#edit-click').fadeIn(400);
       $('#tips-one-full-click').fadeIn(50);
 
-      $('#tips-one-edit-click').fadeOut(50);
+      $('#tips-one-forward-click').fadeOut(50);
       $('.tips-full-text-forward').fadeOut(50);
       }, 500);
 
