@@ -133,7 +133,7 @@ body {
   	width: 320px;
   	border-radius: 55px;
   	background: #242324;
-  	margin: 0 auto;
+  	margin: 0;
   	position: absolute;
 	padding: 100px 30px;
 	box-shadow: 0px 0px 0px 2px #3d3d3d;
@@ -3241,6 +3241,12 @@ div.ui-mobile-viewport {
 	width: 100%;
 	display: block;
 	position: relative;
+	}
+	#device {
+		margin-top:30px;
+	}
+	#screen-content {
+		margin-top:-244px;
 	}
 
 }
