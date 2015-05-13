@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-	<title>morning</title> 
+	<title>evening</title> 
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="author" content="Qiying Cheng">
 	<meta name="apple-mobile-web-app-capable" content="yes"> 
@@ -9,11 +9,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" id="apple-mobile-web-app-status-bar">
 	<meta name="apple-mobile-web-app-title" content="Test">
 	<link rel="stylesheet" href="main.css"/>
-	<link rel="stylesheet" href="animate.css">
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 	<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
 	<link rel="apple-touch-icon" href="assets/img/favicon-150X150.png" sizes="150x150">
@@ -26,16 +25,18 @@
    	<link rel="apple-touch-icon" href="assets/img/favicon-57X57.png" sizes="57X57">
 
 	</head> 
-<body class="ui-mobile-viewport ui-overlay-a desktop"> 
-	
+<body class="ui-mobile-viewport ui-overlay-a desktop">
+
+	<script src='js/evening.js'></script>
+	<script src='js/move.min.js'></script>
 <div data-role="page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 548px;" data-theme="a">
 
-	<div id="iphone" class="vertical">
+	<!--<div id="iphone" class="vertical">
 		<div id="device">
 			<div class="sensor"></div>
 			<div class="home"></div>
 		</div>
-	
+	</div>-->
 	<div id="screen-content">
 		<!--channel><-->
 		<div class="content-header"></div>
@@ -43,10 +44,10 @@
 			<h1>Channnel</h1> 
 		</div>
 		<div id="channel">	
-			<div id="channel-topic-morning">
-				<div class="topic" id="quality">
+			<div id="channel-topic-evening">
+				<div class="topic" id="beforebed">
 					<div class="topic-icon"></div>
-					<div class="topic-text">Sleep well?</div>
+					<div class="topic-text">Before bed state</div>
 					<div class="topic-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
@@ -73,9 +74,9 @@
 
 					</div>
 				</div>
-				<div class="topic" id="energy">
+				<div class="topic" id="sleeptime">
 					<div class="topic-icon"></div>
-					<div class="topic-text">Morning energy</div>
+					<div class="topic-text">Sleep time</div>
 					<div class="topic-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
@@ -101,62 +102,7 @@
 						</svg>
 					</div>
 				</div>
-				<div class="topic" id="getup">
-					<div class="topic-icon"></div>
-					<div class="topic-text">Get up time</div>
-					<div class="topic-arrow">
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
-							<g id="Layer_2" display="none">
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
-							</g>
-							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.25" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
-						</svg>
-					</div>
-				</div>
-				<div class="topic" id="awake">
-					<div class="topic-icon"></div>
-					<div class="topic-text">Awakening times</div>
-					<div class="topic-arrow">
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
-							<g id="Layer_2" display="none">
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
-							</g>
-							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
-						</svg>
-					</div>
-				</div>
+				
 				<div id="seemore">
 					<div id="seemore-icon">
 						<svg viewBox="416.4 295.5 6.7 3.5" enable-background="new 416.4 295.5 6.7 3.5" xml:space="preserve">
@@ -215,62 +161,6 @@
 					<div id="seemore-text">back</div>
 				</div>
 
-				<div class="topic-more" id="beforebed">
-					<div class="topic-more-icon"></div>
-					<div class="topic-more-text">Before bed state</div>
-					<div class="topic-more-arrow">
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
-							<g id="Layer_2" display="none">
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
-							</g>
-							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
-						</svg>
-					</div>
-				</div>
-				<div class="topic-more" id="sleeptime">
-					<div class="topic-more-icon"></div>
-					<div class="topic-more-text">Sleep time</div>
-					<div class="topic-more-arrow">
-						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
-							<g id="Layer_2" display="none">
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
-								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
-							</g>
-							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
-						</svg>
-					</div>
-				</div>
 				<div class="topic-more" id="coffee">
 					<div class="topic-more-icon"></div>
 					<div class="topic-more-text">Have coffee/tea</div>
@@ -295,15 +185,42 @@
 								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
 								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
 							</g>
-							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.25" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
+							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
 						</svg>
-
 					</div>
 				</div>
 				<div class="topic-more" id="alcohol">
 					<div class="topic-more-icon"></div>
 					<div class="topic-more-text">Alcohol drink</div>
 					<div class="topic-more-arrow">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
+							<g id="Layer_2" display="none">
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
+							</g>
+							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
+						</svg>
+					</div>
+				</div>	
+				<div class="topic-more" id="sport">
+					<div class="topic-more-icon"></div>
+					<div class="topic-more-text">Sport time</div>
+					<div class="topic-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
 								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
@@ -331,6 +248,34 @@
 				<div class="topic-more" id="nap">
 					<div class="topic-more-icon"></div>
 					<div class="topic-more-text">Small nap</div>
+					<div class="topic-arrow">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
+							<g id="Layer_2" display="none">
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
+							</g>
+							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.3" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
+						</svg>
+					</div>
+				</div>
+				<div class="topic-more" id="getup">
+					<div class="topic-more-icon"></div>
+					<div class="topic-more-text">Get up time</div>
 					<div class="topic-more-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
@@ -356,9 +301,66 @@
 						</svg>
 					</div>
 				</div>
-				<div class="topic-more" id="sport">
+
+				<div class="topic-more" id="energy">
 					<div class="topic-more-icon"></div>
-					<div class="topic-more-text">Sport time</div>
+					<div class="topic-more-text">Morning energy</div>
+					<div class="topic-more-arrow">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
+							<g id="Layer_2" display="none">
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
+							</g>
+							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.25" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
+						</svg>
+					</div>
+				</div>
+				<div class="topic-more" id="quality">
+					<div class="topic-more-icon"></div>
+					<div class="topic-more-text">Sleep well?</div>
+					<div class="topic-more-arrow">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
+							<g id="Layer_2" display="none">
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-2138.8,-15996.8 264,-15996.8 264,-32794.5 -515.3,-32794.5 -309.6,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-1218.8,-39602.4 264,-39602.4 264,-42416.4 -17843.3,-42416.4 -17843.3,-41712.9 -18092.3,-41886.1 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-15996.8 12624.2,-15996.8 12624.2,-32794.5 12007.3,-32794.5 12212.9,-32946 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,-39429.2 13132.9,-39429.2 12840.7,-39645.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="10437.9,-4740.6 12624.2,-4740.6 12624.2,13843 12018.1,13843 12212.9,13929.6 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="11087.3,6569.7 12234.5,6569.7 12234.5,3809.8 -5039.4,3809.8 -5039.4,4437.5 -5234.2,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-6955.1,108.2 -17886.6,108.2 -17886.6,4394.2 -18070.6,4210.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="22181.1,-9459.5 25406.5,-9459.5 25406.5,14795.4 24205.1,14795.4 24497.3,14946.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="23231,6569.7 25806.9,6569.7 25590.5,6374.9 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="89804.9,1634.3 87445.5,1634.3 87445.5,-25813.5 88625.2,-25813.5 88138.2,-26138.2 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="98701.7,-6147.6 100942.1,-6147.6 100942.1,11505.1 100011.3,11505.1 100271.1,11645.8 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="110315,-12987.9 113973.3,-12987.9 113973.3,14340.8 112923.5,14340.8 113129.1,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="112036,-14037.8 113973.3,-14037.8 113973.3,-28476 112999.2,-28476 113248.2,-28681.7 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="121040.9,-7576.3 127221,-7576.3 127221,-28681.7 126052.1,-28681.7 126322.7,-28887.3 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="125467.6,-3928.8 127545.7,-3928.8 127545.7,11505.1 126355.1,11505.1 126506.7,11613.4 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="133108.9,-10206.3 140641.9,-10206.3 140641.9,14286.7 139299.8,14286.7 139602.8,14514 	"/>
+								<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="138628.7,-14221.8 141096.4,-14221.8 141096.4,-29612.5 139656.9,-29612.5 139981.6,-29948 	"/>
+							</g>
+							<polyline fill="none" stroke="#C9C9C9" stroke-width="0.25" stroke-miterlimit="10" points="419.9,295.5 421.9,297.6 420,299.6 "/>
+						</svg>
+					</div>
+				</div>
+				<div class="topic-more" id="awake">
+					<div class="topic-more-icon"></div>
+					<div class="topic-more-text">Awakening times</div>
 					<div class="topic-more-arrow">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="419.8 295.4 2.3 4.3" enable-background="new 419.8 295.4 2.3 4.3" xml:space="preserve">
 							<g id="Layer_2" display="none">
@@ -387,149 +389,7 @@
 				
 			</div>			
 		</div>
-
-		<!--have coffee-->
-		<div class="header-title" id="coffee-title">
-			<h1>Have coffee/tea</h1>
-		</div>
-		<div class="header-back-click" id="coffee-back-click"></div>
-		<div class="header-back" id="coffee-back">
-			<svg viewBox="419.6 296.3 2.4 4.3" enable-background="new 419.6 296.3 2.4 4.3" xml:space="preserve">
-				<g id="Layer_2" display="none">
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 -331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 -331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 0,7568879104 0,8920739840 0,8431425024 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 0,-403157216 0,8827486208 0,8431425024 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 0,2883563264 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 0,-9097537536 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	"/>
-				</g>
-				<polyline fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" points="421.8,300.4 419.8,298.4 421.8,296.4 "/>
-			</svg>
-		</div>
-		<div class="header-add-click" id="coffee-add-click"></div>
-		<div class="header-add" id="coffee-add">
-			<svg viewBox="418.8 296.4 4 4" enable-background="new 418.8 296.4 4 4" xml:space="preserve">
-				<g id="Layer_2" display="none">
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-5506263040,0 
-		-331417408,0 -331417408,0 -2009774848,0 -1566764672,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="-3524884224,0 
-		-331417408,0 -331417408,0 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,7568879104 
-		0,7568879104 0,8920739840 0,8431425024 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-403157216 
-		0,-403157216 0,8827486208 0,8431425024 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,2883563264 
-		0,2883563264 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,-9097537536 
-		0,-9097537536 0,0 0,0 0,0 	"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-					<polyline display="inline" fill="none" stroke="#FF795F" stroke-width="0.3" stroke-miterlimit="10" points="0,0 0,0 0,0 0,0 0,0 	
-		"/>
-				</g>
-				<g>
-					<g>
-						<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="420.8" y1="296.4" x2="420.8" y2="300.4"/>
-					</g>
-					<line fill="none" stroke="#205D6B" stroke-width="0.3" stroke-miterlimit="10" x1="422.8" y1="298.4" x2="418.8" y2="298.4"/>
-				</g>
-			</svg>
-		</div>
-
-		<div id="havecoffee">
-			<!--a new coffee post-->
-			<div id="coffee-newpost">
-				<div class="post-coffee" id="post-coffee-luis">
-					<div class="portrait"></div>
-					<div class="name">
-						<h1>Luis Lee <span style="color:#515151">had coffee</span></h1>
-						<p>just now</p>
-					</div>
-					<div class="post-coffee-content" id="luiscoffee"></div>
-					<div class="like">
-						<div id="like-text"><h2>like</h2></div>
-					</div>
-					<div class="comment">
-						<div id="comment-text"><h2>comment</h2></div>
-					</div>
-				</div>
-				<div class="postspace" id="luis-space"></div>
-			</div>
-			<!--existing coffee posts-->
-			<div class="post-coffee" id="post-coffee-stan">
-				<div class="portrait"></div>
-				<div class="name">
-					<h1>Stan Kenton <span style="color:#515151">had coffee</span></h1>
-					<p>55 minutes ago</p>
-				</div>
-				<div class="post-coffee-content" id="stancoffee"></div>
-				<div class="like">
-					<div id="like-text"><h2>like</h2></div>
-				</div>
-				<div class="comment">
-					<div id="comment-text"><h2>comment</h2></div>
-				</div>	
-			</div>
-			<div class="postspace"></div>
-			<div class="post-coffee" id="post-coffee-estelle">
-				<div class="portrait"></div>
-				<div class="name">
-					<h1>Estelle Lee <span style="color:#515151">had tea</span></h1>
-					<p>1 hour ago</p>
-				</div>
-				<div class="post-coffee-content" id="estellecoffee"></div>
-				<div class="like">
-					<div id="like-text"><h2>like</h2></div>
-				</div>
-				<div class="comment">
-					<div id="comment-text"><h2>comment</h2></div>
-				</div>	
-			</div>
-			<div class="postspace"></div>
-			<div class="post-coffee" id="post-coffee-zack">
-				<div class="portrait"></div>
-				<div class="name">
-					<h1>Zack Hoonan <span style="color:#515151">had coffee</span></h1>
-					<p>2 hours ago</p>
-				</div>
-				<div class="post-coffee-content" id="zackcoffee"></div>
-				<div class="like">
-					<div id="like-text"><h2>like</h2></div>
-				</div>
-				<div class="comment">
-					<div id="comment-text"><h2>comment</h2></div>
-				</div>	
-			</div>
-		</div>
 		
-
 		<!--have coffee input-->
 		<div class="header-cancel-click" id="coffee-cancel-click"></div>
 		<div class="header-cancel" id="coffee-cancel"><h2>Cancel</h2></div>
@@ -1767,7 +1627,6 @@
 		</div>
 
 
-
 		<!--menu><-->
 		<div class="menu">
 				<div id="menu-friends" class="menu-item">
@@ -1916,11 +1775,11 @@
 		</div>
 
 
-
 	</div>
 </div>
-	<script src='js/move.min.js'></script>
-	<script src='js/move.js'></script>
-	<script src='js/morning.js'></script>
-</body>
+	<script src='js/move.js'></script> 
+	
+	
+	
+</body>	
 </html>
