@@ -123,9 +123,13 @@ body {
 	height: 768px;
   	width: 380px;
 	display: block;
-  	top: 50%;
-  	left: 50%;
-  	margin: 0 auto;
+	margin-left:-190px;
+  	left:50%;
+  	position: absolute;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 #device {
@@ -134,7 +138,7 @@ body {
   	border-radius: 55px;
   	background: #242324;
   	margin: 0;
-  	position: absolute;
+  	position: relative;
 	padding: 100px 30px;
 	box-shadow: 0px 0px 0px 2px #3d3d3d;
 }
@@ -167,10 +171,12 @@ body {
 	height: 548px;
   	width: 320px;
   	margin-left:-160px;
-  	margin-top: -274px;
   	position: absolute;
 	left:50%;
 	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 	z-index: 100;
 	overflow: hidden;
 	font-family: 'Helvetica', sans-serif;
