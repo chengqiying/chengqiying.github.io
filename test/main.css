@@ -36,7 +36,7 @@
 	font-size: 14px;
 	color: #333333;
 	margin:15px 0 0 0;
-	line-height: 160%;
+	line-height: 180%;
 }
 
 #questionnaire a{
@@ -51,7 +51,7 @@
 #scenario {
 	width:60%;
 	display: block;
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left:20%;
 	position: relative;
 }
