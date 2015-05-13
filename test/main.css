@@ -14,7 +14,6 @@
 -----------------------------------------------------------------------------------------------------------*/
 #intro {
 	width:50%;
-	min-height: 317px;
 	left:0;
 	display: block;
 	position: absolute;
@@ -3161,7 +3160,7 @@ button[disabled],
 /* Some unsets */
 .ui-mobile,
 .ui-mobile body {
-	height: 99.9%;
+	height: 100%;
 }
 .ui-mobile fieldset,
 .ui-page {
@@ -3204,7 +3203,6 @@ div.ui-mobile-viewport {
 	top: 0;
 	left: 50%;
 	width: 50%;
-	min-height: 100%;
 	position: absolute;
 	display: none;
 	border: 0;
@@ -3233,7 +3231,7 @@ div.ui-mobile-viewport {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
     #intro {
         width: 100%;
         left:0;
@@ -3242,19 +3240,13 @@ div.ui-mobile-viewport {
     .ui-mobile [data-role=page],
 	.ui-mobile [data-role=dialog],
 	.ui-page {
+	height: 850px;
 	left: 0;
 	margin-top: 50px;
 	width: 100%;
 	display: block;
 	position: relative;
 	}
-	#device {
-		margin-top:30px;
-	}
-	#screen-content {
-		margin-top:-244px;
-	}
-
 }
 
 /* Fouc */
