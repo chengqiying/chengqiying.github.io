@@ -1442,7 +1442,39 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-  });  
+  }); 
+  /*select before bed emotions*/
+  $('.state-content').click(function(){
+    $('#beforebed-select').fadeIn(200);
+    move('#beforebed-tick')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#beforebed-cross')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+  
+
+  $('#beforebed-tick').click(function(){
+    setTimeout(function(){
+      $('#beforebed-select').fadeOut(50); 
+    }, 200);
+    move('#beforebed-tick')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#beforebed-cross').click(function(){
+    setTimeout(function(){
+      $('#beforebed-select').fadeOut(50); 
+    }, 200);
+    move('#beforebed-cross')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
 
   /*cancel beforebed input*/
   $('#beforebed-cancel-click').click(function(){

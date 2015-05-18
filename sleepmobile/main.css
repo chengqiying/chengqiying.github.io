@@ -1560,6 +1560,47 @@ body {
   	overflow: hidden;
 }
 
+#emotionroll{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	height: 100px;
+	background-color: #BDE9F4;
+	opacity: 1;
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+   	transform: translateY(-50%);
+   	text-align: center;
+   	overflow: auto;
+}
+
+#emotionroll p{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 4.2em;
+	color:#fff;
+	margin:0;
+}
+
+#beforebed-tick{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	right:40px;
+	text-align: left;
+	position: absolute;
+}
+
+#beforebed-cross{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	left:40px;
+	text-align: left;
+	position: absolute;
+}
+
 #input-beforebed h1 {
 	font-weight: 100;
 	font-size: 1.2em;
