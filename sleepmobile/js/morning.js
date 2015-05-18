@@ -435,6 +435,28 @@ $(document).ready(function(){
     }
   });
 
+  /*select time*/
+  $('.hour').click(function(){
+    $('#hour-select').fadeIn(200);
+  });
+  $('.minu').click(function(){
+    $('#minute-select').fadeIn(200);
+  });
+
+  $('#hour-tick').click(function(){
+    $('#hour-select').fadeOut(50);
+  });
+  $('#minute-tick').click(function(){
+    $('#minute-select').fadeOut(50);
+  });
+  $('#hour-cross').click(function(){
+    $('#hour-select').fadeOut(50);
+  });
+  $('#minute-cross').click(function(){
+    $('#minute-select').fadeOut(50);
+  });
+
+    
   /*select friends*/
   _estelle=false
   $('#coffee-share-button .estelle-button').click(function(){
