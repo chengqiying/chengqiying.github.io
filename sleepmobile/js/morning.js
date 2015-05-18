@@ -438,22 +438,62 @@ $(document).ready(function(){
   /*select time*/
   $('.hour').click(function(){
     $('#hour-select').fadeIn(200);
+    move('#hour-tick')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#hour-cross')
+      .duration('0.05s')
+      .scale('1')
+      .end();
   });
   $('.minu').click(function(){
     $('#minute-select').fadeIn(200);
+    move('#minute-tick')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#minute-cross')
+      .duration('0.05s')
+      .scale('1')
+      .end();
   });
 
   $('#hour-tick').click(function(){
-    $('#hour-select').fadeOut(50);
-  });
-  $('#minute-tick').click(function(){
-    $('#minute-select').fadeOut(50);
+    setTimeout(function(){
+      $('#hour-select').fadeOut(50); 
+    }, 200);
+    move('#hour-tick')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
   });
   $('#hour-cross').click(function(){
-    $('#hour-select').fadeOut(50);
+    setTimeout(function(){
+      $('#hour-select').fadeOut(50); 
+    }, 200);
+    move('#hour-cross')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-tick').click(function(){
+    setTimeout(function(){
+      $('#minute-select').fadeOut(50); 
+    }, 200);
+    move('#minute-tick')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
   });
   $('#minute-cross').click(function(){
-    $('#minute-select').fadeOut(50);
+    setTimeout(function(){
+      $('#minute-select').fadeOut(50); 
+    }, 200);
+    move('#minute-cross')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
   });
 
     
