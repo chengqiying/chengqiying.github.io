@@ -436,65 +436,377 @@ $(document).ready(function(){
   });
 
   /*select time*/
-  $('.hour').click(function(){
-    $('#hour-select').fadeIn(200);
-    move('#hour-tick')
+  /*coffee*/
+  $('#hour-number-coffee').click(function(){
+    $('#hour-select-coffee').fadeIn(200);
+    move('#hour-tick-coffee')
       .duration('0.05s')
       .scale('1')
       .end();
-    move('#hour-cross')
+    move('#hour-cross-coffee')
       .duration('0.05s')
       .scale('1')
       .end();
   });
-  $('.minu').click(function(){
-    $('#minute-select').fadeIn(200);
-    move('#minute-tick')
+  $('#minu-number-coffee').click(function(){
+    $('#minute-select-coffee').fadeIn(200);
+    move('#minute-tick-coffee')
       .duration('0.05s')
       .scale('1')
       .end();
-    move('#minute-cross')
+    move('#minute-cross-coffee')
       .duration('0.05s')
       .scale('1')
       .end();
   });
 
-  $('#hour-tick').click(function(){
+  $('#hour-tick-coffee').click(function(){
     setTimeout(function(){
-      $('#hour-select').fadeOut(50); 
+      $('#hour-select-coffee').fadeOut(50); 
     }, 200);
-    move('#hour-tick')
+    move('#hour-tick-coffee')
       .duration('0.2s')
       .scale('1.2')
       .end();
   });
-  $('#hour-cross').click(function(){
+  $('#hour-cross-coffee').click(function(){
     setTimeout(function(){
-      $('#hour-select').fadeOut(50); 
+      $('#hour-select-coffee').fadeOut(50); 
     }, 200);
-    move('#hour-cross')
+    move('#hour-cross-coffee')
       .duration('0.2s')
       .scale('1.2')
       .end();
   });
-  $('#minute-tick').click(function(){
+  $('#minute-tick-coffee').click(function(){
     setTimeout(function(){
-      $('#minute-select').fadeOut(50); 
+      $('#minute-select-coffee').fadeOut(50); 
     }, 200);
+    move('#minute-tick-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-cross-coffee').click(function(){
+    setTimeout(function(){
+      $('#minute-select-coffee').fadeOut(50); 
+    }, 200);
+    move('#minute-cross-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+
+  /*detect time*/
+    $('#timeroll-hour-coffee').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var a = $('#timeroll-hour-coffee').scrollTop();
+
+      if(a < 45){
+          document.getElementById("hour-number-coffee").innerHTML= "1";
+      }
+      else if(a > 44 && a <138){
+          document.getElementById("hour-number-coffee").innerHTML= "2";
+      }
+      else if(a > 137 && a <231){
+          document.getElementById("hour-number-coffee").innerHTML= "3";
+      }
+      else if(a > 230 && a <324){
+          document.getElementById("hour-number-coffee").innerHTML= "4";
+      }
+      else if(a > 323 && a <417){
+          document.getElementById("hour-number-coffee").innerHTML= "5";
+      }
+      else if(a > 416 && a <510){
+          document.getElementById("hour-number-coffee").innerHTML= "6";
+      }
+      else if(a > 509 && a <603){
+          document.getElementById("hour-number-coffee").innerHTML= "7";
+      }
+      else if(a > 602 && a <696){
+          document.getElementById("hour-number-coffee").innerHTML= "8";
+      }
+      else if(a > 695 && a <789){
+          document.getElementById("hour-number-coffee").innerHTML= "9";
+      }
+      else if(a > 788 && a <882){
+          document.getElementById("hour-number-coffee").innerHTML= "10";
+      }
+      else if(a > 881 && a <975){
+          document.getElementById("hour-number-coffee").innerHTML= "11";
+      }
+      else if(a > 974 && a <1068){
+          document.getElementById("hour-number-coffee").innerHTML= "12";
+      }
+      else if(a > 1067 && a <1161){
+          document.getElementById("hour-number-coffee").innerHTML= "13";
+      }
+      else if(a > 1067 && a <1161){
+          document.getElementById("hour-number-coffee").innerHTML= "14";
+      }
+      else if(a > 1067 && a <1161){
+          document.getElementById("hour-number-coffee").innerHTML= "15";
+      }
+      else if(a > 1160 && a <1254){
+          document.getElementById("hour-number-coffee").innerHTML= "16";
+      }
+      else if(a > 1253 && a <1347){
+          document.getElementById("hour-number-coffee").innerHTML= "17";
+      }
+      else if(a > 1346 && a <1440){
+          document.getElementById("hour-number-coffee").innerHTML= "18";
+      }
+      else if(a > 1439 && a <1533){
+          document.getElementById("hour-number-coffee").innerHTML= "19";
+      }
+      else if(a > 1532 && a <1626){
+          document.getElementById("hour-number-coffee").innerHTML= "20";
+      }
+      else if(a > 1625 && a <1719){
+          document.getElementById("hour-number-coffee").innerHTML= "21";
+      }
+      else if(a > 1718 && a <1812){
+          document.getElementById("hour-number-coffee").innerHTML= "22";
+      }
+      else if(a > 1905 && a <1999){
+          document.getElementById("hour-number-coffee").innerHTML= "23";
+      }
+      else if(a > 1998 && a <2092){
+          document.getElementById("hour-number-coffee").innerHTML= "24";
+      }
+    });
+
+    $('#timeroll-minute-coffee').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var b = $('#timeroll-minute-coffee').scrollTop();
+
+      if(b < 45){
+          document.getElementById("minu-number-coffee").innerHTML= "0";
+      }
+      else if(b > 44 && b <138){
+          document.getElementById("minu-number-coffee").innerHTML= "5";
+      }
+      else if(b > 137 && b <231){
+          document.getElementById("minu-number-coffee").innerHTML= "10";
+      }
+      else if(b > 230 && b <324){
+          document.getElementById("minu-number-coffee").innerHTML= "15";
+      }
+      else if(b > 323 && b <417){
+          document.getElementById("minu-number-coffee").innerHTML= "20";
+      }
+      else if(b > 416 && b <510){
+          document.getElementById("minu-number-coffee").innerHTML= "25";
+      }
+      else if(b > 509 && b <603){
+          document.getElementById("minu-number-coffee").innerHTML= "30";
+      }
+      else if(b > 602 && b <696){
+          document.getElementById("minu-number-coffee").innerHTML= "35";
+      }
+      else if(b > 695 && b <789){
+          document.getElementById("minu-number-coffee").innerHTML= "40";
+      }
+      else if(b > 788 && b <882){
+          document.getElementById("minu-number-coffee").innerHTML= "45";
+      }
+      else if(b > 881 && b <975){
+          document.getElementById("minu-number-coffee").innerHTML= "50";
+      }
+      else if(b > 974 && b <1068){
+          document.getElementById("minu-number-coffee").innerHTML= "55";
+      }
+      else if(b > 1067 && b <1161){
+          document.getElementById("minu-number-coffee").innerHTML= "60";
+      }
+    });
+    
+    /*getup time change*/
+    $('#hour-number-getup').click(function(){
+    $('#hour-select-getup').fadeIn(200);
+    move('#hour-tick-getup')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#hour-cross-getup')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+  $('#minu-number-getup').click(function(){
+    $('#minute-select-getup').fadeIn(200);
     move('#minute-tick')
-      .duration('0.2s')
-      .scale('1.2')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#minute-cross-getup')
+      .duration('0.05s')
+      .scale('1')
       .end();
   });
-  $('#minute-cross').click(function(){
+
+  $('#hour-tick-getup').click(function(){
     setTimeout(function(){
-      $('#minute-select').fadeOut(50); 
+      $('#hour-select-getup').fadeOut(50); 
     }, 200);
-    move('#minute-cross')
+    move('#hour-tick-getup')
       .duration('0.2s')
       .scale('1.2')
       .end();
   });
+  $('#hour-cross-getup').click(function(){
+    setTimeout(function(){
+      $('#hour-select-getup').fadeOut(50); 
+    }, 200);
+    move('#hour-cross-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-tick-getup').click(function(){
+    setTimeout(function(){
+      $('#minute-select-getup').fadeOut(50); 
+    }, 200);
+    move('#minute-tick-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-cross-getup').click(function(){
+    setTimeout(function(){
+      $('#minute-select-getup').fadeOut(50); 
+    }, 200);
+    move('#minute-cross-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+    $('#timeroll-hour-getup').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var cc = $('#timeroll-hour-getup').scrollTop();
+
+      if(cc < 45){
+          document.getElementById("hour-number-getup").innerHTML= "1";
+      }
+      else if(cc > 44 && cc <138){
+          document.getElementById("hour-number-getup").innerHTML= "2";
+      }
+      else if(cc > 137 && cc <231){
+          document.getElementById("hour-number-getup").innerHTML= "3";
+      }
+      else if(cc > 230 && cc <324){
+          document.getElementById("hour-number-getup").innerHTML= "4";
+      }
+      else if(cc > 323 && cc <417){
+          document.getElementById("hour-number-getup").innerHTML= "5";
+      }
+      else if(cc > 416 && cc <510){
+          document.getElementById("hour-number-getup").innerHTML= "6";
+      }
+      else if(cc > 509 && cc <603){
+          document.getElementById("hour-number-getup").innerHTML= "7";
+      }
+      else if(cc > 602 && cc <696){
+          document.getElementById("hour-number-getup").innerHTML= "8";
+      }
+      else if(cc > 695 && cc <789){
+          document.getElementById("hour-number-getup").innerHTML= "9";
+      }
+      else if(cc > 788 && cc <882){
+          document.getElementById("hour-number-getup").innerHTML= "10";
+      }
+      else if(cc > 881 && cc <975){
+          document.getElementById("hour-number-getup").innerHTML= "11";
+      }
+      else if(cc > 974 && cc <1068){
+          document.getElementById("hour-number-getup").innerHTML= "12";
+      }
+      else if(cc > 1067 && cc <1161){
+          document.getElementById("hour-number-getup").innerHTML= "13";
+      }
+      else if(cc > 1067 && cc <1161){
+          document.getElementById("hour-number-getup").innerHTML= "14";
+      }
+      else if(cc > 1067 && cc <1161){
+          document.getElementById("hour-number-getup").innerHTML= "15";
+      }
+      else if(cc > 1160 && cc <1254){
+          document.getElementById("hour-number-getup").innerHTML= "16";
+      }
+      else if(cc > 1253 && cc <1347){
+          document.getElementById("hour-number-coffee").innerHTML= "17";
+      }
+      else if(cc > 1346 && cc <1440){
+          document.getElementById("hour-number-getup").innerHTML= "18";
+      }
+      else if(cc > 1439 && cc <1533){
+          document.getElementById("hour-number-getup").innerHTML= "19";
+      }
+      else if(cc > 1532 && cc <1626){
+          document.getElementById("hour-number-coffee").innerHTML= "20";
+      }
+      else if(cc > 1625 && cc <1719){
+          document.getElementById("hour-number-getup").innerHTML= "21";
+      }
+      else if(cc > 1718 && cc <1812){
+          document.getElementById("hour-number-getup").innerHTML= "22";
+      }
+      else if(cc > 1905 && cc <1999){
+          document.getElementById("hour-number-getup").innerHTML= "23";
+      }
+      else if(cc > 1998 && cc <2092){
+          document.getElementById("hour-number-getup").innerHTML= "24";
+      }
+    });
+
+    $('#timeroll-minute-getup').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var d = $('#timeroll-minute-getup').scrollTop();
+
+      if(d < 45){
+          document.getElementById("minu-number-getup").innerHTML= "0";
+      }
+      else if(d > 44 && d <138){
+          document.getElementById("minu-number-getup").innerHTML= "5";
+      }
+      else if(d > 137 && d <231){
+          document.getElementById("minu-number-getup").innerHTML= "10";
+      }
+      else if(d > 230 && d <324){
+          document.getElementById("minu-number-getup").innerHTML= "15";
+      }
+      else if(d > 323 && d <417){
+          document.getElementById("minu-number-getup").innerHTML= "20";
+      }
+      else if(d > 416 && d <510){
+          document.getElementById("minu-number-getup").innerHTML= "25";
+      }
+      else if(d > 509 && d <603){
+          document.getElementById("minu-number-getup").innerHTML= "30";
+      }
+      else if(d > 602 && d <696){
+          document.getElementById("minu-number-getup").innerHTML= "35";
+      }
+      else if(d > 695 && d <789){
+          document.getElementById("minu-number-getup").innerHTML= "40";
+      }
+      else if(d > 788 && d <882){
+          document.getElementById("minu-number-getup").innerHTML= "45";
+      }
+      else if(d > 881 && d <975){
+          document.getElementById("minu-number-coffee").innerHTML= "50";
+      }
+      else if(d > 974 && d <1068){
+          document.getElementById("minu-number-getup").innerHTML= "55";
+      }
+      else if(d > 1067 && d <1161){
+          document.getElementById("minu-number-getup").innerHTML= "60";
+      }
+    });
 
     
   /*select friends*/
@@ -1443,6 +1755,7 @@ $(document).ready(function(){
       .duration('0.2s')
       .end();
   }); 
+
   /*select before bed emotions*/
   $('.state-content').click(function(){
     $('#beforebed-select').fadeIn(200);
@@ -1475,6 +1788,34 @@ $(document).ready(function(){
       .scale('1.2')
       .end();
   });
+
+  $('#emotionroll').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var e = $('#emotionroll').scrollTop();
+
+      if(e < 45){
+          document.getElementById("state-content-change").innerHTML= "happy";
+      }
+      else if(e > 44 && e <138){
+          document.getElementById("state-content-change").innerHTML= "excited";
+      }
+      else if(e > 137 && e <231){
+          document.getElementById("state-content-change").innerHTML= "calm";
+      }
+      else if(e > 230 && e <324){
+          document.getElementById("state-content-change").innerHTML= "anxious";
+      }
+      else if(e > 323 && e <417){
+          document.getElementById("state-content-change").innerHTML= "upset";
+      }
+      else if(e > 416 && e <510){
+          document.getElementById("state-content-change").innerHTML= "frustrated";
+      }
+      else if(e > 509 && e <603){
+          document.getElementById("state-content-change").innerHTML= "dispirited";
+      }
+    });
 
   /*cancel beforebed input*/
   $('#beforebed-cancel-click').click(function(){
