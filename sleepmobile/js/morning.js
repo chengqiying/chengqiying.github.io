@@ -503,76 +503,76 @@ $(document).ready(function(){
       // Is this element visible onscreen?
       var a = $('#timeroll-hour-coffee').scrollTop();
 
-      if(a < 45){
+      if(a < 61){
           document.getElementById("hour-number-coffee").innerHTML= "1";
       }
-      else if(a > 44 && a <138){
+      else if(a > 60 && a <154){
           document.getElementById("hour-number-coffee").innerHTML= "2";
       }
-      else if(a > 137 && a <231){
+      else if(a > 153 && a <247){
           document.getElementById("hour-number-coffee").innerHTML= "3";
       }
-      else if(a > 230 && a <324){
+      else if(a > 246 && a <340){
           document.getElementById("hour-number-coffee").innerHTML= "4";
       }
-      else if(a > 323 && a <417){
+      else if(a > 339 && a <433){
           document.getElementById("hour-number-coffee").innerHTML= "5";
       }
-      else if(a > 416 && a <510){
+      else if(a > 432 && a <526){
           document.getElementById("hour-number-coffee").innerHTML= "6";
       }
-      else if(a > 509 && a <603){
+      else if(a > 525 && a <619){
           document.getElementById("hour-number-coffee").innerHTML= "7";
       }
-      else if(a > 602 && a <696){
+      else if(a > 618 && a <712){
           document.getElementById("hour-number-coffee").innerHTML= "8";
       }
-      else if(a > 695 && a <789){
+      else if(a > 711 && a <805){
           document.getElementById("hour-number-coffee").innerHTML= "9";
       }
-      else if(a > 788 && a <882){
+      else if(a > 804 && a <898){
           document.getElementById("hour-number-coffee").innerHTML= "10";
       }
-      else if(a > 881 && a <975){
+      else if(a > 897 && a <991){
           document.getElementById("hour-number-coffee").innerHTML= "11";
       }
-      else if(a > 974 && a <1068){
+      else if(a > 990 && a <1084){
           document.getElementById("hour-number-coffee").innerHTML= "12";
       }
-      else if(a > 1067 && a <1161){
+      else if(a > 1083 && a <1177){
           document.getElementById("hour-number-coffee").innerHTML= "13";
       }
-      else if(a > 1067 && a <1161){
+      else if(a > 1067 && a <1270){
           document.getElementById("hour-number-coffee").innerHTML= "14";
       }
-      else if(a > 1067 && a <1161){
+      else if(a > 1269 && a <1363){
           document.getElementById("hour-number-coffee").innerHTML= "15";
       }
-      else if(a > 1160 && a <1254){
+      else if(a > 1362 && a <1456){
           document.getElementById("hour-number-coffee").innerHTML= "16";
       }
-      else if(a > 1253 && a <1347){
+      else if(a > 1455 && a <1549){
           document.getElementById("hour-number-coffee").innerHTML= "17";
       }
-      else if(a > 1346 && a <1440){
+      else if(a > 1548 && a <1642){
           document.getElementById("hour-number-coffee").innerHTML= "18";
       }
-      else if(a > 1439 && a <1533){
+      else if(a > 1641 && a <1735){
           document.getElementById("hour-number-coffee").innerHTML= "19";
       }
-      else if(a > 1532 && a <1626){
+      else if(a > 1734 && a <1828){
           document.getElementById("hour-number-coffee").innerHTML= "20";
       }
-      else if(a > 1625 && a <1719){
+      else if(a > 1827 && a <1921){
           document.getElementById("hour-number-coffee").innerHTML= "21";
       }
-      else if(a > 1718 && a <1812){
+      else if(a > 1920 && a <2014){
           document.getElementById("hour-number-coffee").innerHTML= "22";
       }
-      else if(a > 1905 && a <1999){
+      else if(a > 2013 && a <2107){
           document.getElementById("hour-number-coffee").innerHTML= "23";
       }
-      else if(a > 1998 && a <2092){
+      else if(a > 2106 && a <2200){
           document.getElementById("hour-number-coffee").innerHTML= "24";
       }
     });
@@ -582,43 +582,43 @@ $(document).ready(function(){
       // Is this element visible onscreen?
       var b = $('#timeroll-minute-coffee').scrollTop();
 
-      if(b < 45){
+      if(b < 61){
           document.getElementById("minu-number-coffee").innerHTML= "0";
       }
-      else if(b > 44 && b <138){
+      else if(b > 60 && b <154){
           document.getElementById("minu-number-coffee").innerHTML= "5";
       }
-      else if(b > 137 && b <231){
+      else if(b > 153 && b <247){
           document.getElementById("minu-number-coffee").innerHTML= "10";
       }
-      else if(b > 230 && b <324){
+      else if(b > 246 && b <340){
           document.getElementById("minu-number-coffee").innerHTML= "15";
       }
-      else if(b > 323 && b <417){
+      else if(b > 339 && b <433){
           document.getElementById("minu-number-coffee").innerHTML= "20";
       }
-      else if(b > 416 && b <510){
+      else if(b > 432 && b <526){
           document.getElementById("minu-number-coffee").innerHTML= "25";
       }
-      else if(b > 509 && b <603){
+      else if(b > 525 && b <619){
           document.getElementById("minu-number-coffee").innerHTML= "30";
       }
-      else if(b > 602 && b <696){
+      else if(b > 611 && b <712){
           document.getElementById("minu-number-coffee").innerHTML= "35";
       }
-      else if(b > 695 && b <789){
+      else if(b > 711 && b <805){
           document.getElementById("minu-number-coffee").innerHTML= "40";
       }
-      else if(b > 788 && b <882){
+      else if(b > 804 && b <898){
           document.getElementById("minu-number-coffee").innerHTML= "45";
       }
-      else if(b > 881 && b <975){
+      else if(b > 897 && b <991){
           document.getElementById("minu-number-coffee").innerHTML= "50";
       }
-      else if(b > 974 && b <1068){
+      else if(b > 990 && b <1084){
           document.getElementById("minu-number-coffee").innerHTML= "55";
       }
-      else if(b > 1067 && b <1161){
+      else if(b > 1083 && b <1177){
           document.getElementById("minu-number-coffee").innerHTML= "60";
       }
     });
@@ -688,76 +688,76 @@ $(document).ready(function(){
       // Is this element visible onscreen?
       var cc = $('#timeroll-hour-getup').scrollTop();
 
-      if(cc < 45){
+      if(cc < 61){
           document.getElementById("hour-number-getup").innerHTML= "1";
       }
-      else if(cc > 44 && cc <138){
+      else if(cc > 60 && cc <154){
           document.getElementById("hour-number-getup").innerHTML= "2";
       }
-      else if(cc > 137 && cc <231){
+      else if(cc > 153 && cc <247){
           document.getElementById("hour-number-getup").innerHTML= "3";
       }
-      else if(cc > 230 && cc <324){
+      else if(cc > 246 && cc <340){
           document.getElementById("hour-number-getup").innerHTML= "4";
       }
-      else if(cc > 323 && cc <417){
+      else if(cc > 339 && cc <433){
           document.getElementById("hour-number-getup").innerHTML= "5";
       }
-      else if(cc > 416 && cc <510){
+      else if(cc > 432 && cc <526){
           document.getElementById("hour-number-getup").innerHTML= "6";
       }
-      else if(cc > 509 && cc <603){
+      else if(cc > 525 && cc <619){
           document.getElementById("hour-number-getup").innerHTML= "7";
       }
-      else if(cc > 602 && cc <696){
+      else if(cc > 618 && cc <712){
           document.getElementById("hour-number-getup").innerHTML= "8";
       }
-      else if(cc > 695 && cc <789){
+      else if(cc > 711 && cc <805){
           document.getElementById("hour-number-getup").innerHTML= "9";
       }
-      else if(cc > 788 && cc <882){
+      else if(cc > 804 && cc <898){
           document.getElementById("hour-number-getup").innerHTML= "10";
       }
-      else if(cc > 881 && cc <975){
+      else if(cc > 897 && cc <991){
           document.getElementById("hour-number-getup").innerHTML= "11";
       }
-      else if(cc > 974 && cc <1068){
+      else if(cc > 990 && cc <1084){
           document.getElementById("hour-number-getup").innerHTML= "12";
       }
-      else if(cc > 1067 && cc <1161){
+      else if(cc > 1083 && cc <1177){
           document.getElementById("hour-number-getup").innerHTML= "13";
       }
-      else if(cc > 1067 && cc <1161){
+      else if(cc > 1176 && cc <1270){
           document.getElementById("hour-number-getup").innerHTML= "14";
       }
-      else if(cc > 1067 && cc <1161){
+      else if(cc > 1269 && cc <1363){
           document.getElementById("hour-number-getup").innerHTML= "15";
       }
-      else if(cc > 1160 && cc <1254){
+      else if(cc > 1362 && cc <1456){
           document.getElementById("hour-number-getup").innerHTML= "16";
       }
-      else if(cc > 1253 && cc <1347){
-          document.getElementById("hour-number-coffee").innerHTML= "17";
+      else if(cc > 1455 && cc <1549){
+          document.getElementById("hour-number-getup").innerHTML= "17";
       }
-      else if(cc > 1346 && cc <1440){
+      else if(cc > 1548 && cc <1642){
           document.getElementById("hour-number-getup").innerHTML= "18";
       }
-      else if(cc > 1439 && cc <1533){
+      else if(cc > 1641 && cc <1735){
           document.getElementById("hour-number-getup").innerHTML= "19";
       }
-      else if(cc > 1532 && cc <1626){
+      else if(cc > 1734 && cc <1828){
           document.getElementById("hour-number-coffee").innerHTML= "20";
       }
-      else if(cc > 1625 && cc <1719){
+      else if(cc > 1827 && cc <1921){
           document.getElementById("hour-number-getup").innerHTML= "21";
       }
-      else if(cc > 1718 && cc <1812){
+      else if(cc > 1920 && cc <2014){
           document.getElementById("hour-number-getup").innerHTML= "22";
       }
-      else if(cc > 1905 && cc <1999){
+      else if(cc > 2013 && cc <2107){
           document.getElementById("hour-number-getup").innerHTML= "23";
       }
-      else if(cc > 1998 && cc <2092){
+      else if(cc > 2106 && cc <2200){
           document.getElementById("hour-number-getup").innerHTML= "24";
       }
     });
@@ -767,43 +767,43 @@ $(document).ready(function(){
       // Is this element visible onscreen?
       var d = $('#timeroll-minute-getup').scrollTop();
 
-      if(d < 45){
+      if(d < 61){
           document.getElementById("minu-number-getup").innerHTML= "0";
       }
-      else if(d > 44 && d <138){
+      else if(d > 60 && d <154){
           document.getElementById("minu-number-getup").innerHTML= "5";
       }
-      else if(d > 137 && d <231){
+      else if(d > 153 && d <247){
           document.getElementById("minu-number-getup").innerHTML= "10";
       }
-      else if(d > 230 && d <324){
+      else if(d > 246 && d <340){
           document.getElementById("minu-number-getup").innerHTML= "15";
       }
-      else if(d > 323 && d <417){
+      else if(d > 339 && d <433){
           document.getElementById("minu-number-getup").innerHTML= "20";
       }
-      else if(d > 416 && d <510){
+      else if(d > 432 && d <526){
           document.getElementById("minu-number-getup").innerHTML= "25";
       }
-      else if(d > 509 && d <603){
+      else if(d > 525 && d <619){
           document.getElementById("minu-number-getup").innerHTML= "30";
       }
-      else if(d > 602 && d <696){
+      else if(d > 618 && d <712){
           document.getElementById("minu-number-getup").innerHTML= "35";
       }
-      else if(d > 695 && d <789){
+      else if(d > 711 && d <805){
           document.getElementById("minu-number-getup").innerHTML= "40";
       }
-      else if(d > 788 && d <882){
+      else if(d > 804 && d <898){
           document.getElementById("minu-number-getup").innerHTML= "45";
       }
-      else if(d > 881 && d <975){
+      else if(d > 897 && d <991){
           document.getElementById("minu-number-coffee").innerHTML= "50";
       }
-      else if(d > 974 && d <1068){
+      else if(d > 990 && d <1084){
           document.getElementById("minu-number-getup").innerHTML= "55";
       }
-      else if(d > 1067 && d <1161){
+      else if(d > 1083 && d <1177){
           document.getElementById("minu-number-getup").innerHTML= "60";
       }
     });
@@ -1794,25 +1794,25 @@ $(document).ready(function(){
       // Is this element visible onscreen?
       var e = $('#emotionroll').scrollTop();
 
-      if(e < 45){
+      if(e < 61){
           document.getElementById("state-content-change").innerHTML= "happy";
       }
-      else if(e > 44 && e <138){
+      else if(e > 60 && e <154){
           document.getElementById("state-content-change").innerHTML= "excited";
       }
-      else if(e > 137 && e <231){
+      else if(e > 153 && e <247){
           document.getElementById("state-content-change").innerHTML= "calm";
       }
-      else if(e > 230 && e <324){
+      else if(e > 246 && e <340){
           document.getElementById("state-content-change").innerHTML= "anxious";
       }
-      else if(e > 323 && e <417){
+      else if(e > 339 && e <433){
           document.getElementById("state-content-change").innerHTML= "upset";
       }
-      else if(e > 416 && e <510){
+      else if(e > 432 && e <526){
           document.getElementById("state-content-change").innerHTML= "frustrated";
       }
-      else if(e > 509 && e <603){
+      else if(e > 525 && e <619){
           document.getElementById("state-content-change").innerHTML= "dispirited";
       }
     });
