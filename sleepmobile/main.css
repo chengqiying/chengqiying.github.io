@@ -1566,8 +1566,8 @@ body {
 	border-top: 1px solid #333333;
 	border-bottom: 1px solid #333333;
 	height: 100px;
-	width:86%;
-	left: 7%;
+	width:82%;
+	left: 9%;
 	position: relative;
 	top: 50%;
   	-webkit-transform: translateY(-50%);
@@ -1579,7 +1579,7 @@ body {
 
 #emotionroll p{
 	font-family: 'Helvetica Neue', sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 4.2em;
 	color:#fff;
 	margin:0;
