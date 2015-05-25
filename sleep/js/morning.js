@@ -435,6 +435,380 @@ $(document).ready(function(){
     }
   });
 
+  /*select time*/
+  /*coffee*/
+  $('#hour-number-coffee').click(function(){
+    $('#hour-select-coffee').fadeIn(200);
+    move('#hour-tick-coffee')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#hour-cross-coffee')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+  $('#minu-number-coffee').click(function(){
+    $('#minute-select-coffee').fadeIn(200);
+    move('#minute-tick-coffee')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#minute-cross-coffee')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+
+  $('#hour-tick-coffee').click(function(){
+    setTimeout(function(){
+      $('#hour-select-coffee').fadeOut(50); 
+    }, 200);
+    move('#hour-tick-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#hour-cross-coffee').click(function(){
+    setTimeout(function(){
+      $('#hour-select-coffee').fadeOut(50); 
+    }, 200);
+    move('#hour-cross-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-tick-coffee').click(function(){
+    setTimeout(function(){
+      $('#minute-select-coffee').fadeOut(50); 
+    }, 200);
+    move('#minute-tick-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-cross-coffee').click(function(){
+    setTimeout(function(){
+      $('#minute-select-coffee').fadeOut(50); 
+    }, 200);
+    move('#minute-cross-coffee')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+
+  /*detect time*/
+    $('#timeroll-hour-coffee').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var a = $('#timeroll-hour-coffee').scrollTop();
+
+      if(a < 61){
+          document.getElementById("hour-number-coffee").innerHTML= "1";
+      }
+      else if(a > 60 && a <155){
+          document.getElementById("hour-number-coffee").innerHTML= "2";
+      }
+      else if(a > 154 && a <249){
+          document.getElementById("hour-number-coffee").innerHTML= "3";
+      }
+      else if(a > 248 && a <343){
+          document.getElementById("hour-number-coffee").innerHTML= "4";
+      }
+      else if(a > 342 && a <437){
+          document.getElementById("hour-number-coffee").innerHTML= "5";
+      }
+      else if(a > 436 && a <531){
+          document.getElementById("hour-number-coffee").innerHTML= "6";
+      }
+      else if(a > 530 && a <625){
+          document.getElementById("hour-number-coffee").innerHTML= "7";
+      }
+      else if(a > 624 && a <719){
+          document.getElementById("hour-number-coffee").innerHTML= "8";
+      }
+      else if(a > 718 && a <813){
+          document.getElementById("hour-number-coffee").innerHTML= "9";
+      }
+      else if(a > 812 && a <917){
+          document.getElementById("hour-number-coffee").innerHTML= "10";
+      }
+      else if(a > 916 && a <1021){
+          document.getElementById("hour-number-coffee").innerHTML= "11";
+      }
+      else if(a > 1020 && a <1125){
+          document.getElementById("hour-number-coffee").innerHTML= "12";
+      }
+      else if(a > 1124 && a <1219){
+          document.getElementById("hour-number-coffee").innerHTML= "13";
+      }
+      else if(a > 1218 && a <1318){
+          document.getElementById("hour-number-coffee").innerHTML= "14";
+      }
+      else if(a > 1317 && a <1417){
+          document.getElementById("hour-number-coffee").innerHTML= "15";
+      }
+      else if(a > 1416 && a <1516){
+          document.getElementById("hour-number-coffee").innerHTML= "16";
+      }
+      else if(a > 1515 && a <1595){
+          document.getElementById("hour-number-coffee").innerHTML= "17";
+      }
+      else if(a > 1594 && a <1694){
+          document.getElementById("hour-number-coffee").innerHTML= "18";
+      }
+      else if(a > 1693 && a <1793){
+          document.getElementById("hour-number-coffee").innerHTML= "19";
+      }
+      else if(a > 1792 && a <1872){
+          document.getElementById("hour-number-coffee").innerHTML= "20";
+      }
+      else if(a > 1871 && a <1971){
+          document.getElementById("hour-number-coffee").innerHTML= "21";
+      }
+      else if(a > 1970 && a <2070){
+          document.getElementById("hour-number-coffee").innerHTML= "22";
+      }
+      else if(a > 2069 && a <2169){
+          document.getElementById("hour-number-coffee").innerHTML= "23";
+      }
+      else if(a > 2168 && a <2268){
+          document.getElementById("hour-number-coffee").innerHTML= "24";
+      }
+    });
+
+    $('#timeroll-minute-coffee').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var b = $('#timeroll-minute-coffee').scrollTop();
+
+      if(b < 61){
+          document.getElementById("minu-number-coffee").innerHTML= "0";
+      }
+      else if(b > 60 && b <154){
+          document.getElementById("minu-number-coffee").innerHTML= "5";
+      }
+      else if(b > 153 && b <247){
+          document.getElementById("minu-number-coffee").innerHTML= "10";
+      }
+      else if(b > 246 && b <340){
+          document.getElementById("minu-number-coffee").innerHTML= "15";
+      }
+      else if(b > 339 && b <433){
+          document.getElementById("minu-number-coffee").innerHTML= "20";
+      }
+      else if(b > 432 && b <526){
+          document.getElementById("minu-number-coffee").innerHTML= "25";
+      }
+      else if(b > 525 && b <619){
+          document.getElementById("minu-number-coffee").innerHTML= "30";
+      }
+      else if(b > 611 && b <712){
+          document.getElementById("minu-number-coffee").innerHTML= "35";
+      }
+      else if(b > 711 && b <805){
+          document.getElementById("minu-number-coffee").innerHTML= "40";
+      }
+      else if(b > 804 && b <898){
+          document.getElementById("minu-number-coffee").innerHTML= "45";
+      }
+      else if(b > 897 && b <991){
+          document.getElementById("minu-number-coffee").innerHTML= "50";
+      }
+      else if(b > 990 && b <1084){
+          document.getElementById("minu-number-coffee").innerHTML= "55";
+      }
+      else if(b > 1083 && b <1177){
+          document.getElementById("minu-number-coffee").innerHTML= "60";
+      }
+    });
+    
+    /*getup time change*/
+    $('#hour-number-getup').click(function(){
+    $('#hour-select-getup').fadeIn(200);
+    move('#hour-tick-getup')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#hour-cross-getup')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+  $('#minu-number-getup').click(function(){
+    $('#minute-select-getup').fadeIn(200);
+    move('#minute-tick')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#minute-cross-getup')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+
+  $('#hour-tick-getup').click(function(){
+    setTimeout(function(){
+      $('#hour-select-getup').fadeOut(50); 
+    }, 200);
+    move('#hour-tick-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#hour-cross-getup').click(function(){
+    setTimeout(function(){
+      $('#hour-select-getup').fadeOut(50); 
+    }, 200);
+    move('#hour-cross-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-tick-getup').click(function(){
+    setTimeout(function(){
+      $('#minute-select-getup').fadeOut(50); 
+    }, 200);
+    move('#minute-tick-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#minute-cross-getup').click(function(){
+    setTimeout(function(){
+      $('#minute-select-getup').fadeOut(50); 
+    }, 200);
+    move('#minute-cross-getup')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+    $('#timeroll-hour-getup').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var cc = $('#timeroll-hour-getup').scrollTop();
+
+      if(cc < 61){
+          document.getElementById("hour-number-getup").innerHTML= "1";
+      }
+      else if(cc > 60 && cc <155){
+          document.getElementById("hour-number-getup").innerHTML= "2";
+      }
+      else if(cc > 154 && cc <249){
+          document.getElementById("hour-number-getup").innerHTML= "3";
+      }
+      else if(cc > 248 && cc <343){
+          document.getElementById("hour-number-getup").innerHTML= "4";
+      }
+      else if(cc > 342 && cc <437){
+          document.getElementById("hour-number-getup").innerHTML= "5";
+      }
+      else if(cc > 436 && cc <531){
+          document.getElementById("hour-number-getup").innerHTML= "6";
+      }
+      else if(cc > 530 && cc <625){
+          document.getElementById("hour-number-getup").innerHTML= "7";
+      }
+      else if(cc > 624 && cc <719){
+          document.getElementById("hour-number-getup").innerHTML= "8";
+      }
+      else if(cc > 718 && cc <813){
+          document.getElementById("hour-number-getup").innerHTML= "9";
+      }
+      else if(cc > 812 && cc <917){
+          document.getElementById("hour-number-getup").innerHTML= "10";
+      }
+      else if(cc > 916 && cc <1021){
+          document.getElementById("hour-number-getup").innerHTML= "11";
+      }
+      else if(cc > 1020 && cc <1125){
+          document.getElementById("hour-number-getup").innerHTML= "12";
+      }
+      else if(cc > 1124 && cc <1219){
+          document.getElementById("hour-number-getup").innerHTML= "13";
+      }
+      else if(cc > 1218 && cc <1318){
+          document.getElementById("hour-number-getup").innerHTML= "14";
+      }
+      else if(cc > 1317 && cc <1417){
+          document.getElementById("hour-number-getup").innerHTML= "15";
+      }
+      else if(cc > 1416 && cc <1516){
+          document.getElementById("hour-number-getup").innerHTML= "16";
+      }
+      else if(cc > 1515 && cc <1595){
+          document.getElementById("hour-number-getup").innerHTML= "17";
+      }
+      else if(cc > 1594 && cc <1694){
+          document.getElementById("hour-number-getup").innerHTML= "18";
+      }
+      else if(cc > 1693 && cc <1793){
+          document.getElementById("hour-number-getup").innerHTML= "19";
+      }
+      else if(cc > 1792 && cc <1872){
+          document.getElementById("hour-number-getup").innerHTML= "20";
+      }
+      else if(cc > 1871 && cc <1971){
+          document.getElementById("hour-number-getup").innerHTML= "21";
+      }
+      else if(cc > 1970 && cc <2070){
+          document.getElementById("hour-number-getup").innerHTML= "22";
+      }
+      else if(cc > 2069 && cc <2169){
+          document.getElementById("hour-number-getup").innerHTML= "23";
+      }
+      else if(cc > 2168 && cc <2268){
+          document.getElementById("hour-number-getup").innerHTML= "24";
+      }
+    });
+
+    $('#timeroll-minute-getup').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var d = $('#timeroll-minute-getup').scrollTop();
+
+      if(d < 61){
+          document.getElementById("minu-number-getup").innerHTML= "0";
+      }
+      else if(d > 60 && d <154){
+          document.getElementById("minu-number-getup").innerHTML= "5";
+      }
+      else if(d > 153 && d <247){
+          document.getElementById("minu-number-getup").innerHTML= "10";
+      }
+      else if(d > 246 && d <340){
+          document.getElementById("minu-number-getup").innerHTML= "15";
+      }
+      else if(d > 339 && d <433){
+          document.getElementById("minu-number-getup").innerHTML= "20";
+      }
+      else if(d > 432 && d <526){
+          document.getElementById("minu-number-getup").innerHTML= "25";
+      }
+      else if(d > 525 && d <619){
+          document.getElementById("minu-number-getup").innerHTML= "30";
+      }
+      else if(d > 618 && d <712){
+          document.getElementById("minu-number-getup").innerHTML= "35";
+      }
+      else if(d > 711 && d <805){
+          document.getElementById("minu-number-getup").innerHTML= "40";
+      }
+      else if(d > 804 && d <898){
+          document.getElementById("minu-number-getup").innerHTML= "45";
+      }
+      else if(d > 897 && d <991){
+          document.getElementById("minu-number-getup").innerHTML= "50";
+      }
+      else if(d > 990 && d <1084){
+          document.getElementById("minu-number-getup").innerHTML= "55";
+      }
+      else if(d > 1083 && d <1177){
+          document.getElementById("minu-number-getup").innerHTML= "60";
+      }
+    });
+
+    
   /*select friends*/
   _estelle=false
   $('#coffee-share-button .estelle-button').click(function(){
@@ -1380,7 +1754,68 @@ $(document).ready(function(){
       .set('opacity', 0)
       .duration('0.2s')
       .end();
-  });  
+  }); 
+
+  /*select before bed emotions*/
+  $('.state-content').click(function(){
+    $('#beforebed-select').fadeIn(200);
+    move('#beforebed-tick')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+    move('#beforebed-cross')
+      .duration('0.05s')
+      .scale('1')
+      .end();
+  });
+  
+
+  $('#beforebed-tick').click(function(){
+    setTimeout(function(){
+      $('#beforebed-select').fadeOut(50); 
+    }, 200);
+    move('#beforebed-tick')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+  $('#beforebed-cross').click(function(){
+    setTimeout(function(){
+      $('#beforebed-select').fadeOut(50); 
+    }, 200);
+    move('#beforebed-cross')
+      .duration('0.2s')
+      .scale('1.2')
+      .end();
+  });
+
+  $('#emotionroll').scroll(function(){
+            
+      // Is this element visible onscreen?
+      var e = $('#emotionroll').scrollTop();
+
+      if(e < 61){
+          document.getElementById("state-content-change").innerHTML= "happy";
+      }
+      else if(e > 60 && e <154){
+          document.getElementById("state-content-change").innerHTML= "excited";
+      }
+      else if(e > 153 && e <247){
+          document.getElementById("state-content-change").innerHTML= "calm";
+      }
+      else if(e > 246 && e <340){
+          document.getElementById("state-content-change").innerHTML= "anxious";
+      }
+      else if(e > 339 && e <433){
+          document.getElementById("state-content-change").innerHTML= "upset";
+      }
+      else if(e > 432 && e <526){
+          document.getElementById("state-content-change").innerHTML= "frustrated";
+      }
+      else if(e > 525 && e <619){
+          document.getElementById("state-content-change").innerHTML= "dispirited";
+      }
+    });
 
   /*cancel beforebed input*/
   $('#beforebed-cancel-click').click(function(){

@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="animate.css">
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	
 
 	<link rel="apple-touch-startup-image" href="apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
 	<link rel="apple-touch-icon" href="assets/img/favicon-150X150.png" sizes="150x150">
@@ -35,7 +35,7 @@
 			<div class="sensor"></div>
 			<div class="home"></div>
 		</div>
-	
+	</div>
 	<div id="screen-content">
 		<!--channel><-->
 		<div class="content-header"></div>
@@ -533,6 +533,40 @@
 		<!--have coffee input-->
 		<div class="header-cancel-click" id="coffee-cancel-click"></div>
 		<div class="header-cancel" id="coffee-cancel"><h2>Cancel</h2></div>
+		<div class="input-back" id="hour-select-coffee">
+			<div class="timeroll" id="timeroll-hour-coffee">
+				<p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24</p>
+			</div>
+			<div id="hour-tick-coffee">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<g id="Your_Icon">
+						<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M95.5,15.8L27.2,84.2L4.5,61.4"/>
+					</g>
+				</svg>
+			</div>
+			<div id="hour-cross-coffee">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 70 100" xml:space="preserve">
+					<path fill="#FFFFFF" d="M53.1,50l31.2-31.2c0.9-0.9,0.9-2.2,0-3.1c-0.9-0.9-2.2-0.9-3.1,0L50,46.9L18.8,15.7c-0.9-0.9-2.2-0.9-3.1,0c-0.9,0.9-0.9,2.2,0,3.1L46.9,50L15.7,81.2c-0.9,0.9-0.9,2.2,0,3.1c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6L50,53.1l31.2,31.2c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6c0.9-0.9,0.9-2.2,0-3.1L53.1,50z"/>
+				</svg>
+			</div>
+		</div>
+		<div class="input-back" id="minute-select-coffee">
+			<div class="timeroll" id="timeroll-minute-coffee">
+				<p>0</p><p>5</p><p>10</p><p>15</p><p>20</p><p>25</p><p>30</p><p>35</p><p>40</p><p>45</p><p>50</p><p>55</p><p>60</p>
+			</div>
+			<div id="minute-tick-coffee">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<g id="Your_Icon">
+						<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M95.5,15.8L27.2,84.2L4.5,61.4"/>
+					</g>
+				</svg>
+			</div>
+			<div id="minute-cross-coffee">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 70 100" xml:space="preserve">
+					<path fill="#FFFFFF" d="M53.1,50l31.2-31.2c0.9-0.9,0.9-2.2,0-3.1c-0.9-0.9-2.2-0.9-3.1,0L50,46.9L18.8,15.7c-0.9-0.9-2.2-0.9-3.1,0c-0.9,0.9-0.9,2.2,0,3.1L46.9,50L15.7,81.2c-0.9,0.9-0.9,2.2,0,3.1c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6L50,53.1l31.2,31.2c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6c0.9-0.9,0.9-2.2,0-3.1L53.1,50z"/>
+				</svg>
+			</div>
+		</div>
 		<div id="inputcoffee">
 			<div class="i" id="coffee-i">
 				<h1>I have</h1>
@@ -545,8 +579,8 @@
 				<h1>at</h1>
 			</div>
 			<div class="time" id="coffee-time">
-				<div class="hour"><div class="hour-text"><h3>16</h3></div></div>
-				<div class="minu"><div class="minu-text"><h3>25</h3></div></div>
+				<div class="hour"><div class="hour-text"><h3 id="hour-number-coffee">11</h3></div></div>
+				<div class="minu"><div class="minu-text"><h3 id="minu-number-coffee">40</h3></div></div>
 			</div>
 			<div class="share" id="coffee-share">
 				<h1>share to</h1>
@@ -907,14 +941,48 @@
 		<!--getup input-->
 		<div class="header-cancel-click" id="getup-cancel-click"></div>
 		<div class="header-cancel" id="getup-cancel"><h2>Cancel</h2></div>
+		<div class="input-back" id="hour-select-getup">
+			<div class="timeroll" id="timeroll-hour-getup">
+				<p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br></p>
+			</div>
+			<div id="hour-tick-getup">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<g id="Your_Icon">
+						<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M95.5,15.8L27.2,84.2L4.5,61.4"/>
+					</g>
+				</svg>
+			</div>
+			<div id="hour-cross-getup">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 70 100" xml:space="preserve">
+					<path fill="#FFFFFF" d="M53.1,50l31.2-31.2c0.9-0.9,0.9-2.2,0-3.1c-0.9-0.9-2.2-0.9-3.1,0L50,46.9L18.8,15.7c-0.9-0.9-2.2-0.9-3.1,0c-0.9,0.9-0.9,2.2,0,3.1L46.9,50L15.7,81.2c-0.9,0.9-0.9,2.2,0,3.1c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6L50,53.1l31.2,31.2c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6c0.9-0.9,0.9-2.2,0-3.1L53.1,50z"/>
+				</svg>
+			</div>
+		</div>
+		<div class="input-back" id="minute-select-getup">
+			<div class="timeroll" id="timeroll-minute-getup">
+				<p>0</p><p>5</p><p>10</p><p>15</p><p>20</p><p>25</p><p>30</p><p>35</p><p>40</p><p>45</p><p>50</p><p>55</p><p>60</p>
+			</div>
+			<div id="minute-tick-getup">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<g id="Your_Icon">
+						<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M95.5,15.8L27.2,84.2L4.5,61.4"/>
+					</g>
+				</svg>
+			</div>
+			<div id="minute-cross-getup">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 70 100" xml:space="preserve">
+					<path fill="#FFFFFF" d="M53.1,50l31.2-31.2c0.9-0.9,0.9-2.2,0-3.1c-0.9-0.9-2.2-0.9-3.1,0L50,46.9L18.8,15.7c-0.9-0.9-2.2-0.9-3.1,0c-0.9,0.9-0.9,2.2,0,3.1L46.9,50L15.7,81.2c-0.9,0.9-0.9,2.2,0,3.1c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6L50,53.1l31.2,31.2c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6c0.9-0.9,0.9-2.2,0-3.1L53.1,50z"/>
+				</svg>
+			</div>
+		</div>
 		<div id="input-getup">
 			<div class="i" id="getup-i">
 				<h1>I got up at</h1>
 			</div>
 		
 			<div class="time" id="getup-time">
-				<div class="hour"><div class="hour-text"><h3>8</h3></div></div>
-				<div class="minu"><div class="minu-text"><h3>10</h3></div></div>
+				<div class="hour"><div class="hour-text"><h3 id="hour-number-getup">5</h3></div></div>
+				<div class="minu"><div class="minu-text"><h3 id="minu-number-getup">30</h3></div></div>
 			</div>
 			<div class="share" id="getup-share">
 				<h1>share to</h1>
@@ -1090,13 +1158,30 @@
 		<!--before bed state input-->
 		<div class="header-cancel-click" id="beforebed-cancel-click"></div>
 		<div class="header-cancel" id="beforebed-cancel"><h2>Cancel</h2></div>
+		<div class="input-back" id="beforebed-select">
+			<div id="emotionroll">
+				<p>happy</p><br><p>excited</p><br><p>calm</p><br><p>anxious</p><br><p>upset</p><br><p>frustrated</p><br><p>dispirited</p><br>
+			</div>
+			<div id="beforebed-tick">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<g id="Your_Icon">
+						<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M95.5,15.8L27.2,84.2L4.5,61.4"/>
+					</g>
+				</svg>
+			</div>
+			<div id="beforebed-cross">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 70 100" xml:space="preserve">
+					<path fill="#FFFFFF" d="M53.1,50l31.2-31.2c0.9-0.9,0.9-2.2,0-3.1c-0.9-0.9-2.2-0.9-3.1,0L50,46.9L18.8,15.7c-0.9-0.9-2.2-0.9-3.1,0c-0.9,0.9-0.9,2.2,0,3.1L46.9,50L15.7,81.2c-0.9,0.9-0.9,2.2,0,3.1c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6L50,53.1l31.2,31.2c0.4,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.5-0.6c0.9-0.9,0.9-2.2,0-3.1L53.1,50z"/>
+				</svg>
+			</div>
+		</div>
 		<div id="input-beforebed">
 			<div class="i" id="beforebed-i">
 				<h1>I felt</h1>
 			</div>
 		
 			<div class="state" id="beforebed-state">
-				<div class="state-content"><div id="state-content-text"><h3>happy</h3></div></div>
+				<div class="state-content"><div id="state-content-text"><h3 id="state-content-change">Calm</h3></div></div>
 			</div>
 			<div class="share" id="beforebed-share">
 				<h1>share to</h1>
@@ -1922,5 +2007,11 @@
 	<script src='js/move.min.js'></script>
 	<script src='js/move.js'></script>
 	<script src='js/morning.js'></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="http://www.teamdf.com/jquery-plugins/resources/javascripts/prettify.js"></script>
+	<script type="text/javascript" src="http://www.teamdf.com/jquery-plugins/resources/javascripts/docs.js"></script>
+	<script type="text/javascript" src="js/jquery.visible.js"></script>
 </body>
 </html>

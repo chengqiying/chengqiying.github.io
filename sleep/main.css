@@ -727,6 +727,60 @@ body {
   	overflow: hidden;
 }
 
+.input-back{
+	height: 548px;
+  	width: 320px;
+  	background-color: #000;
+  	opacity: 0.6;
+  	position: absolute;
+  	z-index: 20;
+  	overflow: hidden;
+  	display: none;
+}
+
+.timeroll{
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	height: 110px;
+	width: 40%;
+	left: 30%;
+	position: relative;
+	top: 46%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+   	transform: translateY(-50%);
+   	text-align: center;
+   	overflow: auto;
+}
+
+.timeroll p{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 5em;
+	color:#fff;
+	margin:0;
+	opacity: 1;
+	position: relative;
+}
+
+#hour-tick-coffee, #minute-tick-coffee, #hour-tick-getup, #minute-tick-getup{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	right:40px;
+	text-align: left;
+	position: absolute;
+}
+
+#hour-cross-coffee, #minute-cross-coffee, #hour-cross-getup, #minute-cross-getup{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	left:40px;
+	text-align: left;
+	position: absolute;
+}
+
 #inputcoffee h1 {
 	font-weight: 100;
 	font-size: 1.2em;
@@ -1514,6 +1568,47 @@ body {
   	overflow: hidden;
 }
 
+#emotionroll{
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	height: 100px;
+	width:82%;
+	left: 9%;
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+   	transform: translateY(-50%);
+   	text-align: center;
+   	overflow: auto;
+}
+
+#emotionroll p{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	font-size: 4.2em;
+	color:#fff;
+	margin:0;
+}
+
+#beforebed-tick{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	right:40px;
+	text-align: left;
+	position: absolute;
+}
+
+#beforebed-cross{
+	width: 25px;
+	height: 25px;
+	bottom: 70px;
+	left:40px;
+	text-align: left;
+	position: absolute;
+}
+
 #input-beforebed h1 {
 	font-weight: 100;
 	font-size: 1.2em;
@@ -1566,9 +1661,9 @@ body {
 }
 
 .state-content  {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
 	background-color: #BDE9F4;
 	position: relative;
 	display: inline-block;
