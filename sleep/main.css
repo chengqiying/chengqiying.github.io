@@ -50,6 +50,11 @@ body {
   width: 0;
 }
 
+* {
+	cursor:url(pics/cursor.png) 26 26, auto;
+
+}
+
 .desktop {
 	position: relative;;
 }
