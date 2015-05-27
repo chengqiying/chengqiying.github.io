@@ -747,19 +747,19 @@ $(document).ready(function(){
       else if(cc > 1693 && cc <1793){
           document.getElementById("hour-number-getup").innerHTML= "19";
       }
-      else if(cc > 1792 && cc <1872){
+      else if(cc > 1792 && cc <1892){
           document.getElementById("hour-number-getup").innerHTML= "20";
       }
-      else if(cc > 1871 && cc <1971){
+      else if(cc > 1891 && cc <1991){
           document.getElementById("hour-number-getup").innerHTML= "21";
       }
-      else if(cc > 1970 && cc <2070){
+      else if(cc > 1990 && cc <2090){
           document.getElementById("hour-number-getup").innerHTML= "22";
       }
-      else if(cc > 2069 && cc <2169){
+      else if(cc > 2089 && cc <2189){
           document.getElementById("hour-number-getup").innerHTML= "23";
       }
-      else if(cc > 2168 && cc <2268){
+      else if(cc > 2188 && cc <2288){
           document.getElementById("hour-number-getup").innerHTML= "24";
       }
     });
