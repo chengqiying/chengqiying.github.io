@@ -560,19 +560,19 @@ $(document).ready(function(){
       else if(a > 1693 && a <1793){
           document.getElementById("hour-number-coffee").innerHTML= "19";
       }
-      else if(a > 1792 && a <1872){
+      else if(a > 1792 && a <1892){
           document.getElementById("hour-number-coffee").innerHTML= "20";
       }
-      else if(a > 1871 && a <1971){
+      else if(a > 1891 && a <1991){
           document.getElementById("hour-number-coffee").innerHTML= "21";
       }
-      else if(a > 1970 && a <2070){
+      else if(a > 1990 && a <2090){
           document.getElementById("hour-number-coffee").innerHTML= "22";
       }
-      else if(a > 2069 && a <2169){
+      else if(a > 2089 && a <2189){
           document.getElementById("hour-number-coffee").innerHTML= "23";
       }
-      else if(a > 2168 && a <2268){
+      else if(a > 2188 && a <2288){
           document.getElementById("hour-number-coffee").innerHTML= "24";
       }
     });
