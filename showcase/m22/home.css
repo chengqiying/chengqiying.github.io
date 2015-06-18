@@ -156,6 +156,21 @@ a{
 	background-color: #f7f7f7;
 }
 
+#goals {
+	background-color: #353535;
+}
+
+#goalspic {
+	background-color: #353535;
+	text-align: center;
+}
+
+#goalspic-img {
+	width:100%;
+	max-width: 900px;
+	position: relative;
+}
+
 #projectpic {
 	background-color: #353535;
 	text-align: center;
@@ -226,6 +241,40 @@ a{
 	text-align: center;
 	padding-top: 3px;
 	margin-top:25px;
+}
+
+
+#growth {
+	background-color: #353535;
+}
+
+#growthpic {
+	background-color: #353535;
+	text-align: center;
+}
+
+#growthpic-img {
+	width:100%;
+	max-width: 900px;
+	position: relative;
+}
+
+#m21 {
+	background-color: #f7f7f7;
+}
+
+#portfolio-g {
+	margin-left: 20px;
+	background-color: #f7f7f7;
+}
+
+#present {
+	background-color: #f7f7f7;
+	padding-top:50px;
+}
+
+#future {
+	padding-top:50px;
 }
 
 #contact{	
@@ -302,6 +351,23 @@ a{
 
 	#projectpic-img {
 		margin-top:10%;
+	}
+
+	#sdlpic-img {
+		margin-top:10%;
+	}
+
+	#growthpic-img {
+		margin-top:10%;
+	}
+
+	#goalspic-img {
+		margin-top:10%;
+	}
+
+	#portfolio-g {
+		margin-top:20px;
+		margin-left: 0;
 	}
 }
 

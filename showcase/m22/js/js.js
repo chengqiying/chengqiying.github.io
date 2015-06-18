@@ -29,6 +29,26 @@ $(document).ready(function(){
 			$("#report p").css("color", "#4f4f4f");
 	});
 
+	$('#m21').hover(function(){
+		$("#m21").css("background-color", "#94ebf7");
+		$("#m21 p").css("color", "#ffffff");
+		$("#m21 p").css("text-decoration", "none");
+		}, 
+		function() {
+			$("#m21").css("background-color", "#f7f7f7");
+			$("#m21 p").css("color", "#4f4f4f");
+	});
+
+	$('#portfolio-g').hover(function(){
+		$("#portfolio-g").css("background-color", "#94ebf7");
+		$("#portfolio-g p").css("color", "#ffffff");
+		$("#portfolio-g p").css("text-decoration", "none");
+		}, 
+		function() {
+			$("#portfolio-g").css("background-color", "#f7f7f7");
+			$("#portfolio-g p").css("color", "#4f4f4f");
+	});
+
 	$('#yelp-seemore').hover(function(){
 		$("#yelp-seemore").css("background-color", "#94ebf7");
 		$("#yelp-seemore p").css("color", "#ffffff");
