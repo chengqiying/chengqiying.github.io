@@ -121,7 +121,7 @@ h1 {
 .linkbox {
 	width:110px;
 	height: 35px;
-	border: 1px solid #BDE9F4;
+	border: 1px solid #94ebf7;
 	border-radius: 40px;
 	position: relative;
 	display: inline-block;
@@ -216,13 +216,27 @@ a{
 	background-color: #ffffff;
 }
 
+#yelp-seemore, #ibm-seemore, #insole-seemore {
+	width:96px;
+	height: 25px;
+	border: 1px solid #94ebf7;
+	border-radius: 30px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	padding-top: 3px;
+	margin-top:25px;
+}
+
 #contact{	
 	background-color: #fcfcfc;
+	height: 135px;
 }
+
 .contact-link {
 	width:25%;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 40px;
+	padding-bottom: 30px;
 	display: inline-block;
 	position: relative;
 	text-align: center;
@@ -230,6 +244,15 @@ a{
 
 .contact-link p{
 	font-size: 18px;
+	color: #b7b7b7;
+}
+
+.contact-icon {
+	font-size: 24px;
+	margin-bottom: 6px;
+	color: #b7b7b7;
+	text-align: center;
+	display: block;
 }
 
 .footer, .push
