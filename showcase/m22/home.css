@@ -157,12 +157,16 @@ a{
 }
 
 #goals {
-	background-color: #353535;
+	background-color: #ffffff;
 }
 
 #goalspic {
-	background-color: #353535;
+	background-color: #ffffff;
 	text-align: center;
+}
+
+#project {
+	background-color: #fcfcfc;
 }
 
 #goalspic-img {
@@ -183,7 +187,7 @@ a{
 }
 
 #projecttext {
-	background-color: #ffffff;
+	background-color: #fcfcfc;
 }
 
 #projecttext .text {
@@ -199,8 +203,9 @@ a{
 }
 
 #project-deve {
-	background-color: #fcfcfc;
+	background-color: #f7f7f7;
 }
+
 
 #deveone {
 	background-color: #fcfcfc;
@@ -325,11 +330,13 @@ a{
 }
 
 @media screen and (max-width: 1341px) {
-    #project {
+	#sdl {
 	background-color: #353535;
 	}
+}
 
-	#sdl {
+@media screen and (max-width: 1285px) {
+    #project {
 	background-color: #353535;
 	}
 }
