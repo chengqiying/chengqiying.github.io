@@ -1,4 +1,19 @@
 $(document).ready(function(){
+	$('.cross-menu').click(function(){
+		$('.cross-menu').toggleClass("cross-open");
+		$('.nav').toggleClass("out");
+	});
+
+	$('.cross-menu').waypoint(function(){
+		$('.cross-menu').addClass('animated fadeInDown', {duration: 1600});
+		}, { offset: 100}
+	);
+
+	$('.cross-menu').waypoint(function(){
+		$('.cross-menu').removeClass('animated fadeInDown', {duration: 1600});
+		}, { offset: 300 }
+	);
+
 	$('#prototype').hover(function(){
 		$("#prototype").css("background-color", "#94ebf7");
 		$("#prototype p").css("color", "#ffffff");
