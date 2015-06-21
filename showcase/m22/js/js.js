@@ -6,12 +6,14 @@ $(document).ready(function(){
 
 	$('#vi').waypoint(function(){
 		$('.cross-menu').addClass('animated fadeInDown', {duration: 1600});
-		}, { offset: '90%' }
+		$('.menu-text').addClass('animated fadeInDown', {duration: 1600});
+		}, { offset: '88%' }
 	);
 
 	$('#vi').waypoint(function(){
 		$('.cross-menu').removeClass('animated fadeInDown', {duration: 1600});
-		}, { offset: '95%' }
+		$('.menu-text').removeClass('animated fadeInDown', {duration: 1600});
+		}, { offset: '90%' }
 	);
 
 	$('#nav-vision').hover(function(){
