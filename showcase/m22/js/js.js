@@ -4,14 +4,14 @@ $(document).ready(function(){
 		$('.nav').toggleClass("out");
 	});
 
-	$('.cross-menu').waypoint(function(){
+	$('#vi').waypoint(function(){
 		$('.cross-menu').addClass('animated fadeInDown', {duration: 1600});
-		}, { offset: 100}
+		}, { offset: '85%' }
 	);
 
-	$('.cross-menu').waypoint(function(){
+	$('#vi').waypoint(function(){
 		$('.cross-menu').removeClass('animated fadeInDown', {duration: 1600});
-		}, { offset: 300 }
+		}, { offset: '90%' }
 	);
 
 	$('#prototype').hover(function(){
