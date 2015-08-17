@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="animate.css" rel="stylesheet" type="text/css" />
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<title>QQ产品设计分析</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+<div id="all">    	
+        <div id="content">
+        	<div id="title"><h1>QQ iOS 5.7.0 产品设计分析</h1></div>
+            
+            <div class="module" id="task">
+            	<h2>产品目的与用户需求（战略层）</h2>
+                <div class="module-text" id="task-text">
+                	<p>QQ的设计战略非常明确，聚焦年轻人的聊天工具。QQ月活跃用户中一半为90后和00后，90后已成为核心用户群。虽然QQ已经有15年，但是它保持着一颗年轻的心态，尝试设计年轻化、个性多彩化、社交多元化。</p>
+                </div>              
+            </div>
+
+            <div class="module" id="scenario">
+            	<h2>整体风格（表现层）</h2>
+                <div class="module-text" id="scenario-text">
+                	<p>－Logo以白色为背景，经典的企鹅形象，辨识度高，扁平化设计，简单明了。</p>
+                </div>  
+                <img src="images/logo.jpg" class="scenario-s-pic">
+                <div class="module-text" id="scenario-text">
+                	<p>－启动画面为一只由五彩碎片拼成的“潮鹅”，活泼的色彩运用，贴合90后们追求的“潮”口味。<br>－软件内部基础色调定为浅蓝，喻义年轻与活力，又不失稳重，契合核心用户群90后的特质。</p>
+                </div> 
+                <img src="images/color.jpg" class="scenario-s-pic">             
+            </div>
+
+            <div class="module">
+            	<h2>首页（框架层）</h2>
+                <div class="module-text">
+                	<p>－默认首页为消息页面，由四部分组成，顶部二级导航栏，搜索，内容，底部全局导航栏。页面结构简单清晰，用户可方便找到各个自功能的入口。内容分为消息和电话，顶部二级导航切换。<br>－切换到“消息”，在呈现用户与不同联系人的消息记录，采用list的形式，每个联系人之间的文字信息用横线分隔，但联系人头像并未被分隔。这样的设计在一定程度上能给页面增加空间，同时也使不同联系人之间的分隔不够充分，页面布局不够整齐。这个问题在“联系人”中也有出现。－切换到“电话”，内容有两部分，置于搜索下方的电话黄页与通讯录，以及通话记录，都沿用list形式，但设计在这里并未保持一致性，电话黄页与通讯录的横线分隔也是文字分而头像部分，通话记录中各个联系人之间文字和头像都被横线分隔。另外通话黄页和通讯录可参考联系人分类的布局，节省空间，突出重点.</p>
+                </div>  
+                <img src="images/shouye.jpg" class="scenario-s-pic">
+            </div>
+
+            <div class="module">
+            	<h2>导航（结构层）</h2>
+                <div class="module-text">
+                	<p>－从首页中即可看出，该版本QQ由底部导航栏进行全局导航，可切换“消息”，“联系人”和“动态”。三个页面切换简洁明了，切换非常方便。<br>－顶部二级导航栏在三个主页面下进行局部导航，由左侧的头像加缩略汉堡按钮，居中的页面名称和右侧的多功能按钮组成。</p>
+                </div>
+                <img src="images/daohang.jpg" class="scenario-s-pic">
+                <div class="module-text">
+                	<p>－左侧头像点击后，按抽屉原理，抽出隐藏的功能，页面向右滑去并缩小。动效给整体设计加了分，流畅新颖，提升了用户体验。侧边抽屉式导航适合放置用户设置和需要显示在其他页面里选项，把这些辅助功能放在侧边栏里，让主页面看上去干净美观。（左图）<br>－右侧过功能按钮，分别作为三个主页面下多个较常用功能的入口。设计上有两点没有保持一致性。一是，“消息”页面中， 右上方的按钮为汉堡图形按钮；而“联系人”和“动态”页面中，右上方的按钮为文字按钮，视觉设计上没有统一。二是，“消息”页面中，点击右上方汉堡按钮，主页面变暗，在按钮下方出现功能list，没有新页面切换；而“联系人”和“动态”页面中”，点击右上方按钮后，都有新页面从右侧滑入。从设计反推设计思考，设计师可能考虑到“消息”中右上方按钮导出的功能为比较常用功能，做成快速功能的形式，与“联系人”和“动态”的功能结构有区别，所以做了这样的区分设计。这样的区分在用户的角度来看，更容易带来使用的不流畅与疑惑。如果要做区分，可再考虑，快速功能在页面位置的分布。（右图）</p>
+                </div>
+                <img src="images/erjidaohang.jpg" class="scenario-s-pic"> 
+                <div class="module-text">
+                	<p>－“动态”页面中，点击点击右上方的按钮，跳转至新页面，查看周边功能的关闭与开启。该页面包含的“已关闭的功能”和“已开启功能”，而“已开启功能”需要跳转至更深一层级的页面。这两部分在层级结构同属一级，“已开启的功能”可延续“已关闭的功能”的设计，更好的保持软件设计的一致性。（左图）<br>－动效，开启和关闭一个功能的动效与QQ的视觉风格不一致，从顶部导航栏下滑的效果，交互反馈出现的地点都不匹配，违反了用户的认知模型。关闭功能层级太深，复杂了操作流程，给用户体验减分。（右图）</p>
+                </div>
+                <img src="images/dongtai.jpg" class="scenario-s-pic">                   
+            </div>
+            
+            <div class="module">
+            	<h2>功能点（范围层）</h2>
+                <div class="module-text" id="design-two-text">
+                	<p>－QQ主要功能为聊天，聊天可信息，可电话，可视频。其中电话黄页功能是个创新点，是实用的功能，可给用户提供便捷服务。若想作为推广功能来增大使用频率，层级就隐藏较深，不易被发现和使用。（左图）<br>－作为聊天软件，必定有联系人功能。在搜索栏下方，突出了联系人的分类，可作为快速导航。自定义联系人分类设计沿用传统的文字list，比较中规中矩，对于90后来说比较乏味，若要跟上核心用户群的审美与口味，可在这块设计有所突破。（右图）</p>
+                </div>
+                <img src="images/gongneng1.jpg" class="scenario-s-pic">
+                <div class="module-text" id="design-two-text">
+                	<p>－QQ在功能上也更进一步促进社交，在动态页面中，置于搜索栏下方的好友动态，附近，兴趣部落分别以熟人、地点、兴趣作为社交入口，多社交入口好处是社交形式多元化，坏处是用户都会浅尝则止，用户粘性太低。其中，选择兴趣部落的交互界面设计比较粗糙，不是成熟的设计。</p>
+                </div>
+                <img src="images/gongneng2.jpg" class="scenario-s-pic">
+                <div class="module-text" id="design-two-text">
+                	<p>－在首页“消息”页面中，有扫一扫，加好友，创建讨论组，发送到电脑，面对对面快传的快捷功能。这些功能作为最常用功能，置于首页合情合理，但设计上可提升一个层级，直接在首页有单独模块可见这些功能。一方面突出这些功能，一方面简化操作，优化用户体验。<br>－“动态”页面中，通过添加功能的方式，提供QQ系列产品的入口，但QQ也在功能上更像巨无霸。</p>
+                </div>
+                <img src="images/gongneng3.jpg" class="scenario-s-pic">                
+            </div>
+
+            <div class="module" >
+            	<h2>我来设计</h2>
+                <div class="module-text">
+                	<p>－“消息”页面常用功能设计成快捷功能模块，提升层级，方便使用。在QQ选出的五个常用功能中，扫一扫功能对用户来说是需要在“消息”和“电话”中都能有入口，所以可单独放置于该页面右上方，其余功能可统一设置在快捷功能模块。</p>
+                </div>
+                <img src="images/design1.jpg" class="scenario-s-pic">
+                <div class="module-text">
+                	<p>－“联系人”自定义分类，尝试卡片式设计，增加页面的灵动性。</p>
+                </div>
+                <img src="images/design2.jpg" class="scenario-s-pic">
+                <div class="module-text">
+                	<p>－“动态”功能添加与关闭在同一页面，减少层级，简化操作</p>
+                </div>
+                <img src="images/design3.jpg" class="scenario-s-pic">               
+            </div>
+            
+            <div id="other">
+            	<a class="other-wrap" href="http://chengqiying.com/">
+                    <h5>portfolio</h5>   
+               	</a>           
+        	</div>
+            
+            <div class="footer">
+				<div id="footertext">© Qiying Cheng 2014</div>
+			</div> 
+
+      </div>
+    
+</div>
+
+</body>
+
+</html>
