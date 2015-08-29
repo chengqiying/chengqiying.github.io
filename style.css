@@ -645,7 +645,7 @@ a.cv-back h3
 
 #cv-page
 {
-	display: block;
+	display: none;
 }
 
 #cv-wrapper
