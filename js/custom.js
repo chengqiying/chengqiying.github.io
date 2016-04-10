@@ -114,6 +114,28 @@ $(document).ready(function(){
 		$('#works-4-title').removeClass('animated fadeInUpBig', {duration: 1600});
 		}, { offset: '90%' }
 	);*/
+
+	$('.meituan-front').hover(function(){
+		$(".meituan-back").fadeIn(200);
+		move('.meituan-front')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end();
+		move('.meituan-back')
+			.scale(1.3)
+      		.duration('0.8s')
+      		.end(); 
+		}, function(){
+			$('.meituan-back').fadeOut(100);
+			move('.meituan-front')
+				.scale(1)
+      			.duration('0.8s')
+      			.end(); 
+			move('.meituan-back')
+				.scale(1)
+      			.duration('0.8s')
+      			.end();
+	});
 	
 	$('.sleep-front').hover(function(){
 		$(".sleep-back").fadeIn(200);

@@ -143,6 +143,35 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 	margin-toP:25px;
 }
 
+a.meituan-front 
+{
+	background: url('images/projects/meituan/1.jpg') no-repeat 0 0;
+	position:absolute;
+	background-size:cover;
+	z-index: 31;
+}
+
+a.meituan-back 
+{
+	background-color: rgba(60,60,60,0.7);
+	position:absolute;
+	text-decoration:none;
+	display: none;
+	z-index: 32;
+	pointer-events: none;
+}
+
+a.meituan-back h3
+{
+	font-family:'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top: 85px;
+	line-height: 150%;
+}
+
 a.sleep-front 
 {
 	background: url('images/projects/sleep/1.jpg') no-repeat 0 0;
@@ -793,6 +822,7 @@ h2
 {
 	width:100%;
 	text-align: left;
+	margin-bottom:5%;
 }
 
 .experience-content-descrip p
