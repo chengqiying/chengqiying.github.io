@@ -674,7 +674,7 @@ a.cv-back h3
 
 #cv-page
 {
-	display: block;
+	display: none;
 }
 
 #cv-wrapper
@@ -715,7 +715,7 @@ a#cv-close:hover {
 
 a#cv-close {
   position: absolute;
-  display: block;
+  display: none;
   width: 32px;
   height: 32px;
   border-radius: 16px;

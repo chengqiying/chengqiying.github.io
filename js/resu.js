@@ -9,6 +9,7 @@ $(document).ready(function(){
 	$('#cv').click(function(){
 		$(".footer, #all, #nav, #header").hide();
 		$('#cv-page').fadeIn(500);
+		$('#cv-close').fadeIn(500);
 		
 	});
 	
@@ -22,6 +23,7 @@ $(document).ready(function(){
 	$('#cv-1').click(function(){
 		$(".footer, #all").hide();
 		$('#cv-page').fadeIn(500);
+		$('#cv-close').fadeIn(500);
 		
 	});
 	
@@ -33,6 +35,7 @@ $(document).ready(function(){
 	
 	$('#cv-close').click(function(){
 		$('#cv-page').fadeOut(500);
+		$('#cv-close').fadeOut(500);
 		$(".footer, #all, #nav, #header").fadeIn(500);
 	});
 });
